@@ -74,7 +74,6 @@ table{border-collapse:collapse;border-spacing:0}
 td,
 th{padding:0}
 
-.comlist{list-style: none;}
-.comlist li{overflow: hidden;}
-.comlist-a-img img{display: none;}
-.comlist-a-img:hover img{display: block;}
+.pd10{padding:10px;}
+.comlist-ewm{height:0;overflow: hidden;transition: height 1s;-webkit-transition: height 1s;-moz-transition: height 1s;-o-transition: height 1s;}
+.comlist li:hover .comlist-ewm{height:150px;}
