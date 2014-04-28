@@ -75,5 +75,6 @@ td,
 th{padding:0}
 
 .pd10{padding:10px;}
+
 .comlist-ewm{height:0;overflow: hidden;transition: height 1s;-webkit-transition: height 1s;-moz-transition: height 1s;-o-transition: height 1s;}
-.comlist li:hover .comlist-ewm{height:150px;}
+.comlist li:hover .comlist-ewm{height:150px;pointer-events: none;}
