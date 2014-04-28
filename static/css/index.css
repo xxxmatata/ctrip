@@ -78,7 +78,7 @@ th{padding:0}
 .comlist-ewm{height:0;overflow: hidden;transition: height 1s;-webkit-transition: height 1s;-moz-transition: height 1s;-o-transition: height 1s;}
 .comlist li:hover .comlist-ewm{height:150px;}
 
-@media(max-width: 640px){
+@media(max-width: 1200px){
 	.comlist-ewm{height:0;overflow: hidden;transition: none;-webkit-transition: none;-moz-transition: none;-o-transition: none;}
 	.comlist li:hover .comlist-ewm{height:0;}
 }
