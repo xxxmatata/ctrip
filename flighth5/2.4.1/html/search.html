@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>机票查询</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="../style/main.css" rel="stylesheet" />
+    <link href="../style/flight.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="flight-header">
+        <h1>机票查询</h1>
+        <i id="js_return" class="returnico"></i> 
+    </header>
+    <!--S H5机票_机票查询-->
+    <aside class="cont_wrap">
+        <ul class="city_tab">
+            <li data-type="1" class="cityTabCrt">单程</li>
+            <li data-type="2" class="">往返</li>
+        </ul>
+    </aside>
+    <section id="panel-box" class="pd10">
+        <ul class="flight-srhform">
+            <li class="flight-switch">
+                <dl>
+                    <dd class="flight-departcity" id="js_departcity_w">
+                        <span id="js_departcity">上海</span>
+                    </dd>
+                </dl>
+                <div class="flight-cityswitch" id="js_exchange_btn">切换</div>
+                <dl>
+                    <dd class="flight-backcity" id="js_backcity_w">
+                        <span id="js_backcity">北京北京北京</span>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd class="flight-date"><b class="fr">周四</b>
+                        <em>5月9日</em>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd class="flight-date1">
+                        <em>5月9日</em>
+                        <br>
+                        <b class="clr-666">今天</b>
+                    </dd>
+                </dl>
+                <dl>
+                    <dd class="flight-date2">
+                        <em>5月9日</em>
+                        <br>
+                        <b class="clr-666">周四</b>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd class="flight-pstype">成人</dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd class="flight-pstype">儿童
+                        <div class="tips">无成人陪伴的儿童
+                            <br>请直接向航空公司预订</div>
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+        <button id="searchlistsubmit" class="flight-btnsrh" value="">查&nbsp;询</button>
+        <div style="height:50px"></div>
+    </section>
+    <div class="pd10">
+        <div class="flight-img-svc">
+            <img src="http://res.m.ctrip.com/market/images/ic_flight_promise_small.png" width="100%">
+        </div>
+    </div>
+    <div class="blk10"></div>
+    <div class="pd10">
+        <div class="flight-windows-svc">
+            <img src="http://res.m.ctrip.com/market/images/ic_flight_promise_big.png" width="100%">
+        </div>
+    </div>
+    <div id="in_footer" class="fix_bottom js_in_Footer">
+        <ul class="tab_search">
+            <li class="tabcrt">机票查询</li>
+            <li class=""><a href="/html5/Flight/Schedule/">航班动态</a>
+            </li>
+        </ul>
+    </div>
+    <!--E H5机票_机票查询-->
+</body>
+
+</html>
