@@ -76,4 +76,6 @@ th{padding:0}
 
 .comlist{list-style: none;}
 .comlist li{overflow: hidden;}
+.comlist li h3{margin: 0;padding: 0;}
+.comlist li p{margin: 0;padding: 0;}
 .comlist-img{float:left;margin-right: 10px;}
