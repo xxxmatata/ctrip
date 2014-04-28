@@ -19,7 +19,7 @@ video{display:inline-block;vertical-align:baseline}
 audio:not([controls]){display:none;height:0}
 [hidden],
 template{display:none}
-a{background:transparent}
+a{background:transparent;text-decoration:none;}
 a:active,
 a:hover{outline:0}
 abbr[title]{border-bottom:1px dotted}
@@ -73,12 +73,10 @@ optgroup{font-weight:bold}
 table{border-collapse:collapse;border-spacing:0}
 td,
 th{padding:0}
-
 .comlist{padding:10px;}
-.comlist-ewm{height:0;overflow: hidden;transition: height 1s;-webkit-transition: height 1s;-moz-transition: height 1s;-o-transition: height 1s;}
+.comlist-ewm{height:0;overflow:hidden;transition:height 1s;-webkit-transition:height 1s;-moz-transition:height 1s;-o-transition:height 1s;}
 .comlist li:hover .comlist-ewm{height:150px;}
-
-@media(max-width: 1200px){
-	.comlist-ewm{height:0;overflow: hidden;transition: none;-webkit-transition: none;-moz-transition: none;-o-transition: none;}
+@media(max-width:1200px){
+	.comlist-ewm{height:0;overflow:hidden;transition:none;-webkit-transition:none;-moz-transition:none;-o-transition:none;}
 	.comlist li:hover .comlist-ewm{height:0;}
 }
