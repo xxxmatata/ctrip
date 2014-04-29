@@ -601,7 +601,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-infoinput li{padding-left:10px;}
 .flight-infoinput li.highlight{background:#fffce7;}
 .flight-infoinput-pdl{border-bottom:1px solid #bcbcbc;margin-bottom:-1px;}
-.flight-infoinput label{display:inline-block;width:70px;}
+.flight-infoinput label{display:inline-block;width:70px;vertical-align:top;}
 .flight-infoinput-blk label{display:table-cell;vertical-align:middle;}
 .flight-infoinput .flight-ins{display:table-cell;line-height:18px;vertical-align:middle;}
 .flight-infoinput .flight-blk{display:table-cell;}
