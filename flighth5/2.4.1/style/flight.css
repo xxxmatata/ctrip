@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 .intrip .cfbox{background-color:#fff;}
 .intrip .cfbox li{padding:11px;border-bottom:2px solid #f5f5f5;color:#333;}
 .intrip .cfbox li strong{font-weight:600;}
@@ -363,7 +363,7 @@ i{font-style:normal;font-weight:normal;}
 .delivy .light.current{background-color:#fff;}
 .delivy .light:active:after,
 .delivy .light.current:after{display:none;}
-.cui_cld_day_havetxt em,
+/* .cui_cld_day_havetxt em,
 .cui_cld_nopro em,
 .cui_cld_haspro em,
 .cui_cld_daycrt em{font-size:13px;color:rgba(0,0,0,0.8);}
@@ -371,9 +371,10 @@ i{font-style:normal;font-weight:normal;}
 .cui_cld_nopro i,
 .cui_cld_haspro i,
 .cui_cld_daycrt i{font-size:12px;color:rgba(0,0,0,0.6);}
+*/
 .flight-hyb_cancel span{padding:7px 10px;}
 .tab_by{display:table\9;}
-.tab_by li{display:table-cell\9;width: 33%;}
+.tab_by li{display:table-cell\9;width:33%;}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
 .mt0{margin-top:0;}
@@ -381,6 +382,7 @@ i{font-style:normal;font-weight:normal;}
 .pd10{padding:10px;}
 .pdlr10{padding:0 10px;}
 .mtm11{margin-top:-11px;}
+.mb21{margin-bottom:21px;}
 .blk4{height:4px;font-size:1px;}
 .blk5{height:5px;font-size:1px;}
 .blk8{height:8px;font-size:1px;}
@@ -503,7 +505,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-labq:after{content:'';display:inline-block;width:15px;height:15px;margin-left:6px;margin-bottom:-4px;background:url(../img/flight-icon.png) no-repeat -20px 0;background-size:100px;}
 /* 返 */
 .flight-icon-return{border:1px solid #ff9913;border-radius:2px;font-size:12px;height:13px;line-height:13px;color:#ff9913;padding:0 2px;position:relative;}
-.flight-icon-return dfn{position:absolute;left:1.4em;top:4px;-webkit-transform:scale(0.9,0.9);-moz-transform:scale(0.9,0.9);-ms-transform:scale(0.9,0.9);-o-transform:scale(0.9,0.9);transform:scale(0.9,0.9);}
+.flight-icon-return dfn{position:absolute;left:1.4em;top:2px;-webkit-transform:scale(0.9,0.9);-moz-transform:scale(0.9,0.9);-ms-transform:scale(0.9,0.9);-o-transform:scale(0.9,0.9);transform:scale(0.9,0.9);}
 .flight-icon-return em{display:inline-block;width:1em;}
 .flight-icon-rtn{border:1px solid #ff9913;border-radius:2px;font-size:12px;height:13px;line-height:13px;color:#ff9913;padding:0 2px;white-space:nowrap;}
 .flight-icon-rtn dfn{margin-left:4px;display:inline-block;-webkit-transform:scale(0.8,0.8);-moz-transform:scale(0.8,0.8);-ms-transform:scale(0.8,0.8);-o-transform:scale(0.8,0.8);transform:scale(0.8,0.8);}
@@ -560,7 +562,8 @@ i{font-style:normal;font-weight:normal;}
 .flight-srhform dl{display:table-cell;vertical-align:middle;width:43%}
 .flight-srhform dd{position:relative;line-height:44px;padding-left:35px;overflow:hidden;}
 .flight-switch dd{height:44px;}
-.flight-srhform dd span{position:absolute;width:100%;left:0;top:0;height:44px;line-height:44px;text-indent:35px;-webkit-transition:all .5s ease-in-out;max-width:110px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.flight-srhform dd span{position:absolute;width:100%;left:0;top:0;height:44px;line-height:44px;text-indent:35px;-webkit-transition:all .5s ease-in-out;}
+.flight-srhform .flight-txt5{float:left;max-width:110px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
 .flight-departcity:before{content:'';position:absolute;width:12.5px;height:12.5px;left:10px;top:50%;margin-top:-5px;background:url(../img/flight-icon.png) no-repeat -20px -35px;background-size:100px;}
 .flight-departcity:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 .flight-backcity:before{content:'';position:absolute;width:12.5px;height:12.5px;left:10px;top:50%;margin-top:-5px;background:url(../img/flight-icon.png) no-repeat -20px -35px;background-size:100px;-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);}
@@ -580,8 +583,6 @@ i{font-style:normal;font-weight:normal;}
 .flight-srhform .flight-pstype:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 .flight-srhform .flight-pstype .tips{position:absolute;left:80px;top:3px;line-height:18px;color:#666;}
 .flight-btnsrh{width:100%;height:44px;line-height:44px;font-size:18px;color:#fff;background:#ff9a14;border-radius:3px;margin-top:20px;}
-.flight-img-svc{width:100%;}
-.flight-windows-svc{width:100%;}
 /* E 机票查询页优化 */
 /* S 机票订单填写页优化 */
 .flight-loginline{padding:0 10px 10px;height:24px;line-height:24px;font-size:12px;}
@@ -671,7 +672,7 @@ i{font-style:normal;font-weight:normal;}
 .fdelete{background:none;width:34px;position:relative;}
 .fdelete:before{content:'';position:absolute;width:22px;height:22px;left:0;top:50%;margin-top:-11px;background:#ff3c30;border-radius:50%;}
 .fdelete:after{content:'';position:absolute;width:14px;height:2px;left:50%;top:50%;margin-left:-13px;margin-top:-1px;background:#fff;}
-.flight .b_people .info_list li{width:auto;border:1px solid #bcbcbc;border-top:none;}
+.flight .b_people .info_list li{border:1px solid #bcbcbc;border-top:none;}
 /* **
 ** E 国际机票 */
 /* !
@@ -690,7 +691,8 @@ i{font-style:normal;font-weight:normal;}
 .jPriceTitle{display:inline-block;width:100%;line-height:28px;float:left;}
 .jGao{height:15px;line-height:15px;padding:1px;margin-left:2px;text-align:center;font-family:"STHEITI";font-size:12px;color:#ff9a14;display:inline-block;}
 .fantxt2{height:15px;line-height:15px;padding:1px;margin-left:2px;text-align:center;font-size:12px;color:#ff9913;display:inline-block;border:1px solid #ff9913;}
-.cui_cldwrap{color:#000;}
+.cui_cldwrap{color:#333;font-size:13px;}
+.cui_cld_valid i{color:#666;}
 .cui_cldweek li:last-child{color:#000;}
 .cui_cldweek li:first-child,
 .cui_cldweek li:last-child{width:15%;color:#000;}
