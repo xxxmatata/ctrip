@@ -685,23 +685,19 @@ i{font-style:normal;font-weight:normal;}
 .flight-seat .seat-single-mode{display:none;}
 .tips-single-mode .seat-single-mode{display:block;}
 /* seat */
-.flight-seat .seat-x-axis,
-.flight-seat .seat-area,
+.flight-seat .seat-area{display: table;width: 100%;position:relative;z-index:5;}
 .flight-seat .seat-list,
-.flight-seat .seat-select-area,
-.flight-seat .seat-y-axis{display:-webkit-flex;}
-.flight-seat .seat-area{position:relative;z-index:5;}
-.flight-seat .seat-x-axis li,
+.flight-seat .seat-passage{display:table-cell;}
+.flight-seat .seat-x-axis{display: table;width: 100%}
+.flight-seat .seat-x-axis li{display: table-cell;text-align: center;}
 .flight-seat .seat-area ul,
 .flight-seat .seat-area div,
-.flight-seat .seat-y-axis li{-webkit-flex:1;text-align:center;}
+.flight-seat .seat-y-axis li{text-align:center;}
 .flight-seat .seat-list,
 .flight-seat .seat-select-area .seat-main,
-.flight-seat .seat-y-axis{-webkit-flex-direction:column;align-items:center}
+.flight-seat .seat-y-axis{}
 .flight-seat .seat-list li,
-.flight-seat .seat-y-axis li{width:20px;height:20px;background:#ccc;margin:10px 0;}
-.flight-seat .seat-select-area .seat-y-axis{width:50px;}
-.flight-seat .seat-select-area .seat-main{-webkit-flex:1;}
+.flight-seat .seat-y-axis li{width:20px;height:20px;background:#ccc;margin:10px auto;}
 .flight-seat .seat-x-axis{height:30px;line-height:30px;position:relative;z-index:10;background:#f5f5f5}
 .flight-seat .seat-y-axis li{background:none;}
 /* tips */
