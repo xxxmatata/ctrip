@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>选座页面</title>
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://res.m.ctrip.com/html5/Content/images/57.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://res.m.ctrip.com/html5/Content/images/72.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://res.m.ctrip.com/html5/Content/images/114.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
+    <link href="../style/main.css" rel="stylesheet" />
+    <link href="../style/flight.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="flight-seat">
+
+        <!--setInformationBegin-->
+        <header class="seat-user-info hide" data-role="seatUserInfo">
+            <p class="seat-user" data-role="seatUserName"></p>
+            <p class="seat-number" data-role="seatUserNum"></p>
+        </header>
+        <!--/setInformationEnd-->
+
+        <!--selectSeatBegin-->
+        <div class="seat-select-area" data-role="seatSelectArea">
+            <div class="seat-main">
+
+                <!--xAxisBegin-->
+                <ul class="seat-x-axis" data-role="seatXAxis">
+
+
+                    <li>A</li>
+
+
+
+                    <li>C</li>
+
+
+
+                    <li class="seat-passage"></li>
+
+
+
+                    <li>D</li>
+
+
+
+                    <li>E</li>
+
+
+
+                    <li>F</li>
+
+
+
+                    <li>H</li>
+
+
+
+                    <li class="seat-passage"></li>
+
+
+
+                    <li>J</li>
+
+
+
+                    <li>L</li>
+
+
+                </ul>
+                <!--/xAxisEnd-->
+
+                <!--seatContentBegin-->
+                <div class="seat-area" data-role="seatArea">
+
+
+                    <ul class="seat-list">
+
+                        <li data-seat="31A"></li>
+
+                        <li data-seat="32A"></li>
+
+                        <li data-seat="33A"></li>
+
+                        <li data-seat="34A"></li>
+
+                        <li data-seat="35A"></li>
+
+                        <li data-seat="36A"></li>
+
+                        <li data-seat="37A"></li>
+
+                        <li data-seat="38A"></li>
+
+                        <li data-seat="39A"></li>
+
+                        <li data-seat="40A"></li>
+
+                        <li data-seat="41A"></li>
+
+                        <li data-seat="42A"></li>
+
+                        <li data-seat="43A"></li>
+
+                        <li data-seat="44A"></li>
+
+                        <li data-seat="45A"></li>
+
+                        <li data-seat="46A"></li>
+
+                        <li data-seat="47A"></li>
+
+                        <li data-seat="48A"></li>
+
+                        <li data-seat="49A"></li>
+
+                        <li data-seat="50A"></li>
+
+                        <li data-seat="51A"></li>
+
+                        <li data-seat="52A"></li>
+
+                        <li data-seat="53A"></li>
+
+                        <li data-seat="54A"></li>
+
+                        <li data-seat="55A"></li>
+
+                        <li data-seat="56A"></li>
+
+                        <li data-seat="57A"></li>
+
+                    </ul>
+
+
+
+                    <ul class="seat-list">
+
+                        <li data-seat="31C"></li>
+
+                        <li data-seat="32C"></li>
+
+                        <li data-seat="33C"></li>
+
+                        <li data-seat="34C"></li>
+
+                        <li data-seat="35C"></li>
+
+                        <li data-seat="36C"></li>
+
+                        <li data-seat="37C"></li>
+
+                        <li data-seat="38C"></li>
+
+                        <li data-seat="39C"></li>
+
+                        <li data-seat="40C"></li>
+
+                        <li data-seat="41C"></li>
+
+                        <li data-seat="42C"></li>
+
+                        <li data-seat="43C"></li>
+
+                        <li data-seat="44C"></li>
+
+                        <li data-seat="45C"></li>
+
+                        <li data-seat="46C"></li>
+
+                        <li data-seat="47C"></li>
+
+                        <li data-seat="48C"></li>
+
+                        <li data-seat="49C"></li>
+
+                        <li data-seat="50C"></li>
+
+                        <li data-seat="51C"></li>
+
+                        <li data-seat="52C"></li>
+
+                        <li data-seat="53C"></li>
+
+                        <li data-seat="54C"></li>
+
+                        <li data-seat="55C"></li>
+
+                        <li data-seat="56C"></li>
+
+                        <li data-seat="57C"></li>
+
+                    </ul>
+
+
+
+                    <div class="seat-passage">
+                        <!--yAxisBegin-->
+                        <ul class="seat-y-axis" data-role="seatYAxis">
+
+                            <li>31</li>
+
+                            <li>32</li>
+
+                            <li>33</li>
+
+                            <li>34</li>
+
+                            <li>35</li>
+
+                            <li>36</li>
+
+                            <li>37</li>
+
+                            <li>38</li>
+
+                            <li>39</li>
+
+                            <li>40</li>
+
+                            <li>41</li>
+
+                            <li>42</li>
+
+                            <li>43</li>
+
+                            <li>44</li>
+
+                            <li>45</li>
+
+                            <li>46</li>
+
+                            <li>47</li>
+
+                            <li>48</li>
+
+                            <li>49</li>
+
+                            <li>50</li>
+
+                            <li>51</li>
+
+                            <li>52</li>
+
+                            <li>53</li>
+
+                            <li>54</li>
+
+                            <li>55</li>
+
+                            <li>56</li>
+
+                            <li>57</li>
+
+                        </ul>
+                        <!--/yAxisEnd-->
+                    </div>
+
+
+
+                    <ul class="seat-list">
+
+                        <li data-seat="31D"></li>
+
+                        <li data-seat="32D"></li>
+
+                        <li data-seat="33D"></li>
+
+                        <li data-seat="34D"></li>
+
+                        <li data-seat="35D"></li>
+
+                        <li data-seat="36D"></li>
+
+                        <li data-seat="37D"></li>
+
+                        <li data-seat="38D"></li>
+
+                        <li data-seat="39D"></li>
+
+                        <li data-seat="40D"></li>
+
+                        <li data-seat="41D"></li>
+
+                        <li data-seat="42D"></li>
+
+                        <li data-seat="43D"></li>
+
+                        <li data-seat="44D"></li>
+
+                        <li data-seat="45D"></li>
+
+                        <li data-seat="46D"></li>
+
+                        <li data-seat="47D"></li>
+
+                        <li data-seat="48D"></li>
+
+                        <li data-seat="49D"></li>
+
+                        <li data-seat="50D"></li>
+
+                        <li data-seat="51D"></li>
+
+                        <li data-seat="52D"></li>
+
+                        <li data-seat="53D"></li>
+
+                        <li data-seat="54D"></li>
+
+                        <li data-seat="55D"></li>
+
+                        <li data-seat="56D"></li>
+
+                        <li data-seat="57D"></li>
+
+                    </ul>
+
+
+
+                    <ul class="seat-list">
+
+                        <li data-seat="31E"></li>
+
+                        <li data-seat="32E"></li>
+
+                        <li data-seat="33E"></li>
+
+                        <li data-seat="34E"></li>
+
+                        <li data-seat="35E"></li>
+
+                        <li data-seat="36E"></li>
+
+                        <li data-seat="37E"></li>
+
+                        <li data-seat="38E"></li>
+
+                        <li data-seat="39E"></li>
+
+                        <li data-seat="40E"></li>
+
+                        <li data-seat="41E"></li>
+
+                        <li data-seat="42E"></li>
+
+                        <li data-seat="43E"></li>
+
+                        <li data-seat="44E"></li>
+
+                        <li data-seat="45E"></li>
+
+                        <li data-seat="46E"></li>
+
+                        <li data-seat="47E"></li>
+
+                        <li data-seat="48E"></li>
+
+                        <li data-seat="49E"></li>
+
+                        <li data-seat="50E"></li>
+
+                        <li data-seat="51E"></li>
+
+                        <li data-seat="52E"></li>
+
+                        <li data-seat="53E"></li>
+
+                        <li data-seat="54E"></li>
+
+                        <li data-seat="55E"></li>
+
+                        <li data-seat="56E"></li>
+
+                        <li data-seat="57E"></li>
+
+                    </ul>
+
+
+
+                    <ul class="seat-list">
+
+                        <li data-seat="31F"></li>
+
+                        <li data-seat="32F"></li>
+
+                        <li data-seat="33F"></li>
+
+                        <li data-seat="34F"></li>
+
+                        <li data-seat="35F"></li>
+
+                        <li data-seat="36F"></li>
+
+                        <li data-seat="37F"></li>
+
+                        <li data-seat="38F"></li>
+
+                        <li data-seat="39F"></li>
+
+                        <li data-seat="40F"></li>
+
+                        <li data-seat="41F"></li>
+
+                        <li data-seat="42F"></li>
+
+                        <li data-seat="43F"></li>
+
+                        <li data-seat="44F"></li>
+
+                        <li data-seat="45F"></li>
+
+                        <li data-seat="46F"></li>
+
+                        <li data-seat="47F"></li>
+
+                        <li data-seat="48F"></li>
+
+                        <li data-seat="49F"></li>
+
+                        <li data-seat="50F"></li>
+
+                        <li data-seat="51F"></li>
+
+                        <li data-seat="52F"></li>
+
+                        <li data-seat="53F"></li>
+
+                        <li data-seat="54F"></li>
+
+                        <li data-seat="55F"></li>
+
+                        <li data-seat="56F"></li>
+
+                        <li data-seat="57F"></li>
+
+                    </ul>
+
+
+
+                    <ul class="seat-list">
+
+                        <li data-seat="31H"></li>
+
+                        <li data-seat="32H"></li>
+
+                        <li data-seat="33H"></li>
+
+                        <li data-seat="34H"></li>
+
+                        <li data-seat="35H"></li>
+
+                        <li data-seat="36H"></li>
+
+                        <li data-seat="37H"></li>
+
+                        <li data-seat="38H"></li>
+
+                        <li data-seat="39H"></li>
+
+                        <li data-seat="40H"></li>
+
+                        <li data-seat="41H"></li>
+
+                        <li data-seat="42H"></li>
+
+                        <li data-seat="43H"></li>
+
+                        <li data-seat="44H"></li>
+
+                        <li data-seat="45H"></li>
+
+                        <li data-seat="46H"></li>
+
+                        <li data-seat="47H"></li>
+
+                        <li data-seat="48H"></li>
+
+                        <li data-seat="49H"></li>
+
+                        <li data-seat="50H"></li>
+
+                        <li data-seat="51H"></li>
+
+                        <li data-seat="52H"></li>
+
+                        <li data-seat="53H"></li>
+
+                        <li data-seat="54H"></li>
+
+                        <li data-seat="55H"></li>
+
+                        <li data-seat="56H"></li>
+
+                        <li data-seat="57H"></li>
+
+                    </ul>
+
+
+
+                    <div class="seat-passage">
+                        <!--yAxisBegin-->
+                        <ul class="seat-y-axis" data-role="seatYAxis">
+
+                            <li>31</li>
+
+                            <li>32</li>
+
+                            <li>33</li>
+
+                            <li>34</li>
+
+                            <li>35</li>
+
+                            <li>36</li>
+
+                            <li>37</li>
+
+                            <li>38</li>
+
+                            <li>39</li>
+
+                            <li>40</li>
+
+                            <li>41</li>
+
+                            <li>42</li>
+
+                            <li>43</li>
+
+                            <li>44</li>
+
+                            <li>45</li>
+
+                            <li>46</li>
+
+                            <li>47</li>
+
+                            <li>48</li>
+
+                            <li>49</li>
+
+                            <li>50</li>
+
+                            <li>51</li>
+
+                            <li>52</li>
+
+                            <li>53</li>
+
+                            <li>54</li>
+
+                            <li>55</li>
+
+                            <li>56</li>
+
+                            <li>57</li>
+
+                        </ul>
+                        <!--/yAxisEnd-->
+                    </div>
+
+
+
+                    <ul class="seat-list">
+
+                        <li data-seat="31J"></li>
+
+                        <li data-seat="32J"></li>
+
+                        <li data-seat="33J"></li>
+
+                        <li data-seat="34J"></li>
+
+                        <li data-seat="35J"></li>
+
+                        <li data-seat="36J"></li>
+
+                        <li data-seat="37J"></li>
+
+                        <li data-seat="38J"></li>
+
+                        <li data-seat="39J"></li>
+
+                        <li data-seat="40J"></li>
+
+                        <li data-seat="41J"></li>
+
+                        <li data-seat="42J"></li>
+
+                        <li data-seat="43J"></li>
+
+                        <li data-seat="44J"></li>
+
+                        <li data-seat="45J"></li>
+
+                        <li data-seat="46J"></li>
+
+                        <li data-seat="47J"></li>
+
+                        <li data-seat="48J"></li>
+
+                        <li data-seat="49J"></li>
+
+                        <li data-seat="50J"></li>
+
+                        <li data-seat="51J"></li>
+
+                        <li data-seat="52J"></li>
+
+                        <li data-seat="53J"></li>
+
+                        <li data-seat="54J"></li>
+
+                        <li data-seat="55J"></li>
+
+                        <li data-seat="56J"></li>
+
+                        <li data-seat="57J"></li>
+
+                    </ul>
+
+
+
+                    <ul class="seat-list">
+
+                        <li data-seat="31L"></li>
+
+                        <li data-seat="32L"></li>
+
+                        <li data-seat="33L"></li>
+
+                        <li data-seat="34L"></li>
+
+                        <li data-seat="35L"></li>
+
+                        <li data-seat="36L"></li>
+
+                        <li data-seat="37L"></li>
+
+                        <li data-seat="38L"></li>
+
+                        <li data-seat="39L"></li>
+
+                        <li data-seat="40L"></li>
+
+                        <li data-seat="41L"></li>
+
+                        <li data-seat="42L"></li>
+
+                        <li data-seat="43L"></li>
+
+                        <li data-seat="44L"></li>
+
+                        <li data-seat="45L"></li>
+
+                        <li data-seat="46L"></li>
+
+                        <li data-seat="47L"></li>
+
+                        <li data-seat="48L"></li>
+
+                        <li data-seat="49L"></li>
+
+                        <li data-seat="50L"></li>
+
+                        <li data-seat="51L"></li>
+
+                        <li data-seat="52L"></li>
+
+                        <li data-seat="53L"></li>
+
+                        <li data-seat="54L"></li>
+
+                        <li data-seat="55L"></li>
+
+                        <li data-seat="56L"></li>
+
+                        <li data-seat="57L"></li>
+
+                    </ul>
+
+
+                </div>
+                <!--/seatContentEnd-->
+
+            </div>
+
+
+
+
+        </div>
+        <!--/selectSeatEnd-->
+
+        <!--spaceBegin-->
+        <footer class="seat-space-area" data-role="seatSpaceArea">
+            <p class="seat-space-item selected" data-type="lower">下层舱位</p>
+            <p class="seat-space-item" data-type="upper">上层舱位</p>
+        </footer>
+        <!--/spaceEnd-->
+
+        <!--tipsBegin-->
+        <div class="seat-tips tips-single-mode" data-role="seatTips">
+
+            <!--singleModeBegin-->
+            <div class="seat-single-mode" data-role="seatSingleMode">
+                <span data-role="seatUserName"></span>
+                <span data-role="seatUserNum"></span>
+            </div>
+            <!--/singleModeEnd-->
+
+            <!--multipleModeBegin-->
+            <div class="seat-multiple-mode" data-role="seatMultipleMode">
+                <h1>请选择乘机人</h1>
+                <p>
+                    <span class="seat-user-title">座位号:</span>
+                    <span class="seat-user-name" data-role="seatUserName"></span>
+                    <span data-role="seatUserNum"></span>
+                </p>
+
+                <!--userListBegin-->
+                <ul class="seat-user-list" data-role="seatUserList">
+
+                </ul>
+                <!--/userListEnd-->
+
+                <!--reelectBegin-->
+                <div class="seat-user-reelect" data-role="seatUserReelect">重选座位</div>
+                <!--/reelectEnd-->
+
+            </div>
+            <!--/multipleModeEnd-->
+
+
+            <div class="tips-arrow"></div>
+        </div>
+
+        <!--/tipsEnd-->
+    </div>
+</body>
+
+</html>
