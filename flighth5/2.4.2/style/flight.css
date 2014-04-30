@@ -662,7 +662,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-chginfo p{margin:5px 0;}
 .flight-chginfo .tips{color:rgba(0,0,0,0.6);}
 .flight-tips-etp{height:20px;line-height:20px;font-size:12px;text-align:center;background:#fcf6e2;color:rgba(0,0,0,0.6);margin:5px 50px 5px 0;}
-.flight-tips-etp em{color:#099fde;}
+.flight-tips-etp a{color:#099fde;}
 .intrip .boa_info p.flight-tips-etp{padding:0;}
 .boa_info .flight-tips-etp{margin:5px 20px 5px 30px;}
 .boa_info .flight-tips-etp em{color:#099fde;}
