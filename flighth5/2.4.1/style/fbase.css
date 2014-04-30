@@ -101,7 +101,7 @@ i{font-style:normal;font-weight:normal;}
 .clr-099fde{color:#099fde}
 /* 橙色文字 */
 .clr-ff9a14{color:#ff9a14}
-.bg-trs{background: transparent;}
+.bg-trs{background:transparent;}
 .bg-wht{background:#fff;}
 /* 字体相关 */
 .fnt-l{text-align:left;}
@@ -153,7 +153,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-icon-input{display:inline-block;width:17px;height:16px;background:url(../img/flight-icon.png) no-repeat 0 -48px;background-size:100px;margin-right:5px;margin-bottom:-3px}
 .flight-icon-input.disabled{background:url(../img/flight-icon.png) no-repeat 0 -32px;background-size:100px;}
 .flight-icon-input.checked{background:url(../img/flight-icon.png) no-repeat 0 0;background-size:100px;}
-.flight-icon-scs{display: inline-block;width: 40px;height: 40px;background: url(../img/flight-icon.png) no-repeat 0 -90px;background-size: 100px;vertical-align: middle;}
+.flight-icon-scs{display:inline-block;width:40px;height:40px;background:url(../img/flight-icon.png) no-repeat 0 -90px;background-size:100px;vertical-align:middle;}
 /* 小固件↓ */
 /* 公共简单列表 */
 .flight-listsim{border:1px solid #bcbcbc;border-bottom:none;background:#fff;margin-top:10px;}
@@ -212,7 +212,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-icon-stopin em{position:absolute;width:30px;height:14px;left:4px;line-height:14px;text-align:center;font-size:12px;border:1px solid #dbd9d9;border-radius:14px;background:#f5f5f5;margin:0;}
 /* S 按钮button */
 /* 橙底白字 */
-.flight-btn-org{display:inline-block;width: 100%; background: #ff9a14;color:#fff;text-align: center;height:44px;line-height: 44px;font-size:18px;border-radius: 3px;}
+.flight-btn-org{display:inline-block;width:100%;background:#ff9a14;color:#fff;text-align:center;height:44px;line-height:44px;font-size:18px;border-radius:3px;}
 /* E 按钮button */
 /* 小固件↑ */
 /* js相关 */
@@ -220,20 +220,13 @@ i{font-style:normal;font-weight:normal;}
 .js_hide{display:none;}
 .highlight{background:#fffce7;}
 /* 订单完成页 */
-.flight-bkres{width:100%;
-	display:-webkit-box;
-	display:-moz-box;
-	display:-ms-flexbox;
-	display:-webkit-flex;
-	display:flex;overflow:hidden;}
+.flight-bkres{width:100%;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;overflow:hidden;}
 .flight-bkres-cnt{margin:auto;}
-/*
-.flight-bkres{position: relative\9;left:50%\9;}
-.flight-bkres-cnt{position: relative\9;left:-25%\9;}
+/* .flight-bkres{position:relative\9;left:50%\9;}
+.flight-bkres-cnt{position:relative\9;left:-25%\9;}
 */
 .flight-bkres .flight-icon-scs{margin-right:12px;}
-.flight-bkres .order_okinfo{padding:20px 0;color:#999;font-size: 13px;font-family: 'Microsoft Yahei';}
-
+.flight-bkres .order_okinfo{padding:20px 0;color:#999;font-size:13px;font-family:'Microsoft Yahei';}
 /* !
 ** E pyh彭延华 */
 /* *--------------------------------------------* */
