@@ -450,7 +450,7 @@ i{font-style:normal;font-weight:normal;}
 .z-90{z-index:90;}
 .z-100{z-index:100;}
 /* 图标相关 */
-.flight-icon-flight{display:inline-block;width:15px;height:14px;background:url(../img/flight-icon.png) no-repeat -20px -20px;background-size:100px;}
+.flight-icon-flight{display:inline-block;width:15px;height:14px;background:url(../img/flight-icon.png) no-repeat -20px -20px;background-size:100px;margin-right:3px;}
 .flight-icon-flight2{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);-ms-transform:rotateY(180deg);-o-transform:rotateY(180deg);transform:rotateY(180deg);}
 .flight-icon-pxu{display:inline-block;width:9px;height:10px;overflow:hidden;position:relative;overflow:hidden;text-indent:-9999px;}
 .flight-icon-pxu:before{content:'';position:absolute;left:-1px;bottom:-3px;width:11px;height:11px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);background:#999;}
@@ -553,8 +553,8 @@ i{font-style:normal;font-weight:normal;}
 .flight-listdate li.cheap-calendar{border-left:1px solid #ddd;font-size:12px}
 .flight-listdate li.cheap-calendar:after{position:absolute;display:block;content:'';width:15px;height:14px;left:50%;top:10px;margin-left:-7.5px;background:url(../img/flight-icon.png) no-repeat -55px 0;background-size:100px;}
 .flight-listfold{position:absolute;bottom:3px;left:50%;width:40px;height:15px;margin-left:-20px;background:#ebebeb;border:none;cursor:pointer;}
-.flight-listfold:after{content:"";position:absolute;width:10px;height:10px;left:50%;top:50%;margin-left:-5px;margin-top:-2px;border-top:1px solid #a4a4a4;border-left:1px solid #a4a4a4;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
-.flight-packup:after{content:"";position:absolute;width:10px;height:10px;left:50%;top:50%;margin-left:-5px;margin-top:-9px;border-top:1px solid #a4a4a4;border-left:1px solid #a4a4a4;-webkit-transform:rotate(-135deg);-moz-transform:rotate(-135deg);-ms-transform:rotate(-135deg);-o-transform:rotate(-135deg);transform:rotate(-135deg);}
+.flight-listfold:after{content:"";position:absolute;width:10px;height:10px;left:50%;top:50%;margin-left:-5px;margin-top:-9px;border-top:1px solid #a4a4a4;border-left:1px solid #a4a4a4;-webkit-transform:rotate(-135deg);-moz-transform:rotate(-135deg);-ms-transform:rotate(-135deg);-o-transform:rotate(-135deg);transform:rotate(-135deg);}
+.flight-packup:after{content:"";position:absolute;width:10px;height:10px;left:50%;top:50%;margin-left:-5px;margin-top:-2px;border-top:1px solid #a4a4a4;border-left:1px solid #a4a4a4;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 /* E 机票列表页优化 */
 /* S 机票查询页优化 */
 .flight-srhform{border:1px solid #bcbcbc;border-bottom:none;background:#fff;}
@@ -607,7 +607,8 @@ i{font-style:normal;font-weight:normal;}
 .flight-infoinput .flight-blk{display:table-cell;}
 .flight-infoinput input{width:auto;height:auto;}
 .flight-infoinput .flight-switch{display:table-cell;width:44px;vertical-align:middle;}
-.flight-infoinput .cui-switch{margin-top:-6px;}
+.flight-infoinput .cui-swi
+tch{margin-top:-6px;}
 .flight-infodel{display:table-cell;padding:0 10px;width:2em;height:100%;text-align:center;vertical-align:middle;color:#099fde;}
 .flight-infodel2{display:table-cell;width:34px;height:100%;position:relative;}
 .flight-infodel2:before{content:'';position:absolute;width:22px;height:22px;left:0;top:50%;margin-top:-11px;background:#ff3c30;border-radius:50%;}
