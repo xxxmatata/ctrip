@@ -220,7 +220,12 @@ i{font-style:normal;font-weight:normal;}
 .js_hide{display:none;}
 .highlight{background:#fffce7;}
 /* 订单完成页 */
-.flight-bkres{display:flex;display:-webkit-flex;}
+.flight-bkres{width:100%;
+	display:-webkit-box;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;overflow:hidden;}
 .flight-bkres-cnt{margin:auto;}
 /*
 .flight-bkres{position: relative\9;left:50%\9;}
