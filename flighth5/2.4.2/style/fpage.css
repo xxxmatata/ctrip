@@ -594,10 +594,10 @@ i{font-style:normal;font-weight:normal;}
 .flight-chginfo p{margin:5px 0;}
 .flight-chginfo .tips{color:rgba(0,0,0,0.6);}
 .flight-tips-etp{height:20px;line-height:20px;font-size:12px;text-align:center;background:#fcf6e2;color:rgba(0,0,0,0.6);margin:5px 50px 5px 0;}
-.flight-tips-etp em{color:#099fde;}
+.flight-tips-etp a{color:#099fde;}
 .intrip .boa_info p.flight-tips-etp{padding:0;}
 .boa_info .flight-tips-etp{margin:5px 20px 5px 30px;}
-.boa_info .flight-tips-etp em{color:#099fde;}
+.boa_info .flight-tips-etp a{color:#099fde;}
 .flight-tips-etp2{height:34px;line-height:34px;text-align:center;border:1px solid #efcd57;background:#fffdee;margin-top:-1px;position:relative;z-index:1;font-size:12px;-webkit-transition:height 0.6s;-moz-transition:height 0.6s;-o-transition:height 0.6s;transition:height 0.6s;}
 .flight-tips-etp2 .close{position:absolute;width:12px;height:12px;top:50%;right:10px;margin-top:-6px;text-indent:-9999px;overflow:hidden;}
 .flight-tips-etp2 .close:before{content:'';position:absolute;left:50%;top:50%;width:20px;height:2px;margin-left:-10px;margin-top:-1px;background:#99988f;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}

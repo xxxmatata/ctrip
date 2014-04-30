@@ -58,6 +58,7 @@ i{font-style:normal;font-weight:normal;}
 /* 区块相关 */
 .mt0{margin-top:0;}
 .mt10{margin-top:10px;}
+.mt30{margin-top:30px;}
 .pd10{padding:10px;}
 .pdlr10{padding:0 10px;}
 .mtm11{margin-top:-11px;}
@@ -219,8 +220,12 @@ i{font-style:normal;font-weight:normal;}
 .js_hide{display:none;}
 .highlight{background:#fffce7;}
 /* 订单完成页 */
-.flight-bkres{position: relative;left:50%;}
-.flight-bkres-cnt{position: relative;left:-25%;}
+.flight-bkres{display:flex;}
+.flight-bkres-cnt{margin:auto;}
+/*
+.flight-bkres{position: relative\9;left:50%\9;}
+.flight-bkres-cnt{position: relative\9;left:-25%\9;}
+*/
 .flight-bkres .flight-icon-scs{margin-right:12px;}
 .flight-bkres .order_okinfo{padding:20px 0;color:#999;font-size: 13px;font-family: 'Microsoft Yahei';}
 
