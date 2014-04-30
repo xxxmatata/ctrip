@@ -684,7 +684,7 @@ i{font-style:normal;font-weight:normal;}
 ** E 国际机票 */
 /* **
 ** S 值机 */
-.flight-headtips{padding:10px;margin-top:10px;font-size:14px;line-height:1;color:#666;}
+.flight-headtips{padding:10px;font-size:14px;line-height:1;color:#666;}
 .flight-zjtable{border:1px solid #bcbcbc;border-bottom:none;background:#fff;color:#333;}
 .flight-zjtable li{padding:0 10px;position:relative;border-bottom:1px solid #bcbcbc;height:43px;line-height:43px;}
 .flight-zjtable label{display:inline-block;width:90px;}
