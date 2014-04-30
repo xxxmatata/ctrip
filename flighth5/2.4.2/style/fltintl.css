@@ -374,18 +374,24 @@ dfn{color:#FF9913;font-style:normal;font-size:13px;}
 ** S pyh彭延华 */
 /* 区块相关 */
 .mt10{margin-top:10px;}
-/* **
-** S 国际机票 */
+.flight-icon-pxu{display:inline-block;width:9px;height:10px;overflow:hidden;position:relative;overflow:hidden;text-indent:-9999px;}
+.flight-icon-pxu:before{content:'';position:absolute;left:-1px;bottom:-3px;width:11px;height:11px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);background:#999;}
+.flight-icon-pxu:after{content:'';position:absolute;left:0;bottom:0;width:3px;height:5px;border:solid #f2f2f2;border-width:0 3px 0 3px;background:#999;}
+.flight-icon-pxd{display:inline-block;width:9px;height:10px;overflow:hidden;position:relative;overflow:hidden;text-indent:-9999px;}
+.flight-icon-pxd:before{content:'';position:absolute;left:-1px;top:-3px;width:11px;height:11px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);background:#999;}
+.flight-icon-pxd:after{content:'';position:absolute;left:0;top:0;width:3px;height:5px;border:solid #f2f2f2;border-width:0 3px 0 3px;background:#999;}
+.hover .flight-icon-pxu:before{background:#099fde;}
+.hover .flight-icon-pxu:after{border:solid #ddd;border-width:0 3px 0 3px;background:#099fde;}
+.hover .flight-icon-pxd:before{background:#099fde;}
+.hover .flight-icon-pxd:after{border:solid #ddd;border-width:0 3px 0 3px;background:#099fde;}
 .flight-tips-etp2{height:38px;line-height:38px;background:#fff1d6;padding-left:12px;position:relative;color:#424242;}
 .flight-tips-etp2 .close{position:absolute;width:12px;height:12px;top:50%;right:10px;margin-top:-6px;text-indent:-9999px;overflow:hidden;}
 .flight-tips-etp2 .close:before{content:'';position:absolute;left:50%;top:50%;width:20px;height:2px;margin-left:-10px;margin-top:-1px;background:#999180;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 .flight-tips-etp2 .close:after{content:'';position:absolute;left:50%;top:50%;width:20px;height:2px;margin-left:-10px;margin-top:-1px;background:#999180;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);}
 .flight-tips-etp4{height:38px;line-height:38px;background:#fff1d6;color:#424242;text-align:center;margin-right:30px;}
-.flight-tips-etp4 em{color:#2eb3f9;}
+.flight-tips-etp4 a{color:#2eb3f9;}
 .flight-tips-etp5{height:38px;line-height:38px;background:#fff1d6;color:#424242;text-align:center;}
-.flight .peo_info li.flight-tips-etp5 em{color:#2eb3f9;font-size:1em;}
+.flight .peo_info li.flight-tips-etp5 a{color:#2eb3f9;font-size:1em;}
 .flight .b_people .info_list li:last-child{border-bottom: none;}
-/* **
-** E 国际机票 */
 /* !
 ** E pyh彭延华 */

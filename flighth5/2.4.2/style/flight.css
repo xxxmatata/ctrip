@@ -379,6 +379,7 @@ i{font-style:normal;font-weight:normal;}
 /* 区块相关 */
 .mt0{margin-top:0;}
 .mt10{margin-top:10px;}
+.mt30{margin-top:30px;}
 .pd10{padding:10px;}
 .pdlr10{padding:0 10px;}
 .mtm11{margin-top:-11px;}
@@ -471,6 +472,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-icon-input{display:inline-block;width:17px;height:16px;background:url(../img/flight-icon.png) no-repeat 0 -48px;background-size:100px;margin-right:5px;margin-bottom:-3px}
 .flight-icon-input.disabled{background:url(../img/flight-icon.png) no-repeat 0 -32px;background-size:100px;}
 .flight-icon-input.checked{background:url(../img/flight-icon.png) no-repeat 0 0;background-size:100px;}
+.flight-arrrht:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 /* 小固件↓ */
 /* 公共简单列表 */
 .flight-listsim{border:1px solid #bcbcbc;border-bottom:none;background:#fff;margin-top:10px;}
@@ -527,6 +529,10 @@ i{font-style:normal;font-weight:normal;}
 .flight-icon-stopin{display:inline-block;width:40px;height:14px;position:relative;margin:0 3px;}
 .flight-icon-stopin:before{content:'';position:absolute;width:100%;height:1px;top:50%;background:#dbd9d9;}
 .flight-icon-stopin em{position:absolute;width:30px;height:14px;left:4px;line-height:14px;text-align:center;font-size:12px;border:1px solid #dbd9d9;border-radius:14px;background:#f5f5f5;margin:0;}
+/* S 按钮button */
+/* 橙底白字 */
+.flight-btn-org{display:inline-block;width: 100%; background: #ff9a14;color:#fff;text-align: center;height:44px;line-height: 44px;font-size:18px;border-radius: 3px;}
+/* E 按钮button */
 /* 小固件↑ */
 /* js相关 */
 .js_sublist{display:none;}
@@ -667,57 +673,31 @@ i{font-style:normal;font-weight:normal;}
 .flight-tips-etp2-close{border:none;height:0;overflow:hidden;}
 /* **
 ** S 国际机票 */
+/*
 .flight .b_people .info_list li .click_e{top:0;}
 .flight .b_people .info_list li .edit_ico{margin-top:-8px;background:none;width:10px;height:10px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 .fdelete{background:none;width:34px;position:relative;}
 .fdelete:before{content:'';position:absolute;width:22px;height:22px;left:0;top:50%;margin-top:-11px;background:#ff3c30;border-radius:50%;}
 .fdelete:after{content:'';position:absolute;width:14px;height:2px;left:50%;top:50%;margin-left:-13px;margin-top:-1px;background:#fff;}
 .flight .b_people .info_list li{border:1px solid #bcbcbc;border-top:none;}
+*/
 /* **
 ** E 国际机票 */
 /* **
-** S 选座 */
-.flight-seat header{position:relative;background:#f5f5f5;}
-.flight-seat .hide{display:none}
-.flight-seat .selected{background:#ccc;}
-.flight-seat .seat-list .selected{background:blue;}
-.tips-single-mode .seat-multiple-mode,
-.flight-seat .seat-single-mode{display:none;}
-.tips-single-mode .seat-single-mode{display:block;}
-/* seat */
-.flight-seat .seat-area{display: table;width: 100%;position:relative;z-index:5;}
-.flight-seat .seat-list,
-.flight-seat .seat-passage{display:table-cell;}
-.flight-seat .seat-x-axis{display: table;width: 100%}
-.flight-seat .seat-x-axis li{display: table-cell;text-align: center;}
-.flight-seat .seat-area ul,
-.flight-seat .seat-area div,
-.flight-seat .seat-y-axis li{text-align:center;}
-.flight-seat .seat-list,
-.flight-seat .seat-select-area .seat-main,
-.flight-seat .seat-y-axis{}
-.flight-seat .seat-list li,
-.flight-seat .seat-y-axis li{width:20px;height:20px;background:#ccc;margin:10px auto;}
-.flight-seat .seat-x-axis{height:30px;line-height:30px;position:relative;z-index:10;background:#f5f5f5}
-.flight-seat .seat-y-axis li{background:none;}
-/* tips */
-.flight-seat .seat-user-list li,
-.flight-seat .seat-user-reelect{background:#ccc;margin:5px 0;color:#000;text-align:center;cursor:pointer;}
-.show-user-reelect .seat-user-title{}
-.seat-multiple-mode h1{font:14px/25px 'Arial';}
-.flight-seat .seat-user-reelect,
-.show-user-reelect .seat-user-list,
-.show-user-reelect h1,
-.show-user-reelect .seat-user-title,
-.flight-seat .seat-user-name{display:none;}
-.show-user-reelect .seat-user-reelect{display:block;}
-.show-user-reelect .seat-user-name{display:inline;}
-.flight-seat .seat-tips{position:absolute;padding:10px;background:#303030;color:#fff;display:none;width:100px;text-align:center;border-radius:5px;opacity:0.9;z-index:88;}
-.tips-arrow{width:0;height:0;border:10px solid transparent;border-top:10px solid #303030;position:absolute;bottom:-19px; /* left:41%; */
-opacity:0.9;}
-.tips-arrow-bottom{border:10px solid transparent;border-bottom:10px solid #303030;}
+** S 值机 */
+.flight-headtips{padding:10px;margin-top:10px;font-size:14px;line-height: 1;color:#666;}
+.flight-zjtable{border:1px solid #bcbcbc;border-bottom: none;background: #fff;color:#333;}
+.flight-zjtable li{padding:0 10px;position: relative;border-bottom: 1px solid #bcbcbc;height:43px;line-height: 43px;}
+.flight-zjtable label{display:inline-block;width: 90px;}
+.flight-zjtable input{width: auto;height:auto;}
+.flight-zjtips{padding:7px 10px;font-size:14px;line-height: 20px;}
+.flight-zjfooter{position: fixed;bottom: 0; width:100%;height: 39px;line-height: 39px;background: #fff;}
+.flight-zjfooter ul{display:-webkit-flex;display:flex;display:table\9; width: 100%;}
+.flight-zjfooter ul li{flex:1;display: table-cell\9;width: 33%\9;border-top:1px solid #d3d3d3;border-left:1px solid #d3d3d3;text-align: center;color:#666;font-size:13px;}
+.flight-zjfooter ul li.current{border-top:1px solid #008fc8;border-left:1px solid #008fc8;background: #008fc8;color: #fff;}
+.flight-zjfooter ul li:first-child{border-left:none;}
 /* **
-** E 选座 */
+** E 值机 */
 /* !
 ** E pyh彭延华 */
 /* !
