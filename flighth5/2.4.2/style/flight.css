@@ -327,7 +327,8 @@ button,
 input,
 select,
 textarea{font:normal 14px/1.5 "Microsoft YaHei","hei",Arial,"Lucida Grande",Verdana;margin:0;padding:0;}
-header h1{font-family:"Microsoft Yahei"}
+header{overflow: hidden;}
+header h1{font-family:"Microsoft Yahei";}
 em,
 b,
 i{font-style:normal;font-weight:normal;}
@@ -477,6 +478,8 @@ i{font-style:normal;font-weight:normal;}
 .flight-icon-input.disabled{background:url(../img/flight-icon.png) no-repeat 0 -32px;background-size:100px;}
 .flight-icon-input.checked{background:url(../img/flight-icon.png) no-repeat 0 0;background-size:100px;}
 .flight-arrrht:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+.flight-icon-scs{display:inline-block;width:40px;height:40px;background:url(../img/flight-icon.png) no-repeat 0 -90px;background-size:100px;vertical-align:middle;}
+
 /* 小固件↓ */
 /* 公共简单列表 */
 .flight-listsim{border:1px solid #bcbcbc;border-bottom:none;background:#fff;margin-top:10px;}
@@ -536,7 +539,11 @@ i{font-style:normal;font-weight:normal;}
 /* S 按钮button */
 /* 橙底白字 */
 .flight-btn-org{display:inline-block;width:100%;background:#ff9a14;color:#fff;text-align:center;height:44px;line-height:44px;font-size:18px;border-radius:3px;}
+.flight-btn-clm{width:100%;margin-top: 10px;height:39px;line-height:39px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;display:table\9;}
+.flight-btn-clm span{text-align:center;color:#099fde;font-size:15px;border:1px solid #dbdbdb;background:#fff;border-radius:3px;-moz-box-sizing:border-box;box-flex:1;flex:1;-webkit-box-flex:1;-moz-flex:1;-ms-flex:1;display:table-cell\9;}
+.flight-btn-clm i{display: inline-block;width: 10px;}
 /* E 按钮button */
+.flight-header-action{position: absolute;right:0;top:0;width: 65px;height:48px;line-height:48px;text-align:center;color:#fff; font-size: 15px;letter-spacing: 2px; background: #14b1e7;}
 /* 小固件↑ */
 /* js相关 */
 .js_sublist{display:none;}
@@ -690,7 +697,7 @@ i{font-style:normal;font-weight:normal;}
 ** S 值机 */
 /* 值机-已登录 */
 .flight-headtips{padding:10px;font-size:14px;line-height:1;color:#666;}
-.flight-zjtable{border:1px solid #bcbcbc;border-bottom:none;background:#fff;color:#333;}
+.flight-zjtable{border:1px solid #bcbcbc;border-bottom:none;background:#fff;color:#333;font-size:15px;}
 .flight-zjtable li{padding:0 10px;position:relative;border-bottom:1px solid #bcbcbc;height:43px;line-height:43px;}
 .flight-zjtable label{display:inline-block;width:90px;}
 .flight-zjtable input{width:auto;height:auto;}
@@ -720,7 +727,27 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjsbq-btns{margin-top:20px;}
 .flight-zjsbq-btns span{float:left;width:113px;margin-right:10px;text-align:center;height:38px;line-height:38px;border:1px solid #d3d3d3;color:#666;font-size:16px;border-radius:3px;}
 .flight-zjsbq-btns span.member{width:163px;margin-right:0;background:#ff9a14;border:1px solid #ff9a14;color:#fff;}
-
+/* 取消值机 */
+.flight-zjtable2{border:1px solid #bcbcbc;border-bottom:none;background:#fff;color:#333;font-size:15px;}
+.flight-zjtable2 li{padding:0 10px;position:relative;border-bottom:1px solid #bcbcbc;height:44px;line-height:44px;}
+.flight-zjtable2 label{display:inline-block;width:58px;}
+.flight-zjtable2 input{width:auto;height:auto;}
+.flight-zjtable2 li .yzm{position: absolute;width:70px;height:40px;padding-top:4px;line-height:18px;right:0;top:0;background: #00afe5;color:#fff;text-align: center;font-size: 13px;}
+.flight-zjtable2 li .yzm2{background: #999;}
+/* 值机成功 */
+.flight-zjres-cnt{padding:20px;}
+.flight-zjres .flight-icon-scs{margin-right:12px;}
+.flight-zjtable3{border:1px solid #bcbcbc;border-bottom:none;background:#fff;color:#333;font-size:15px;}
+.flight-zjtable3 li{padding:0 10px;position:relative;border-bottom:1px solid #bcbcbc;height:55px;padding-top: 10px;}
+.flight-zjtable3 li p{line-height: 22px;}
+.flight-zjres-tips{margin-top:10px;padding:10px;color: #666;line-height: 18px;}
+/* 提交座位请求 */
+.flight-zjtable4{border:1px solid #bcbcbc;border-bottom:none;background:#fff;color:#333;font-size:15px;}
+.flight-zjtable4 li{padding:0 10px;position:relative;border-bottom:1px solid #bcbcbc;height:43px;line-height:43px;}
+.flight-zjtable4 label{display:inline-block;width:90px;color:#666;}
+.flight-zjtable5{border:1px solid #bcbcbc;border-bottom:none;background:#fff;color:#333;font-size:15px;}
+.flight-zjtable5 li{padding:0 10px;position:relative;border-bottom:1px solid #bcbcbc;height:43px;line-height:43px;}
+.flight-zjtable5 label{display:inline-block;width:90px;}
 /* **
 ** E 值机 */
 /* !
