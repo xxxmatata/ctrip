@@ -381,6 +381,7 @@ i{font-style:normal;font-weight:normal;}
 .mt10{margin-top:10px;}
 .mt30{margin-top:30px;}
 .pd10{padding:10px;}
+.pd15{padding:15px;}
 .pdlr10{padding:0 10px;}
 .mtm11{margin-top:-11px;}
 .mb21{margin-bottom:21px;}
@@ -422,6 +423,9 @@ i{font-style:normal;font-weight:normal;}
 .clr-099fde{color:#099fde}
 /* 橙色文字 */
 .clr-ff9a14{color:#ff9a14}
+/* 背景颜色 */
+.bg-trs{background:transparent;}
+.bg-wht{background:#fff;}
 /* 字体相关 */
 .fnt-l{text-align:left;}
 .fnt-r{text-align:right;}
@@ -684,6 +688,7 @@ i{font-style:normal;font-weight:normal;}
 ** E 国际机票 */
 /* **
 ** S 值机 */
+/* 值机-已登录 */
 .flight-headtips{padding:10px;font-size:14px;line-height:1;color:#666;}
 .flight-zjtable{border:1px solid #bcbcbc;border-bottom:none;background:#fff;color:#333;}
 .flight-zjtable li{padding:0 10px;position:relative;border-bottom:1px solid #bcbcbc;height:43px;line-height:43px;}
@@ -695,6 +700,27 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjfooter ul li{width:33%;-webkit-box-flex:1;-moz-flex:1;-ms-box-flex:1;box-flex:1;flex:1;border-top:1px solid #d3d3d3;border-left:1px solid #d3d3d3;text-align:center;color:#666;font-size:13px;}
 .flight-zjfooter ul li.current{border-top:1px solid #008fc8;border-left:1px solid #008fc8;background:#008fc8;color:#fff;}
 .flight-zjfooter ul li:first-child{border-left:none;}
+/* 值机-未登录 */
+.flight-zjsbq{width:290px;margin-left: auto;margin-right: auto;}
+.flight-zjsbq h2{height:60px;line-height:60px;color:#8e734d;font-size: 24px;font-weight: normal;font-family: 'Microsoft Yahei';text-align: center;letter-spacing: 4px;}
+.flight-zjsbq-icons{height: 90px;}
+.flight-zjsbq-icons i{float:left;width: 90px;height:90px;margin-left:10px;background: #f7e093;border-radius: 50%;position: relative;}
+.flight-zjsbq-icons i:first-child{margin-left:0;}
+.flight-zjsbq-icons i:first-child:after{content:'';position: absolute;left:50%;top:50%;width: 56px;height: 53px;margin-left:-28px;margin-top:-26.5px;background: url(../img/flight-icon.png) no-repeat 0 -135px;background-size: 100px;}
+.flight-zjsbq-icons i:nth-child(2):after{content:'';position: absolute;left:50%;top:50%;width: 58px;height: 55px;margin-left:-22px;margin-top:-27.5px;background: url(../img/flight-icon.png) no-repeat 0 -190px;background-size: 100px;}
+.flight-zjsbq-icons i:last-child:after{content:'';position: absolute;left:50%;top:50%;width: 50px;height: 53px;margin-left:-25px;margin-top:-26.5px;background: url(../img/flight-icon.png) no-repeat 0 -250px;background-size: 100px;}
+.flight-zjsbq-steps{width:100%;height:52px;line-height:52px;position: relative;}
+.flight-zjsbq-steps span{float:left;width:90px;margin-left:10px;text-align: center;color:#8e734d;font-size: 15px;}
+.flight-zjsbq-steps span:first-child{margin-left:0;}
+.flight-zjsbq-steps i{position: absolute;width:19px;height:13px;top:50%;margin-top:-6.5px;left:90px;background: url(../img/flight-icon.png) no-repeat -80px -60px;background-size: 100px;}
+.flight-zjsbq-steps i:last-child{left:185px;}
+.flight-zjsbq-tips{padding-left:30px;}
+.flight-zjsbq-tips li{position: relative;padding-left:18px;height:20px;line-height:20px;font-size: 12px;color:#8e734d;}
+.flight-zjsbq-tips li:before{content:'';position: absolute;width:13px;height:13px;left:0;top:50%;margin-top:-7px;background: url(../img/flight-icon.png) no-repeat -60px -60px;background-size: 100px;}
+.flight-zjsbq-btns{margin-top:20px;}
+.flight-zjsbq-btns span{float:left;width:113px;margin-right:10px;text-align:center;height:38px;line-height:38px;border:1px solid #d3d3d3;color:#666;font-size:16px;border-radius:3px;}
+.flight-zjsbq-btns span.member{width:163px;margin-right:0;background:#ff9a14;border:1px solid #ff9a14;color:#fff;}
+
 /* **
 ** E 值机 */
 /* !
