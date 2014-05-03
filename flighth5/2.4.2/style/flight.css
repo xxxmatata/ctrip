@@ -379,6 +379,7 @@ i{font-style:normal;font-weight:normal;}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
 .mt0{margin-top:0;}
+.mt5{margin-top:5px;}
 .mt10{margin-top:10px;}
 .mt30{margin-top:30px;}
 .pd10{padding:10px;}
@@ -752,7 +753,8 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjtable5 li{padding:0 10px;position:relative;border-bottom:1px solid #bcbcbc;height:43px;line-height:43px;}
 .flight-zjtable5 label{display:inline-block;width:90px;}
 /* 值机列表 */
-.flight-zjlist{}
+.flight-zjlist{padding:5px 10px 10px;border-top: 2px solid #d2d2d2;border-bottom: 1px solid #d2d2d2;background: #fff;}
+.flight-zjlist-hb{background: #ececec;color: #666;font-size: 12px;height:31px;line-height: 31px;padding-left: 10px;}
 /* **
 ** E 值机 */
 /* !
