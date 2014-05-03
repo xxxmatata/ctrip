@@ -74,7 +74,11 @@ table{border-collapse:collapse;border-spacing:0}
 td,
 th{padding:0}
 .comlist{padding:10px;}
-.comlist ol{list-style-position: inside;margin: 0;padding: 0;padding-left:10px;}
+.comlist h2{cursor: pointer;padding-left:20px;position: relative;}
+.comlist h2:before{content: '';position:absolute;width:0;height:0;left:0;top:50%;margin-top:-4px;border: 8px solid;border-color: transparent transparent transparent #000; }
+.comlist h2.showol:before{margin-top:-2px;border-color:#000 transparent transparent transparent;}
+.comlist ol{list-style-position: inside;margin: 0;padding: 0;padding-left:10px;display:none;}
+.comlist ol.olshow{display: block;}
 .comlist-ewm{height:0;overflow:hidden;transition:height 1s;-webkit-transition:height 1s;-moz-transition:height 1s;-o-transition:height 1s;}
 .comlist li{padding:0 10px;}
 .comlist li h3{padding:0;margin:0;line-height: 2;font-size: 1em;font-weight: normal;}
