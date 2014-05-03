@@ -544,6 +544,9 @@ i{font-style:normal;font-weight:normal;}
 .flight-btn-clm i{display: inline-block;width: 10px;}
 /* E 按钮button */
 .flight-header-action{position: absolute;right:0;top:0;width: 65px;height:48px;line-height:48px;text-align:center;color:#fff; font-size: 15px;letter-spacing: 2px; background: #14b1e7;}
+/* 说明性文字 */
+.flight-article{padding:10px;}
+.flight-article p{margin-bottom: 10px;line-height: 20px;font-size: 14px;color: #666;}
 /* 小固件↑ */
 /* js相关 */
 .js_sublist{display:none;}
@@ -748,6 +751,8 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjtable5{border:1px solid #bcbcbc;border-bottom:none;background:#fff;color:#333;font-size:15px;}
 .flight-zjtable5 li{padding:0 10px;position:relative;border-bottom:1px solid #bcbcbc;height:43px;line-height:43px;}
 .flight-zjtable5 label{display:inline-block;width:90px;}
+/* 值机列表 */
+.flight-zjlist{}
 /* **
 ** E 值机 */
 /* !
