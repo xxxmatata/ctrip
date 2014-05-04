@@ -73,6 +73,8 @@ optgroup{font-weight:bold}
 table{border-collapse:collapse;border-spacing:0}
 td,
 th{padding:0}
+.h1tip{padding-left:0px;}
+.h1tip p{margin:0;padding:5px 0;}
 .comlist{padding:10px;}
 .comlist h2{cursor: pointer;padding-left:20px;position: relative;}
 .comlist h2:before{content: '';position:absolute;width:0;height:0;left:0;top:50%;margin-top:-4px;border-style: solid; border-width: 8px  16px 8px 16px;border-color: transparent transparent transparent #333; }
