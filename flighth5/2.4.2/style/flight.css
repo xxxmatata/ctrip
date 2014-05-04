@@ -756,12 +756,19 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjtable5 li{padding:0 10px;position:relative;border-bottom:1px solid #bcbcbc;height:43px;line-height:43px;}
 .flight-zjtable5 label{display:inline-block;width:90px;}
 /* 值机列表 */
-.flight-zjlist{padding:5px 10px 10px;border-top: 2px solid #d2d2d2;border-bottom: 1px solid #d2d2d2;background: #fff;}
+.flight-zjlist{margin-top:5px;padding:5px 10px 10px;border-top: 2px solid #d2d2d2;border-bottom: 1px solid #d2d2d2;background: #fff;}
 .flight-zjlist-hd{background: #ececec;color: #666;font-size: 12px;height:31px;line-height: 31px;padding-left: 10px;}
 .flight-zjlist-info{color: #666;font-size: 12px;margin-top:10px;}
 .flight-zjlist-time{font-size: 30px;color:#333;position: relative;}
 .flight-icon-flight3{position: absolute;width: 31px;height: 24px;left: 50%;top:50%;margin-left:-15px;margin-top:-12px;background: url(../img/flight-icon.png) no-repeat -60px -80px;background-size: 100px;}
-.flight-zjlist-person{border-top: 2px solid #099fde;}
+.flight-zjlist-person{border-top: 2px solid #099fde;margin-top:10px;}
+.flight-zjlist-person p{height: 40px;line-height: 40px;color:#666;}
+.flight-zjlist-person .name{font-weight: bold;color:#333;float:left;margin-right:5px;width: 80px;height:40px;line-height:40px;overflow: hidden;}
+.flight-zjlist-person .pos{font-weight: bold;color: #333;}
+.flight-zjlist-person .btn{float: right;width: 70px;height:28px;line-height: 28px;text-align: center;color: #fff;font-size:14px;letter-spacing: 4px; background: #ff9a14;border:1px solid #ff9a14;border-radius: 3px;margin-top:4px;}
+.flight-zjlist-person .btn1{border-color: #dbdbdb;background: #fff;color:#099fde;letter-spacing: 1px;}
+.flight-zjlist-person .btn2{border-color: #fff;background: #fff;color: #666;letter-spacing: 1px;}
+.flight-zjlist-person .flight-zjlist-dis{text-align: center;color:#999;}
 /* **
 ** E 值机 */
 /* !
