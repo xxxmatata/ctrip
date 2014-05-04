@@ -378,6 +378,9 @@ i{font-style:normal;font-weight:normal;}
 .tab_by li{display:table-cell\9;width:33%;}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
+.f-l{float:left;}
+.f-r{float:right;}
+.f-n{float: none;}
 .mt0{margin-top:0;}
 .mt5{margin-top:5px;}
 .mt10{margin-top:10px;}
@@ -754,7 +757,11 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjtable5 label{display:inline-block;width:90px;}
 /* 值机列表 */
 .flight-zjlist{padding:5px 10px 10px;border-top: 2px solid #d2d2d2;border-bottom: 1px solid #d2d2d2;background: #fff;}
-.flight-zjlist-hb{background: #ececec;color: #666;font-size: 12px;height:31px;line-height: 31px;padding-left: 10px;}
+.flight-zjlist-hd{background: #ececec;color: #666;font-size: 12px;height:31px;line-height: 31px;padding-left: 10px;}
+.flight-zjlist-info{color: #666;font-size: 12px;margin-top:10px;}
+.flight-zjlist-time{font-size: 30px;color:#333;position: relative;}
+.flight-icon-flight3{position: absolute;width: 31px;height: 24px;left: 50%;top:50%;margin-left:-15px;margin-top:-12px;background: url(../img/flight-icon.png) no-repeat -60px -80px;background-size: 100px;}
+.flight-zjlist-person{border-top: 2px solid #099fde;}
 /* **
 ** E 值机 */
 /* !
