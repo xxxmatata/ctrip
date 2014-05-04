@@ -385,6 +385,7 @@ i{font-style:normal;font-weight:normal;}
 .mt5{margin-top:5px;}
 .mt10{margin-top:10px;}
 .mt30{margin-top:30px;}
+.pd5{padding:5px;}
 .pd10{padding:10px;}
 .pd15{padding:15px;}
 .pdlr10{padding:0 10px;}
@@ -772,6 +773,9 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjlist-person .flight-zjlist-dis{text-align: center;color:#999;}
 .flight-zjlist-fromother{margin:10px 0;padding:0 10px;height:44px;line-height: 44px;font-size: 14px;color:#099fde;border-top: 1px solid #dbdbdb;border-bottom: 1px solid #dbdbdb;background: #fff;position: relative;}
 .flight-zjlist-fromother:after{content:'';position:absolute;width:10px;height:10px;right:20px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+/* 选择行程 */
+.flight-zjxc{padding:5px 10px;margin-bottom:10px;border:1px solid #dbdbdb;background: #fff;color:rgba(0,0,0,0.8);font-size:13px;line-height: 1.5; position: relative;}
+.flight-zjxc:after{content:'';position:absolute;width:10px;height:10px;right:20px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 /* **
 ** E 值机 */
 /* !
