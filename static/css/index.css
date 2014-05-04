@@ -75,8 +75,10 @@ td,
 th{padding:0}
 .comlist{padding:10px;}
 .comlist h2{cursor: pointer;padding-left:20px;position: relative;}
-.comlist h2:before{content: '';position:absolute;width:0;height:0;left:0;top:50%;margin-top:-4px;border: 8px solid;border-color: transparent transparent transparent #000; }
-.comlist h2.showol:before{margin-top:-2px;border-color:#000 transparent transparent transparent;}
+.comlist h2:before{content: '';position:absolute;width:0;height:0;left:0;top:50%;margin-top:-4px;border-style: solid; border-width: 8px  16px 8px 16px;border-color: transparent transparent transparent #333; }
+.comlist h2.showol:before{border-width: 16px  8px 16px 8px;border-color:#333 transparent transparent transparent;}
+.comlist h2:hover:before{border-color: transparent transparent transparent #666;}
+.comlist h2.showol:hover:before{border-color:#666 transparent transparent transparent;}
 .comlist ol{list-style-position: inside;margin: 0;padding: 0;padding-left:10px;display:none;}
 .comlist ol.olshow{display: block;}
 .comlist-ewm{height:0;overflow:hidden;transition:height 1s;-webkit-transition:height 1s;-moz-transition:height 1s;-o-transition:height 1s;}

@@ -714,6 +714,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjfooter ul li{width:33%;-webkit-box-flex:1;-moz-flex:1;-ms-box-flex:1;box-flex:1;flex:1;border-top:1px solid #d3d3d3;border-left:1px solid #d3d3d3;text-align:center;color:#666;font-size:13px;}
 .flight-zjfooter ul li.current{border-top:1px solid #008fc8;border-left:1px solid #008fc8;background:#008fc8;color:#fff;}
 .flight-zjfooter ul li:first-child{border-left:none;}
+.flight-zjfooter-blank{height: 40px;}
 /* 值机-未登录 */
 .flight-zjsbq{width:290px;margin-left: auto;margin-right: auto;}
 .flight-zjsbq h2{height:60px;line-height:60px;color:#8e734d;font-size: 24px;font-weight: normal;font-family: 'Microsoft Yahei';text-align: center;letter-spacing: 4px;}
