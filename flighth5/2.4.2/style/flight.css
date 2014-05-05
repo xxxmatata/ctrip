@@ -318,6 +318,7 @@ mark{background:none;}
 .hyb_detail_kuaidi .newarr_r:before{background:#1491c5;}
 .hyb_detail_kuaidi em{margin-right:15px;display:inline-block;}
 .hyb_detail_kuaidi span{display:block;}
+/*--------------------------------- old end ---------------------------------*/
 /* !
 ** S pyh彭延华 */
 /* S 机票公共样式 */
@@ -376,6 +377,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-hyb_cancel span{padding:7px 10px;}
 .tab_by{display:table\9;}
 .tab_by li{display:table-cell\9;width:33%;}
+#panel-box{overflow:hidden;min-height: 360px;}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
 .f-l{float:left;}
@@ -384,6 +386,7 @@ i{font-style:normal;font-weight:normal;}
 .mt0{margin-top:0;}
 .mt5{margin-top:5px;}
 .mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
 .mt30{margin-top:30px;}
 .pd5{padding:5px;}
 .pd10{padding:10px;}

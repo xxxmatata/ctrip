@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
-    <title>取消值机－需要验证码取消流程</title>
+    <title>值机列表-未到值机时间，不支持选座或座位申请中，只支持值机的航班</title>
     <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
     <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
     <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
@@ -14,34 +14,19 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
     <link href="../style/main.css" rel="stylesheet" />
     <link href="../style/flight.css" rel="stylesheet" />
-    <link href="../style/flights_logo.css" rel="stylesheet" />
 </head>
 
 <body>
-    <header class="flight-header">
-        <h1>取消值机</h1>
-        <i class="returnico" id="js_return"></i> 
+    <header>
+        <b class="icon_home i_bef" id="js_home"></b>
+        <a href="tel:4000086666" class="icon_phone i_bef __hreftel__" id="js_phone"></a>
+        <h1>值机</h1><i id="js_return" class="returnico"></i>
     </header>
     <div class="flight-header-blank"></div>
     <div class="pd10">
-        <ul class="flight-zjtable2">
-            <li><span class="pubFlights_MU "></span><span>&nbsp;</span><span>东方航空MU5107</span></li>
-            <li>
-                <label>手机号</label>
-                <input value="13661881234">
-            </li>
-            <li>
-                <label>验证码</label>
-                <input placeholder="请输入验证码">
-                <span class="yzm">获取<br>验证码</span>
-            </li>
-            <li>
-                <label>验证码</label>
-                <input placeholder="请输入验证码">
-                <span class="yzm yzm2">重新获取<br><em>60</em></span>
-            </li>
-        </ul>
-        <span class="flight-btn-org mt30">提交</span>
+        <p class="fnt-18 clr-666 fnt-c mt30">该航班不支持在线值机</p>
+        <p class="fnt-14 clr-666 fnt-c mt30">您可以提前预约座位</p>
+        <span class="flight-btn-org mt20">预约选座</span>
     </div>
 </body>
 
