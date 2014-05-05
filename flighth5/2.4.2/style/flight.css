@@ -784,8 +784,8 @@ i{font-style:normal;font-weight:normal;}
 .flight-icon-seat.st-abl b:before{border-color:#fff;}
 .flight-icon-seat.st-abl b:after{border-color:#fff;}
 .flight-icon-seat.st-peo{background: #e5e5e5;}
-.flight-icon-seat.st-peo b{border:none;width: 48px;height:18px;background: #ccc;margin-left:-24px;border-radius: 10px 10px 0 0;top:44px;}
-.flight-icon-seat.st-peo b:before{content: '';position: absolute;;width: 26px;height: 26px;left:50%;top:-30px;margin-left:-13px;border:none;border-radius: 50%;background: #ccc;}
+.flight-icon-seat.st-peo b{border:none;top:42px;width: 48px;height:18px;background: #ccc;margin-left:-24px;border-radius: 10px 10px 0 0;}
+.flight-icon-seat.st-peo b:before{content: '';position: absolute;;width: 26px;height: 26px;left:50%;top:-29px;margin-left:-13px;border:none;border-radius: 50%;background: #ccc;}
 .flight-icon-seat.st-peo b:after{display: none;}
 
 
