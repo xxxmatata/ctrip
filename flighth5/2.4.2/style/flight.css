@@ -558,6 +558,10 @@ i{font-style:normal;font-weight:normal;}
 /* 说明性文字 */
 .flight-article{padding:10px;}
 .flight-article p{margin-bottom:10px;line-height:20px;font-size:14px;color:#666;}
+/* 头部两行 */
+.flight-header .h1two h1{position:relative; font-size: 18px;line-height: 1;padding-top:5px;}
+.flight-header .h1two p{color:rgba(255,255,255,0.6);text-align: center;font-size:12px;line-height: 1;padding-top:5px;}
+.flight-header .h1two p span:nth-child(2){margin-left:12px;}
 /* 小固件↑ */
 /* js相关 */
 .js_sublist{display:none;}
@@ -589,7 +593,7 @@ i{font-style:normal;font-weight:normal;}
 /* E 机票列表页优化 */
 /* S 机票查询页优化 */
 .flight-srhform{border:1px solid #bcbcbc;border-bottom:none;background:#fff;}
-.flight-srhform li{border-bottom:1px solid #bcbcbc;display:table;width:100%;}
+.flight-srhform li{border-bottom:1px solid #bcbcbc;display:table;width:100%;position: relative;}
 .flight-srhform dl{display:table-cell;vertical-align:middle;width:43%}
 .flight-srhform dd{position:relative;line-height:44px;padding-left:35px;overflow:hidden;}
 .flight-switch dd{height:44px;}
