@@ -339,6 +339,7 @@ i{font-style:normal;font-weight:normal;}
 .icon_home, .icon_phone{width: 44px;}
 .icon_phone:before{top:12px;right:14px;}
 .icon_home:before{top:12px;right:14px;}
+.header_r, .header_rs, .rightblue{line-height: 44px;}
 .tab_by em{margin-left:4px;}
 .cui_cld_daycrt{background:#099fde}
 .hyb_detail_pub{border:1px solid #bcbcbc;}
