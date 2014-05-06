@@ -785,40 +785,40 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjxc:after{content:'';position:absolute;width:10px;height:10px;right:20px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 /* 座位 */
 /* 32x40 */
-.flight-icon-seat{margin-right:10px;display:inline-block;width:28px;height:36px;border:2px solid #ccc;background:#fff;border-radius:6px;overflow:hidden;position:relative;}
-.flight-icon-seat b{position:absolute;width:16px;height:25px;left:50%;top:5px;margin-left:-10px;border:2px solid #ccc;border-top:none;border-radius:0px 0px 4px 4px;}
-.flight-icon-seat b:before{content:'';position:absolute;width:5px;height:5px;left:-7px;top:-7px;border-top:2px solid #ccc;border-right:2px solid #ccc;border-radius:0 5px 0 0;}
-.flight-icon-seat b:after{content:'';position:absolute;width:5px;height:5px;right:-7px;top:-7px;border-top:2px solid #ccc;border-left:2px solid #ccc;border-radius:5px 0 0 0;}
-.flight-icon-seat.st-dis{background:#e5e5e5;}
-.flight-icon-seat.st-abl{background:#7dc564;border-color:#75b651;}
-.flight-icon-seat.st-abl b{border-color:#fff;}
-.flight-icon-seat.st-abl b:before{border-color:#fff;}
-.flight-icon-seat.st-abl b:after{border-color:#fff;}
-.flight-icon-seat.st-peo{background:#e5e5e5;}
-.flight-icon-seat.st-peo b{border:none;top:21px;width:24px;height:9px;background:#ccc;margin-left:-12px;border-radius:5px 5px 0 0;}
-.flight-icon-seat.st-peo b:before{content:'';position:absolute;width:14px;height:14px;left:50%;top:-15px;margin-left:-7px;border:none;border-radius:50%;background:#ccc;}
-.flight-icon-seat.st-peo b:after{display:none;}
+.flight-icon-seat1{margin-right:10px;display:inline-block;width:28px;height:36px;border:2px solid #ccc;background:#fff;border-radius:6px;overflow:hidden;position:relative;}
+.flight-icon-seat1 b{position:absolute;width:16px;height:25px;left:50%;top:5px;margin-left:-10px;border:2px solid #ccc;border-top:none;border-radius:0px 0px 4px 4px;}
+.flight-icon-seat1 b:before{content:'';position:absolute;width:5px;height:5px;left:-7px;top:-7px;border-top:2px solid #ccc;border-right:2px solid #ccc;border-radius:0 5px 0 0;}
+.flight-icon-seat1 b:after{content:'';position:absolute;width:5px;height:5px;right:-7px;top:-7px;border-top:2px solid #ccc;border-left:2px solid #ccc;border-radius:5px 0 0 0;}
+.flight-icon-seat1.st-dis{background:#e5e5e5;}
+.flight-icon-seat1.st-abl{background:#7dc564;border-color:#75b651;}
+.flight-icon-seat1.st-abl b{border-color:#fff;}
+.flight-icon-seat1.st-abl b:before{border-color:#fff;}
+.flight-icon-seat1.st-abl b:after{border-color:#fff;}
+.flight-icon-seat1.st-peo{background:#e5e5e5;}
+.flight-icon-seat1.st-peo b{border:none;top:21px;width:24px;height:9px;background:#ccc;margin-left:-12px;border-radius:5px 5px 0 0;}
+.flight-icon-seat1.st-peo b:before{content:'';position:absolute;width:14px;height:14px;left:50%;top:-15px;margin-left:-7px;border:none;border-radius:50%;background:#ccc;}
+.flight-icon-seat1.st-peo b:after{display:none;}
 /* 20x25 */
-.st-x20 .flight-icon-seat{width:16px;height:21px;border-radius:4px;}
-.st-x20 .flight-icon-seat b{width:8px;height:13px;left:50%;top:3px;margin-left:-6px;border-radius:0px 0px 3px 3px;}
-.st-x20 .flight-icon-seat b:before{width:3px;height:3px;left:-5px;top:-5px;border-radius:0 4px 0 0;}
-.st-x20 .flight-icon-seat b:after{width:3px;height:3px;right:-5px;top:-5px;border-radius:4px 0 0 0;}
-.st-x20 .flight-icon-seat.st-peo b{top:13px;width:14px;height:5px;margin-left:-7px;border-radius:3px 3px 0 0;}
-.st-x20 .flight-icon-seat.st-peo b:before{width:8px;height:8px;left:50%;top:-9px;margin-left:-4px;border:none;border-radius:50%;background:#ccc;}
+.st-x20 .flight-icon-seat1{width:16px;height:21px;border-radius:4px;}
+.st-x20 .flight-icon-seat1 b{width:8px;height:13px;left:50%;top:3px;margin-left:-6px;border-radius:0px 0px 3px 3px;}
+.st-x20 .flight-icon-seat1 b:before{width:3px;height:3px;left:-5px;top:-5px;border-radius:0 4px 0 0;}
+.st-x20 .flight-icon-seat1 b:after{width:3px;height:3px;right:-5px;top:-5px;border-radius:4px 0 0 0;}
+.st-x20 .flight-icon-seat1.st-peo b{top:13px;width:14px;height:5px;margin-left:-7px;border-radius:3px 3px 0 0;}
+.st-x20 .flight-icon-seat1.st-peo b:before{width:8px;height:8px;left:50%;top:-9px;margin-left:-4px;border:none;border-radius:50%;background:#ccc;}
 /* 24x30 */
-.st-x24 .flight-icon-seat{width:20px;height:26px;border-radius:5px;}
-.st-x24 .flight-icon-seat b{width:10px;height:17px;left:50%;top:4px;margin-left:-7px;border-radius:0px 0px 4px 4px;}
-.st-x24 .flight-icon-seat b:before{width:4px;height:4px;left:-6px;top:-6px;border-radius:0 4px 0 0;}
-.st-x24 .flight-icon-seat b:after{width:4px;height:4px;right:-6px;top:-6px;border-radius:4px 0 0 0;}
-.st-x24 .flight-icon-seat.st-peo b{top:15px;width:16px;height:6px;margin-left:-8px;border-radius:3px 3px 0 0;}
-.st-x24 .flight-icon-seat.st-peo b:before{width:10px;height:10px;left:50%;top:-11px;margin-left:-5px;border:none;border-radius:50%;background:#ccc;}
+.st-x24 .flight-icon-seat1{width:20px;height:26px;border-radius:5px;}
+.st-x24 .flight-icon-seat1 b{width:10px;height:17px;left:50%;top:4px;margin-left:-7px;border-radius:0px 0px 4px 4px;}
+.st-x24 .flight-icon-seat1 b:before{width:4px;height:4px;left:-6px;top:-6px;border-radius:0 4px 0 0;}
+.st-x24 .flight-icon-seat1 b:after{width:4px;height:4px;right:-6px;top:-6px;border-radius:4px 0 0 0;}
+.st-x24 .flight-icon-seat1.st-peo b{top:15px;width:16px;height:6px;margin-left:-8px;border-radius:3px 3px 0 0;}
+.st-x24 .flight-icon-seat1.st-peo b:before{width:10px;height:10px;left:50%;top:-11px;margin-left:-5px;border:none;border-radius:50%;background:#ccc;}
 /* 64x80 */
-.st-x64 .flight-icon-seat{width:60px;height:76px;border-radius:10px;}
-.st-x64 .flight-icon-seat b{width:34px;height:56px;left:50%;top:8px;margin-left:-20px;border-radius:0px 0px 6px 6px;}
-.st-x64 .flight-icon-seat b:before{width:8px;height:8px;left:-10px;top:-10px;border-radius:0 8px 0 0;}
-.st-x64 .flight-icon-seat b:after{width:8px;height:8px;right:-10px;top:-10px;border-radius:8px 0 0 0;}
-.st-x64 .flight-icon-seat.st-peo b{top:42px;width:48px;height:18px;margin-left:-24px;border-radius:10px 10px 0 0;}
-.st-x64 .flight-icon-seat.st-peo b:before{width:26px;height:26px;left:50%;top:-29px;margin-left:-13px;border:none;border-radius:50%;background:#ccc;}
+.st-x64 .flight-icon-seat1{width:60px;height:76px;border-radius:10px;}
+.st-x64 .flight-icon-seat1 b{width:34px;height:56px;left:50%;top:8px;margin-left:-20px;border-radius:0px 0px 6px 6px;}
+.st-x64 .flight-icon-seat1 b:before{width:8px;height:8px;left:-10px;top:-10px;border-radius:0 8px 0 0;}
+.st-x64 .flight-icon-seat1 b:after{width:8px;height:8px;right:-10px;top:-10px;border-radius:8px 0 0 0;}
+.st-x64 .flight-icon-seat1.st-peo b{top:42px;width:48px;height:18px;margin-left:-24px;border-radius:10px 10px 0 0;}
+.st-x64 .flight-icon-seat1.st-peo b:before{width:26px;height:26px;left:50%;top:-29px;margin-left:-13px;border:none;border-radius:50%;background:#ccc;}
 /* **
 ** E 值机 */
 /* !
