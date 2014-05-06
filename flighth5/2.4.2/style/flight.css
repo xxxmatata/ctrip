@@ -318,7 +318,7 @@ mark{background:none;}
 .hyb_detail_kuaidi .newarr_r:before{background:#1491c5;}
 .hyb_detail_kuaidi em{margin-right:15px;display:inline-block;}
 .hyb_detail_kuaidi span{display:block;}
-/*--------------------------------- old end ---------------------------------*/
+/* --------------------------------- old end --------------------------------- */
 /* !
 ** S pyh彭延华 */
 /* S 机票公共样式 */
@@ -377,7 +377,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-hyb_cancel span{padding:7px 10px;}
 .tab_by{display:table\9;}
 .tab_by li{display:table-cell\9;width:33%;}
-#panel-box{overflow:hidden;min-height: 360px;}
+#panel-box{overflow:hidden;min-height:360px;}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
 .f-l{float:left;}
@@ -788,7 +788,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-icon-seat.st-abl b:after{border-color:#fff;}
 .flight-icon-seat.st-peo{background:#e5e5e5;}
 .flight-icon-seat.st-peo b{border:none;top:21px;width:24px;height:9px;background:#ccc;margin-left:-12px;border-radius:5px 5px 0 0;}
-.flight-icon-seat.st-peo b:before{content:'';position:absolute;width:13px;height:13px;left:50%;top:-14px;margin-left:-6.5px;border:none;border-radius:50%;background:#ccc;}
+.flight-icon-seat.st-peo b:before{content:'';position:absolute;width:14px;height:14px;left:50%;top:-15px;margin-left:-7px;border:none;border-radius:50%;background:#ccc;}
 .flight-icon-seat.st-peo b:after{display:none;}
 /* 20x25 */
 .st-x20 .flight-icon-seat{width:16px;height:21px;border-radius:4px;}
