@@ -800,8 +800,8 @@ i{font-style:normal;font-weight:normal;}
 /* 24x30 */
 .st-x24 .flight-icon-seat{width:20px;height:26px;border-radius:5px;}
 .st-x24 .flight-icon-seat b{width:10px;height:17px;left:50%;top:4px;margin-left:-7px;border-radius:0px 0px 4px 4px;}
-.st-x24 .flight-icon-seat b:before{width:4px;height:4px;left:-6px;top:-5px;border-radius:0 4px 0 0;}
-.st-x24 .flight-icon-seat b:after{width:4px;height:4px;right:-6px;top:-5px;border-radius:4px 0 0 0;}
+.st-x24 .flight-icon-seat b:before{width:4px;height:4px;left:-6px;top:-6px;border-radius:0 4px 0 0;}
+.st-x24 .flight-icon-seat b:after{width:4px;height:4px;right:-6px;top:-6px;border-radius:4px 0 0 0;}
 .st-x24 .flight-icon-seat.st-peo b{top:15px;width:16px;height:6px;margin-left:-8px;border-radius:3px 3px 0 0;}
 .st-x24 .flight-icon-seat.st-peo b:before{width:10px;height:10px;left:50%;top:-11px;margin-left:-5px;border:none;border-radius:50%;background:#ccc;}
 /* 64x80 */
