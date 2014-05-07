@@ -781,10 +781,10 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjtable5 label{display:inline-block;width:90px;}
 /* 值机列表 */
 .flight-zjlist{margin-top:5px;padding:5px 10px 10px;border-top:2px solid #d2d2d2;border-bottom:1px solid #d2d2d2;background:#fff;font-size:14px;color:rgba(0,0,0,0.8);}
-.flight-zjlist-info{border-top:1px dotted #dfdfdf;margin-top:5px;padding-top:5px;}
+.flight-zjlist-info{border-top:1px dashed #dfdfdf;margin-top:5px;padding-top:5px;}
 .flight-zjlist-time{font-size:30px;position:relative;}
 .flight-icon-flight3{position:absolute;width:31px;height:24px;left:50%;top:50%;margin-left:-15px;margin-top:-12px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -60px -80px;background-size:100px;}
-.flight-zjlist-person{border-top:1px dotted #dfdfdf;margin-top:10px;}
+.flight-zjlist-person{border-top:1px dashed #dfdfdf;margin-top:10px;}
 
 .flight-zjlist-person p{height:40px;line-height:40px;}
 .flight-zjlist-person .name{float:left;margin-right:5px;width:80px;height:40px;line-height:40px;overflow:hidden;}
