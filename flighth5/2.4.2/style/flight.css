@@ -558,7 +558,7 @@ i{font-style:normal;font-weight:normal;}
 /* 橙底白字 */
 .flight-btn-org{display:inline-block;width:100%;background:#ff9a14;color:#fff;text-align:center;height:44px;line-height:44px;font-size:18px;border-radius:3px;}
 .flight-btn-clm{width:100%;margin-top:10px;height:39px;line-height:39px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;display:table\9;}
-.flight-btn-clm button{text-align:center;color:#099fde;font-size:15px;border:1px solid #dbdbdb;background:#fff;border-radius:3px;-moz-box-sizing:border-box;box-flex:1;flex:1;-webkit-box-flex:1;-moz-flex:1;-ms-flex:1;display:table-cell\9;}
+.flight-btn-clm button{display:block;text-align:center;color:#099fde;font-size:15px;border:1px solid #dbdbdb;background:#fff;border-radius:3px;-moz-box-sizing:border-box;box-flex:1;flex:1;-webkit-box-flex:1;-moz-flex:1;-ms-flex:1;display:table-cell\9;}
 .flight-btn-clm i{display:inline-block;width:10px;}
 /* E 按钮button */
 .flight-header-action{position:absolute;right:0;top:0;width:54px;height:44px;line-height:44px;text-align:center;color:#fff;font-size:15px;letter-spacing:2px;background:#14b1e7;}
