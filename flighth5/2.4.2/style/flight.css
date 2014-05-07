@@ -334,8 +334,8 @@ em,
 b,
 i{font-style:normal;font-weight:normal;}
 .flight-header-blank{height:44px;}
-.returnico{width:54px;height:44px;background:#14b1e7;}
-.returnico:before{content:'';position:absolute;width:14px;height:14px;left:50%;top:50%;margin-top:-7px;margin-left:-7px;border-left:2px solid #fff;border-bottom:2px solid #fff;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);background:none;}
+.returnico{display:block;width:54px;height:44px;background:#14b1e7;}
+.returnico:before{content:'';position:absolute;display:block;width:14px;height:14px;left:50%;top:50%;margin-top:-7px;margin-left:-7px;border-left:2px solid #fff;border-bottom:2px solid #fff;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);background:none;}
 .icon_home, .icon_phone{width: 44px;}
 .icon_phone:before{top:12px;right:14px;}
 .icon_home:before{top:12px;right:14px;}
