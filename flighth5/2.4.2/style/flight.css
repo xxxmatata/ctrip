@@ -755,7 +755,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjsbq-tips{padding-left:30px;}
 .flight-zjsbq-tips li{position:relative;padding-left:18px;height:20px;line-height:20px;font-size:12px;color:#8e734d;}
 .flight-zjsbq-tips li:before{content:'';position:absolute;width:13px;height:13px;left:0;top:50%;margin-top:-7px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -60px -60px;background-size:100px;}
-.flight-zjsbq-btns{margin-top:20px;}
+.flight-zjsbq-btns{margin-top:20px;overflow: hidden;}
 .flight-zjsbq-btns span{float:left;width:113px;margin-right:10px;text-align:center;height:38px;line-height:38px;border:1px solid #d3d3d3;color:#666;font-size:16px;border-radius:3px;}
 .flight-zjsbq-btns span.member{width:163px;margin-right:0;background:#ff9a14;border:1px solid #ff9a14;color:#fff;}
 /* 取消值机 */
