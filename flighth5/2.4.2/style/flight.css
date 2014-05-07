@@ -784,7 +784,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjlist-info{border-top:1px dashed #dfdfdf;margin-top:5px;padding-top:5px;}
 .flight-zjlist-time{font-size:30px;position:relative;}
 .flight-icon-flight3{position:absolute;width:31px;height:24px;left:50%;top:50%;margin-left:-15px;margin-top:-12px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -60px -80px;background-size:100px;}
-.flight-zjlist-person{border-top:1px dashed #dfdfdf;margin-top:10px;}
+.flight-zjlist-person{border-top:1px dotted #dfdfdf;margin-top:10px;}
 .flight-zjlist-person p{height:40px;line-height:40px;}
 .flight-zjlist-person .name{float:left;margin-right:5px;width:80px;height:40px;line-height:40px;overflow:hidden;}
 .flight-zjlist-person .btn{float:right;width:70px;height:28px;line-height:28px;text-align:center;color:#fff;font-size:14px;letter-spacing:4px;background:#ff9a14;border:1px solid #ff9a14;border-radius:3px;margin-top:4px;}
