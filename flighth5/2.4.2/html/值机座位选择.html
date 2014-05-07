@@ -47,10 +47,13 @@
                         <div class="flight-seat">
 
                             <!--setInformationBegin-->
-                            <section class="seat-user-info" data-role="seatUserInfo">
-                                <span class="seat-user" data-role="seatUserName"></span>
-                                <span class="seat-number" data-role="seatUserNum"></span>
-                            </section>
+                            <div data-role="seatUserInfo">
+                                <section class="seat-user-info">
+                                    <span class="seat-user" data-role="seatUserName"><i class="flight-icon-man"></i>王维</span>
+                                    <span class="seat-number" data-role="seatUserNum"><i class="flight-icon-stgrn"><b></b></i>上层14E</span>
+                                </section>
+                                <section class="seat-user-info-blank"></section>
+                            </div>
                             <!--/setInformationEnd-->
 
                             <!--selectSeatBegin-->
@@ -727,10 +730,13 @@
                             <!--/selectSeatEnd-->
 
                             <!--spaceBegin-->
-                            <section class="seat-space-area" data-role="seatSpaceArea">
-                                <span class="seat-space-item selected" data-type="lower">下层舱位</span>
-                                <span class="seat-space-item" data-type="upper">上层舱位</span>
-                            </section>
+                            <div data-role="seatSpaceArea">
+                                <section class="seat-space-area-blank"></section>
+                                <section class="seat-space-area">
+                                    <span class="seat-space-item selected" data-type="lower">下层舱位</span>
+                                    <span class="seat-space-item" data-type="upper">上层舱位</span>
+                                </section>
+                            </div>
                             <!--/spaceEnd-->
 
                             <!--tipsBegin-->
