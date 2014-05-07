@@ -796,6 +796,16 @@ i{font-style:normal;font-weight:normal;}
 /* 选择行程 */
 .flight-zjxc{padding:5px 10px;margin-bottom:10px;border:1px solid #dbdbdb;background:#fff;color:rgba(0,0,0,0.8);font-size:13px;line-height:1.5;position:relative;}
 .flight-zjxc:after{content:'';position:absolute;width:10px;height:10px;right:20px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+/* 选择行程v2 */
+.flight-zjxzxc{margin-top:10px;padding:10px;background: #fff;border:1px solid #cfcfcf;font-size: 14px;color:rgba(0,0,0,0.8);position: relative;}
+.flight-zjxzxc:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+.flight-zjxzxc-date{display: inline-block;width: 86px;text-align: right;margin-right: 14px;}
+.flight-zjxzxc-l2{overflow:hidden;line-height:1;margin-top:6px;}
+.flight-zjxzxc-time1{float:left;width:86px;text-align: right;}
+.flight-zjxzxc-time2{float: left;width: 86px;text-align: left;}
+.flight-zjxzxc-jt{float:left;margin:8px 14px;width: 60px;height:6px;position: relative;}
+.flight-zjxzxc-jt:before{content: '';position: absolute;left:0;bottom:0;width:54px;height:2px;background: #b2b2b2;}
+.flight-zjxzxc-jt:after{content: '';position: absolute;top:0;right:0;width: 0;height:0;border:3px solid;border-color: transparent transparent #b2b2b2 #b2b2b2;}
 /* 座位 */
 /* 32x40 */
 .flight-icon-seat1{margin-right:10px;display:inline-block;width:28px;height:36px;border:2px solid #ccc;background:#fff;border-radius:6px;overflow:hidden;position:relative;}
