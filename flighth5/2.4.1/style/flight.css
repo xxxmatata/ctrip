@@ -581,10 +581,10 @@ i{font-style:normal;font-weight:normal;}
 .flight-srhform .flight-date{height: 44px; padding-right:30px;}
 .flight-srhform .flight-date:before{content:'';position:absolute;width:15px;height:13.5px;left:10px;top:50%;margin-top:-7px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -55px 0;background-size:100px;}
 .flight-srhform .flight-date:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
-.flight-srhform .flight-date1{height:auto;line-height:20px;padding-top:5px;padding-bottom:5px;padding-right:30px;}
+.flight-srhform .flight-date1{height:38px;line-height:16px;padding-top:6px;padding-right:30px;}
 .flight-srhform .flight-date1:before{content:'';position:absolute;width:15px;height:13.5px;left:10px;top:50%;margin-top:-7px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -55px 0;background-size:100px;}
 .flight-srhform .flight-date1:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
-.flight-srhform .flight-date2{border-left:1px solid #bcbcbc;line-height:20px;padding-top:5px;padding-bottom:5px;padding-right:30px;}
+.flight-srhform .flight-date2{border-left:1px solid #bcbcbc;height:38px;line-height:16px;padding-top:6px;padding-right:30px;}
 .flight-srhform .flight-date2:before{content:'';position:absolute;width:15px;height:13.5px;left:10px;top:50%;margin-top:-7px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -55px 0;background-size:100px;}
 .flight-srhform .flight-date2:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 .flight-srhform .flight-pstype:before{content:'';position:absolute;width:17px;height:17px;left:10px;top:50%;margin-top:-8px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -75px 0;background-size:100px;}
