@@ -605,22 +605,25 @@ i{font-style:normal;font-weight:normal;}
 /* E 机票列表页优化 */
 /* S 机票查询页优化 */
 .flight-srhform{border:1px solid #bcbcbc;border-bottom:none;background:#fff;}
-.flight-srhform li{border-bottom:1px solid #bcbcbc;display:table;width:100%;position: relative;}
-.flight-srhform dl{display:table-cell;vertical-align:middle;width:43%}
-.flight-srhform dd{position:relative;line-height:44px;padding-left:35px;overflow:hidden;}
-.flight-switch dd{height:44px;}
-.flight-srhform dd span{position:absolute;width:100%;left:0;top:0;height:44px;line-height:44px;text-indent:35px;-webkit-transition:all .5s ease-in-out;}
-.flight-srhform .flight-txt5{float:left;max-width:110px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
-.flight-departcity:before{content:'';position:absolute;width:12.5px;height:12.5px;left:10px;top:50%;margin-top:-5px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px -35px;background-size:100px;}
-.flight-departcity:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
-.flight-backcity:before{content:'';position:absolute;width:12.5px;height:12.5px;left:10px;top:50%;margin-top:-5px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px -35px;background-size:100px;-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);}
-.flight-backcity:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
-.flight-srhform .flight-cityswitch{display:table-cell;border-left:1px solid #bcbcbc;border-right:1px solid #bcbcbc;width:14%;height:44px;line-height:44px;text-indent:-9999px;position:relative;vertical-align:middle;}
-.flight-srhform .flight-cityswitch:after{content:'';position:absolute;width:16px;height:18px;left:50%;top:50%;margin-left:-8px;margin-top:-9px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -40px -20px;background-size:100px;}
-.flight-srhform .flight-date{padding-right:30px;}
+.flight-srhform li{border-bottom:1px solid #bcbcbc;width:100%;position: relative;overflow: hidden;}
+.flight-srhform dl{position: relative;}
+.flight-srhform dd{position:relative;line-height:44px;padding-left:35px;}
+.flight-switch dl{height: 44px;line-height: 44px;}
+.flight-switch dd{float:left;width: 43%; height:44px;padding:0;}
+.flight-switch dd.flight-backcity{float: right;}
+.flight-switch dd:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+.flight-switch dd span{position:absolute;z-index:2;width:100%;left:0;top:0;height:44px;line-height:44px;text-indent:35px;-webkit-transition:all .5s ease-in-out;}
+.flight-switch .switch_left{-webkit-transform:translateX(-132%);}
+.flight-switch .switch_right{-webkit-transform:translateX(132%);}
+.flight-switch .flight-departcity:before{content:'';position:absolute;width:12.5px;height:12.5px;left:10px;top:50%;margin-top:-5px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px -35px;background-size:100px;}
+.flight-switch .flight-backcity:before{content:'';position:absolute;width:12.5px;height:12.5px;left:10px;top:50%;margin-top:-5px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px -35px;background-size:100px;-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg);}
+.flight-switch .flight-cityswitch{position: absolute;left: 43%;top:0; border-left:1px solid #bcbcbc;border-right:1px solid #bcbcbc;width:14%;height:44px;line-height:44px;text-indent:-9999px;}
+.flight-switch .flight-cityswitch:after{content:'';position:absolute;width:16px;height:18px;left:50%;top:50%;margin-left:-8px;margin-top:-9px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -40px -20px;background-size:100px;}
+.flight-switch .flight-txt5{float:left;max-width:110px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.flight-srhform .flight-date{height: 44px; padding-right:30px;}
 .flight-srhform .flight-date:before{content:'';position:absolute;width:15px;height:13.5px;left:10px;top:50%;margin-top:-7px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -55px 0;background-size:100px;}
 .flight-srhform .flight-date:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
-.flight-srhform .flight-date1{line-height:20px;padding-top:5px;padding-bottom:5px;padding-right:30px;}
+.flight-srhform .flight-date1{height:auto;line-height:20px;padding-top:5px;padding-bottom:5px;padding-right:30px;}
 .flight-srhform .flight-date1:before{content:'';position:absolute;width:15px;height:13.5px;left:10px;top:50%;margin-top:-7px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -55px 0;background-size:100px;}
 .flight-srhform .flight-date1:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 .flight-srhform .flight-date2{border-left:1px solid #bcbcbc;line-height:20px;padding-top:5px;padding-bottom:5px;padding-right:30px;}
