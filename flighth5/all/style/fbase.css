@@ -13,12 +13,15 @@ em,
 b,
 i{font-style:normal;font-weight:normal;}
 .flight-header-blank{height:44px;}
-.returnico{width:54px;height:44px;background:#14b1e7;}
-.returnico:before{content:'';position:absolute;width:14px;height:14px;left:50%;top:50%;margin-top:-7px;margin-left:-7px;border-left:2px solid #fff;border-top:2px solid #fff;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);background:none;}
-.icon_home, .icon_phone{width: 44px;}
-.icon_phone:before{top:12px;right:14px;}
-.icon_home:before{top:12px;right:14px;}
-.header_r, .header_rs, .rightblue{line-height: 44px;}
+.returnico{display:block;width:54px;height:44px;background:#14b1e7;}
+.returnico:before{content:'';position:absolute;display:block;width:14px;height:14px;left:50%;top:50%;margin-top:-7px;margin-left:-7px;border-left:2px solid #fff;border-top:2px solid #fff;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);background:none;}
+.icon_home,
+.icon_phone{width:44px;}
+.icon_phone:before{top:12px;right:14px;background:url(../img/flight-icon.png) no-repeat -60px -110px;background-size:100px;}
+.icon_home:before{top:12px;right:14px;background:url(../img/flight-icon.png) no-repeat -80px -110px;background-size:100px;}
+.header_r,
+.header_rs,
+.rightblue{line-height:44px;}
 .returnico:before{content:'';position:absolute;width:14px;height:14px;left:50%;top:50%;margin-top:-7px;margin-left:-7px;border-left:2px solid #fff;border-top:2px solid #fff;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);background:none;}
 .tab_by em{margin-left:4px;}
 .cui_cld_daycrt{background:#099fde}
@@ -231,7 +234,7 @@ i{font-style:normal;font-weight:normal;}
 .js_hide{display:none;}
 .highlight{background:#fffce7;}
 /* 订单完成页 */
-.flight-bkres{width:300px;margin-left:auto;margin-right: auto;}
+.flight-bkres{width:300px;margin-left:auto;margin-right:auto;}
 .flight-bkres-cnt{padding-left:60px;}
 .flight-bkres .flight-icon-scs{margin-right:12px;}
 .flight-bkres .order_okinfo{padding:20px 0;color:#999;font-size:13px;font-family:'Microsoft Yahei';}
