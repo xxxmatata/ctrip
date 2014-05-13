@@ -1,12 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
     <title>选择登机人</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta content="telephone=no" name="format-detection" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://res.m.ctrip.com/html5/Content/images/57.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://res.m.ctrip.com/html5/Content/images/72.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://res.m.ctrip.com/html5/Content/images/114.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
     <link href="../style/main.css" rel="stylesheet" />
     <link href="../style/cpage.css" rel="Stylesheet" />
     <link href="../style/mall.css" rel="Stylesheet" />
@@ -22,7 +27,7 @@
                 <div class="sub-viewport" id="id_viewport2" page-id="214031" page-url="passengerselect">
                     <div class="p_add_wrap" id="p_select_wrap">
                         <header>
-                            <h1>选择登机人</h1><i id="js_return" class="returnico"></i>
+                            <h1>选择登机人</h1><i class="returnico" id="js_return" onclick="location.href='http://ctrip.bobpeng.com/'"></i>
 
                             <div class="rightblue">完成</div>
 
@@ -247,33 +252,8 @@
 
                         </section>
                     </div>
-                    <script type="text/template" id="p_select_tpl">
-                    < header > < h1 > 选择登机人 < /h1><i id="js_return" class="returnico"></i > <%
-                    if (+flightType) { %> < div class = "rightblue" > 完成 < /div>
-        <% } %> 
-    </header > < section class = "cont_pd_wrap intrip" > < ul class = "cfbox paddNone" > < li class = "light paddNum"
-                        id = "js_addPassenger" > < span class = "add_ico sfr" > < /span><strong>新增登机人</strong > < /li>
-            
-            <% if(typeof passengers != "undefined"){ %>
-              <% for(var i=0;i<passengers.length;i++){ %>
-                
-                <li class="light js_choose" data-id="<%= passengers[i].inforId %>">
-                    <div class="editBox js_editBox"><span class="i edit_ico sfr"></span > < /div>
-                    <div class="boa_info js_boa_info <%= +flightType ? "" : "s5_boa_info" %> ">
-                        <% if(+flightType){  %> 
-                            <label class="sel_ico <%= passengers[i].selected && (passengers[i].selected== flightType || passengers[i].selected== -2) ? "mulselect_yes" : "mulselect_no"%>"></label > <%
-                    } %> < p > <%= passengers[i].cname %> <%= passengers[i].ename %> < br / >
-
-                     < em > <%= (passengers[i].defaIdCard ? passengers[i].defaIdCard.name : "") %> <%= (passengers[i].defaIdCard ? passengers[i].defaIdCard.no : "") %> < /em></p > < /div>
-                </li > <%
-                    } %> <%
-                    } %> < /ul>
-        
-    </section >
-                    </script>
                 </div>
             </div>
-            <div class="main-state"></div>
         </div>
     </div>
     <!--E H5机票_选择登机人-->
