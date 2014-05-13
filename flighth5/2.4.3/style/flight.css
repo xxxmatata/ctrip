@@ -529,7 +529,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-arrdown:after{content:'';position:absolute;width:6px;height:6px;top:50%;margin-top:-5px;margin-left:5px;border-bottom:2px solid #099fde;border-right:2px solid #099fde;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 /* 后面跟向上箭头 */
 .flight-arrup{color:#099fde;position:relative;}
-.flight-arrup:after{content:'';position:absolute;width:6px;height:6px;top:50%;margin-top:-1px;margin-left:10px;border-top:2px solid #099fde;border-left:2px solid #099fde;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+.flight-arrup:after{content:'';position:absolute;width:6px;height:6px;top:50%;margin-top:-1px;margin-left:5px;border-top:2px solid #099fde;border-left:2px solid #099fde;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 /* 后面跟向右箭头 */
 .flight-arrright{color:#099fde;position:relative;padding-right:10px;}
 .flight-arrright:after{content:'';position:absolute;width:6px;height:6px;top:50%;margin-top:-4px;border-top:2px solid #099fde;border-right:2px solid #099fde;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
@@ -638,8 +638,9 @@ i{font-style:normal;font-weight:normal;}
 .flight-btnsrh{width:100%;height:44px;line-height:44px;font-size:18px;color:#fff;background:#ff9a14;border-radius:3px;margin-top:20px;}
 /* E 机票查询页优化 */
 /* S 机票订单填写页优化 */
-.flight-loginline{padding:0 10px 10px;height:24px;line-height:24px;font-size:12px;}
-.flight-loginbtn{float:right;padding:5px 10px;background:#ff9a14;font-size:13px;color:#fff;border-radius:3px;vertical-align:middle;line-height:1.14;}
+.flight-loginline-fixed{position: fixed;z-index:999;width: 100%;height: 44px;background:rgba(255,255,255,0.95);}
+.flight-loginline{padding:0 20px;font-size:12px;height:44px;line-height:44px;}
+.flight-loginbtn{float:right;width:110px;height:30px;line-height:30px;margin-top:7px;background:#ff9a14;font-size:14px;color:#fff;border-radius:3px;}
 .flight-listsim .flight-fltinfo1{font-size:15px;height:44px;line-height:44px;position:relative;}
 .flight-listsim .flight-fltinfo1 .fr{position:absolute;right:10px;top:8px;text-align:center;color:#666;font-size:12px;line-height:14px;}
 .flight-listsim .flight-fltinfo2{padding:5px 0;margin:0 10px;line-height:28px;}
@@ -672,9 +673,9 @@ i{font-style:normal;font-weight:normal;}
 /* .flight-rtntips:after{content:'';position:absolute;width:6px;height:6px;left:250px;top:-3px;background:#e9e9e9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 */
 .flight-pnttips{line-height:1.5;color:#999;font-size:13px;padding-bottom:10px;}
-.flight-pnttips h4{color:#000;line-height:2;margin-top:5px;}
+.flight-pnttips h4{color:rgba(0,0,0,0.8); line-height:2;margin-top:5px;}
 .flight-coupons{padding:10px;}
-.flight-couponstips{color:#666;padding:10px;}
+.flight-couponstips{color:#999;padding:10px;}
 .flight-btmnext{width:100%;height:44px;line-height:44px;display:table;color:#fff;background:#ff9a14;margin-top:10px;}
 .flight-btmnext-total{display:table-cell;padding-left:15px;}
 /* .flight-btmnext-total .fs{margin-left:3px;}
