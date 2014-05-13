@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>值机座位选择</title>
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://res.m.ctrip.com/html5/Content/images/57.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://res.m.ctrip.com/html5/Content/images/72.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://res.m.ctrip.com/html5/Content/images/114.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
+    <link href="../style/main.css" rel="stylesheet" />
+    <link href="../style/flight.css" rel="stylesheet" />
+    <link href="../style/seat.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="flight-header">
+        <div class="h1two">
+            <h1>上海-北京</h1>
+            <p>
+                <span>国航CA1858</span>
+                <span>高端经济</span>
+            </p>
+        </div>
+        <i class="returnico" id="js_return" onclick="location.href='http://ctrip.bobpeng.com/'"></i>
+        <span class="flight-header-action">提交</span>
+    </header>
+    <div class="flight-header-blank"></div>
+
+    <div class="flight-seat">
+
+        <!--setInformationBegin-->
+        <div data-role="seatUserInfo">
+            <section class="seat-user-info">
+                <span class="seat-user" data-role="seatUserName"><i class="flight-icon-man"></i>王维</span>
+                <span class="seat-number" data-role="seatUserNum"><i class="flight-icon-stgrn"><b></b></i>上层14E</span>
+            </section>
+            <section class="seat-user-info-blank"></section>
+        </div>
+        <!--/setInformationEnd-->
+
+        <!--spaceBegin-->
+        <div data-role="seatSpaceArea">
+            <section class="seat-space-area-blank"></section>
+            <section class="seat-space-area">
+                <span class="seat-space-item selected" data-type="lower">下层舱位</span>
+                <span class="seat-space-item" data-type="upper">上层舱位</span>
+            </section>
+        </div>
+        <!--/spaceEnd-->
+    </div>
+
+
+
+</body>
+
+</html>

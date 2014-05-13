@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>订单完成</title>
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://res.m.ctrip.com/html5/Content/images/57.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://res.m.ctrip.com/html5/Content/images/72.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://res.m.ctrip.com/html5/Content/images/114.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
+    <link href="../style/main.css" rel="stylesheet" />
+    <link href="../style/fbase.css" rel="stylesheet" />
+</head>
+
+<body onselectstart="return false" screen_capture_injected="true" tabindex="10000" class="">
+    <div id="main" class="h100">
+        <div class="main-frame">
+            <div class="main-viewport">
+                <div class="sub-viewport" id="id_viewport2" page-id="214029" page-url="bookingresult">
+
+                    <header>
+                        <b class="icon_home i_bef" id="js_home"></b>
+                        <a href="tel:4000086666" class="icon_phone i_bef __hreftel__" id="js_phone"></a>
+                        <h1>订单完成</h1><i id="js_return" class="returnico"></i>
+                    </header>
+
+                    <menu class="cont_pd_wrap" id="infobox">
+                        <div class="flight-bkres">
+                            <div class="flight-bkres-cnt">
+                                <i class="flight-icon-scs"></i>
+                                <span class="fnt-18">恭喜您，预订成功！</span>
+                                <p class="order_okinfo">订单编号:
+                                    <span id="number">1209698337</span>
+                                    <br>相关信息将会通过短信与您确认！
+                                </p>
+                            </div>
+                        </div>
+                        <button class="flight-btn-org" data-id="1209698337">查看订单详情</button>
+
+                    </menu>
+                    <script type="text/template" id="infotpl">
+                    < div class = "cont_box_white order_ok" > < i class = "icon_ok i" > < /i>恭喜您，预订成功！
+        <p class="order_okinfo">订单编号:<strong id="number"><%=orderId %></strong > < br / > 相关信息将会通过短信与您确认！ < /p>
+        <button class="btn_blue1" data-id="<%=orderId %>">查看订单详情</button > < /div>
+    
+    <%if(!user || user.IsNonUser==true) {
+    if(!_sales || !_sales.sid || (+_sales.sid!=1575 && +_sales.sid!=1867)){
+    %>
+    <!--注册引导-->
+    <div id="reg" data-href="/webapp / myctrip / index.html# account / reg ? from = /webapp/myctrip / " class="
+                    cont_box_white mt10 ">
+        <p> 仅需一步，注册携程会员，即可享受<i class="
+                    corange ">1000</i>积分和<i class="
+                    corange ">800</i>元携程消费券哦。</p>
+        <button class="
+                    btn_blue mt10 ">立即注册</button>
+    </div><%}}%>
+                    </script>
+                </div>
+            </div>
+            <div class="main-state"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <input type="hidden" id="page_id" value="214029">
+    <input type="hidden" id="bf_ubt_orderid" value="1209698337">
+    <!--   <script type="text/javascript" src="http://res.m.ctrip.com/html5/scripts/require.min.js"></script>
+    <script type="text/javascript" src="../res/dest/libs/include.libs.js"></script>-->
+    <!--<script type="text/javascript">
+        var libs = 'libs_r_4.js';
+        if (!('__proto__' in {})) {libs = 'libs_jq_r_1.1.js';}
+        document.write('<script type="text/javascript" src="http://res.m.ctrip.com/html5/scripts/' + libs + '"></' + 'script>');
+    </script>-->
+    <!--<script type="text/javascript" src="../app/1.1/web/common.js"></script>-->
+    <!--<script type="text/javascript" src="./main_r.js"></script>-->
+
+    <script src="http://webresource.c-ctrip.com/code/lizard/1.1/web/3rdlibs/require.min.js"></script>
+    <script type="text/javascript" src="http://webresource.c-ctrip.com/code/lizard/1.1/web/3rdlibs/libs.js"></script>
+    <script type="text/javascript" src="http://webresource.c-ctrip.com/code/lizard/1.1/web/common.js"></script>
+
+    <script type="text/javascript" src="./main.js"></script>
+    <!-- insert ga -->
+    <script type="text/javascript" src="../res/dest/libs/include.ga.js"></script>
+    <!--<script>        var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-3748357-1']); _gaq.push(['_setDomainName', '.ctrip.com']); _gaq.push(['_setAllowHash', false]); _gaq.push(['_addOrganic', 'soso', 'w']); _gaq.push(['_addOrganic', 'sogou', 'query']); _gaq.push(['_addOrganic', 'youdao', 'q']); _gaq.push(['_addOrganic', 'so.360.cn', 'q']); _gaq.push(['_addOrganic', 'so.com', 'q']); _gaq.push(['_addOrganic', 'm.baidu.com', 'word']); _gaq.push(['_addOrganic', 'wap.baidu.com', 'word']); _gaq.push(['_addOrganic', 'wap.soso.com', 'key']); _gaq.push(['_trackPageview']); (function () { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script>-->
+
+    <!-- insert ubt -->
+    <script type="text/javascript" src="../res/dest/libs/include.ubt.js"></script>
+    <!--<script type="text/javascript">!function () { var a, b, c, d, e, f, g, i; if (!location.host.match(/localhost|172\.16|127\.0|210\.13/gi)) { for (a = document.getElementsByTagName("script") || [], b = /_bfa\.min\.js/i, c = 0; c < a.length; c++) if (b.test(a[c].src)) return; if (!(window.$_bf || window.$LAB || window.CtripJsLoader)) { d = new Date, e = "?v=" + d.getFullYear() + d.getMonth() + "_" + d.getDate() + ".js", f = document.createElement("script"), f.type = "text/javascript", f.charset = "utf-8", f.async = !0; try { g = "https:" == document.location.protocol } catch (h) { g = "https:" == document.URL.match(/[^:]+/) + ":" } f.src = g ? "https://s.c-ctrip.com/_bfa.min.js" + e : "http://webresource.c-ctrip.com/code/ubt/_bfa.min.js" + e, i = document.getElementsByTagName("script")[0], i.parentNode.insertBefore(f, i) } } } ();</script>-->
+
+
+    <div class="cui-view" id="cui-1398776874905" style="z-index: 3001; display: none;"></div>
+    <div class="cui-view cui-layer cui-loading" id="cui-1398776874901" style="margin-left: -45px; margin-top: -40px; z-index: 3003; display: none; visibility: visible;">
+        <div class="cui-layer-padding">
+            <div class="cui-layer-content">
+                <div class="cui-breaking-load">
+                    <div class="cui-i cui-w-loading"></div>
+                    <div class="cui-i cui-m-logo"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cui-view cui-mask cui-opacitymask" id="cui-1398776874902" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 799px; z-index: 3001; display: none;">
+        <div></div>
+    </div>
+    <img width="1" height="1" src="https://2113.xg4ken.com/media/redir.php?track=1&amp;token=8515ce29-9946-4d41-9edc-2907d0a92490&amp;promoCode=&amp;valueCurrency=CNY&amp;GCID=&amp;kw=&amp;product=&amp;val=1049&amp;orderId=1209698337&amp;type=cn_intflight">
+</body>
+
+</html>
