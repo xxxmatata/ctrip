@@ -261,7 +261,7 @@ p.stop i{width:11px;height:11px;line-height:11px;padding:2px;text-align:center;f
 .flight .ftx h2.f_return:after{content:"";position:absolute;top:0;border-width:30px 10px 0 0;border-style:solid;left:-10px;right:auto;border-color:transparent #91CC3D #91CC3D transparent;}
 .fltdetail .ofont .cmoney{color:#ff8c00;font-size:1.5em;}
 dfn{color:#FF9913;font-style:normal;font-size:13px;}
-.flight .infobox h4{color:#005380;font-weight:700;padding:10px;clear:both;}
+/*.flight .infobox h4{color:#005380;font-weight:700;padding:10px;clear:both;}*/
 .fin_name{width:85%;display:inline-block;vertical-align:top;padding-left:5px;word-break:break-all;}
 .fin_span{color:#c7c7c7;display:block;}
 .flight .infobox .place{margin-bottom:10px;overflow:hidden;}
