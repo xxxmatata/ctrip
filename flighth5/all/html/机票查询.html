@@ -12,18 +12,24 @@
 </head>
 
 <body>
-    <header class="flight-header">
-        <h1>机票查询</h1>
-        <i id="js_return" class="returnico" onclick="location.href='http://ctrip.bobpeng.com/'"></i> 
-    </header>
+    <!--S 头部fixed-->
+    <div class="header">
+        <header class="flight-header">
+            <h1>机票查询</h1>
+            <i class="returnico" id="js_return" onclick="location.href='http://ctrip.bobpeng.com/'"></i> 
+        </header>
+        <!--头部fixed，以下空标签占位-->
+        <div class="flight-header-blank">&nbsp;</div>
+    </div>
+    <!--E 头部fixed-->
     <!--S H5机票_机票查询-->
-    <aside class="cont_wrap">
+    <aside class="cont_wrap" style="margin-top:0;">
         <ul class="city_tab">
             <li data-type="1" class="cityTabCrt">单程</li>
             <li data-type="2" class="">往返</li>
         </ul>
     </aside>
-    <section id="panel-box" class="pd10">
+    <div class="pd10">
         <ul class="flight-srhform">
             <li class="flight-switch">
                 <dl>
@@ -74,15 +80,11 @@
             </li>
         </ul>
         <button id="searchlistsubmit" class="flight-btnsrh" value="">查&nbsp;询</button>
-        <div style="height:50px"></div>
-    </section>
-    <div class="pd10">
+        <div style="height:30px"></div>
         <div class="flight-img-svc">
             <img src="http://res.m.ctrip.com/market/images/ic_flight_promise_small.png" width="100%">
         </div>
-    </div>
-    <div class="blk10"></div>
-    <div class="pd10">
+        <div class="blk10"></div>
         <div class="flight-windows-svc">
             <img src="http://res.m.ctrip.com/market/images/ic_flight_promise_big.png" width="100%">
         </div>
