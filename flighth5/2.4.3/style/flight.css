@@ -387,6 +387,9 @@ i{font-style:normal;font-weight:normal;}
 .tab_by{display:table\9;}
 .tab_by li{display:table-cell\9;width:33%;}
 #panel-box{overflow:hidden;min-height:360px;}
+.fpay{height:44px;line-height:44px;}
+.fpay .money{background:#ff9a14;position:fixed;left:0;bottom:0;width:100%;height:44px;}
+.fpay .btn{height:44px;line-height:44px;background:#ff7e00;}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
 .f-l{float:left;}
@@ -796,8 +799,8 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjlist-person .btn{float:right;width:70px;height:28px;line-height:28px;text-align:center;color:#fff;font-size:14px;letter-spacing:4px;background:#ff9a14;border:1px solid #ff9a14;border-radius:3px;margin-top:-5px;}
 .flight-zjlist-person .btn1{border-color:#dbdbdb;background:#fff;color:#099fde;letter-spacing:1px;}
 .flight-zjlist-person .btn2{border-color:#fff;background:#fff;color:#666;letter-spacing:1px;}
-.flight-zjlist-cnttips{border-top:1px dashed #dfdfdf;margin-top:10px;margin-bottom: -10px;}
-.flight-zjlist-cnttips p{height: 28px;line-height: 28px;text-align: center;}
+.flight-zjlist-cnttips{border-top:1px dashed #dfdfdf;margin-top:10px;margin-bottom:-10px;}
+.flight-zjlist-cnttips p{height:28px;line-height:28px;text-align:center;}
 .flight-zjlist-fromother{margin:10px 0;padding:0 15px;height:44px;line-height:44px;font-size:14px;color:#099fde;border-top:1px solid #dbdbdb;border-bottom:1px solid #dbdbdb;background:#fff;position:relative;}
 .flight-zjlist-fromother:after{content:'';position:absolute;width:10px;height:10px;right:15px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 /* 选择行程 */
