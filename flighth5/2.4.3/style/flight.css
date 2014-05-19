@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+﻿@charset"utf-8";
 .intrip .cfbox{background-color:#fff;}
 .intrip .cfbox li{padding:11px;border-bottom:2px solid #f5f5f5;color:#333;}
 .intrip .cfbox li strong{font-weight:600;}
@@ -251,7 +251,7 @@ mark{background:none;}
 .flt_discheck .checkbox-input-c+i{visibility:hidden;}
 .list_st_border .flt_greytit{line-height:35px;background:#f5f5f5;}
 .list_st_border .flt_multline{padding:10px;line-height:1.5;}
-.flt_greytit1{padding:0 10px 10px 0;font:normal 12px/1 "";color:#686868;}
+.flt_greytit1{padding:0 10px 10px 0;font:normal 12px/1"";color:#686868;}
 .list_st_border .flt_greytit2{height:35px;line-height:35px;}
 .flt_rlink{margin-right:15px;}
 .flt_rlink.flt_rshow{color:#000;}
@@ -268,18 +268,18 @@ mark{background:none;}
 .refund_rlt_icon:after{left:26px;top:10px;height:25px;-webkit-transform:rotate(40deg);-moz-transform:rotate(40deg);-ms-transform:rotate(40deg);-o-transform:rotate(40deg);transform:rotate(40deg);}
 /* 填写完成页（机票） 2014-01-28 by pp */
 .flt_tit,
-.flt_tit1{position:relative;padding:0 10px;font:normal 16px/45px "";background:#1491C5;color:#fff;}
+.flt_tit1{position:relative;padding:0 10px;font:normal 16px/45px"";background:#1491C5;color:#fff;}
 .flt_tit small,
 .flt_tit1 small{margin-right:12px;}
 .flt_tit1{background:#18C856;}
-.flt_dl{font:normal 14px/1.3 "";color:#969696;}
+.flt_dl{font:normal 14px/1.3"";color:#969696;}
 .flt_dl dt{padding-bottom:5px;}
 .flt_dl dd{font-size:11px;}
 .flt_textarea{width:100%;height:64px;padding:10px;font-size:12px;resize:none;border:1px solid #cfcfcf;}
 .flt_p{padding:5px 0 0 0;}
 .flt_p .icon_hint,
 .checkbox_wrap{margin-right:5px;}
-.icon_hint{display:inline-block;position:relative;width:17px;height:17px;text-align:center;vertical-align:middle;font:bold 17px/17px "consolas";background-color:#1491c5;color:#fff;border-radius:50%;}
+.icon_hint{display:inline-block;position:relative;width:17px;height:17px;text-align:center;vertical-align:middle;font:bold 17px/17px"consolas";background-color:#1491c5;color:#fff;border-radius:50%;}
 .btn_blue.mtb{margin:20px auto;}
 /* 国内国际订单填写、报销凭证 2014-02-10 by w_jing */
 .flights_preson{background:#f2f2f2;}
@@ -322,13 +322,15 @@ mark{background:none;}
 /* --------------------------------- old end --------------------------------- */
 /* !
 ** S pyh彭延华 */
+
 /* S 机票公共样式 */
+
 /* 覆盖公共 ↓ */
 body,
 button,
 input,
 select,
-textarea{font:normal 14px/1.5 "Microsoft YaHei","hei",Arial,"Lucida Grande",Verdana;margin:0;padding:0;}
+textarea{font:normal 14px/1.5"Microsoft YaHei","hei",Arial,"Lucida Grande",Verdana;margin:0;padding:0;}
 header{height:44px;overflow:hidden;}
 header h1{line-height:44px;font-family:"Microsoft Yahei";}
 em,
@@ -641,7 +643,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-btnsrh{width:100%;height:44px;line-height:44px;font-size:18px;color:#fff;background:#ff9a14;border-radius:3px;margin-top:20px;}
 /* E 机票查询页优化 */
 /* S 机票订单填写页优化 */
-.flight-loginline-fixed{position:fixed;z-index:999;width:100%;height:44px;background:rgba(255,255,255,0.95);}
+.flight-loginline-fixed{position:fixed;z-index:999;width:100%;height:44px;background:rgba(255,255,255,0.95);box-shadow:0 1px 1px #d0d0d0}
 .flight-loginline{padding:0 20px;font-size:12px;height:44px;line-height:44px;}
 .flight-loginbtn{float:right;width:110px;height:30px;line-height:30px;margin-top:7px;background:#ff9a14;font-size:14px;color:#fff;border-radius:3px;}
 .flight-listsim .flight-fltinfo1{font-size:15px;height:44px;line-height:44px;position:relative;}
@@ -729,10 +731,13 @@ i{font-style:normal;font-weight:normal;}
 .fdelete:after{content:'';position:absolute;width:14px;height:2px;left:50%;top:50%;margin-left:-13px;margin-top:-1px;background:#fff;}
 .flight .b_people .info_list li{border:1px solid #bcbcbc;border-top:none;}
 */
+
 /* **
 ** E 国际机票 */
+
 /* **
 ** S 值机 */
+
 /* 值机-已登录 */
 .flight-headtips{padding:10px;font-size:14px;line-height:1;color:#666;}
 .flight-zjtable{border:1px solid #bcbcbc;border-bottom:none;background:#fff;color:#333;font-size:15px;}
@@ -854,21 +859,22 @@ i{font-style:normal;font-weight:normal;}
 .st-x64 .flight-icon-seat1.st-peo b:before{width:26px;height:26px;left:50%;top:-29px;margin-left:-13px;border:none;border-radius:50%;background:#ccc;}
 /* 订单结果 */
 .flight-bkrst{padding:15px 25px;}
-.flight-bkrst .flight-icon-scs{float: left;margin-right: 10px;}
-.flight-bkrst p{font-size: 18px;color: rgba(0,0,0,0.8);line-height: 20px;}
-.flight-bkrst .flight-bkrst-tips{margin-top:20px;font-size: 12px;color: rgba(0,0,0,0.8);line-height: 18px;}
-.flight-bkrst-list{background: #fff;border:1px solid #bcbcbc;border-bottom: none;}
-.flight-bkrst-list li{font-size: 14px;color:#666;position: relative;border-bottom:1px solid #bcbcbc;min-height: 44px;line-height: 44px;padding:0 10px;}
+.flight-bkrst .flight-icon-scs{float:left;margin-right:10px;}
+.flight-bkrst p{font-size:18px;color:rgba(0,0,0,0.8);line-height:20px;}
+.flight-bkrst .flight-bkrst-tips{margin-top:20px;font-size:12px;color:rgba(0,0,0,0.8);line-height:18px;}
+.flight-bkrst-list{background:#fff;border:1px solid #bcbcbc;border-bottom:none;}
+.flight-bkrst-list li{font-size:14px;color:#666;position:relative;border-bottom:1px solid #bcbcbc;min-height:44px;line-height:44px;padding:0 10px;}
 .flight-bkrst-list li:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 .flight-bkrst-list li.title{color:#333;}
-.flight-bkrst-list li.title:after{display: none;}
-
+.flight-bkrst-list li.title:after{display:none;}
 /* **
 ** E 值机 */
 /* !
 ** E pyh彭延华 */
+
 /* !
 ** S hjh黄鉴华 */
+
 /* S 机票90天低价日历 */
 .cui_cld_holiday em{color:#06a2d0;}
 .cui_cld_daycrt em{color:#fff;}
