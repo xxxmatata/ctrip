@@ -502,10 +502,10 @@ i{font-style:normal;font-weight:normal;}
 .flight-icon-man{display:inline-block;position:relative;width:16px;height:15px;margin-right:5px;margin-bottom:-1px;}
 .flight-icon-man:before{content:'';position:absolute;left:50%;top:0;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:#a8a8a8;}
 .flight-icon-man:after{content:'';position:absolute;left:0;bottom:0;width:16px;height:6px;border-radius:3px 3px 0 0;background:#a8a8a8;}
-.flight-icon-stgrn{display:inline-block;width:16px;height:21px;border:2px solid #75b651;background:#7dc564;border-radius:4px;overflow:hidden;position:relative;margin-right:5px;margin-bottom:-5px;}
-.flight-icon-stgrn b{position:absolute;width:8px;height:13px;left:50%;top:3px;margin-left:-6px;border:2px solid #fff;border-top:none;border-radius:0px 0px 3px 3px;}
-.flight-icon-stgrn b:before{content:'';position:absolute;width:3px;height:3px;left:-5px;top:-5px;border-top:2px solid #fff;border-right:2px solid #fff;border-radius:0 4px 0 0;}
-.flight-icon-stgrn b:after{content:'';position:absolute;width:3px;height:3px;right:-5px;top:-5px;border-top:2px solid #fff;border-left:2px solid #fff;border-radius:4px 0 0 0;}
+.flight-icon-stgrn{display:inline-block;width:16px;height:20px;border:1px solid #75b651;background:#7dc564;border-radius:4px;overflow:hidden;position:relative;margin-right:5px;margin-bottom:-5px;}
+.flight-icon-stgrn b{position:absolute;width:8px;height:13px;left:50%;top:3px;margin-left:-5px;border:1px solid #fff;border-top:none;border-radius:0px 0px 3px 3px;}
+.flight-icon-stgrn b:before{content:'';position:absolute;width:4px;height:4px;left:-5px;top:-5px;border-top:1px solid #fff;border-right:1px solid #fff;border-radius:0 4px 0 0;}
+.flight-icon-stgrn b:after{content:'';position:absolute;width:4px;height:4px;right:-5px;top:-5px;border-top:1px solid #fff;border-left:1px solid #fff;border-radius:4px 0 0 0;}
 /* 小固件↓ */
 /* 公共简单列表 */
 .flight-listsim{border:1px solid #bcbcbc;border-bottom:none;background:#fff;margin-top:10px;}
