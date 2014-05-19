@@ -641,7 +641,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-btnsrh{width:100%;height:44px;line-height:44px;font-size:18px;color:#fff;background:#ff9a14;border-radius:3px;margin-top:20px;}
 /* E 机票查询页优化 */
 /* S 机票订单填写页优化 */
-.flight-loginline-fixed{position:fixed;z-index:999;width:100%;height:44px;background:rgba(255,255,255,0.95);}
+.flight-loginline-fixed{position:fixed;z-index:999;width:100%;height:44px;background:rgba(255,255,255,0.95);box-shadow:0 1px 1px #d0d0d0;}
 .flight-loginline{padding:0 20px;font-size:12px;height:44px;line-height:44px;}
 .flight-loginbtn{float:right;width:110px;height:30px;line-height:30px;margin-top:7px;background:#ff9a14;font-size:14px;color:#fff;border-radius:3px;}
 .flight-listsim .flight-fltinfo1{font-size:15px;height:44px;line-height:44px;position:relative;}
@@ -852,6 +852,17 @@ i{font-style:normal;font-weight:normal;}
 .st-x64 .flight-icon-seat1 b:after{width:8px;height:8px;right:-10px;top:-10px;border-radius:8px 0 0 0;}
 .st-x64 .flight-icon-seat1.st-peo b{top:42px;width:48px;height:18px;margin-left:-24px;border-radius:10px 10px 0 0;}
 .st-x64 .flight-icon-seat1.st-peo b:before{width:26px;height:26px;left:50%;top:-29px;margin-left:-13px;border:none;border-radius:50%;background:#ccc;}
+/* 订单结果 */
+.flight-bkrst{padding:15px 25px;}
+.flight-bkrst .flight-icon-scs{float: left;margin-right: 10px;}
+.flight-bkrst p{font-size: 18px;color: rgba(0,0,0,0.8);line-height: 20px;}
+.flight-bkrst .flight-bkrst-tips{margin-top:20px;font-size: 12px;color: rgba(0,0,0,0.8);line-height: 18px;}
+.flight-bkrst-list{background: #fff;border:1px solid #bcbcbc;border-bottom: none;}
+.flight-bkrst-list li{font-size: 14px;color:#666;position: relative;border-bottom:1px solid #bcbcbc;min-height: 44px;line-height: 44px;padding:0 10px;}
+.flight-bkrst-list li:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+.flight-bkrst-list li.title{color:#333;}
+.flight-bkrst-list li.title:after{display: none;}
+
 /* **
 ** E 值机 */
 /* !
