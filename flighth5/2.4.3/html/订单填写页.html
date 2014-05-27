@@ -16,12 +16,13 @@
     <!--<link href="../../../../../../FlightCommon/Dev/WebApp-v2.4.sp3/WebApp/res/style/fbase.css" rel="stylesheet" />-->
     <link href="../style/fbase.css" rel="stylesheet" />
     <link href="../style/flight.css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
 <body>
     <!--S 头部fixed-->
     <div class="header">
-        <header class="flight-header">
+        <header class="flight-header pos-ab">
             <h1>订单填写</h1>
             <i class="returnico" id="js_return" onclick="location.href='http://ctrip.bobpeng.com/'"></i> 
             <a href="tel:4000086666" class="icon_phone i_bef __hreftel__" id="js_phone"></a>
@@ -31,14 +32,29 @@
     </div>
     <!--E 头部fixed-->
     <!--S 登录提醒fixed-->
-    <div class="flight-loginline-fixed">
+    <div class="flight-loginline-fixed pos-rl">
         <div class="flight-loginline">
             <button class="flight-loginbtn">马上登录</button>
             <p>登陆后预订更便捷</p>
         </div>
     </div>
-    <!--登录提醒fixed，以下空标签占位-->
-    <div class="flight-header-blank">&nbsp;</div>
+    <div class="js_flight-top" id="js_flight-top"></div>
+    <script>
+    $(function() {
+        $(window).scroll(function() {
+            var h1 = $("#js_flight-top").offset().top - $(document).scrollTop();
+            if (h1 < 0) {
+                $(".flight-loginline-fixed").removeClass("pos-rl");
+            }
+            if (h1 > 0) {
+                $(".flight-loginline-fixed").addClass("pos-rl");
+            }
+        });
+    })
+    </script>
+
+    <!--登录提醒fixed，以下空标签占位
+    <div class="flight-header-blank">&nbsp;</div>-->
     <!--E 登录提醒fixed-->
     <!--S H5机票_订单填写-->
     <div class="p10">

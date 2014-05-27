@@ -53,27 +53,30 @@ i{font-style:normal;font-weight:normal;}
 .delivy .light.current{background-color:#fff;}
 .delivy .light:active:after,
 .delivy .light.current:after{display:none;}
-/* .cui_cld_day_havetxt em,
-.cui_cld_nopro em,
-.cui_cld_haspro em,
-.cui_cld_daycrt em{font-size:13px;color:rgba(0,0,0,0.8);}
-.cui_cld_day_havetxt i,
-.cui_cld_nopro i,
-.cui_cld_haspro i,
-.cui_cld_daycrt i{font-size:12px;color:rgba(0,0,0,0.6);}
-*/
 .flight-hyb_cancel span{padding:7px 10px;}
 .tab_by{display:table\9;}
 .tab_by li{display:table-cell\9;width:33%;}
 .head-warning-header{height:44px;}
 .head-warning-header-title{height:44px;line-height:44px;}
+#panel-box{overflow:hidden;min-height:360px;}
+.fpay{height:44px;line-height:44px;}
+.fpay .money{background:#ff9a14;position:fixed;z-index:999;left:0;bottom:0;width:100%;height:44px;}
+.fpay .btn{height:44px;line-height:44px;background:#ff7e00;}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
+.f-l{float:left;}
+.f-r{float:right;}
+.f-n{float:none;}
 .mt0{margin-top:0;}
+.mt5{margin-top:5px;}
 .mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
 .mt30{margin-top:30px;}
+.pd5{padding:5px;}
+.pdlr5{padding:0 5px;}
 .pd10{padding:10px;}
 .pdlr10{padding:0 10px;}
+.pd15{padding:15px;}
 .mtm11{margin-top:-11px;}
 .mb21{margin-bottom:21px;}
 .blk4{height:4px;font-size:1px;}
@@ -88,6 +91,9 @@ i{font-style:normal;font-weight:normal;}
 .blk50{height:50px;font-size:1px;}
 .blk60{height:60px;font-size:1px;}
 .blk80{height:80px;font-size:1px;}
+.pos-ab{position:absolute!important;}
+.pos-rl{position:relative!important;}
+.pos-fx{position:fixed!important;}
 /* 颜色相关 */
 /* 白色 */
 .clr-fff{color:#fff;}
@@ -167,7 +173,15 @@ i{font-style:normal;font-weight:normal;}
 .flight-icon-input{display:inline-block;width:17px;height:16px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -48px;background-size:100px;margin-right:5px;margin-bottom:-3px}
 .flight-icon-input.disabled{background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -32px;background-size:100px;}
 .flight-icon-input.checked{background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 0;background-size:100px;}
+.flight-arrrht:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 .flight-icon-scs{display:inline-block;width:40px;height:40px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -90px;background-size:100px;vertical-align:middle;}
+.flight-icon-man{display:inline-block;position:relative;width:16px;height:15px;margin-right:5px;margin-bottom:-1px;}
+.flight-icon-man:before{content:'';position:absolute;left:50%;top:0;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:#a8a8a8;}
+.flight-icon-man:after{content:'';position:absolute;left:0;bottom:0;width:16px;height:6px;border-radius:3px 3px 0 0;background:#a8a8a8;}
+.flight-icon-stgrn{display:inline-block;width:16px;height:20px;border:1px solid #75b651;background:#7dc564;border-radius:4px;overflow:hidden;position:relative;margin-right:5px;margin-bottom:-5px;}
+.flight-icon-stgrn b{position:absolute;width:8px;height:13px;left:50%;top:3px;margin-left:-5px;border:1px solid #fff;border-top:none;border-radius:0px 0px 3px 3px;}
+.flight-icon-stgrn b:before{content:'';position:absolute;width:4px;height:4px;left:-5px;top:-5px;border-top:1px solid #fff;border-right:1px solid #fff;border-radius:0 4px 0 0;}
+.flight-icon-stgrn b:after{content:'';position:absolute;width:4px;height:4px;right:-5px;top:-5px;border-top:1px solid #fff;border-left:1px solid #fff;border-radius:4px 0 0 0;}
 /* 小固件↓ */
 /* 公共简单列表 */
 .flight-listsim{border:1px solid #bcbcbc;border-bottom:none;background:#fff;margin-top:10px;}
@@ -227,15 +241,25 @@ i{font-style:normal;font-weight:normal;}
 /* S 按钮button */
 /* 橙底白字 */
 .flight-btn-org{display:inline-block;width:100%;background:#ff9a14;color:#fff;text-align:center;height:44px;line-height:44px;font-size:18px;border-radius:3px;}
-.flight-btn-clm{width:100%;margin-top:10px;height:39px;line-height:39px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;display:table\9;}
-.flight-btn-clm span{text-align:center;color:#099fde;font-size:15px;border:1px solid #dbdbdb;background:#fff;border-radius:3px;-moz-box-sizing:border-box;box-flex:1;flex:1;-webkit-box-flex:1;-moz-flex:1;-ms-flex:1;display:table-cell\9;}
-.flight-btn-clm i{display:inline-block;width:10px;}
+.flight-btn-clm{width:100%;margin-top:10px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;display:table\9;}
+.flight-btn-clm button{display:block;height:39px;line-height:39px;text-align:center;color:#099fde;font-size:15px;border:1px solid #dbdbdb;background:#fff;border-radius:3px;-moz-box-sizing:border-box;box-flex:1;flex:1;-webkit-box-flex:1;-moz-flex:1;-ms-flex:1;display:table-cell\9;margin:0 5px;}
+.flight-btn-clm button:first-child{margin-left:0px;}
+.flight-btn-clm button:last-child{margin-right:0px;}
 /* E 按钮button */
+.flight-header-action{position:absolute;right:0;top:0;width:54px;height:44px;line-height:44px;text-align:center;color:#fff;font-size:15px;letter-spacing:2px;background:#14b1e7;}
+/* 说明性文字 */
+.flight-article{padding:10px;}
+.flight-article p{margin-bottom:10px;line-height:20px;font-size:14px;color:#666;}
+/* 头部两行 */
+.flight-header .h1two h1{position:relative;font-size:18px;line-height:1;padding-top:5px;}
+.flight-header .h1two p{color:rgba(255,255,255,0.6);text-align:center;font-size:12px;line-height:1;padding-top:5px;}
+.flight-header .h1two p span:nth-child(2){margin-left:12px;}
 /* 小固件↑ */
 /* js相关 */
 .js_sublist{display:none;}
 .js_hide{display:none;}
 .highlight{background:#fffce7;}
+.js_flight-top{height:1px;width:100%;}
 /* 订单完成页 */
 .flight-bkres{width:300px;margin-left:auto;margin-right:auto;}
 .flight-bkres-cnt{padding-left:60px;}
@@ -244,11 +268,10 @@ i{font-style:normal;font-weight:normal;}
 /* 退改签 */
 .flight-pnttips{line-height:1.5;color:rgba(0,0,0,0.6);font-size:12px;padding-bottom:10px;}
 .flight-pnttips h4{color:rgba(0,0,0,0.8);line-height:2;margin-top:5px;}
+.flight-pnttips h5{color:rgba(0,0,0,0.8);line-height:2;margin-top:5px;}
+.flight-list-tabletips{border-top:1px dotted #ccc;background:#f5f5f5;padding:0 10px 10px 10px;line-height:1.5;color:rgba(0,0,0,0.6);font-size:12px;}
+.flight-list-tabletips h4{color:rgba(0,0,0,0.8);line-height:2;margin-top:5px;}
 /* !
 ** E pyh彭延华 */
 /* *--------------------------------------------* */
 /* !
-** S hjh黄鉴华 */
-.hjhtest{}
-/* !
-** E hjh黄鉴华 */

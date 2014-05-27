@@ -91,7 +91,9 @@ i{font-style:normal;font-weight:normal;}
 .blk50{height:50px;font-size:1px;}
 .blk60{height:60px;font-size:1px;}
 .blk80{height:80px;font-size:1px;}
-.pos-ab{position:absolute;}
+.pos-ab{position:absolute!important;}
+.pos-rl{position:relative!important;}
+.pos-fx{position:fixed!important;}
 /* 颜色相关 */
 /* 白色 */
 .clr-fff{color:#fff;}
@@ -257,6 +259,7 @@ i{font-style:normal;font-weight:normal;}
 .js_sublist{display:none;}
 .js_hide{display:none;}
 .highlight{background:#fffce7;}
+.js_flight-top{height:1px;width:100%;}
 /* 订单完成页 */
 .flight-bkres{width:300px;margin-left:auto;margin-right:auto;}
 .flight-bkres-cnt{padding-left:60px;}
