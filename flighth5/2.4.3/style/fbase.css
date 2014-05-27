@@ -17,9 +17,9 @@ i{font-style:normal;font-weight:normal;}
 .returnico:before{content:'';position:absolute;display:block;width:14px;height:14px;left:50%;top:50%;margin-top:-7px;margin-left:-7px;border-left:2px solid #fff;border-top:2px solid #fff;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);background:none;}
 .icon_home,
 .icon_phone{width:44px;}
-.icon_phone:before{top:12px;right:14px;background:url(../img/flight-icon.png) no-repeat -60px -110px;background-size:100px;}
-.icon_home:before{top:12px;right:14px;background:url(../img/flight-icon.png) no-repeat -80px -110px;background-size:100px;}
-.h1two{position: absolute;top:0;left:0;width: 100%;height:44px;}
+.icon_phone:before{top:12px;right:14px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -60px -110px;background-size:100px;}
+.icon_home:before{top:12px;right:14px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -80px -110px;background-size:100px;}
+.h1two{position:absolute;top:0;left:0;width:100%;height:44px;}
 .header_r,
 .header_rs,
 .rightblue{line-height:44px;}
@@ -31,47 +31,52 @@ i{font-style:normal;font-weight:normal;}
 .intrip .cfbox{border:1px solid #bcbcbc;border-bottom:none;}
 .intrip .cfbox li{border-bottom:1px solid #bcbcbc;padding:0;}
 .delivy .cfbox li.light{border-bottom:1px solid #bcbcbc;}
-.intrip .edit_ico{background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -65px;background-size:100px;width:18px;height:17px;}
+.intrip .edit_ico{background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -65px;background-size:100px;width:18px;height:17px;}
 .intrip .cfbox li .sfr{margin-top:-8px;}
 .mulselect_no{width:15px;height:15px;background:#fff;border:1px solid #999;}
-.mulselect_yes{width:17px;height:16px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 0;background-size:100px;}
+.mulselect_yes{width:17px;height:16px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 0;background-size:100px;}
 .intrip .paddNone li.paddNum{padding:11px 11px 11px 41px;position:relative;}
 .intrip .paddNone li.paddNum:after{content:'';position:absolute;right:15px;top:50%;width:10px;height:10px;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 .intrip .add_ico{position:absolute;width:18px;height:18px;left:10px;top:50%;margin-top:-9px;background:none;}
 .intrip .add_ico:before{content:'';position:absolute;left:0;top:50%;width:18px;height:2px;margin-top:-1px;background:#099fde;}
 .intrip .add_ico:after{content:'';position:absolute;left:50%;top:0;width:2px;height:18px;margin-left:-1px;background:#099fde;}
 .hyb_time{color:#333;}
-.icon_foward{display:inline-block;width:15px;height:14px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px -20px;background-size:100px;}
+.icon_foward{display:inline-block;width:15px;height:14px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px -20px;background-size:100px;}
 .icon_foward2{display:inline-block;width:15px;height:15px;line-height:15px;text-align:center;background:#999;color:#fff;font-size:12px;}
 .flight-chk li{position:relative;padding-right:10px;}
 .flight-chk li:before{content:'';position:absolute;left:10px;top:50%;margin-top:-8px;width:15px;height:15px;background:#fff;border:1px solid #999;}
 .flight-chk li.current{background:none;}
 .flight-chk li.current:after{display:none;}
-.flight-chk li.current:before{content:'';position:absolute;left:10px;top:50%;margin-top:-8px;width:17px;height:16px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 0;background-size:100px;border:none;}
+.flight-chk li.current:before{content:'';position:absolute;left:10px;top:50%;margin-top:-8px;width:17px;height:16px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 0;background-size:100px;border:none;}
 .delivy .cfbox li.light{padding:5px 10px 5px 36px;}
 .delivy .light:active,
 .delivy .light.current{background-color:#fff;}
 .delivy .light:active:after,
 .delivy .light.current:after{display:none;}
-/* .cui_cld_day_havetxt em,
-.cui_cld_nopro em,
-.cui_cld_haspro em,
-.cui_cld_daycrt em{font-size:13px;color:rgba(0,0,0,0.8);}
-.cui_cld_day_havetxt i,
-.cui_cld_nopro i,
-.cui_cld_haspro i,
-.cui_cld_daycrt i{font-size:12px;color:rgba(0,0,0,0.6);}
-*/
 .flight-hyb_cancel span{padding:7px 10px;}
 .tab_by{display:table\9;}
 .tab_by li{display:table-cell\9;width:33%;}
+.head-warning-header{height:44px;}
+.head-warning-header-title{height:44px;line-height:44px;}
+#panel-box{overflow:hidden;min-height:360px;}
+.fpay{height:44px;line-height:44px;}
+.fpay .money{background:#ff9a14;position:fixed;z-index:999;left:0;bottom:0;width:100%;height:44px;}
+.fpay .btn{height:44px;line-height:44px;background:#ff7e00;}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
+.f-l{float:left;}
+.f-r{float:right;}
+.f-n{float:none;}
 .mt0{margin-top:0;}
+.mt5{margin-top:5px;}
 .mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
 .mt30{margin-top:30px;}
+.pd5{padding:5px;}
+.pdlr5{padding:0 5px;}
 .pd10{padding:10px;}
 .pdlr10{padding:0 10px;}
+.pd15{padding:15px;}
 .mtm11{margin-top:-11px;}
 .mb21{margin-bottom:21px;}
 .blk4{height:4px;font-size:1px;}
@@ -86,6 +91,7 @@ i{font-style:normal;font-weight:normal;}
 .blk50{height:50px;font-size:1px;}
 .blk60{height:60px;font-size:1px;}
 .blk80{height:80px;font-size:1px;}
+.pos-ab{position:absolute;}
 /* 颜色相关 */
 /* 白色 */
 .clr-fff{color:#fff;}
@@ -144,7 +150,7 @@ i{font-style:normal;font-weight:normal;}
 .z-90{z-index:90;}
 .z-100{z-index:100;}
 /* 图标相关 */
-.flight-icon-flight{display:inline-block;width:15px;height:14px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px -20px;background-size:100px;margin-right:3px;}
+.flight-icon-flight{display:inline-block;width:15px;height:14px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px -20px;background-size:100px;margin-right:3px;}
 .flight-icon-flight2{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);-ms-transform:rotateY(180deg);-o-transform:rotateY(180deg);transform:rotateY(180deg);}
 .flight-icon-pxu{display:inline-block;width:9px;height:10px;overflow:hidden;position:relative;overflow:hidden;text-indent:-9999px;}
 .flight-icon-pxu:before{content:'';position:absolute;left:-1px;bottom:-3px;width:11px;height:11px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);background:#999;}
@@ -162,10 +168,18 @@ i{font-style:normal;font-weight:normal;}
 .flight-icon-plus{position:absolute;right:10px;top:50%;width:16px;height:16px;margin-top:-8px;text-indent:-9999px;}
 .flight-icon-plus:before{content:'';position:absolute;left:0;top:50%;width:16px;height:2px;margin-top:-1px;background:#099fde;}
 .flight-icon-plus:after{content:'';position:absolute;left:50%;top:0;width:2px;height:16px;margin-left:-1px;background:#099fde;}
-.flight-icon-input{display:inline-block;width:17px;height:16px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -48px;background-size:100px;margin-right:5px;margin-bottom:-3px}
-.flight-icon-input.disabled{background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -32px;background-size:100px;}
-.flight-icon-input.checked{background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 0;background-size:100px;}
-.flight-icon-scs{display:inline-block;width:40px;height:40px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -90px;background-size:100px;vertical-align:middle;}
+.flight-icon-input{display:inline-block;width:17px;height:16px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -48px;background-size:100px;margin-right:5px;margin-bottom:-3px}
+.flight-icon-input.disabled{background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -32px;background-size:100px;}
+.flight-icon-input.checked{background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 0;background-size:100px;}
+.flight-arrrht:after{content:'';position:absolute;width:10px;height:10px;right:10px;top:50%;margin-top:-5px;border-top:2px solid #a9a9a9;border-right:2px solid #a9a9a9;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+.flight-icon-scs{display:inline-block;width:40px;height:40px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -90px;background-size:100px;vertical-align:middle;}
+.flight-icon-man{display:inline-block;position:relative;width:16px;height:15px;margin-right:5px;margin-bottom:-1px;}
+.flight-icon-man:before{content:'';position:absolute;left:50%;top:0;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:#a8a8a8;}
+.flight-icon-man:after{content:'';position:absolute;left:0;bottom:0;width:16px;height:6px;border-radius:3px 3px 0 0;background:#a8a8a8;}
+.flight-icon-stgrn{display:inline-block;width:16px;height:20px;border:1px solid #75b651;background:#7dc564;border-radius:4px;overflow:hidden;position:relative;margin-right:5px;margin-bottom:-5px;}
+.flight-icon-stgrn b{position:absolute;width:8px;height:13px;left:50%;top:3px;margin-left:-5px;border:1px solid #fff;border-top:none;border-radius:0px 0px 3px 3px;}
+.flight-icon-stgrn b:before{content:'';position:absolute;width:4px;height:4px;left:-5px;top:-5px;border-top:1px solid #fff;border-right:1px solid #fff;border-radius:0 4px 0 0;}
+.flight-icon-stgrn b:after{content:'';position:absolute;width:4px;height:4px;right:-5px;top:-5px;border-top:1px solid #fff;border-left:1px solid #fff;border-radius:4px 0 0 0;}
 /* 小固件↓ */
 /* 公共简单列表 */
 .flight-listsim{border:1px solid #bcbcbc;border-bottom:none;background:#fff;margin-top:10px;}
@@ -197,14 +211,14 @@ i{font-style:normal;font-weight:normal;}
 .flight-arrright{color:#099fde;position:relative;padding-right:10px;}
 .flight-arrright:after{content:'';position:absolute;width:6px;height:6px;top:50%;margin-top:-4px;border-top:2px solid #099fde;border-right:2px solid #099fde;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
 /* 带问号label标签 */
-.flight-labq:after{content:'';display:inline-block;width:15px;height:15px;margin-left:6px;margin-bottom:-4px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px 0;background-size:100px;}
+.flight-labq:after{content:'';display:inline-block;width:15px;height:15px;margin-left:6px;margin-bottom:-4px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px 0;background-size:100px;}
 /* 返 */
 .flight-icon-return{border:1px solid #ff9913;border-radius:2px;font-size:12px;height:13px;line-height:13px;color:#ff9913;padding:0 2px;position:relative;}
 .flight-icon-return dfn{position:absolute;left:1.4em;top:2px;-webkit-transform:scale(0.9,0.9);-moz-transform:scale(0.9,0.9);-ms-transform:scale(0.9,0.9);-o-transform:scale(0.9,0.9);transform:scale(0.9,0.9);}
 .flight-icon-return em{display:inline-block;width:1em;}
 .flight-icon-rtn{border:1px solid #ff9913;border-radius:2px;font-size:12px;height:13px;line-height:13px;color:#ff9913;padding:0 2px;white-space:nowrap;}
 .flight-icon-rtn dfn{margin-left:4px;display:inline-block;-webkit-transform:scale(0.8,0.8);-moz-transform:scale(0.8,0.8);-ms-transform:scale(0.8,0.8);-o-transform:scale(0.8,0.8);transform:scale(0.8,0.8);}
-.flight-icon-rtn:after{content:'';display:inline-block;width:12px;height:12px;margin-left:3px;margin-bottom:-2px;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -40px 0;background-size:100px;}
+.flight-icon-rtn:after{content:'';display:inline-block;width:12px;height:12px;margin-left:3px;margin-bottom:-2px;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -40px 0;background-size:100px;}
 /* 公共弹层 */
 .flight-windows{background:#fff;border-radius:3px;width:300px;}
 .flight-windows-hd{line-height:44px;background:#14b1e7;text-align:center;color:#fff;font-size:18px;position:relative;border-radius:3px 3px 0 0;}
@@ -213,7 +227,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-windows-hd .flight-icon-close:after{content:'';position:absolute;width:15px;height:2px;right:10px;top:50%;margin-top:-1px;background:#fff;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);}
 .flight-windows-bd{padding:10px;color:#000;}
 /* 手机专享 */
-.flight-icon-formobile{position:absolute;width:35px;height:35px;right:0;top:0;background:url(//pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -65px -20px;background-size:100px;}
+.flight-icon-formobile{position:absolute;width:35px;height:35px;right:0;top:0;background:url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -65px -20px;background-size:100px;}
 /* .flight-icon-formobile{position:absolute;width:0;height:0;right:0;top:0;border:24px solid #52c9f0;border-color:#52c9f0 #52c9f0 transparent transparent;}
 .flight-icon-formobile:before{content:'';position:absolute;width:0;height:0;right:-24px;top:-24px;border:12px solid #fff;border-color:#fff #fff transparent transparent;}
 .flight-icon-formobile:after{content:'手机专享';position:absolute;width:48px;height:12px;left:-17px;top:-14px;font-size:12px;color:#fff;-webkit-transform:rotate(45deg) scale(0.8,0.8);-moz-transform:rotate(45deg) scale(0.8,0.8);-ms-transform:rotate(45deg) scale(0.8,0.8);-o-transform:rotate(45deg) scale(0.8,0.8);transform:rotate(45deg) scale(0.8,0.8);}
@@ -225,10 +239,19 @@ i{font-style:normal;font-weight:normal;}
 /* S 按钮button */
 /* 橙底白字 */
 .flight-btn-org{display:inline-block;width:100%;background:#ff9a14;color:#fff;text-align:center;height:44px;line-height:44px;font-size:18px;border-radius:3px;}
-.flight-btn-clm{width:100%;margin-top:10px;height:39px;line-height:39px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;display:table\9;}
-.flight-btn-clm span{text-align:center;color:#099fde;font-size:15px;border:1px solid #dbdbdb;background:#fff;border-radius:3px;-moz-box-sizing:border-box;box-flex:1;flex:1;-webkit-box-flex:1;-moz-flex:1;-ms-flex:1;display:table-cell\9;}
-.flight-btn-clm i{display:inline-block;width:10px;}
+.flight-btn-clm{width:100%;margin-top:10px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;display:table\9;}
+.flight-btn-clm button{display:block;height:39px;line-height:39px;text-align:center;color:#099fde;font-size:15px;border:1px solid #dbdbdb;background:#fff;border-radius:3px;-moz-box-sizing:border-box;box-flex:1;flex:1;-webkit-box-flex:1;-moz-flex:1;-ms-flex:1;display:table-cell\9;margin:0 5px;}
+.flight-btn-clm button:first-child{margin-left:0px;}
+.flight-btn-clm button:last-child{margin-right:0px;}
 /* E 按钮button */
+.flight-header-action{position:absolute;right:0;top:0;width:54px;height:44px;line-height:44px;text-align:center;color:#fff;font-size:15px;letter-spacing:2px;background:#14b1e7;}
+/* 说明性文字 */
+.flight-article{padding:10px;}
+.flight-article p{margin-bottom:10px;line-height:20px;font-size:14px;color:#666;}
+/* 头部两行 */
+.flight-header .h1two h1{position:relative;font-size:18px;line-height:1;padding-top:5px;}
+.flight-header .h1two p{color:rgba(255,255,255,0.6);text-align:center;font-size:12px;line-height:1;padding-top:5px;}
+.flight-header .h1two p span:nth-child(2){margin-left:12px;}
 /* 小固件↑ */
 /* js相关 */
 .js_sublist{display:none;}
@@ -241,12 +264,11 @@ i{font-style:normal;font-weight:normal;}
 .flight-bkres .order_okinfo{padding:20px 0;color:#999;font-size:13px;font-family:'Microsoft Yahei';}
 /* 退改签 */
 .flight-pnttips{line-height:1.5;color:rgba(0,0,0,0.6);font-size:12px;padding-bottom:10px;}
-.flight-pnttips h4{color:rgba(0,0,0,0.8); line-height:2;margin-top:5px;}
+.flight-pnttips h4{color:rgba(0,0,0,0.8);line-height:2;margin-top:5px;}
+.flight-pnttips h5{color:rgba(0,0,0,0.8);line-height:2;margin-top:5px;}
+.flight-list-tabletips{border-top:1px dotted #ccc;background:#f5f5f5;padding:0 10px 10px 10px;line-height:1.5;color:rgba(0,0,0,0.6);font-size:12px;}
+.flight-list-tabletips h4{color:rgba(0,0,0,0.8);line-height:2;margin-top:5px;}
 /* !
 ** E pyh彭延华 */
 /* *--------------------------------------------* */
 /* !
-** S hjh黄鉴华 */
-.hjhtest{}
-/* !
-** E hjh黄鉴华 */

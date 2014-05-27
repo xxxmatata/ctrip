@@ -785,7 +785,7 @@ i{font-style:normal;font-weight:normal;}
 .flight-zjtable5{border:1px solid #bcbcbc;border-bottom:none;background:#fff;color:#333;font-size:15px;}
 .flight-zjtable5 li{padding:0 10px;position:relative;border-bottom:1px solid #bcbcbc;height:43px;line-height:43px;overflow:hidden;}
 .flight-zjtable5 label{float:left;width:90px;height:43px;overflow:hidden;position:relative;margin-right:5px;}
-.flight-zjtable5 label span{position:absolute;width:90px;max-height:36px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:rotatetranslate(-50%,-50%);-o-transform:rotatetranslate(-50%,-50%);transform:translate(-50%,-50%);line-height:18px;}
+.flight-zjtable5 label span{position:absolute;width:90px;max-height:36px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:rotatetranslate(-50%,-50%);-o-transform:rotatetranslate(-50%,-50%);transform:translate(-50%,-50%);line-height:18px;word-break:break-all;}
 /* 值机列表 */
 .flight-zjlist{margin-top:5px;padding:5px 10px 10px;border-top:2px solid #d2d2d2;border-bottom:1px solid #d2d2d2;background:#fff;font-size:14px;color:rgba(0,0,0,0.8);}
 .flight-zjlist-info{border-top:1px dashed #dfdfdf;margin-top:5px;padding-top:5px;}

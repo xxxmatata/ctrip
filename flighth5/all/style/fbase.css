@@ -65,6 +65,8 @@ i{font-style:normal;font-weight:normal;}
 .flight-hyb_cancel span{padding:7px 10px;}
 .tab_by{display:table\9;}
 .tab_by li{display:table-cell\9;width:33%;}
+.head-warning-header{height:44px;}
+.head-warning-header-title{height:44px;line-height:44px;}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
 .mt0{margin-top:0;}
