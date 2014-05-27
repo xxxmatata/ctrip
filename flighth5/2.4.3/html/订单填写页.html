@@ -16,7 +16,7 @@
     <!--<link href="../../../../../../FlightCommon/Dev/WebApp-v2.4.sp3/WebApp/res/style/fbase.css" rel="stylesheet" />-->
     <link href="../style/fbase.css" rel="stylesheet" />
     <link href="../style/flight.css" rel="stylesheet" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -42,11 +42,11 @@
     <script>
     $(function() {
         $(window).scroll(function() {
-            var h1 = $("#js_flight-top").offset().top - $(document).scrollTop();
-            if (h1 < 0) {
+            var height1 = $("#js_flight-top").offset().top - $(document).scrollTop();
+            if (height1 < 0) {
                 $(".flight-loginline-fixed").removeClass("pos-rl");
             }
-            if (h1 > 0) {
+            if (height1 > 0) {
                 $(".flight-loginline-fixed").addClass("pos-rl");
             }
         });
