@@ -166,34 +166,34 @@ word-break:break-all;}
 .twotitle p{color:#AFCEE9;display:block;text-align:center;font-size:12px;line-height:5px;letter-spacing:0;}
 .tab_time{width:100%;display:box;display:-webkit-box;display:-moz-box;border-bottom:1px solid #ddd;}
 .tab_time li{position:relative;height:34px;line-height:34px;text-align:center;font-size:13px;box-flex:1;-moz-box-flex:1;-webkit-box-flex:1;background-color:#f2f2f2;color:#888;}
-.f_list_tab{border-bottom:1px solid #E8EBEF;width:100%;height:auto;overflow:hidden;font-size:14px;position:relative;background-color:#fff;-webkit-tap-highlight-color:#f2f2f2;}
+.f_list_tab{border-bottom:1px solid #E8EBEF;width:100%;overflow:hidden;font-size:14px;position:relative;background-color:#fff;-webkit-tap-highlight-color:#f2f2f2;}
 ul.f_list_tab{padding:0;}
 .f_list_tab li{float:left;}
 .f_list_tab .f_info{padding:10px;line-height:22px;position:relative;}
 .f_list_tab .f_info,
 .f_list_tab .f_price{letter-spacing:-1px;}
 .f_info strong{color:#0066B3;font-size:18px;}
-.f_info i{color:#0066B3;font-size:16px;margin-left:5px;}
 .f_info h5{color:#0066B3;font-size:15px;margin-bottom:5px;}
-.f_info p{color:#797979;font-size:15px;line-height:23px;}
-.f_info p.stop{color:#C7C7C7;font-size:13px;width:85px;height:22px;overflow:hidden;}
-p.stop i{width:11px;height:11px;line-height:11px;padding:2px;text-align:center;font-family:"STHEITI";font-size:12px;font-weight:bold;background-color:#00A9FF;color:#FFF;display:inline-block;}
-.f_info b{position:absolute;left:110px;bottom:15px;width:200%;height:32px;}
-.f_info b{border-left:#a5d4ee 2px solid;}
-.f_info b.start{bottom:43px;height:28px;}
-.f_info b:before,
-.f_info b:after{width:0;height:0;position:absolute;top:50%;content:"";}
-.f_info b:before{left:0px;margin-top:-2px;border-left:3px solid #a5d4ee;border-bottom:3px solid transparent;border-top:3px solid transparent;}
-.f_info b:after{left:-2px;margin-top:-1px;border-left:2px solid #fff;border-bottom:2px solid transparent;border-top:2px solid transparent;}
-.f_info b.stop{border-left:#c9ea73 2px solid;height:28px;}
-.f_info b.stop:before{border-left:4px solid #c9ea73;}
-.f_info b p{font-size:14px;color:#333;line-height:30px;margin-left:12px;}
-.f_info b em{color:#C7C7C7;margin-left:5px;}
+.flight-intlss{width:100%;}
+.flight-intlss-cnt{padding:0 20px 10px 10px;}
+.flight-intlss .place{width:100px;float:left;margin-top:-8px;}
+.flight-intlss i{color:#0066B3;font-size:16px;margin-left:5px;}
+.flight-intlss p{color:#797979;font-size:15px;line-height:23px;}
+.flight-intlss p.change{color:#C7C7C7;font-size:13px;width:85px;height:22px;overflow:hidden;}
+.flight-intlss p.change i{width:11px;height:11px;line-height:11px;padding:2px;text-align:center;font-family:"STHEITI";font-size:12px;font-weight:bold;background-color:#00A9FF;color:#FFF;display:inline-block;margin-right:3px;}
+.flight-intlss .start,
+.flight-intlss .stop{margin-left:100px;position:relative;height:30px;border-left:#a5d4ee 2px solid;}
+.flight-intlss .stop{border-left:#c9ea73 2px solid;height:28px;}
+.flight-intlss .start:before,
+.flight-intlss .stop:before{content:'';position:absolute;left:-3px;top:50%;margin-top:-3px;width:3px;height:3px;background:#fff;border-top:2px solid #a5d4ee;border-right:2px solid #a5d4ee;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+.flight-intlss .stop:before{width:4px;height:4px;border-top:2px solid #c9ea73;border-right:2px solid #c9ea73;}
+.flight-intlss .start p{font-size:14px;color:#333;line-height:28px;margin-left:5px;}
+.flight-intlss .stop p{font-size:14px;color:#333;line-height:26px;margin-left:5px;}
 .f_list_tab .f_price{padding:10px;line-height:23px;position:absolute;right:10px;text-align:right;color:#757575;font-size:13px;}
 /* dfn{color:#F0831E;font-style:normal;font-size:13px;}
 */
 .f_price h5{color:#797979;font-size:14px;}
-.f_price i{margin-left:10px;}
+.f_price i{margin-left:5px;}
 .f_price i.s{color:#FF4B13}
 .f_price strong{font-size:18px;color:#ff7800;}
 .orderno{height:70px;background-color:#EFF6FB;color:#797979;font-size:16px;text-indent:10px;padding:10px;margin-top:-9px;}
@@ -372,26 +372,5 @@ dfn{color:#FF9913;font-style:normal;font-size:13px;}
 .pl30{padding-left:30px;}
 /* !
 ** S pyh彭延华 */
-/* 区块相关 */
-.mt10{margin-top:10px;}
-.flight-icon-pxu{display:inline-block;width:9px;height:10px;overflow:hidden;position:relative;overflow:hidden;text-indent:-9999px;}
-.flight-icon-pxu:before{content:'';position:absolute;left:-1px;bottom:-3px;width:11px;height:11px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);background:#999;}
-.flight-icon-pxu:after{content:'';position:absolute;left:0;bottom:0;width:3px;height:5px;border:solid #f2f2f2;border-width:0 3px 0 3px;background:#999;}
-.flight-icon-pxd{display:inline-block;width:9px;height:10px;overflow:hidden;position:relative;overflow:hidden;text-indent:-9999px;}
-.flight-icon-pxd:before{content:'';position:absolute;left:-1px;top:-3px;width:11px;height:11px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);background:#999;}
-.flight-icon-pxd:after{content:'';position:absolute;left:0;top:0;width:3px;height:5px;border:solid #f2f2f2;border-width:0 3px 0 3px;background:#999;}
-.hover .flight-icon-pxu:before{background:#099fde;}
-.hover .flight-icon-pxu:after{border:solid #ddd;border-width:0 3px 0 3px;background:#099fde;}
-.hover .flight-icon-pxd:before{background:#099fde;}
-.hover .flight-icon-pxd:after{border:solid #ddd;border-width:0 3px 0 3px;background:#099fde;}
-.flight-tips-etp2{height:38px;line-height:38px;background:#fff1d6;padding-left:12px;position:relative;color:#424242;}
-.flight-tips-etp2 .close{position:absolute;width:12px;height:12px;top:50%;right:10px;margin-top:-6px;text-indent:-9999px;overflow:hidden;}
-.flight-tips-etp2 .close:before{content:'';position:absolute;left:50%;top:50%;width:20px;height:2px;margin-left:-10px;margin-top:-1px;background:#999180;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
-.flight-tips-etp2 .close:after{content:'';position:absolute;left:50%;top:50%;width:20px;height:2px;margin-left:-10px;margin-top:-1px;background:#999180;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);}
-.flight-tips-etp4{height:38px;line-height:38px;background:#fff1d6;color:#424242;text-align:center;margin-right:30px;}
-.flight-tips-etp4 a{color:#2eb3f9;}
-.flight-tips-etp5{height:38px;line-height:38px;background:#fff1d6;color:#424242;text-align:center;}
-.flight .peo_info li.flight-tips-etp5 a{color:#2eb3f9;font-size:1em;}
-.flight .b_people .info_list li:last-child{border-bottom: none;}
 /* !
 ** E pyh彭延华 */
