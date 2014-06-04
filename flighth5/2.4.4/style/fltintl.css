@@ -583,8 +583,8 @@
 }
 .fpay {
 	width: 100%;
-	height: 45px;
-	line-height: 45px;
+	height: 44px;
+	line-height: 44px;
 }
 .fpay em {
 	color: #fff;
@@ -602,8 +602,8 @@
 }
 .fpay .btn {
 	width: 30%;
-	height: 48px;
-	line-height: 48px;
+	height: 44px;
+	line-height: 44px;
 	background: #ff7e00;
 	text-align: center;
 	float: right;

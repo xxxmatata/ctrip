@@ -1,5 +1,4 @@
 ﻿@charset "utf-8";
-/* ------------------common--------------- */
 html,
 body,
 div,
@@ -112,8 +111,6 @@ header .h_line2_t {
 #content {
 	padding: 10px;
 }
-
-/* bg */
 .header_return,
 .header_home:before,
 .header_tel:before,
@@ -123,16 +120,12 @@ header .h_line2_t {
 	background: url(http://res.m.ctrip.com/html5/content/images/comm_bg.png) no-repeat -100px -105px;
 	background-size: 242px 260px;
 }
-
-/* modify by pp 0926 */
 .lefthead:active,
 .header_tel:active,
 .header_home:active,
 .btn_blue:active {
 	opacity: 0.7;
 }
-
-/* modify by pp 0926 */
 #righthead {
 	padding: 0 15px;
 	background: #15a4d5;
@@ -265,8 +258,6 @@ button {
 	top: 0;
 	right: 0;
 }
-
-/* 满房标签 */
 #triangle-up:active {
 	width: 0;
 	height: 0;
@@ -296,8 +287,6 @@ button {
 	float: right;
 	color: #2A99E3;
 }
-
-/* 使用消费券 */
 .up {
 	width: 0px;
 	height: 0px;
@@ -306,8 +295,6 @@ button {
 	border-right: 7px solid #EFEFEF;
 	display: inline-block;
 }
-
-/* 订单填写页面返现说明信息向上向下小三角 */
 .down {
 	width: 0px;
 	height: 0px;
@@ -316,8 +303,6 @@ button {
 	border-right: 7px solid #EFEFEF;
 	display: inline-block;
 }
-
-/* ------------------city time选择框----------------- */
 .wapapp_panel {
 	height: 48px;
 	line-height: 48px;
@@ -405,9 +390,6 @@ div.divhover {
 div.divhover:active {
 	background: #e3e3e3 !important;
 }
-
-/* ------------------hotelList----------------- */
-/* add full */
 .hotel_full {
 	position: relative;
 }
@@ -430,8 +412,6 @@ div.divhover:active {
 	-o-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 }
-
-/* add full */
 .hot_list_tab:after {
 	content: "";
 	width: 8px;
@@ -536,8 +516,6 @@ div.divhover:active {
 	margin-left: 2px;
 	margin-right: 8px;
 }
-
-/* ------------------flightList----------------- */
 ul.air:active {
 	background-color: #F2F2F2;
 }
@@ -689,8 +667,6 @@ ul.f_list_tab {
 	font-size: 16px;
 	color: #ff7800;
 }
-
-/* ------------------calendar----------------- */
 #calendar {
 	z-index: 999;
 	text-shadow: none;
@@ -752,8 +728,6 @@ ul.f_list_tab {
 	color: #ccc;
 }
 .calGrid td:active {
-	/* background-color: #ffea00;
-	*/
 }
 .calGrid td.past:hover {
 	background-color: #fff;
@@ -775,8 +749,6 @@ ul.f_list_tab {
 .none {
 	display: none;
 }
-
-/* ----------------btn------------------- */
 .ui-btn-up-g {
 	display: block;
 	margin: 0 auto;
@@ -794,15 +766,11 @@ ul.f_list_tab {
 	-webkit-tap-highlight-color: #FF9913 !important;
 	background: #FF9913;
 }
-
-/* modify by pp 0926 */
 .ui-btn-up-g:active {
 	opacity: 0.7;
 	color: #FFFFFF;
 	font-weight: bold;
 }
-
-/* modify by pp 0926 */
 .ui-btn-up-h {
 	background-color: #31a9e9;
 	color: #FFFFFF;
@@ -883,8 +851,6 @@ ul.f_list_tab {
 	font-weight: bold;
 	font-size: 14px;
 }
-
-/* ------------------input txt----------------- */
 .ui-txt {
 	margin-bottom: 10px;
 	background: #f2f2f2;
@@ -919,8 +885,6 @@ hr {
 	border: none;
 	border-top: 1px solid #dbdbdb;
 }
-
-/* -----清空输入框样式  by pp------------ */
 .clear-input {
 	display: none;
 	position: absolute;
@@ -989,8 +953,6 @@ hr {
 	text-indent: 10px;
 	box-shadow: none !important;
 }
-
-/* placeholder 样式 */
 .placeholder-title {
 	font-size: 16px;
 	position: absolute;
@@ -1001,8 +963,6 @@ hr {
 	padding-left: 0.6em;
 	color: #aaa;
 }
-
-/* select */
 select {
 	width: 200px;
 	height: 30px;
@@ -1036,8 +996,6 @@ select {
 	background: url(http://res.m.ctrip.com/html5/content/images/comm_bg.png?t=20131021) no-repeat -190px -63px;
 	background-size: 242px 260px;
 }
-
-/* citylist */
 #citylist ul:empty {
 	display: none;
 }
@@ -1056,8 +1014,6 @@ select {
 	text-indent: 30px;
 	border-radius: 4px;
 }
-
-/* modify by pp 0926 */
 .cityinput:focus {
 	background: #ffffff;
 	border: none;
@@ -1069,8 +1025,6 @@ select {
 	content: "";
 	z-index: 9;
 }
-
-/* modify by pp 0926 */
 .ui-icon-searchfield:before {
 	left: 6px;
 	top: 8px;
@@ -1091,8 +1045,6 @@ select {
 	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
-
-/* modify by pp 0926 */
 .ui-li-divider,
 .ui-li-divider-hot {
 	background: #fff;
@@ -1124,8 +1076,6 @@ select {
 	margin-top: -8px;
 	background-position: -190px -83px;
 }
-
-/* modify by pp 0926 */
 .ui-body-d,
 .ui-body-d input,
 .ui-body-d select,
@@ -1151,15 +1101,11 @@ body .ui-icon-searchfield {
 	border-radius: 4px;
 	position: relative;
 }
-
-/* modify by pp 0926 */
 .search-input-box {
 	position: relative;
 	padding: 10px;
 	background: #dfeaf1;
 }
-
-/* modify by pp 0926 */
 .search-input-box span {
 	display: block;
 	height: 100%;
@@ -1170,8 +1116,6 @@ body .ui-icon-searchfield {
 	height: 40px;
 	line-height: 40px;
 }
-
-/* ----------------singerDouble切换------------------- */
 .singerDouble .ui-grid-a {
 	border-bottom: 1px solid #cfcfcf;
 }
@@ -1190,8 +1134,6 @@ body .ui-icon-searchfield {
 	color: #329ECB;
 	border-bottom: 4px solid #1491C5;
 }
-
-/* ------------------color size----------------- */
 .warn {
 	color: #f00;
 }
@@ -1261,8 +1203,6 @@ body .ui-icon-searchfield {
 .txt_left {
 	text-align: left;
 }
-
-/* ------------------ico----------------- */
 .icon_arrow {
 	width: 8px;
 	height: 15px;
@@ -1405,16 +1345,12 @@ body .ui-icon-searchfield {
 .checkno {
 	background: #f5f5f5;
 }
-
-/* header icon */
 .header_return,
 .header_home:before,
 .header_tel:before {
 	position: absolute;
 	content: "";
 }
-
-/* modify by pp 0926 */
 .header_home,
 .header_tel {
 	width: 42px;
@@ -1424,8 +1360,6 @@ body .ui-icon-searchfield {
 	z-index: 9;
 	float: right;
 }
-
-/* modify by pp 0926 */
 .header_home:before {
 	width: 20px;
 	height: 19px;
@@ -1433,8 +1367,6 @@ body .ui-icon-searchfield {
 	right: 10px;
 	background-position: -145px 0;
 }
-
-/* modify by pp 0926 */
 .header_tel:before {
 	width: 11px;
 	height: 20px;
@@ -1442,8 +1374,6 @@ body .ui-icon-searchfield {
 	right: 12px;
 	background-position: -172.5px 0;
 }
-
-/* modify by pp 0926 */
 .lefthead {
 	position: absolute;
 	left: 0;
@@ -1452,16 +1382,12 @@ body .ui-icon-searchfield {
 	height: 48px;
 	background-color: #15a4d5;
 }
-
-/* modify by pp 0926 */
 .header_return {
 	left: 25px;
 	top: 16px;
 	width: 12px;
 	height: 20px;
 }
-
-/* modify by pp 0926 */
 .header_map {
 	background: url(http://res.m.ctrip.com/html5/Content/images/ico_head.png) 50% 50% no-repeat;
 	background-size: auto 26px;
@@ -1471,8 +1397,6 @@ body .ui-icon-searchfield {
 	margin-top: 15px;
 	float: right;
 }
-
-/* hotel icon */
 .hotelicon {
 	width: 14px;
 	height: 14px;
@@ -1510,8 +1434,6 @@ body .ui-icon-searchfield {
 	font-weight: bold;
 	color: #ffffff;
 }
-
-/* hotel room icon */
 .roomdetailinfo .list {
 	background: url(http://res.m.ctrip.com/html5/Content/images/icon_hotel_room.png) 50% 50% no-repeat;
 	background-size: auto 100%;
@@ -1541,8 +1463,6 @@ body .ui-icon-searchfield {
 .roomdetailinfo .bed {
 	background-position: -120px top;
 }
-
-/* time-price-up-down */
 .icodata_up {
 	background: url(http://res.m.ctrip.com/html5/Content/images/ico_updown.png) 50% 50% no-repeat;
 	background-size: auto 100%;
@@ -1579,8 +1499,6 @@ body .ui-icon-searchfield {
 	margin: 0 0 -1px 7px;
 	display: inline-block;
 }
-
-/* ------------------提示框----------------- */
 .ui-loader {
 	display: block;
 	-moz-border-radius: .6em;
@@ -1609,15 +1527,11 @@ body .ui-icon-searchfield {
 	color: #fff;
 	font-size: 16px;
 }
-
-/* Mask default css */
 .cui-Mask {
 	display: none;
 	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRFAAAA////pdmf3QAAAAxJREFUeNpiYAAIMAAAAgABT21Z4QAAAABJRU5ErkJggg==);
 	opacity: 0.0;
 }
-
-/* Alert defalut css */
 .cui-alert {
 	max-width: 500px;
 	width: 95%;
@@ -1689,8 +1603,6 @@ body .ui-icon-searchfield {
 	position: relative;
 	overflow: hidden;
 }
-
-/* layer default css */
 .cui-layer {
 	color: #fff;
 }
@@ -1698,8 +1610,6 @@ body .ui-icon-searchfield {
 	margin: 0px 10px;
 	padding: 10px 0px;
 }
-
-/* ui-select default css */
 body select {
 	opacity: 0;
 }
@@ -1778,8 +1688,6 @@ body select {
 	z-index: 999;
 }
 .cui-select-cont-box {
-	/* margin: 10px;
-	*/
 }
 .cui-select-cont-box i {
 	font-style: normal;
@@ -1790,8 +1698,6 @@ body select {
 .cui-select-cont-box i:after {
 	content: "离店";
 }
-
-/* loading default css */
 .cui-breaking-load {
 	width: 80px;
 	height: 70px;
@@ -1801,8 +1707,6 @@ body select {
 	position: relative;
 	z-index: 9999;
 }
-
-/* new>> */
 .cui-w-loading {
 	position: absolute;
 	width: 50px;
@@ -1822,8 +1726,6 @@ body select {
 	margin: -15px 0 0 -15px;
 	background-position: -151.5px -132.5px;
 }
-
-/* <<new */
 .cui-w-loading {
 	-webkit-animation: cui-loading 1.58s linear infinite;
 	-moz-animation: cui-loading 1.58s linear infinite;
@@ -1865,8 +1767,6 @@ body select {
 .cui-loadingbox {
 	background-color: #7d7a74;
 }
-
-/* ui-viewpage default css */
 .cui-view-page {
 	background: #fff;
 }
@@ -1880,8 +1780,6 @@ body select {
 }
 .cui-loading-text {
 }
-
-/* 幻灯片样式 */
 .cui-slide {
 	background: #444;
 }
@@ -1915,8 +1813,6 @@ body select {
 	background-position: center center;
 	background-size: 300px auto;
 }
-
-/* 输入框历史记录 */
 .cui-history {
 	background: #fff;
 }
@@ -1934,9 +1830,6 @@ body select {
 .cui-history .cui-history-list li.item {
 	border-bottom: 1px solid #efefef;
 }
-
-/* ********************** 业务性 ************************ */
-/* 酒店详情页日期弹出框 */
 .select-time {
 	background: #f2f2f2;
 	height: 100%;
@@ -2009,8 +1902,6 @@ body select {
 	margin: auto;
 	-webkit-tap-highlight-color: #ff8c00;
 }
-
-/* -------------------top banner------------------ */
 .top {
 	background: #1491c5;
 	height: 48px;
@@ -2022,8 +1913,6 @@ body select {
 	color: #fff;
 	font-size: 16px;
 }
-
-/* ------------------return------------------------ */
 .back {
 	background-color: #1491c5;
 	height: 48px;
@@ -2033,8 +1922,6 @@ body select {
 	top: 0;
 	width: 68px;
 }
-
-/* -----------------loading------------------------ */
 .loading-ui {
 	left: 50%;
 	top: 50%;
@@ -2044,8 +1931,6 @@ body select {
 	position: fixed !important;
 	border-radius: 10px;
 }
-
-/* ------------------提示框----------------- */
 .msgbox-ui {
 	z-index: 9999999;
 	position: fixed !important;
@@ -2069,8 +1954,6 @@ body select {
 	color: #fff;
 	font-size: 16px;
 }
-
-/* ------img_ad------- */
 .module {
 	width: 100%;
 	height: 50px;
@@ -2120,8 +2003,6 @@ body select {
 .imgFlashIco li.on {
 	color: #1491c5;
 }
-
-/* * cui-slide * */
 .cui-slide {
 	width: 100%;
 	height: 100%;
@@ -2198,15 +2079,11 @@ body .cui-slide-nav-item-current {
 .novip {
 	display: none;
 }
-
-/* 定位 */
 .cui-loading-title {
 	padding-top: 52px;
 	text-align: center;
 	font-size: 12px;
 }
-
-/* switch+ - */
 button {
 	border: none
 }
@@ -2257,8 +2134,6 @@ button {
 .room_num .num_invalid {
 	background: #dadada;
 }
-
-/* add switch new */
 .switch_on,
 .switch_off {
 	position: absolute;
@@ -2308,8 +2183,6 @@ button {
 .switch_off:after {
 	border-bottom-color: #15a4d5
 }
-
-/* app download add by w_jing 10-31 */
 .fix_bottom {
 	position: fixed;
 	position: absolute/9;
@@ -2331,8 +2204,8 @@ button {
 	display: flex;
 }
 .txt_middle {
-	/* firfox bug star */display: flex;
-	align-items: center; /* firfox bug end */
+	display: flex;
+	align-items: center;
 	display: -webkit-box;
 	-webkit-box-align: center;
 }
@@ -2492,85 +2365,6 @@ button {
 }
 .tab_search li.tabcrt:after {
 	background: none;
-}
-/* /html5/flight/AirState/StateList.html */
-.result {
-	color: #AFCEE9;
-	text-shadow: none;
-	display: block;
-	text-align: center;
-	font-size: 12px;
-	left: 0px;
-	bottom: 0px;
-}
-.ui-header .ui-title {
-	margin: 10px 5px 2px 5px !important;
-}
-.form-text {
-	font-size: 13px;
-	text-align: center;
-	color: #666666;
-}
-.borderbottom {
-	border-bottom: 1px solid #e8ebef;
-	padding-bottom: 8px;
-}
-.ui-grid-d {
-	padding-top: 10px;
-}
-.ui-grid-d .ui-block-a {
-	width: 20%;
-}
-.ui-grid-d .ui-block-b {
-	width: 24%;
-}
-.ui-grid-d .ui-block-c {
-	width: 19%;
-}
-.ui-grid-d .ui-block-d {
-	width: 19%;
-}
-.ui-grid-d .ui-block-e {
-	width: 18%;
-	margin-top: 8px;
-}
-.stateAir {
-	background: #f2fdf4;
-	color: #6dca7e;
-}
-.stateDelay {
-	background: #fff4f4;
-	color: #e1453c;
-}
-.statePlan {
-	background: #e5eafe;
-	color: #7582b5;
-}
-.stateArrive {
-	background: #effaff;
-	color: #14a0c8;
-}
-.stateCancel {
-	background: #f4f4f4;
-	color: #ababab;
-}
-.ui-block-b {
-	width: 12% !important;
-}
-.ui-block-g {
-	width: 12%;
-	float: left;
-}
-.ui-block-bottom {
-	width: 100%;
-	height: 20px;
-	float: left;
-}
-.ui-block-bottom div:first-child {
-	float: left;
-}
-.ui-block-bottom div:last-child {
-	float: right;
 }
 
 /* !
