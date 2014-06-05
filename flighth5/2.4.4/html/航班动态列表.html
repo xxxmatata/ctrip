@@ -55,7 +55,10 @@
     }
     .ui-grid-d {
         padding-top:10px;
+        position: relative;
+        overflow: hidden;
     }
+    .statefollow:before{content:'';position: absolute;left:0;top:0;width: 3px;height: 100px;background: #52c9f0;}
     .ui-grid-d .ui-block-a {
         width:20%;
     }
@@ -177,7 +180,7 @@
             </div>
             <div id="airlineList">
 
-                <div data-id="MU5137" class="ui-grid-d borderbottom stateCancel">
+                <div data-id="MU5137" class="ui-grid-d borderbottom stateCancel statefollow">
                     <div class="ui-block-a form-text">
                         <span class="pubFlights_CZ ">MU5137</span>
                         <br>东航</div>
@@ -277,7 +280,7 @@
                 </div>
 
 
-                <div data-id="ZH1858" class="ui-grid-d borderbottom stateDelay">
+                <div data-id="ZH1858" class="ui-grid-d borderbottom stateDelay statefollow">
                     <div class="ui-block-a form-text">
                         <span class="pubFlights_CZ ">ZH1858</span>
                         <br>深航</div>
@@ -377,7 +380,7 @@
                 </div>
 
 
-                <div data-id="MU5145" class="ui-grid-d borderbottom statePlan">
+                <div data-id="MU5145" class="ui-grid-d borderbottom statePlan statefollow">
                     <div class="ui-block-a form-text">
                         <span class="pubFlights_CZ ">MU5145</span>
                         <br>东航</div>
