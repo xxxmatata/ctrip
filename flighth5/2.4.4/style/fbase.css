@@ -1145,12 +1145,12 @@ i {
 .flight-listsim3 ul {
 	position: relative;
 }
-.flight-listsim3 .light-arrrht:after {
+.flight-listsim3 .flight-arrrht2:after {
 	content: '';
 	position: absolute;
 	width: 10px;
 	height: 10px;
-	right: 10px;
+	right: 0px;
 	top: 50%;
 	margin-top: -5px;
 	border-top: 2px solid #a9a9a9;
