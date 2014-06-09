@@ -1773,6 +1773,9 @@ dfn {
 .pl30 {
 	padding-left: 30px;
 }
+.hyb_detail_pub .mod dd {
+	word-break: normal;
+}
 
 /* !
 ** S pyh彭延华 */
