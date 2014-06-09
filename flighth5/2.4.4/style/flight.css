@@ -346,35 +346,6 @@
 	font-size: .9em;
 	padding-bottom: 15px;
 }
-.fpay {
-	width: 100%;
-	height: 45px;
-	line-height: 45px;
-}
-.fpay em {
-	color: #fff;
-}
-.fpay em.fs {
-	font-size: 18px;
-	padding-left: 3px;
-	font-weight: bold;
-}
-.fpay .money {
-	background: #ff942b;
-	text-indent: 20px;
-	color: #fff;
-}
-.fpay .btn {
-	width: 30%;
-	height: 48px;
-	line-height: 48px;
-	background: #ff7e00;
-	text-align: center;
-	float: right;
-	font-weight: 700;
-	color: #fff;
-	text-indent: 0;
-}
 .fltdetail .ofont span {
 	color: #797979;
 	padding-right: 20px;
