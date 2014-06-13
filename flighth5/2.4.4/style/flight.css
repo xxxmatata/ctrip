@@ -449,6 +449,7 @@
 	line-height: 5px;
 	letter-spacing: 0;
 }
+/*
 .tab_time {
 	width: 100%;
 	display: box;
@@ -470,6 +471,7 @@
 	background-color: #f2f2f2;
 	color: #888;
 }
+*/
 .f_list_tab {
 	border-bottom: 1px solid #E8EBEF;
 	width: 100%;
@@ -1746,7 +1748,7 @@ mark {
 
 /* E 机票查询页优化 */
 /* S 机票订单填写页优化 */
-.flight-loginline-fixed {
+.flight-loginline-fixed{
 	position: fixed;
 	z-index: 999;
 	left: 0;
@@ -2199,6 +2201,7 @@ mark {
 }
 .flight-zjfooter {
 	position: fixed;
+	left:0;
 	bottom: 0;
 	width: 100%;
 	height: 39px;

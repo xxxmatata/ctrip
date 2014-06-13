@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* ________________________________cpage start__________________________________________/
+/* _____________cpage start_____________/
 /* --------------------------
 h5 全局说明页
 -------------------------- */
@@ -141,17 +141,8 @@ h5 全局说明页
 .intrip .boa_info em {
 	color: #797979;
 }
-.intrip .grayli {
-	padding: 10px;
-	margin-bottom: 10px;
-}
-.intrip .grayli li {
-	background: #f2f2f2;
-	border: none;
-	margin-bottom: 10px;
-}
-.intrip .needs:before {
-	margin-left: 0;
+.p_add_wrap .needs:before {
+	display: none;
 }
 .intrip .grayli li .twoh {
 	width: 63%;
@@ -239,7 +230,7 @@ h5 全局说明页
 	padding-bottom: 0;
 }
 
-/* ________________________________cpage end__________________________________________/
+/* _____________cpage end_____________/
 /* !
 ** S pyh彭延华 */
 /* 覆盖公共 ↓ */
@@ -371,6 +362,16 @@ i {
 }
 .intrip .cfbox li .sfr {
 	margin-top: -8px;
+}
+.intrip .grayli {
+	margin-top: -1px;
+}
+.intrip .grayli li {
+	border-bottom: 1px solid #bcbcbc;
+	padding: 10px;
+}
+.intrip .needs:before {
+	margin-left: 0;
 }
 .mulselect_no {
 	width: 15px;
@@ -540,7 +541,7 @@ i {
 	height: 44px;
 	text-indent: 20px;
 	font-size: 1.2em;
-	color: #333;	
+	color: #333;
 }
 .fpay .btn {
 	width: 30%;
@@ -555,6 +556,26 @@ i {
 }
 .cont_wrap {
 	margin: 44px 0 0 0
+}
+.sjblue {
+	width: 6px;
+	height: 6px;
+	border: none;
+	border-bottom: 2px solid #1491c5;
+	border-right: 2px solid #1491c5;
+	vertical-align: middle;
+	margin-top: -5px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.sjblue_bottom {
+	border: none;
+	border-left: 2px solid #1491c5;
+	border-top: 2px solid #1491c5;
+	margin-top: 0;
 }
 
 /* 覆盖公共 ↑ */
@@ -1697,10 +1718,7 @@ i {
 	position: relative;
 	z-index: 1;
 	font-size: 12px;
-	-webkit-transition: height 0.6s;
-	-moz-transition: height 0.6s;
-	-o-transition: height 0.6s;
-	transition: height 0.6s;
+	overflow: hidden;
 }
 .flight-tips-etp2 .close {
 	position: absolute;
@@ -1751,12 +1769,17 @@ i {
 	top: 50%;
 	left: 50%;
 	width: 300px;
-	margin-left: -150px;
+	height: 200px;
 	background: rgba(0, 0, 0, .85);
 	border-radius: 5px;
 	font-size: 12px;
 	color: #fff;
 	padding: 25px 0 10px;
+	transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
 }
 .flight-tips-etp3 p {
 	line-height: 15px;
