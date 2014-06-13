@@ -1770,6 +1770,7 @@ i {
 	left: 50%;
 	width: 300px;
 	height: 200px;
+	overflow: auto;
 	background: rgba(0, 0, 0, .85);
 	border-radius: 5px;
 	font-size: 12px;
