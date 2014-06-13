@@ -1789,7 +1789,7 @@ i {
 	width: 300px;
 	height: 50px;
 	bottom: 0;
-	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, #000 100%)
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, #f20 100%)
 }
 .flight-tips-etp3 .flight-scroll {
 	max-height: 300px;
