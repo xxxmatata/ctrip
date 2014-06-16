@@ -577,7 +577,26 @@ i {
 	border-top: 2px solid #1491c5;
 	margin-top: 0;
 }
-
+.f_info p {
+	color: #333;
+	font-size: 15px;
+}
+.f_info p:nth-child(2) {
+	color: #999;
+}
+.f_info strong {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.f_info i {
+	color: #000;
+	font-weight: bold;
+}
+.f_info em {
+	font-size: .9em;
+	margin-left: 4px;
+}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
 .f-l {
