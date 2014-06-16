@@ -1783,14 +1783,14 @@ i {
 	line-height: 15px;
 	padding: 8px 10px;
 }
-.flight-tips-etp3:after {
-	content: '';
-	display: block;
-	position: fixed;
+.flight-tips-etp3 .mod-gradul {
+	position: absolute;
 	width: 300px;
 	height: 50px;
+	left: 0;
 	bottom: 0;
-	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, #f20 100%)
+	border-radius: 5px;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, #000 100%);
 }
 .flight-tips-etp3 .flight-scroll {
 	max-height: 300px;
@@ -2079,7 +2079,7 @@ i {
 .flight-ipt-etp .flight-arrup,
 .flight-ipt-etp2 .flight-arrdown,
 .flight-ipt-etp2 .flight-arrup {
-	margin-right: 20px;
+	padding-right: 20px;
 }
 .flight-check-checked:before {
 	content: '';
