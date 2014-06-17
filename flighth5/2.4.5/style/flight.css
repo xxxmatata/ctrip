@@ -1825,6 +1825,14 @@ mark {
 	border-bottom: 1px solid #bcbcbc;
 	margin-bottom: -1px;
 }
+.flight-infoinput-pdl .flights_gender {
+	float: right;
+	margin-right: 10px;
+}
+.flight-infoinput-pdl .flights_gender .s_on,
+.flight-infoinput-pdl .flights_gender .s_off {
+	font-weight: normal;
+}
 .flight-infoinput label {
 	display: inline-block;
 	width: 70px;
@@ -1898,7 +1906,8 @@ mark {
 	border-radius: 3px;
 	padding: 0 5px;
 }
-.flight-addinfo {
+
+/* .flight-addinfo {
 	height: 30px;
 	padding-top: 10px;
 }
@@ -1912,15 +1921,16 @@ mark {
 	color: #099fde;
 	border-radius: 3px;
 }
-.flight-addinfo .flight-btn-etp {
-	float: left;
+*/
+.flight-btn-etp {
 	height: 24px;
 	line-height: 24px;
+	margin-top: 10px;
 	margin-left: 6px;
 	color: #099fde;
 	position: relative;
 }
-.flight-addinfo .flight-btn-etp:after {
+.flight-btn-etp:after {
 	content: '';
 	position: absolute;
 	width: 6px;
