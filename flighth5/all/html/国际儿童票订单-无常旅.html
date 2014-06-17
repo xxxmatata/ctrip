@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>机票预订</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <link rel="Stylesheet" type="text/css" href="http://webresource.c-ctrip.com/styles/h5/common/main.css" />
+    <link rel="Stylesheet" type="text/css" href="../style/fltintl.css" />
+    <link rel="stylesheet" type="text/css" href="../style/flights_logo.css" />
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://res.m.ctrip.com/html5/Content/images/57.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://res.m.ctrip.com/html5/Content/images/72.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://res.m.ctrip.com/html5/Content/images/114.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
+</head>
+
+<body>
+    <div id="main">
+        <div class="main-frame">
+            <div class="main-viewport">
+                <div class="sub-viewport" id="id_viewport2" page-id="214021" page-url="booking">
+                    <style>
+                    #flightBox {
+                        overflow: hidden;
+                    }
+                    #sug_child, #sug_baby {
+                        line-height: 42px;
+                        background: #fcf6e2;
+                        text-align: center;
+                        display: none;
+                    }
+                    #sug_baby em {
+                        color:#099fde;
+                    }
+                    </style>
+                    <!--航班信息-->
+                    <article id="flightBox">
+
+                        <!--登机人-->
+                        <section class="flight" id="phoneSection">
+                            <div id="b_people" class="b_people fbgf flights_bottom_none">
+                                <hgroup class="ftx jsftx">
+                                    <h3 id="js_selectPass_btn" style="display: none;">添加登机人<i class="add_ico">&nbsp;</i>
+                                    </h3>
+                                    <h2>登机人</h2>
+                                </hgroup>
+                                <div class="flight-tips-etp2">16岁以下登机人须有成人陪同登机<i class="close">关闭</i>
+                                </div>
+                                <ul class="info_list clearfix" id="passengerInfo">
+
+                                    <li data-id="1398653281612">
+                                        <!-- class="js_click_edit"-->
+                                        <div class="click_e"><i class="i edit_ico">&nbsp;</i>
+                                        </div>
+                                        <div class="click_d"><i class="fdelete">&nbsp;</i>
+                                        </div>
+                                        <!--js_click_del-->
+                                        <div class="ptxt">
+                                            <p>f/d</p>
+
+                                            <p class="cgray">护照&nbsp;4564</p>
+                                            <p class="flight-tips-etp4">建议购买儿童票</p>
+
+
+
+
+                                        </div>
+                                    </li>
+
+                                    <li data-id="1398653281612">
+                                        <!-- class="js_click_edit"-->
+                                        <div class="click_e"><i class="i edit_ico">&nbsp;</i>
+                                        </div>
+                                        <div class="click_d"><i class="fdelete">&nbsp;</i>
+                                        </div>
+                                        <!--js_click_del-->
+                                        <div class="ptxt">
+                                            <p>f/d</p>
+
+                                            <p class="cgray">护照&nbsp;4564</p>
+                                            <p class="flight-tips-etp4">可拨打<a href="tel:4000086666" class="js_AlertPhone">400-008-6666</a>购买婴儿票</p>
+                                        </div>
+                                    </li>
+                                    <li data-id="1398653281612">
+                                        <!-- class="js_click_edit"-->
+                                        <div class="click_e"><i class="i edit_ico">&nbsp;</i>
+                                        </div>
+                                        <div class="click_d"><i class="fdelete">&nbsp;</i>
+                                        </div>
+                                        <!--js_click_del-->
+                                        <div class="ptxt">
+                                            <p>f/d</p>
+
+                                            <p class="cgray">护照&nbsp;4564</p>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="mt10" id="addPassenger">
+
+                                <ul class="b_people fbgf compd2 peo_info flights_top_none">
+                                    <li class="flights_preson preson_mr2 clear-input-box">
+                                        <label>英文姓名</label>
+                                        <input class="txts js_ename" maxlength="29" type="text" placeholder="请填写登机人姓名" value="">
+                                        <a class="clear-input " href="javascript:;" style="top: 15px; bottom: auto; display: none;">
+                                            <span></span>
+                                        </a>
+                                        <i class="i flights_wenh" id="js_flights_wenh"></i>
+                                    </li>
+                                    <li class="flights_preson clear-input-box">
+                                        <select id="sel_idCard" name="select-choice-1" style="display: none;">
+
+                                            <option selected="" value="2" data-no="">护照</option>
+
+                                            <option value="10" data-no="">港澳通行证</option>
+
+                                            <option value="8" data-no="">台胞证</option>
+
+                                            <option value="7" data-no="">回乡证</option>
+
+                                            <option value="22" data-no="">台湾通行证</option>
+
+                                        </select>
+                                        <label id="js_blk_noidCard" class="fcblue ellips">
+                                            <span class="scrollRadioList_title">护照</span><i class="newarr_r"></i>
+                                        </label>
+                                        <input class="js_no" type="text" placeholder="请填写证件号码" data-index="0" value="">
+                                        <a class="clear-input " href="javascript:;" style="top: 15px; bottom: auto; display: none;">
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    <li class="flights_preson preson_mr2 pos_rel flights_libg" id="js_citizenship">
+                                        <label>国籍</label>
+                                        <span class="fcblue flights_area">中国大陆</span><i class="newarr_r"></i>
+                                    </li>
+                                    <li class="flights_preson preson_mr2 flights_libg">
+                                        <label>性别</label>
+                                        <span class="flights_gender js_sex">
+                                            <i class="s_on current">男</i><i class="s_off s_woman false">女</i>
+                                        </span>
+                                    </li>
+                                    <li class="flights_preson preson_mr2 clear-input-box">
+                                        <label>出生日期</label>
+                                        <input class="js_birth" maxlength="8" type="tel" placeholder="格式：19851223" value="">
+                                        <a class="clear-input " href="javascript:;" style="top: 15px; bottom: auto; display: none;">
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    <li class="flight-tips-etp5">
+                                        建议购买儿童票
+                                    </li>
+                                    <li class="flight-tips-etp5">
+                                        可拨打<a href="tel:4000086666" class="js_AlertPhone">400-008-6666</a>购买婴儿票
+                                    </li>
+                                    <li class="fcblue" id="js_addPass_btn">
+                                        <label><i class="add_ico">&nbsp;</i>&nbsp;添加更多登机人</label>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </section>
+
+                    </article>
+                </div>
+            </div>
+            <div class="main-state"></div>
+        </div>
+    </div>
+</body>
+
+</html>

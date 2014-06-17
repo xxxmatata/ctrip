@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* seat style comment area */
+/* seat style */
+/* 座位图标 */
+/* 32x40 */
+.flight-icon-seat{margin-right:10px;display:inline-block;width:28px;height:36px;border:2px solid #ccc;background:#fff;border-radius:6px;overflow:hidden;position:relative;}
+.flight-icon-seat b{position:absolute;width:16px;height:25px;left:50%;top:5px;margin-left:-10px;border:2px solid #ccc;border-top:none;border-radius:0px 0px 4px 4px;}
+.flight-icon-seat b:before{content:'';position:absolute;width:5px;height:5px;left:-7px;top:-7px;border-top:2px solid #ccc;border-right:2px solid #ccc;border-radius:0 5px 0 0;}
+.flight-icon-seat b:after{content:'';position:absolute;width:5px;height:5px;right:-7px;top:-7px;border-top:2px solid #ccc;border-left:2px solid #ccc;border-radius:5px 0 0 0;}
+.flight-icon-seat.seat-status3{background:#e5e5e5;}
+.flight-icon-seat.seat-status5{background:#7dc564;border-color:#75b651;}
+.flight-icon-seat.seat-status5 b{border-color:#fff;}
+.flight-icon-seat.seat-status5 b:before{border-color:#fff;}
+.flight-icon-seat.seat-status5 b:after{border-color:#fff;}
+.flight-icon-seat.seat-status1{background:#e5e5e5;}
+.flight-icon-seat.seat-status1 b{border:none;top:21px;width:24px;height:9px;background:#ccc;margin-left:-12px;border-radius:5px 5px 0 0;}
+.flight-icon-seat.seat-status1 b:before{content:'';position:absolute;width:14px;height:14px;left:50%;top:-14px;margin-left:-7px;border:none;border-radius:50%;background:#ccc;}
+.flight-icon-seat.seat-status1 b:after{display:none;}
+/* 20x25 */
+.st-x20 .flight-icon-seat{width:16px;height:21px;border-radius:4px;}
+.st-x20 .flight-icon-seat b{width:8px;height:13px;left:50%;top:3px;margin-left:-6px;border-radius:0px 0px 3px 3px;}
+.st-x20 .flight-icon-seat b:before{width:3px;height:3px;left:-5px;top:-5px;border-radius:0 4px 0 0;}
+.st-x20 .flight-icon-seat b:after{width:3px;height:3px;right:-5px;top:-5px;border-radius:4px 0 0 0;}
+.st-x20 .flight-icon-seat.seat-status1 b{top:13px;width:14px;height:5px;margin-left:-7px;border-radius:3px 3px 0 0;}
+.st-x20 .flight-icon-seat.seat-status1 b:before{width:8px;height:8px;left:50%;top:-9px;margin-left:-4px;border:none;border-radius:50%;background:#ccc;}
+/* 24x30 */
+.st-x24 .flight-icon-seat{width:20px;height:26px;border-radius:5px;}
+.st-x24 .flight-icon-seat b{width:10px;height:17px;left:50%;top:4px;margin-left:-7px;border-radius:0px 0px 4px 4px;}
+.st-x24 .flight-icon-seat b:before{width:4px;height:4px;left:-6px;top:-6px;border-radius:0 4px 0 0;}
+.st-x24 .flight-icon-seat b:after{width:4px;height:4px;right:-6px;top:-6px;border-radius:4px 0 0 0;}
+.st-x24 .flight-icon-seat.seat-status1 b{top:15px;width:16px;height:6px;margin-left:-8px;border-radius:3px 3px 0 0;}
+.st-x24 .flight-icon-seat.seat-status1 b:before{width:10px;height:10px;left:50%;top:-11px;margin-left:-5px;border:none;border-radius:50%;background:#ccc;}
+/* 顶部选座信息 */
+.seat-user-info{position: fixed;left:0;top:44px;width: 100%;height: 42px;line-height: 42px;border-bottom: 2px solid #7fbdd7;background: #fafafa;color: rgba(0,0,0,0.8);font-size: 18px; display: table;}
+.seat-user-info .seat-user{display: table-cell;width: 50%;text-align: center;}
+.seat-user-info .seat-number{display: table-cell;width: 50%;text-align: center;position: relative;}
+.seat-user-info .seat-number:before{content: '';position: absolute;width: 2px;height: 28px;left:0;top:50%;margin-top: -14px;background: #cbcbcb;}
+.seat-user-info-blank{height:44px;}
+/* 底部上下层 */
+.seat-space-area-blank{height:44px;}
+.seat-space-area{position: fixed;left:0;bottom:0; width:100%;height:43px;line-height:43px;border-top:1px solid #bcbcbc;background: #fafafa; color:rgba(0,0,0,0.6);font-size: 14px;display: table;}
+.seat-space-area .seat-space-item{display:table-cell;width: 50%;text-align: center;}
+.seat-space-area .seat-space-item.selected{border-top:3px solid #099fde;}
+/* tips style area */
+.flight-seat .seat-user-list li,
+.flight-seat .seat-user-reelect{background:#ccc;margin:5px 0;color:#000;text-align:center;cursor:pointer;}
+.seat-multiple-mode h1{font:14px/25px 'Arial';}
+.flight-seat .seat-user-reelect,
+.show-user-reelect .seat-user-list,
+.show-user-reelect h1,
+.show-user-reelect .seat-user-title,
+.flight-seat .seat-user-name{display:none;}
+.show-user-reelect .seat-user-reelect{display:block;}
+.show-user-reelect .seat-user-name{display:inline;}
+.flight-seat .seat-tips{position:absolute;padding:10px;background:#303030;color:#fff;display:none;width:100px;text-align:center;border-radius:5px;opacity:0.9;z-index:88;}
+.flight-seat .tips-arrow{width:0;height:0;border:10px solid transparent;border-top:10px solid #303030;position:absolute;bottom:-19px; /* left:41%; */
+opacity:0.9;}
+.flight-seat .tips-arrow-bottom{border:10px solid transparent;border-bottom:10px solid #303030;}

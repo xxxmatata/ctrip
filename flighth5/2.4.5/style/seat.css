@@ -1,0 +1,590 @@
+@charset "utf-8";
+/* seat style comment area */
+.flight-seat .hide {
+	display: none
+}
+
+/* .flight-seat .selected {
+	background: #ccc;
+}
+*/
+.flight-seat .seat-list .selected {
+	background: url(http://pic.c-ctrip.com/h5/flight/s-select.png) no-repeat center;
+	background-size: contain;
+}
+.tips-single-mode .seat-multiple-mode,
+.flight-seat .seat-single-mode {
+	display: none;
+}
+.tips-single-mode .seat-single-mode {
+	display: block;
+}
+.seat-single-mode {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 5px;
+}
+
+/* seat style */
+.seat-select-area {
+	width: 100%;
+	position: absolute;
+	top: 118px;
+	padding-bottom: 46px;
+}
+
+/* .seat-select-area:after,
+.flight-seat .seat-x-axis:after,
+.flight-seat .seat-area:after {
+	display: block;
+	clear: none;
+	content: " ";
+	overflow: hidden;
+}
+*/
+.seat-select-area {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+/* common */
+.flight-seat .seat-x-axis li,
+.flight-seat .seat-list,
+.flight-seat .seat-passage {
+	display: table-cell;
+	text-align: center;
+}
+
+/* x axis area */
+.flight-seat .seat-x-axis {
+	height: 30px;
+	line-height: 30px;
+	/* position: relative;
+	*/
+	position: fixed;
+	top: 88px;
+	z-index: 10;
+	display: table;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #bcbcbc;
+	transition: -webkit-transform .5s ease;
+	-o-transition: -o-transform .5s ease;
+	-ms-transition: -ms-transform .5s ease;
+	-moz-transition: -webkit-transform .5s ease;
+	-webkit-transition: -webkit-transform .5s ease;
+}
+
+/* content */
+.flight-seat .seat-area {
+	position: relative;
+	z-index: 5;
+	display: table;
+	width: 100%;
+	margin-top: 5px;
+	transition: -webkit-transform .5s ease;
+	-o-transition: -o-transform .5s ease;
+	-ms-transition: -ms-transform .5s ease;
+	-moz-transition: -webkit-transform .5s ease;
+	-webkit-transition: -webkit-transform .5s ease;
+}
+.flight-icon-seat {
+	/* seat-status2  可以接受预订的座位 */
+	background: url(http://pic.c-ctrip.com/h5/flight/s-default.png) no-repeat center;
+}
+
+/* 座位图标 */
+.seat-status1 {
+	/* 已被其他乘客预订的座位 */
+	background: url(http://pic.c-ctrip.com/h5/flight/s-selected.png) no-repeat center;
+}
+.seat-status3 {
+	/* 不能接受预订的座位 */
+	background: url(http://pic.c-ctrip.com/h5/flight/s-disable.png) no-repeat center;
+}
+.seat-status4 {
+	/* 非座位 */
+	background: transparent;
+}
+.seat-status5 {
+	/* 预留，已选 */
+	/* background: url(../img/s-select.png) no-repeat center;
+	*/
+}
+.flight-icon-seat,
+.seat-y-axis li {
+	/* seat-status2  可以接受预订的座位 */
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	margin: 5px 0;
+	background-size: contain;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+/* seat style comment area */
+/* seat style */
+/* 32x40 */
+/* .flight-icon-seat {
+	margin-right: 10px;
+	display: inline-block;
+	width: 28px;
+	height: 36px;
+	border: 2px solid #ccc;
+	background: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+	position: relative;
+}
+*/
+/* .flight-icon-seat b {
+	position: absolute;
+	width: 16px;
+	height: 25px;
+	left: 50%;
+	top: 5px;
+	margin-left: -10px;
+	border: 2px solid #ccc;
+	border-top: none;
+	border-radius: 0px 0px 4px 4px;
+}
+*/
+/* .flight-icon-seat b:before {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	left: -7px;
+	top: -7px;
+	border-top: 2px solid #ccc;
+	border-right: 2px solid #ccc;
+	border-radius: 0 5px 0 0;
+}
+*/
+/* .flight-icon-seat b:after {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	right: -7px;
+	top: -7px;
+	border-top: 2px solid #ccc;
+	border-left: 2px solid #ccc;
+	border-radius: 5px 0 0 0;
+}
+*/
+/* .flight-icon-seat.st-dis {
+	background: #e5e5e5;
+}
+*/
+/* .flight-icon-seat.st-abl {
+	background: #7dc564;
+	border-color: #75b651;
+}
+*/
+/* .flight-icon-seat.st-abl b {
+	border-color: #fff;
+}
+*/
+/* .flight-icon-seat.st-abl b:before {
+	border-color: #fff;
+}
+*/
+/* .flight-icon-seat.st-abl b:after {
+	border-color: #fff;
+}
+*/
+/* .flight-icon-seat.st-peo {
+	background: #e5e5e5;
+}
+*/
+/* .flight-icon-seat.st-peo b {
+	border: none;
+	top: 21px;
+	width: 24px;
+	height: 9px;
+	background: #ccc;
+	margin-left: -12px;
+	border-radius: 5px 5px 0 0;
+}
+*/
+/* .flight-icon-seat.st-peo b:before {
+	content: '';
+	position: absolute;
+	width: 13px;
+	height: 13px;
+	left: 50%;
+	top: -14px;
+	margin-left: -6.5px;
+	border: none;
+	border-radius: 50%;
+	background: #ccc;
+}
+*/
+/* .flight-icon-seat.st-peo b:after {
+	display: none;
+}
+*/
+/* 20x25 */
+/* .st-x20 .flight-icon-seat {
+	width: 16px;
+	height: 21px;
+	border-radius: 4px;
+}
+*/
+/* .st-x20 .flight-icon-seat b {
+	width: 8px;
+	height: 13px;
+	left: 50%;
+	top: 3px;
+	margin-left: -6px;
+	border-radius: 0px 0px 3px 3px;
+}
+*/
+/* .st-x20 .flight-icon-seat b:before {
+	width: 3px;
+	height: 3px;
+	left: -5px;
+	top: -5px;
+	border-radius: 0 4px 0 0;
+}
+*/
+/* .st-x20 .flight-icon-seat b:after {
+	width: 3px;
+	height: 3px;
+	right: -5px;
+	top: -5px;
+	border-radius: 4px 0 0 0;
+}
+*/
+/* .st-x20 .flight-icon-seat.st-peo b {
+	top: 13px;
+	width: 14px;
+	height: 5px;
+	margin-left: -7px;
+	border-radius: 3px 3px 0 0;
+}
+*/
+/* .st-x20 .flight-icon-seat.st-peo b:before {
+	width: 8px;
+	height: 8px;
+	left: 50%;
+	top: -9px;
+	margin-left: -4px;
+	border: none;
+	border-radius: 50%;
+	background: #ccc;
+}
+*/
+/* 24x30 */
+/* .st-x24 .flight-icon-seat {
+	width: 20px;
+	height: 26px;
+	border-radius: 5px;
+}
+*/
+/* .st-x24 .flight-icon-seat b {
+	width: 10px;
+	height: 17px;
+	left: 50%;
+	top: 4px;
+	margin-left: -7px;
+	border-radius: 0px 0px 4px 4px;
+}
+*/
+/* .st-x24 .flight-icon-seat b:before {
+	width: 4px;
+	height: 4px;
+	left: -6px;
+	top: -6px;
+	border-radius: 0 4px 0 0;
+}
+*/
+/* .st-x24 .flight-icon-seat b:after {
+	width: 4px;
+	height: 4px;
+	right: -6px;
+	top: -6px;
+	border-radius: 4px 0 0 0;
+}
+*/
+/* .st-x24 .flight-icon-seat.st-peo b {
+	top: 15px;
+	width: 16px;
+	height: 6px;
+	margin-left: -8px;
+	border-radius: 3px 3px 0 0;
+}
+*/
+/* .st-x24 .flight-icon-seat.st-peo b:before {
+	width: 10px;
+	height: 10px;
+	left: 50%;
+	top: -11px;
+	margin-left: -5px;
+	border: none;
+	border-radius: 50%;
+	background: #ccc;
+}
+*/
+
+/* 顶部选座信息 */
+.seat-user-info {
+	z-index: 10;
+	position: fixed;
+	left: 0;
+	top: 44px;
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	border-bottom: 2px solid #7fbdd7;
+	background: #fafafa;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 18px;
+	display: table;
+}
+.seat-user-info .seat-user {
+	display: table-cell;
+	width: 50%;
+	text-align: center;
+}
+.seat-user-info .seat-number {
+	display: table-cell;
+	width: 50%;
+	text-align: center;
+	position: relative;
+}
+.seat-user-info .seat-number:before {
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 28px;
+	left: 0;
+	top: 50%;
+	margin-top: -14px;
+	background: #cbcbcb;
+}
+.seat-user-info-blank {
+	height: 44px;
+}
+
+/* 底部上下 */
+.seat-space-area-blank {
+	height: 44px;
+}
+.seat-space-area {
+	z-index: 10;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 43px;
+	line-height: 43px;
+	border-top: 1px solid #bcbcbc;
+	background: #fafafa;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	display: table;
+}
+.seat-space-area .seat-space-item {
+	display: table-cell;
+	width: 50%;
+	text-align: center;
+}
+.seat-space-area .seat-space-item.selected {
+	border-top: 3px solid #099fde;
+}
+
+/* tips style area */
+.flight-seat .seat-user-list li,
+.flight-seat .seat-user-reelect {
+	/* background: #ccc;
+	*/
+	color: #000;
+	text-align: center;
+	cursor: pointer;
+}
+.seat-multiple-mode h1 {
+	font: 14px 'Arial';
+	padding-top: 6px;
+}
+.flight-seat .seat-user-reelect,
+.show-user-reelect .seat-user-list,
+.show-user-reelect h1,
+.show-user-reelect .seat-user-title,
+.flight-seat .seat-user-name {
+	display: none;
+}
+.show-user-reelect .seat-user-reelect {
+	display: block;
+}
+.show-user-reelect .seat-user-name {
+	display: inline;
+}
+.flight-seat .seat-tips {
+	position: absolute;
+	padding: 10px;
+	/* background: #303030;
+	*/
+	color: #fff;
+	display: none;
+	width: 100px;
+	text-align: center;
+	border-radius: 5px;
+	z-index: 8;
+}
+.flight-seat .tips-arrow {
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top: 10px solid #303030;
+	position: absolute;
+	bottom: -19px;
+}
+.flight-seat .tips-arrow-bottom {
+	border: 10px solid transparent;
+	border-bottom: 10px solid #303030;
+}
+.seat-user-title,
+.seat-user-num {
+	font-size: 12px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+/* tips style area */
+.flight-seat .seat-user-list li,
+.flight-seat .seat-user-reelect {
+	/* background: transparent;
+	*/
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	padding: 0 17px;
+	overflow: hidden;
+	height: 39px;
+	line-height: 39px;
+	border-bottom: 1px solid #404040;
+	border-top: 1px solid #5d5d5d;
+}
+.seat-user-list li {
+	background: rgba(0, 0, 0, 0.7);
+}
+.seat-user-list li:last-child {
+	border-radius: 0 0 5px 5px;
+}
+.seat-user-list li:hover {
+	background: rgba(20, 145, 197, 0.8);
+}
+.show-user-reelect {
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+}
+.flight-seat .seat-user-list li:first-child {
+	border-top: none;
+}
+.flight-seat .seat-user-list li:last-child {
+	border-bottom: none;
+}
+.seat-multiple-mode h1 {
+	background: rgba(137, 137, 137, 0.9);
+	border-radius: 5px 5px 0 0;
+	font: 14px/25px 'Arial';
+}
+.seat-multiple-mode p {
+	background: rgba(137, 137, 137, 0.9);
+	height: 21px;
+	line-height: 15px;
+}
+.show-user-reelect p {
+	line-height: 36px;
+	height: 36px;
+	border-radius: 5px 5px 0 0;
+}
+.seat-user-list {
+	line-height: 34px;
+}
+.seat-user-list li {
+	word-break: break-all;
+	line-height: 34px;
+}
+.flight-seat .seat-user-reelect,
+.show-user-reelect .seat-user-list,
+.show-user-reelect h1,
+.show-user-reelect .seat-user-title,
+.flight-seat .seat-user-name {
+	display: none;
+}
+.show-user-reelect .seat-user-reelect {
+	display: block;
+	color: #099fde;
+	background: #fff;
+	margin: 5px 10px;
+	border-radius: 4px;
+	height: 34px;
+	line-height: 34px;
+}
+.show-user-reelect .seat-user-name {
+	display: inline-block;
+	line-height: 36px;
+	height: 36px;
+}
+.flight-seat .seat-tips {
+	position: absolute;
+	/* padding: 10px;
+	*/
+	padding: 0px;
+	/* background: rgba(0, 0, 0, 0.7);
+	*/
+	color: #fff;
+	display: none;
+	width: 128px;
+	text-align: center;
+	border-radius: 5px;
+	z-index: 8;
+	-webkit-user-select: none;
+}
+.flight-seat .tips-arrow {
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top: 10px solid rgba(0, 0, 0, 0.7);
+	position: absolute;
+	bottom: -19px;
+	/* left: 41%;
+	*/
+}
+.flight-seat .tips-arrow-bottom {
+	border: 10px solid transparent;
+	border-bottom: 10px solid rgba(0, 0, 0, 0.7);
+}
+
+/* 名字过长省略 */
+.long-name {
+	word-break: break-all;
+	display: inline-block;
+	max-width: 86px;
+	overflow: hidden;
+	height: 22px;
+	line-height: 22px;
+}
+.long-seat-num {
+	display: inline-block;
+	overflow: hidden;
+}
+.seatUName {
+	max-width: 115px;
+	display: inline-block;
+	height: 30px;
+	line-height: 28px;
+	overflow: hidden;
+	vertical-align: middle;
+	word-break: break-all;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>机票列表</title>
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://res.m.ctrip.com/html5/Content/images/57.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://res.m.ctrip.com/html5/Content/images/72.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://res.m.ctrip.com/html5/Content/images/114.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
+    <link href="../style/main.css" rel="stylesheet" />
+    <link href="../style/flight.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--S 头部fixed-->
+    <div class="header">
+        <header class="flight-header">
+            <div class="h1two">
+                <h1>上海-北京</h1>
+                <p>共
+                    <span id="flightTotal">19</span>条</p>
+            </div>
+            <i id="js_return" class="returnico" onclick="location.href='http://ctrip.bobpeng.com/'"></i><b class="icon_home i_bef" id="js_home"></b>
+            <a href="tel:4000086666" class="icon_phone i_bef __hreftel__" id="js_phone"></a>
+        </header>
+        <!--头部fixed，以下空标签占位-->
+        <div class="flight-header-blank">&nbsp;</div>
+    </div>
+    <!--E 头部fixed-->
+    <!--S 筛选菜单-->
+    <div class="flight-menubar" style="margin-top:0;">
+        <ul class="flight-listdate">
+            <li class="yesterday">
+                <div>前一天</div>
+                <div class="price">
+                    <dfn>&yen;</dfn>515</div>
+            </li>
+            <li class="today">
+                <div class="date">03-29</div>
+                <div class="price">
+                    <dfn>&yen;</dfn>436</div>
+            </li>
+            <li class="tomorrow">
+                <div>后一天</div>
+                <div class="price">
+                    <dfn>&yen;</dfn>389</div>
+            </li>
+            <li class="cheap-calendar">
+                <div class="calendar">低价日历</div>
+            </li>
+        </ul>
+        <ul class="tab_by">
+            <li data-type="time" class="bytime hover">时间
+                <em class="flight-icon-pxd">↓</em>
+                <!--向下箭头就用我哦<em>↓</em>-->
+            </li>
+            <li data-type="filter" class="">筛选</li>
+            <li data-type="price" class="byprice">价格
+                <em class="flight-icon-pxu">↑</em>
+            </li>
+        </ul>
+        <ul class="tab_by">
+            <li data-type="time" class="bytime hover">时间
+                <em class="flight-icon-pxu">↓</em>
+                <!--向下箭头就用我哦<em>↓</em>-->
+            </li>
+            <li data-type="filter" class="">筛选</li>
+            <li data-type="price" class="byprice">价格
+                <em class="flight-icon-pxd">↓</em>
+            </li>
+        </ul>
+    </div>
+    <!--E 筛选菜单-->
+    <!--S 机票列表-->
+    <section class="f_list pb85">
+        <ul class="f_list_tab js_flight_item" data-key="0">
+            <span class="flight-icon-formobile"></span>
+            <li class="f_info">
+                <p><i><strong>06:50</strong>-09:05</i> 首都
+                    <span>-</span>虹桥</p>
+                <p>吉祥 HO1252 320中</p>
+            </li>
+            <li class="f_price">
+                <p class="hot_ico">9.7折
+                    <dfn>¥</dfn>
+                    <strong>1100</strong>
+                </p>
+                <p>经济舱
+                    <em class="f_num">&gt;9张</em>
+                </p>
+            </li>
+            <p class="flight-listfold js_subswitch flight-packdown"></p>
+        </ul>
+        <!--S 展开详情-->
+        <ul class="f_detail js_sublist" style="display: none;">
+            <li class="arr_r js_flight_seat" data-flightno="HO1252" data-classfordisp="6" data-parent-key="0" data-key="0" data-class="c0">
+                <span class="xq_info f_ico">经济舱
+                    <em>&gt;9张</em>
+                    <em>9.7折</em>
+                </span>
+                <span class="xq_price">
+                    <dfn>¥</dfn>
+                    <strong>1100</strong>
+                </span>
+            </li>
+            <li class="arr_r js_flight_seat" data-flightno="HO1252" data-classfordisp="6" data-parent-key="0" data-key="1" data-class="c0">
+                <span class="xq_info f_ico">经济舱
+                    <em>&gt;9张</em>
+                    <em>原价</em>
+                </span>
+                <span class="xq_price">
+                    <dfn>¥</dfn>
+                    <strong>1130</strong>
+                </span>
+            </li>
+            <li class="arr_r js_flight_seat" data-flightno="HO1252" data-classfordisp="5" data-parent-key="0" data-key="2" data-class="c3">
+                <span class="xq_info f_ico">头等舱
+                    <em>8张</em>
+                    <em>原价</em>
+                </span>
+                <span class="xq_price">
+                    <dfn>¥</dfn>
+                    <strong>3050</strong>
+                </span>
+            </li>
+        </ul>
+        <ul class="f_list_tab js_flight_item" data-key="0">
+            <li class="f_info">
+                <p><i><strong>06:50</strong>-09:05</i> 首都
+                    <span class="flight-icon-stopin">
+                        <em>经停</em>
+                    </span>虹桥</p>
+                <p>吉祥 HO1252 320中</p>
+            </li>
+            <li class="f_price">
+                <p class="hot_ico">9.7折
+                    <dfn>¥</dfn>
+                    <strong>1100</strong>
+                </p>
+                <p>
+                    <span class="clr-ff9a14">高端经济舱</span>
+                    <span class="flight-icon-return">返
+                        <dfn>&yen;</dfn>
+                        <em>&nbsp;</em>25</span>
+                    <em class="f_num">&gt;9张</em>
+                </p>
+            </li>
+            <p class="flight-listfold js_subswitch flight-packup"></p>
+        </ul>
+        <!--E 展开详情-->
+        <ul class="f_detail js_sublist" style="display: none;">
+            <li class="arr_r js_flight_seat" data-flightno="HO1252" data-classfordisp="6" data-parent-key="0" data-key="0" data-class="c0">
+                <span class="xq_info f_ico">经济舱
+                    <em>&gt;9张</em>
+                    <em>9.7折</em>
+                </span>
+                <span class="xq_price">
+                    <dfn>¥</dfn>
+                    <strong>1100</strong>
+                </span>
+            </li>
+            <li class="arr_r js_flight_seat" data-flightno="HO1252" data-classfordisp="6" data-parent-key="0" data-key="1" data-class="c0">
+                <span class="xq_info f_ico">经济舱
+                    <em>&gt;9张</em>
+                    <em>原价</em>
+                </span>
+                <span class="xq_price">
+                    <dfn>¥</dfn>
+                    <strong>1130</strong>
+                </span>
+            </li>
+            <li class="arr_r js_flight_seat" data-flightno="HO1252" data-classfordisp="5" data-parent-key="0" data-key="2" data-class="c3">
+                <span class="xq_info f_ico">头等舱
+                    <em>8张</em>
+                    <em>原价</em>
+                </span>
+                <span class="xq_price">
+                    <dfn>¥</dfn>
+                    <strong>3050</strong>
+                </span>
+            </li>
+        </ul>
+    </section>
+    <!--E 机票列表-->
+</body>
+
+</html>

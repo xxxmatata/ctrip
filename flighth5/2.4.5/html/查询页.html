@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>查询页</title>
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://res.m.ctrip.com/html5/Content/images/57.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://res.m.ctrip.com/html5/Content/images/72.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://res.m.ctrip.com/html5/Content/images/114.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
+    <link href="http://webresource.c-ctrip.com/styles/h5/common/main.css" rel="stylesheet" />
+    <link href="../style/fbase.css" rel="stylesheet" />
+    <link href="../style/flight.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--S 头部fixed-->
+    <div class="header">
+        <header class="flight-header">
+            <h1>机票查询</h1>
+            <i class="returnico" id="js_return" onclick="location.href='http://ctrip.bobpeng.com/'"></i> 
+        </header>
+        <!--头部fixed，以下空标签占位-->
+        <div class="flight-header-blank">&nbsp;</div>
+    </div>
+    <!--E 头部fixed-->
+    <!--S H5机票_机票查询-->
+    <aside class="cont_wrap" style="margin-top:0;">
+        <ul class="city_tab">
+            <li data-type="1" class="cityTabCrt">单程</li>
+            <li data-type="2" class="">往返</li>
+        </ul>
+    </aside>
+    <div class="pd10">
+        <ul class="flight-srhform">
+            <li class="flight-switch">
+                <dl>
+                    <dd class="flight-departcity" id="js_departcity_w">
+                        <span id="js_departcity">上海</span>
+                    </dd>
+                    <dt class="flight-cityswitch" id="js_exchange_btn">切换</dt>
+                    <dd class="flight-backcity" id="js_backcity_w">
+                        <span id="js_backcity">北京</span>
+                    </dd>
+                </dl>
+            </li>
+            <li class="city_tit_box">
+                <dl class="startdate city_tit city_padding_left">
+                    <dd class="flight-date"><b class="fr">周四</b>
+                        <em>5月9日</em>
+                    </dd>
+                </dl>
+            </li>
+            <li class="city_tit_box backtrack">
+                <dl class="startdate city_tit city_padding_left">
+                    <dd class="flight-date flight-date1">
+                        <em>5月9日</em>
+                        <br>
+                        <b class="clr-666">今天</b>
+                    </dd>
+                </dl>
+                <dl class="backdate city_tit city_padding_right" style="display:block;">
+                    <dd class="flight-date2">
+                        <em>5月9日</em>
+                        <br>
+                        <b class="clr-666">周四</b>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd class="flight-pstype">成人</dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd class="flight-pstype">儿童
+                        <div class="tips">无成人陪伴的儿童
+                            <br>请直接向航空公司预订</div>
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+        <button id="searchlistsubmit" class="flight-btnsrh" value="">查&nbsp;询</button>
+        <div style="height:30px"></div>
+        <div class="flight-img-svc">
+            <img src="http://res.m.ctrip.com/market/images/ic_flight_promise_small.png" width="100%">
+        </div>
+        <div class="blk10"></div>
+        <div class="flight-windows-svc">
+            <img src="http://res.m.ctrip.com/market/images/ic_flight_promise_big.png" width="100%">
+        </div>
+    </div>
+    <!-- S 底部固定菜单 -->
+    <div>
+        <div class="flight-zjfooter-blank"></div>
+        <div class="flight-zjfooter">
+            <ul>
+                <li class="current" id="flightSearch">机票查询</li>
+                <li id="flightSchedule">航班动态</li>
+                <li id="checkin">值机</li>
+            </ul>
+        </div>
+    </div>
+    <!-- E 底部固定菜单 -->
+    <!--E H5机票_机票查询-->
+</body>
+
+</html>
