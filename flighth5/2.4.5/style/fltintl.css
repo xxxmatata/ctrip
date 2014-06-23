@@ -735,8 +735,8 @@
 	line-height: 5px;
 	letter-spacing: 0;
 }
-/*
-.tab_time {
+
+/* .tab_time {
 	width: 100%;
 	display: box;
 	display: -webkit-box;
@@ -1599,11 +1599,12 @@ dfn {
 	margin: 12px 25px 0 0;
 	float: right;
 }
-.flights_gender {
+
+/* .flights_gender {
 	margin: 4px 10px 0 0;
 	float: right;
 }
-
+*/
 /* 国内国际订单填写、报销凭证 2014-02-10 by w_jing */
 .flights_preson {
 	background: #f2f2f2;

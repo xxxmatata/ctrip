@@ -711,6 +711,9 @@ i {
 .bdtop1 {
 	border-top: 1px solid #bcbcbc;
 }
+.cancelafter:after {
+	display: none !important;
+}
 
 /* 颜色相关 */
 /* 白色 */
@@ -1675,7 +1678,7 @@ i.flight-labq {
 	margin-bottom: 10px;
 	line-height: 20px;
 	font-size: 14px;
-	color: #666;
+	color: rgba(0, 0, 0, .6);
 }
 
 /* 头部两行 */
@@ -1760,6 +1763,52 @@ i.flight-labq {
 	color: rgba(0, 0, 0, 0.8);
 	line-height: 2;
 	margin-top: 5px;
+}
+
+/* 套餐选择 */
+.flight-list-table2 {
+	border: 1px solid #bcbcbc;
+	border-bottom: none;
+	background: #fff;
+}
+.flight-list-table2 > li {
+	position: relative;
+	line-height: 44px;
+	overflow: hidden;
+	border-bottom: 1px solid #bcbcbc;
+	padding: 0 10px;
+	color: rgba(0, 0, 0, .8);
+	font-size: 14px;
+}
+.flight-list-table2 > li .flight-icon-rgt {
+	float: right;
+	margin-right: 10px;
+	display: none;
+}
+.flight-list-table2 > li.selected .flight-icon-rgt {
+	display: block;
+}
+.flight-tiplinks {
+	padding: 10px;
+}
+.flight-tiplinks span {
+	color: #099fde;
+	font-size: 14px;
+}
+.flight-tiplinks span:after {
+	content: '';
+	margin-left: 5px;
+	margin-bottom: 1px;
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-top: 2px solid #099fde;
+	border-right: 2px solid #099fde;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 /* 底部提示信息 */
@@ -1943,7 +1992,6 @@ i.flight-labq {
 .flight .b_people .info_list li:last-child {
 	border-bottom: none;
 }
-
 
 /* S 查询页 */
 .flight-srhform {
@@ -2224,8 +2272,6 @@ i.flight-labq {
 }
 
 /* E 查询页 */
-
-
 /* S 列表页 */
 .flight-menubar {
 	margin: 44px 0 0 0;
@@ -2413,8 +2459,6 @@ i.flight-labq {
 }
 
 /* E 列表页 */
-
-
 /* S 填写页 */
 .flight-loginline-fixed {
 	position: fixed;
@@ -2528,6 +2572,9 @@ i.flight-labq {
 	display: table-cell;
 	line-height: 18px;
 	vertical-align: middle;
+}
+.flight-infoinput .flight-ins-tc {
+	padding-right: 10px;
 }
 .flight-infoinput .flight-blk {
 	display: table-cell;
@@ -2686,7 +2733,6 @@ i.flight-labq {
 	font-size: 15px;
 	background: #ff7d13;
 }
-
 .flight-ipt-etp {
 	margin-bottom: 10px;
 	margin-right: -10px;
