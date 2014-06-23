@@ -528,8 +528,8 @@ i {
 	color: #fff;
 }
 .fpay em.fs {
-	font-size: 1.5em;
-	padding-left: 3px;
+	font-size: 18px;
+	padding-left: 1px;
 }
 .fpay .money {
 	background: #ff9a14;
@@ -538,10 +538,11 @@ i {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+	min-width: 320px;
 	height: 44px;
 	text-indent: 20px;
-	font-size: 1.2em;
-	color: #333;
+	font-size: 14px;
+	color: #fff;
 }
 .fpay .btn {
 	width: 30%;
@@ -550,7 +551,8 @@ i {
 	background: #ff7e00;
 	text-align: center;
 	float: right;
-	font-weight: 700;
+	font-weight: normal;
+	font-size: 16px;
 	color: #fff;
 	text-indent: 0;
 }
