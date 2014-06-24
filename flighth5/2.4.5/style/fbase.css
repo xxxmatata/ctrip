@@ -1435,6 +1435,7 @@ i.flight-labq {
 	color: #ff9913;
 	padding: 0 2px;
 	white-space: nowrap;
+	display: inline-block;
 }
 .flight-icon-rtn dfn {
 	margin-left: 4px;
