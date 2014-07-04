@@ -602,6 +602,9 @@ i {
 .s5_grayli .flight-infoinput {
 	margin: -11px 0;
 }
+.s5_grayli .flight-infoinput li {
+	padding: 10px 0;
+}
 .s5_grayli .flight-infoinput .flight-infoinput-pdl {
 	border: none;
 }
@@ -2606,6 +2609,7 @@ i.flight-labq {
 .flight-infoinput input {
 	width: auto;
 	height: auto;
+	line-height: 44px;
 }
 .flight-infoinput .flight-switch {
 	display: table-cell;
