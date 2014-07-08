@@ -650,6 +650,9 @@ i {
 .pd15 {
 	padding: 15px;
 }
+.mtm1 {
+	margin-top: -1px;
+}
 .mtm10 {
 	margin-top: -10px;
 }
@@ -1189,6 +1192,9 @@ i {
 .flight-listsim.mt0 {
 	margin-top: 0;
 }
+.flight-listsim.mtm1 {
+	margin-top: -1px;
+}
 .flight-listsim > li {
 	position: relative;
 	padding: 0 10px;
@@ -1200,7 +1206,6 @@ i {
 	border: 1px solid #bcbcbc;
 	border-bottom: none;
 	background: #fff;
-	margin-top: 10px;
 }
 .flight-listsim2 > li {
 	position: relative;
@@ -1211,6 +1216,7 @@ i {
 .flight-listsim3 {
 	border-left: 1px solid #bcbcbc;
 	border-right: 1px solid #bcbcbc;
+	border-top: 1px solid #bcbcbc;
 	background: #fff;
 }
 .flight-listsim3 > li {
@@ -1274,7 +1280,6 @@ i {
 	border: 1px solid #bcbcbc;
 	border-bottom: none;
 	background: #fff;
-	margin-top: 10px;
 }
 .flight-listsim5 > li {
 	position: relative;
@@ -1724,7 +1729,14 @@ i.flight-labq {
 .flight-header .h1two p span:nth-child(2) {
 	margin-left: 12px;
 }
-
+.error-tips{
+	color: #000;
+	font-size: 12px;
+	line-height: 1.5;
+	padding: 6px 10px;
+	background: #fffdee;
+	border: 1px solid #efcd57;
+}
 /* 小固件↑ */
 /* js相关 */
 .js_sublist {
@@ -2611,6 +2623,10 @@ i.flight-labq {
 	height: auto;
 	line-height: 44px;
 }
+.flight-infoinput .flight-linktel {
+	height: 100%;
+	line-height: 44px;
+}
 .flight-infoinput .flight-switch {
 	display: table-cell;
 	width: 44px;
@@ -2838,6 +2854,8 @@ i.flight-labq {
 	padding: 0 5px;
 	font-size: 12px;
 	border: 1px solid #bcbcbc;
+	min-width: 76px;
+	text-align: center;
 }
 .flight-psf i:last-child {
 	border-left: none;
