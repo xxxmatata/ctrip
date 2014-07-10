@@ -246,6 +246,7 @@ textarea {
 header {
 	height: 44px;
 	overflow: hidden;
+	background: #099fde;
 }
 header h1 {
 	line-height: 44px;
@@ -264,7 +265,7 @@ i {
 	display: block;
 	width: 54px;
 	height: 44px;
-	background: #14b1e7;
+	background: #099fde;
 }
 .returnico:before {
 	content: '';
@@ -611,7 +612,10 @@ i {
 .city_tab {
 	border-bottom: 0;
 }
-
+.city_tab li.cityTabCrt{
+	colro:#099fde;
+	border-bottom: 4px solid #099fde;
+}
 /* 覆盖公共 ↑ */
 /* 区块相关 */
 .f-l {
@@ -1075,7 +1079,7 @@ i {
 	position: absolute;
 	width: 10px;
 	height: 10px;
-	right: 10px;
+	right: 15px;
 	top: 50%;
 	margin-top: -5px;
 	border-top: 2px solid #a9a9a9;
@@ -1328,7 +1332,7 @@ i {
 	content: '';
 	position: absolute;
 	width: 10px;
-	height: 10px;
+	height: 15px;
 	top: 50%;
 	margin-top: -5px;
 	border-bottom: 2px solid #a9a9a9;
@@ -2039,6 +2043,7 @@ i.flight-labq {
 .flight-srhform {
 	background: #fff;
 	padding: 15px;
+	border-bottom: 1px solid #ddd;
 }
 .flight-srhform li {
 	width: 100%;
@@ -2048,6 +2053,7 @@ i.flight-labq {
 .flight-srhform dl {
 	position: relative;
 	font-size: 22px;
+	color:#333;
 }
 .flight-srhform dd {
 	position: relative;
@@ -2058,6 +2064,7 @@ i.flight-labq {
 	height: 44px;
 	line-height: 44px;
 	font-size: 22px;
+	color:#333;
 }
 .flight-switch dd {
 	float: left;
@@ -2283,9 +2290,10 @@ i.flight-labq {
 }
 .flight-img-svc {
 	text-align: center;
+	padding:0 23px;
 }
 .flight-img-svc img {
-	max-width: 580px;
+	max-width: 545px;
 }
 .flight-windows-svc {
 	text-align: center;
