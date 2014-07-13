@@ -650,27 +650,6 @@ ul.f_list_tab {
 	right: 10px;
 	bottom: 5px;
 }
-.backdate {
-	display: none;
-}
-.backtrack .backdate {
-	display: block;
-}
-.backtrack .city_tit {
-	width: 50%;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-}
-.backtrack .city_tit_box {
-	overflow: hidden;
-}
-.backtrack .startdate {
-	float: left;
-}
-.backtrack .backdate {
-	float: right;
-}
 #panel-box {
 	overflow: hidden;
 }

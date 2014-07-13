@@ -674,6 +674,28 @@ i {
 	border-bottom: 4px solid #099fde;
 }
 
+.backdate {
+	display: none;
+}
+.backtrack .backdate {
+	display: block;
+}
+.backtrack .city_tit {
+	width: 43%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.backtrack .city_tit_box {
+	overflow: hidden;
+}
+.backtrack .startdate {
+	float: left;
+}
+.backtrack .backdate {
+	float: right;
+}
+
 /* 覆盖公共 ↑ */
 /* 区块相关 */
 
@@ -2150,20 +2172,6 @@ i.flight-labq {
 	padding-right: 8px;
 	float: right;
 }
-.flight-switch dd:after {
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 0;
-	right: 0;
-	bottom: 0;
-	border: 4px solid #e5e5e5;
-	border-color: transparent #e5e5e5 #e5e5e5 transparent;
-}
-.flight-switch dd:active:after {
-	border: 4px solid #099fde;
-	border-color: transparent #099fde #099fde transparent;
-}
 .flight-switch dd span {
 	position: absolute;
 	z-index: 2;
@@ -2295,20 +2303,6 @@ i.flight-labq {
 .flight-srhform .flight-date:active b {
 	color: #099fde;
 }
-.flight-srhform .flight-date:after {
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 0;
-	right: 0;
-	bottom: 0;
-	border: 4px solid #e5e5e5;
-	border-color: transparent #e5e5e5 #e5e5e5 transparent;
-}
-.flight-srhform .flight-date:active:after {
-	border: 4px solid #099fde;
-	border-color: transparent #099fde #099fde transparent;
-}
 .flight-srhform .flight-date1:after {
 	display: none;
 }
@@ -2318,20 +2312,6 @@ i.flight-labq {
 .flight-srhform .flight-pstype:active {
 	border-bottom: 1px solid #099fde;
 	color: #099fde;
-}
-.flight-srhform .flight-pstype:after {
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 0;
-	right: 0;
-	bottom: 0;
-	border: 4px solid #e5e5e5;
-	border-color: transparent #e5e5e5 #e5e5e5 transparent;
-}
-.flight-srhform .flight-pstype:active:after {
-	border: 4px solid #099fde;
-	border-color: transparent #099fde #099fde transparent;
 }
 .flight-srhform .flight-pstype .tips {
 	position: absolute;
