@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>搜索城市</title>
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://res.m.ctrip.com/html5/Content/images/57.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://res.m.ctrip.com/html5/Content/images/72.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://res.m.ctrip.com/html5/Content/images/114.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
+    <link href="http://webresource.c-ctrip.com/styles/h5/common/main.css" rel="stylesheet" />
+    <link href="../style/fbase.css" rel="stylesheet" />
+    <link href="../style/flight.css" rel="stylesheet" />
+    <script src="http://ctrip.bobpeng.com/static/js/jquery-2.1.1.min.js"></script>
+</head>
+
+<body>
+    <!--S 机票H5_搜索城市-->
+    <aside class="citylisttab flight-ctsrh" id="citylistroot">
+        <section class="search_wrap js_search_opt withcancel">
+            <button class="flight-ctsrh-cancel">取消</button>
+            <div class="place_search_box clear-input-box">
+                <input type="text" class="place_search" id="flight_city_keyword" placeholder="中文/拼音/首字母" value="">
+                <a class="clear-input " href="javascript:;" style="top: 10px; bottom: auto; display: none;">
+                    <span></span>
+                </a>
+            </div>
+        </section>
+    </aside>
+    <ul id="city_list">
+        <li class="main-item cityli nothotcity">
+            <ul class="sub-city-box">
+                <li class="city-item" data-mode="1" data-code="MFM" data-id="59" data-name="澳门" data-key="37" data-filter="mfm 中国 am A 澳门 aomen macau am 澳门机场" data-hotflag="23" data-countryid="0">澳门</li>
+
+                <li class="city-item" data-mode="1" data-code="AKU" data-id="173" data-name="阿克苏" data-key="69" data-filter="aku 中国 aks A 阿克苏 akesu akesu aks 阿克苏机场" data-hotflag="160" data-countryid="1">阿克苏</li>
+            </ul>
+        </li>
+    </ul>
+    <div class="pd10">
+        <button class="flight-btn-wht mt10">清除搜索历史</button>
+    </div>
+    <!--E 机票H5_搜索城市-->
+</body>
+
+</html>

@@ -3667,7 +3667,17 @@ i.flight-labq {
 .hotcitys li.twoline {
 	line-height: 16px;
 }
-
+.withcancel .place_search_box{
+	margin-right: 80px;
+}
+.flight-ctsrh-cancel{
+	float: right;
+	width: 80px;
+	background: #eee;
+	text-align: center;
+	color: #099fde;
+	font-size: 16px;
+}
 /* E 选择城市 */
 /* !
 ** E pyh彭延华 */
