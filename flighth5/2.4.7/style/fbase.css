@@ -690,7 +690,7 @@ i {
 .cui-roller-btns .cui-flexbd:nth-of-type(3) {
 	border-left: 1px solid #bcbcbc;
 }
-.cui-breaking-load {
+.flight-loading {
 	width: 38px;
 	height: 38px;
 	background: none;
@@ -698,7 +698,7 @@ i {
 	position: relative;
 	z-index: 9999
 }
-.cui-w-loading {
+.flight-loading .cui-w-loading {
 	position: absolute;
 	width: 38px;
 	height: 38px;
@@ -710,7 +710,7 @@ i {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-.cui-m-logo {
+.flight-loading .cui-m-logo {
 	position: absolute;
 	width: 38px;
 	height: 38px;
@@ -723,70 +723,6 @@ i {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-.cui-w-loading,
-.cui-pro-radius {
-	-webkit-animation: cui-loading 1.58s linear infinite;
-	-moz-animation: cui-loading 1.58s linear infinite;
-	-ms-animation: cui-loading 1.58s linear infinite;
-	animation: cui-loading 1.58s linear infinite;
-	-webkit-transform-origin: 50% 50%;
-	-moz-transform-origin: 50% 50%;
-	-ms-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
-	opacity: 0
-}
-.cui-b-loading {
-	-webkit-animation: cui-loading 1.58s linear infinite;
-	-moz-animation: cui-loading 1.58s linear infinite;
-	-ms-animation: cui-loading 1.58s linear infinite;
-	animation: cui-loading 1.58s linear infinite;
-	-webkit-transform-origin: 47% 49%;
-	-moz-transform-origin: 47% 49%;
-	-ms-transform-origin: 47% 49%;
-	transform-origin: 47% 49%;
-	opacity: 0
-}
-@-webkit-keyframes cui-loading {
-	0% {
-		opacity: 1;
-		-webkit-transform: rotate(0deg)
-	}
-	100% {
-		opacity: 1;
-		-webkit-transform: rotate(360deg)
-	}
-}
-@-moz-keyframes cui-loading {
-	0% {
-		opacity: 1;
-		-moz-transform: rotate(0deg)
-	}
-	100% {
-		opacity: 1;
-		-moz-transform: rotate(360deg)
-	}
-}
-@-ms-keyframes cui-loading {
-	0% {
-		opacity: 1;
-		-ms-transform: rotate(0deg)
-	}
-	100% {
-		opacity: 1;
-		-ms-transform: rotate(360deg)
-	}
-}
-@keyframes cui-loading {
-	0% {
-		opacity: 1;
-		transform: rotate(0deg)
-	}
-	100% {
-		opacity: 1;
-		transform: rotate(360deg)
-	}
-}
-
 /* 覆盖main.css ↑ */
 /* 区块相关 */
 
