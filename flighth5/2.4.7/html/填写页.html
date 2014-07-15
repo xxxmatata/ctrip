@@ -695,13 +695,21 @@
             <div>儿童票支持返现</div>
         </div>
 
-        <p class="flight-tips-btm">旅行套餐含：
+        <p class="flight-couponstips"><i class="flight-arrdn"></i>旅行套餐含：
             <br>价值100000积分的旅游优惠券一张+机票一张。
             <br>旅游优惠券使用说明：
             <br>1.可用于携程出境旅游，含团队游、半自助游及邮轮产品。（注：不可用于邮轮单船票、自由行套餐）；
             <br>2.每单每成人直减¥100，有效期内可不限次数使用（有效期至 a年b月c日）；
             <br>注：预订旅行套餐仅提供普通发票。
         </p>
+        <script>
+        $(function() {
+            $(".flight-couponstips").click(function() {
+                $(this).toggleClass("flight-htauto");
+                $(this).children(".flight-arrdn").toggleClass("flight-arrup3");
+            });
+        })
+        </script>
         <div class="blk10"></div>
         <p class="flight-tips-btm">这里是须知内容 这里是须知内容 这里是须知内容 这里是须知内容 这里是须知内容 这里是须知内容</p>
         <p class="pd10">弹层</p>
@@ -1285,6 +1293,69 @@
         </div>
         <!--E 国际-往返-中转-->
     </div>
+    <hr>
+    <p class="pd15 fnt-c clr-red">v2.4.7 开始</p>
+    <hr>
+    <!--S H5机票_订单填写v2.4.7-->
+    <div class="flight-bkinfo">
+        <div class="flight-bkinfo-journey">
+            <div class="flight-bkinfo-end">
+                <p class="flight-bkinfo-date">
+                    <span>8月4日 周一</span>
+                </p>
+                <p class="flight-bkinfo-time">12:00</p>
+                <p class="flight-bkinfo-airport">首都T2</p>
+            </div>
+            <div class="flight-bkinfo-from">
+                <p class="flight-bkinfo-date">
+                    <span>8月4日 周一</span>
+                </p>
+                <p class="flight-bkinfo-time">10:00</p>
+                <p class="flight-bkinfo-airport">虹桥T1</p>
+            </div>
+            <div class="flight-bkinfo-direction">
+                <div class="line"></div>
+                <div class="flight">
+                    <!-- <i class="flight-icon-flt"><b>&nbsp;</b><em>&nbsp;</em></i> -->
+                </div>
+            </div>
+        </div>
+        <div class="flight-bkinfo-fltinfo">
+            <img src="http://pic.c-ctrip.com/flight_intl/airline_logo/40x35/mu.png">
+            <span>东方航空ZR3450</span>
+            <span class="clr-eee">|</span>
+            <span>波音897(大)</span>
+            <span class="clr-eee">|</span>
+            <span>有餐饮</span>
+            <span class="clr-eee">|</span>
+            <span>准点率:90.47%</span>
+        </div>
+        <div class="flight-bkinfo-price">
+            <span>经济舱8.5折:</span>
+            <span class="clr-ff9a14">&yen;2300</span>
+            <span>+</span>
+            <span>机建燃油:</span>
+            <span class="clr-ff9a14">&yen;150</span>
+            <span>=</span>
+            <span class="clr-ff9a14 fnt-18">&yen;2000</span>
+        </div>
+        <div class="pd15">
+            <p class="flight-arrdown">查看退改签</p>
+            <span class="flight-icon-fan">返25</span>
+        </div>
+        <div class="flight-rtntips">这里是返现说明文案这里是返现说明文案这里是返现说明文案这里是返现说明文案这里是返现说明文案这里是返现说明文案这里是返现说明文案这里是返现说明文案这里是返现说明文</div>
+        <div class="flight-pnttips">
+            <h4>购票须知：</h4>
+            <p>这里是返的说明内容，这里是返的说明内容，这里是返的说明内容，这里是返的说明内容，这是返的说明内容，这里是返的说明内容。</p>
+            <h4>退改签：</h4>
+            <p>退票条件退票条件退票条件退票条件退票条件退票条件退票条件退票条件退票条件退票条件退条件退票条件退票条件。</p>
+            <h4>返¥12：</h4>
+            <p>这里是退改签说明内容。这里是退改签内容，这里是退改签内容，这里是退改签内容。</p>
+            <h4>送礼品卡¥12：</h4>
+            <p>这里是退改签说明内容。这里是退改签内容，这里是退改签内容，这里是退改签内容。</p>
+        </div>
+    </div>
+    <!--E H5机票_订单填写v2.4.7-->
     <section class="fpay">
         <div class="money">
             <span class="btn">下一步</span>

@@ -1,4 +1,5 @@
 ﻿@charset "utf-8";
+/* _____________old 历史遗留 start_____________ */
 .intrip .cfbox {
 	background-color: #fff;
 }
@@ -48,70 +49,6 @@
 	top: 4px;
 	left: 8px;
 }
-
-/* .intrip .editBox {
-	width: 43px;
-	height: 100%;
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-.intrip .paddNone li {
-	padding: 0;
-	position: relative;
-}
-.intrip .paddNone li.paddNum {
-	padding: 11px;
-}
-.intrip .paddNone li.paddNum .addico_box {
-	width: 50px;
-	height: 100%;
-	position: absolute;
-	right: 0;
-	top: 0;
-	padding: 13px 11px 0 11px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-.intrip .paddNone li .boa_info {
-	width: 90%;
-	padding: 11px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-}
-.intrip .edit_ico,
-.info_list .edit_ico {
-	width: 16px;
-	height: 16px;
-	background-position: -190px 0;
-	display: block;
-	position: absolute;
-	right: 11px;
-	top: 50%;
-	margin-top: -8px;
-}
-.intrip .doubt_ico {
-	width: 28px;
-	height: 28px;
-	background-position: right 0;
-	margin-right: 17px;
-}
-.intrip .sel_ico {
-	position: absolute;
-	top: 50%;
-	left: 11px;
-	margin-top: -10px;
-}
-.intrip .boa_info p {
-	padding: 0 20px 0 30px;
-	word-break: break-all;
-}
-.intrip .boa_info em {
-	color: #797979;
-}
-*/
 .info_list .edit_ico {
 	width: 16px;
 	height: 16px;
@@ -125,80 +62,6 @@
 .intrip .needs:before {
 	margin-left: 0;
 }
-
-/* .intrip .grayli {
-	padding: 10px;
-	margin-bottom: 10px;
-}
-.intrip .grayli li {
-	background: #f2f2f2;
-	border: none;
-	margin-bottom: 10px;
-	min-height: 22px;
-}
-.intrip .grayli li .twoh {
-	width: 58%;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: -3px;
-}
-.intrip .grayli li .twoh .input_n {
-	width: 99%;
-}
-.intrip .grayli li:last-child {
-	margin-bottom: 0;
-}
-.intrip .grayli li em {
-	float: right;
-	text-align: right;
-	padding-right: 15px;
-	font-size: 1em;
-	color: #238ff4;
-	display: block;
-	width: 60%;
-}
-.fix_bug {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	box-sizing: border-box;
-	-moz-box-orient: horizontal;
-	-webkit-box-orient: horizontal;
-	box-orient: horizontal;
-	-moz-box-pack: justify;
-	-webkit-box-pack: justify;
-	box-pack: justify;
-}
-.fix_bug span {
-	-webkit-box-flex: 1;
-	-moz-box-flex: 1;
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-}
-.fix_bug em {
-	-webkit-box-flex: 2;
-	-moz-box-flex: 2;
-	-webkit-flex: 2;
-	-ms-flex: 2;
-	flex: 2;
-}
-.intrip .grayli li em.frow {
-	float: none;
-	vertical-align: top;
-}
-.intrip .input_n {
-	width: 55%;
-	height: 22px;
-	lien-height: 22px;
-	vertical-align: 0;
-	display: inline-block;
-	font-size: 1em;
-	padding: 0 0 0 5px;
-}
-*/
 #text_idNum.input_n,
 #js_blk_birth .input_n {
 	width: 65%;
@@ -303,15 +166,6 @@
 	font-weight: bold;
 	font-size: 1.2em;
 }
-
-/* .flight .cashInfo {
-	background: #efefef;
-	padding: 10px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-}
-*/
 .flight .cashInfo .fx {
 	padding: 1px;
 	text-align: center;
@@ -348,89 +202,6 @@
 	color: #424242;
 	font-weight: 700;
 }
-
-/* .flight .infobox h4 {
-	color: #005380;
-	font-weight: 700;
-	padding: 10px 20px 20px;
-	clear: both;
-}
-.flight .infobox .place {
-	margin-bottom: 10px;
-	overflow: hidden;
-}
-.flight .infobox .place li {
-	float: left;
-	width: 40%;
-}
-.flight .infobox .place li.icosj {
-	width: 20%;
-	margin-top: 58px;
-	position: relative;
-	text-align: center;
-	font-size: .8em;
-	color: #adadad;
-	word-break: break-all;
-}
-.flight .infobox .place li.icosj:before {
-	width: 45px;
-	height: 4px;
-	display: block;
-	background: #adadad;
-	content: "";
-	position: absolute;
-	left: 50%;
-	top: -4px;
-	margin-left: -23px;
-}
-.flight .infobox .place li.icosj:after {
-	width: 18px;
-	height: 4px;
-	background: #adadad;
-	content: "";
-	display: block;
-	position: absolute;
-	left: 50%;
-	margin-left: 8px;
-	top: -10px;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-}
-.flight .infobox .place span {
-	display: block;
-	text-align: center;
-	font-weight: 700;
-	color: #424242;
-	font-size: 1.2em;
-	line-height: 1.7em;
-	margin: 0 auto;
-	width: 110px;
-}
-.flight .infobox .place span.time {
-	font-size: 2em;
-}
-.flight .infobox .place span.site {
-	word-break: break-all;
-	padding: 0 10px;
-	color: #797979;
-	font-size: .9em;
-	line-height: 1.4em;
-}
-.flight .infobox p {
-	padding: 10px;
-}
-*/
-/* .flight .infobox .ctr_value {
-	background: #eff6fb;
-	font-weight: 700;
-}
-.flight .infobox .ctr_value span,
-.flight .colmoney {
-	color: #ff8c00;
-	font-weight: 700;
-}
-*/
 .flight .infobox .click_info span {
 	padding-right: 25px;
 }
@@ -470,15 +241,6 @@
 	bottom: 0;
 	border-color: transparent #ffe100 #ffe100 transparent;
 }
-
-/* .flight .ftx h2.f_return {
-	background: #91CC3D;
-	margin-top: 10px;
-}
-.flight .ftx h2.f_return:after {
-	border-color: transparent #91CC3D #91CC3D transparent;
-}
-*/
 .flight .b_people {
 	margin: 15px 10px;
 }
@@ -539,18 +301,8 @@
 	padding: 0 0 0 30px;
 }
 .ptxt p {
-	/* padding-left: 65px;
-	*/
 	word-break: break-all;
 }
-
-/* .flight .b_people .info_list li .ptxt em {
-	display: inline-block;
-	width: 65px;
-	margin-left: -65px;
-	color: #797979;
-}
-去除登机人前面的证件类型、。。。 */
 .s_both_lr {
 	width: 29px;
 	display: inline-block; /* 修改订单填写页姓名和证件类型、证件号码没有两边对齐 2013.12.02 */
@@ -581,26 +333,10 @@
 	font-size: .9em;
 	padding-bottom: 15px;
 }
-
-/* .fltdetail {
-	margin: 60px auto 0;
-}
-.fltdetail .ofont {
-	padding: 10px;
-	line-height: 2em;
-	margin: 10px;
-}
-*/
 .fltdetail .ofont span {
 	color: #797979;
 	padding-right: 20px;
 }
-
-/* .fltdetail .ofont .cmoney {
-	color: #ff8c00;
-	font-size: 1.5em;
-}
-*/
 .fltgr .infobox p {
 	text-align: left;
 	padding: 10px 20px;
@@ -686,41 +422,6 @@
 .order_listbox .tips_tel a {
 	color: #797979;
 }
-
-/* .fin_name {
-	width: 75%;
-	display: inline-block;
-	vertical-align: top;
-	padding-left: 5px;
-	word-break: break-all;
-}
-.fin_span {
-	color: #c7c7c7;
-	display: block;
-}
-.flight .infobox .place span.fin_date {
-	color: #797979;
-	font-size: .9em;
-}
-.fin_transfers {
-	position: relative;
-	width: 100%;
-	text-align: center;
-}
-.fin_transfers em {
-	width: inherit;
-	display: block;
-	position: absolute;
-	top: 50%;
-	border-bottom: 1px solid #e4e4e4;
-}
-.fin_transfers b {
-	background: #fff;
-	position: relative;
-	padding: 0 10px;
-	color: #2eb3f9;
-}
-*/
 .f2 {
 	border-bottom-width: 1px !important;
 }
@@ -735,27 +436,6 @@
 	line-height: 5px;
 	letter-spacing: 0;
 }
-
-/* .tab_time {
-	width: 100%;
-	display: box;
-	display: -webkit-box;
-	display: -moz-box;
-	border-bottom: 1px solid #ddd;
-}
-.tab_time li {
-	position: relative;
-	height: 34px;
-	line-height: 34px;
-	text-align: center;
-	font-size: 13px;
-	box-flex: 1;
-	-moz-box-flex: 1;
-	-webkit-box-flex: 1;
-	background-color: #f2f2f2;
-	color: #888;
-}
-*/
 .f_list_tab {
 	border-bottom: 1px solid #E8EBEF;
 	width: 100%;
@@ -887,13 +567,6 @@ ul.f_list_tab {
 	color: #757575;
 	font-size: 13px;
 }
-
-/* dfn {
-	color: #F0831E;
-	font-style: normal;
-	font-size: 13px;
-}
-*/
 .f_price h5 {
 	color: #797979;
 	font-size: 14px;
@@ -1153,29 +826,6 @@ ul.f_list_tab {
 	background: #e4e4e4;
 }
 
-/* .sjyellow {
-	width: 0;
-	height: 0;
-	border-width: 8px;
-	border-style: solid;
-	display: inline-block;
-	vertical-align: bottom;
-	border-color: #ff9e00 transparent transparent transparent;
-	margin-left: 5px;
-}
-.sjy_bottom {
-	border-color: transparent transparent #ff9e00 transparent;
-	vertical-align: top;
-}
-.sjydrop_info {
-	padding: 0 10px 10px;
-	margin-top: -5px;
-	font-weight: 500;
-}
-.fltboarinfo dd.s5_line_h {
-	padding-bottom: 0;
-}
-*/
 /* flight and fltint */
 .fltdetail .ofont {
 	padding: 10px;
@@ -1600,11 +1250,6 @@ dfn {
 	float: right;
 }
 
-/* .flights_gender {
-	margin: 4px 10px 0 0;
-	float: right;
-}
-*/
 /* 国内国际订单填写、报销凭证 2014-02-10 by w_jing */
 .flights_preson {
 	background: #f2f2f2;
@@ -1750,6 +1395,7 @@ dfn {
 	word-break: normal;
 }
 
+/* _____________old 历史遗留 end_____________ */
 /* !
 ** S pyh彭延华 */
 /* !

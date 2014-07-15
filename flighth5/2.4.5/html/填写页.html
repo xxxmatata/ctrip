@@ -695,13 +695,21 @@
             <div>儿童票支持返现</div>
         </div>
 
-        <p class="flight-tips-btm">旅行套餐含：
+        <p class="flight-couponstips"><i class="flight-arrdn"></i>旅行套餐含：
             <br>价值100000积分的旅游优惠券一张+机票一张。
             <br>旅游优惠券使用说明：
             <br>1.可用于携程出境旅游，含团队游、半自助游及邮轮产品。（注：不可用于邮轮单船票、自由行套餐）；
             <br>2.每单每成人直减¥100，有效期内可不限次数使用（有效期至 a年b月c日）；
             <br>注：预订旅行套餐仅提供普通发票。
         </p>
+        <script>
+        $(function() {
+            $(".flight-couponstips").click(function() {
+                $(this).toggleClass("flight-htauto");
+                $(this).children(".flight-arrdn").toggleClass("flight-arrup3");
+            });
+        })
+        </script>
         <div class="blk10"></div>
         <p class="flight-tips-btm">这里是须知内容 这里是须知内容 这里是须知内容 这里是须知内容 这里是须知内容 这里是须知内容</p>
         <p class="pd10">弹层</p>

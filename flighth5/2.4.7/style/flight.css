@@ -1,4 +1,5 @@
 ﻿@charset "utf-8";
+/* _____________old 历史遗留 start_____________ */
 .intrip .cfbox {
 	background-color: #fff;
 }
@@ -473,9 +474,9 @@
 }
 */
 .f_list_tab {
-	border-bottom: 1px solid #E8EBEF;
+	border-bottom: 1px solid #bcbcbc;
 	width: 100%;
-	height: 75px;
+	min-height: 90px;
 	overflow: hidden;
 	font-size: 14px;
 	position: relative;
@@ -490,17 +491,20 @@ ul.f_list_tab {
 }
 .f_list_tab .f_info {
 	padding: 10px;
-	line-height: 24px;
+	padding-right: 0;
+	line-height: 22px;
 	position: relative;
+	font-size: 14px;
 }
 .f_list_tab .f_price {
 	padding: 10px;
-	line-height: 24px;
+	padding-left: 0;
+	line-height: 22px;
 	position: absolute;
 	right: 8px;
 	text-align: right;
 	color: #757575;
-	font-size: 13px;
+	font-size: 14px;
 }
 .f_price .hot_ico i {
 	margin-left: 9px;
@@ -509,11 +513,8 @@ ul.f_list_tab {
 	margin-right: 0px;
 }
 .f_price strong {
-	font-size: 20px;
+	font-size: 18px;
 	color: #ff7800;
-}
-.f_num {
-	margin-left: 6px;
 }
 .small {
 	color: #C12E33;
@@ -533,24 +534,14 @@ ul.f_list_tab {
 	display: inline-block;
 }
 .f_detail {
-	background-color: #ebf4fa;
 	font-size: 13px;
 	position: relative;
 }
 .f_detail li {
-	letter-spacing: -1px;
-	border-bottom: 1px solid #CEE1EE;
-	height: 40px;
-	line-height: 40px;
+	border-bottom: 1px solid #bcbcbc;
+	height: 50px;
+	line-height: 50px;
 	position: relative;
-}
-.f_detail li:last-child {
-	border-bottom: none;
-}
-.f_detail li:hover,
-.f_detail li:active {
-	background-color: #c5dbef;
-	-webkit-tap-highlight-color: #c5dbef;
 }
 .xq_info {
 	width: 100%;
@@ -562,44 +553,29 @@ ul.f_list_tab {
 .xq_info em {
 	margin-left: 10px;
 }
-.xq_fan {
-	display: inline-block;
-	position: absolute;
-	left: 55%;
-	height: 40px;
-	line-height: 40px;
-}
 .xq_price {
-	text-align: right;
-	display: inline-block;
 	position: absolute;
 	right: 25px;
 }
 .xq_price strong {
 	font-size: 16px;
-	color: #ff7800;
 }
-.fan {
-	width: 30px;
-	height: 15px;
-	line-height: 15px;
-	padding: 1px;
-	margin-left: 2px;
-	text-align: center;
-	font-family: "STHEITI";
-	font-size: 12px;
-	font-weight: bold;
-	background-color: #FB4C2E;
-	color: #FFF;
+.xq_price .xq-yp {
 	display: inline-block;
+	width: 3em;
+	text-align: right;
 }
-.fantxt {
-	color: #FB4C2E;
+.xq_price .fantxt2 {
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
 }
 .orderno {
 	height: 70px;
 	background-color: #EFF6FB;
-	color: #797979;
+	color: rgba(0, 0, 0, .6);
 	font-size: 16px;
 	text-indent: 10px;
 	padding: 10px;
@@ -686,9 +662,8 @@ ul.f_list_tab {
 	font-size: 1.5em;
 }
 dfn {
-	color: #F0831E;
 	font-style: normal;
-	font-size: 13px;
+	font-size: 12px;
 }
 .flight .infobox h4 {
 	color: #005380;
@@ -1428,7 +1403,7 @@ mark {
 	display: block;
 }
 
-/* --------------------------------- old end --------------------------------- */
+/* _____________old 历史遗留 end_____________ */
 /* !
 ** S pyh彭延华 */
 
@@ -2336,10 +2311,6 @@ mark {
 
 /* **
 ** E 值机 */
-/* !
-** E pyh彭延华 */
-/* !
-** S hjh黄鉴华 */
 /* S 机票90天低价日历 */
 .cui_cld_holiday em {
 	color: #06a2d0;
@@ -2409,4 +2380,4 @@ mark {
 }
 
 /* !
-** E hjh黄鉴华 */
+** E pyh彭延华 */

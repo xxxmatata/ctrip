@@ -2621,11 +2621,6 @@ i.flight-labq {
 .flight-infoinput input {
 	width: auto;
 	height: auto;
-	line-height: 44px;
-}
-.flight-infoinput .flight-linktel {
-	height: 100%;
-	line-height: 44px;
 }
 .flight-infoinput .flight-switch {
 	display: table-cell;
@@ -2677,7 +2672,7 @@ i.flight-labq {
 	border: 1px solid #dbdbdb;
 	color: #099fde;
 	border-radius: 3px;
-	padding: 0 5px;
+	padding: 5px 10px;
 }
 
 /* .flight-addinfo {
@@ -2750,6 +2745,33 @@ i.flight-labq {
 .flight-couponstips {
 	color: #999;
 	padding: 10px;
+	font-size: 12px;
+	height:2em;
+	overflow: hidden;
+	position: relative;
+}
+.flight-htauto{
+	height:auto;
+}
+.flight-couponstips .flight-arrdn {
+position: absolute;
+width: 6px;
+height: 6px;
+top: 30px;
+right:15px;
+border-bottom: 2px solid #999;
+border-right: 2px solid #999;
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.flight-couponstips .flight-arrup3{
+	border:none;
+	top:35px;
+	border-left: 2px solid #999;
+	border-top: 2px solid #999;
 }
 .flight-btmnext {
 	width: 100%;
