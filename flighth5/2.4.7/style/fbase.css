@@ -2946,13 +2946,6 @@ i.flight-labq {
 	width: 70px;
 	vertical-align: top;
 }
-.flight-arrdown .flight-txt4 {
-	float: left;
-	max-width: 4em;
-	height: 44px;
-	line-height: 44px;
-	overflow: hidden;
-}
 .flight-infoinput-blk label {
 	display: table-cell;
 	vertical-align: middle;
@@ -3330,7 +3323,7 @@ i.flight-labq {
 }
 .flight-bkinfo-fltinfo {
 	color: rgba(0, 0, 0, .4);
-	font-size: 12px;
+	font-size: 11px;
 	border-bottom: 1px solid #c2c2c2;
 	line-height: 24px;
 	padding: 0 15px 5px;
@@ -3338,6 +3331,7 @@ i.flight-labq {
 .flight-bkinfo-fltinfo img {
 	width: 20px;
 	vertical-align: middle;
+	margin-top: -3px;
 }
 .flight-bkinfo-price {
 	height: 40px;
@@ -3388,7 +3382,8 @@ i.flight-labq {
 	font-size: 12px;
 	-webkit-transform: scale(.7);
 }
-.flight-bkinfo-date i {
+.flight-icon-go,
+.flight-icon-back {
 	display: inline-block;
 	width: 14px;
 	height: 14px;
@@ -3398,6 +3393,17 @@ i.flight-labq {
 	font-size: 12px;
 	color: #fff;
 	border-radius: 2px;
+}
+.flight-bkinfo-wfzj {
+	float: right;
+	width: 80px;
+	height: 60px;
+	padding-top: 21px;
+	background: #f5f5f5;
+	color: rgba(0, 0, 0, .7);
+	font-size: 12px;
+	text-align: center;
+	border-left: 1px solid #c2c2c2;
 }
 
 /* E v2.4.7 */
