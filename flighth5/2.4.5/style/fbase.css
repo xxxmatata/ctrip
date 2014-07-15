@@ -608,6 +608,9 @@ i {
 .s5_grayli .flight-infoinput .flight-infoinput-pdl {
 	border: none;
 }
+.cui-roller-btns .cui-flexbd:nth-of-type(3) {
+	border-left: 1px solid #bcbcbc;
+}
 
 /* 覆盖公共 ↑ */
 /* 区块相关 */

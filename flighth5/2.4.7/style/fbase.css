@@ -687,6 +687,9 @@ i {
 .tab_by li.hover {
 	background: none;
 }
+.cui-roller-btns .cui-flexbd:nth-of-type(3) {
+	border-left: 1px solid #bcbcbc;
+}
 
 /* 覆盖main.css ↑ */
 /* 区块相关 */
@@ -837,6 +840,9 @@ i {
 .clr-eee {
 	color: #eee;
 }
+.clr-e5e5e5 {
+	color: #e5e5e5;
+}
 .clr-h60 {
 	color: rgba(0, 0, 0, 0.6);
 }
@@ -888,7 +894,7 @@ i {
 	background: #fff;
 }
 
-/* 字体相关 */
+/* 文字相关 */
 .fnt-l {
 	text-align: left;
 }
@@ -2940,6 +2946,13 @@ i.flight-labq {
 	width: 70px;
 	vertical-align: top;
 }
+.flight-arrdown .flight-txt4 {
+	float: left;
+	max-width: 4em;
+	height: 44px;
+	line-height: 44px;
+	overflow: hidden;
+}
 .flight-infoinput-blk label {
 	display: table-cell;
 	vertical-align: middle;
@@ -3375,15 +3388,15 @@ i.flight-labq {
 	font-size: 12px;
 	-webkit-transform: scale(.7);
 }
-.flight-bkinfo-date i{
+.flight-bkinfo-date i {
 	display: inline-block;
 	width: 14px;
 	height: 14px;
 	line-height: 14px;
 	text-align: center;
-	background:#a2a2a2;
+	background: #a2a2a2;
 	font-size: 12px;
-	color:#fff;
+	color: #fff;
 	border-radius: 2px;
 }
 
