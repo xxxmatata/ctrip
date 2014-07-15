@@ -1986,7 +1986,7 @@ i.flight-labq {
 	margin-left: 12px;
 }
 .error-tips {
-	color: #000;
+	color: #ff9a14;
 	font-size: 12px;
 	line-height: 1.5;
 	padding: 6px 10px;
@@ -3668,11 +3668,11 @@ i.flight-labq {
 	line-height: 16px;
 }
 .withcancel .place_search_box{
-	margin-right: 80px;
+	margin-right: 50px;
 }
 .flight-ctsrh-cancel{
 	float: right;
-	width: 80px;
+	width: 50px;
 	background: #eee;
 	text-align: center;
 	color: #099fde;
