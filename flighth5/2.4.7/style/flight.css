@@ -1680,7 +1680,7 @@ i.flight-labq {
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-.flight-section #invoice_switch{
+.flight-section .flight-section-swt{
 	position: absolute;
 	right:15px;
 	top:50%;
