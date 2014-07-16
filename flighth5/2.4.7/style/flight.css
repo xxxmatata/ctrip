@@ -1693,6 +1693,9 @@ i.flight-labq {
 .flight-section-bgnone{
 	background: none;
 }
+.flight-section .flight-ins{
+	padding-right: 60px;
+}
 /* E 填写页v2.4.7 */
 /* S 机票订单详情页优化 */
 .flight-list-table {
