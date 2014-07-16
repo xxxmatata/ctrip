@@ -1690,6 +1690,9 @@ i.flight-labq {
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
+.flight-section-bgnone{
+	background: none;
+}
 /* E 填写页v2.4.7 */
 /* S 机票订单详情页优化 */
 .flight-list-table {
