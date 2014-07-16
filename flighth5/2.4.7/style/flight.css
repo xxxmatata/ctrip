@@ -1680,7 +1680,16 @@ i.flight-labq {
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-
+.flight-section #invoice_switch{
+	position: absolute;
+	right:15px;
+	top:50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
 /* E 填写页v2.4.7 */
 /* S 机票订单详情页优化 */
 .flight-list-table {
