@@ -3388,9 +3388,15 @@ i {
 	transform: rotate(-45deg);
 }
 .flight-ctsrh input.place_search {
-	height: 20px;
+	height: 24px;
 	border-radius: 0;
 	font: 400 14px/22px Tahoma;
+}
+.flight-ctsrh span.place_search{
+	display: block;
+	color: #999;
+	height: 24px;
+	line-height: 18px;
 }
 .flight-ctsrh input[type=text].place_search:empty {
 	padding: 0;
