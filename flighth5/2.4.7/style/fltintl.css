@@ -1398,5 +1398,236 @@ dfn {
 /* _____________old 历史遗留 end_____________ */
 /* !
 ** S pyh彭延华 */
+.flight-listsim {
+	border: 1px solid #bcbcbc;
+	border-bottom: none;
+	background: #fff;
+	margin-top: 10px;
+}
+.flight-listsim.mt0 {
+	margin-top: 0;
+}
+.flight-listsim.mtm1 {
+	margin-top: -1px;
+}
+.flight-listsim > li {
+	position: relative;
+	padding: 0 10px;
+	line-height: 44px;
+	overflow: hidden;
+	border-bottom: 1px solid #bcbcbc;
+}
+.flight-listsim2 {
+	border: 1px solid #bcbcbc;
+	border-bottom: none;
+	background: #fff;
+}
+.flight-listsim2 > li {
+	position: relative;
+	line-height: 44px;
+	overflow: hidden;
+	border-bottom: 1px solid #bcbcbc;
+}
+.flight-listsim3 {
+	border-left: 1px solid #bcbcbc;
+	border-right: 1px solid #bcbcbc;
+	border-top: 1px solid #bcbcbc;
+	background: #fff;
+}
+.flight-listsim3 > li {
+	position: relative;
+	padding: 0 22px 0 10px;
+	line-height: 44px;
+	overflow: hidden;
+	border-bottom: 1px solid #bcbcbc;
+}
+.flight-listsim3 ul {
+	position: relative;
+}
+.flight-listsim3 .flight-arrrht2:after {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	right: -10px;
+	top: 50%;
+	margin-top: -5px;
+	border-top: 2px solid #a9a9a9;
+	border-right: 2px solid #a9a9a9;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.flight-listsim3-table {
+	display: table;
+	width: 100%;
+	position: relative;
+}
+.flight-listsim3-table label {
+	display: table-cell;
+	width: 70px;
+	vertical-align: middle;
+}
+.flight-listsim3-table ul {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 10px 0;
+}
+.flight-listsim3-table li {
+	line-height: 20px;
+}
+.flight-listsim4 {
+	border: 1px solid #bcbcbc;
+	border-bottom: none;
+	background: #fff;
+	margin-top: 10px;
+}
+.flight-listsim4 > li {
+	position: relative;
+	padding: 0 10px;
+	line-height: 44px;
+	overflow: hidden;
+	border-bottom: 1px solid #bcbcbc;
+}
+.flight-listsim5 {
+	border: 1px solid #bcbcbc;
+	border-bottom: none;
+	background: #fff;
+}
+.flight-listsim5 > li {
+	position: relative;
+	padding: 10px;
+	line-height: 20px;
+	overflow: hidden;
+	border-bottom: 1px solid #bcbcbc;
+}
+.flight-listsim5-table {
+	display: table;
+	width: 100%
+}
+.flight-listsim5-table label {
+	display: table-cell;
+	width: 70px;
+}
+
+/* 后面跟向下箭头 */
+.flight-arrdown {
+	color: #099fde;
+	position: relative;
+}
+.flight-arrdown:after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	top: 50%;
+	margin-top: -5px;
+	margin-left: 5px;
+	border-bottom: 2px solid #099fde;
+	border-right: 2px solid #099fde;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.flight-arrdown2 {
+	position: relative;
+}
+.flight-arrdown2:after {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 50%;
+	margin-top: -5px;
+	border-bottom: 2px solid #a9a9a9;
+	border-right: 2px solid #a9a9a9;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* 后面跟向上箭头 */
+.flight-arrup {
+	color: #099fde;
+	position: relative;
+}
+.flight-arrup:after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	top: 50%;
+	margin-top: -1px;
+	margin-left: 5px;
+	border-top: 2px solid #099fde;
+	border-left: 2px solid #099fde;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.flight-arrup2 {
+	position: relative;
+}
+.flight-arrup2:after {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 50%;
+	right: 10px;
+	border-top: 2px solid #a9a9a9;
+	border-left: 2px solid #a9a9a9;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* 后面跟向右箭头 */
+.flight-arrright {
+	color: #099fde;
+	position: relative;
+	padding-right: 10px;
+}
+.flight-arrright:after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	top: 50%;
+	margin-top: -4px;
+	border-top: 2px solid #099fde;
+	border-right: 2px solid #099fde;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* 带问号label标签 */
+.flight-labq:after {
+	content: '';
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: 6px;
+	margin-bottom: -4px;
+	background: url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px 0;
+	background-size: 100px;
+}
+i.flight-labq {
+	float: right;
+	width: 30px;
+}
 /* !
 ** E pyh彭延华 */

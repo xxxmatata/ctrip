@@ -1012,7 +1012,7 @@ i {
 	z-index: 100;
 }
 
-/* 图标相关 */
+/* S 图标相关 */
 .flight-icon-flight {
 	display: inline-block;
 	width: 15px;
@@ -1427,242 +1427,6 @@ i {
 .flight-icon-wxfx-dis {
 	background-color: #b2b2b2;
 }
-
-/* 小固件↓ */
-/* 公共简单列表 */
-
-.flight-listsim {
-	border: 1px solid #bcbcbc;
-	border-bottom: none;
-	background: #fff;
-	margin-top: 10px;
-}
-.flight-listsim.mt0 {
-	margin-top: 0;
-}
-.flight-listsim.mtm1 {
-	margin-top: -1px;
-}
-.flight-listsim > li {
-	position: relative;
-	padding: 0 10px;
-	line-height: 44px;
-	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
-}
-.flight-listsim2 {
-	border: 1px solid #bcbcbc;
-	border-bottom: none;
-	background: #fff;
-}
-.flight-listsim2 > li {
-	position: relative;
-	line-height: 44px;
-	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
-}
-.flight-listsim3 {
-	border-left: 1px solid #bcbcbc;
-	border-right: 1px solid #bcbcbc;
-	border-top: 1px solid #bcbcbc;
-	background: #fff;
-}
-.flight-listsim3 > li {
-	position: relative;
-	padding: 0 22px 0 10px;
-	line-height: 44px;
-	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
-}
-.flight-listsim3 ul {
-	position: relative;
-}
-.flight-listsim3 .flight-arrrht2:after {
-	content: '';
-	position: absolute;
-	width: 10px;
-	height: 10px;
-	right: -10px;
-	top: 50%;
-	margin-top: -5px;
-	border-top: 2px solid #a9a9a9;
-	border-right: 2px solid #a9a9a9;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-.flight-listsim3-table {
-	display: table;
-	width: 100%;
-	position: relative;
-}
-.flight-listsim3-table label {
-	display: table-cell;
-	width: 70px;
-	vertical-align: middle;
-}
-.flight-listsim3-table ul {
-	display: table-cell;
-	vertical-align: middle;
-	padding: 10px 0;
-}
-.flight-listsim3-table li {
-	line-height: 20px;
-}
-.flight-listsim4 {
-	border: 1px solid #bcbcbc;
-	border-bottom: none;
-	background: #fff;
-	margin-top: 10px;
-}
-.flight-listsim4 > li {
-	position: relative;
-	padding: 0 10px;
-	line-height: 44px;
-	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
-}
-.flight-listsim5 {
-	border: 1px solid #bcbcbc;
-	border-bottom: none;
-	background: #fff;
-}
-.flight-listsim5 > li {
-	position: relative;
-	padding: 10px;
-	line-height: 20px;
-	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
-}
-.flight-listsim5-table {
-	display: table;
-	width: 100%
-}
-.flight-listsim5-table label {
-	display: table-cell;
-	width: 70px;
-}
-
-/* 后面跟向下箭头 */
-.flight-arrdown {
-	color: #099fde;
-	position: relative;
-}
-.flight-arrdown:after {
-	content: '';
-	position: absolute;
-	width: 6px;
-	height: 6px;
-	top: 50%;
-	margin-top: -5px;
-	margin-left: 5px;
-	border-bottom: 2px solid #099fde;
-	border-right: 2px solid #099fde;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-.flight-arrdown2 {
-	position: relative;
-}
-.flight-arrdown2:after {
-	content: '';
-	position: absolute;
-	width: 10px;
-	height: 10px;
-	top: 50%;
-	margin-top: -5px;
-	border-bottom: 2px solid #a9a9a9;
-	border-right: 2px solid #a9a9a9;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
-/* 后面跟向上箭头 */
-.flight-arrup {
-	color: #099fde;
-	position: relative;
-}
-.flight-arrup:after {
-	content: '';
-	position: absolute;
-	width: 6px;
-	height: 6px;
-	top: 50%;
-	margin-top: -1px;
-	margin-left: 5px;
-	border-top: 2px solid #099fde;
-	border-left: 2px solid #099fde;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-.flight-arrup2 {
-	position: relative;
-}
-.flight-arrup2:after {
-	content: '';
-	position: absolute;
-	width: 10px;
-	height: 10px;
-	top: 50%;
-	right: 10px;
-	border-top: 2px solid #a9a9a9;
-	border-left: 2px solid #a9a9a9;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
-/* 后面跟向右箭头 */
-.flight-arrright {
-	color: #099fde;
-	position: relative;
-	padding-right: 10px;
-}
-.flight-arrright:after {
-	content: '';
-	position: absolute;
-	width: 6px;
-	height: 6px;
-	top: 50%;
-	margin-top: -4px;
-	border-top: 2px solid #099fde;
-	border-right: 2px solid #099fde;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
-/* 带问号label标签 */
-.flight-labq:after {
-	content: '';
-	display: inline-block;
-	width: 15px;
-	height: 15px;
-	margin-left: 6px;
-	margin-bottom: -4px;
-	background: url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -20px 0;
-	background-size: 100px;
-}
-i.flight-labq {
-	float: right;
-	width: 30px;
-}
-
 /* 返 */
 .flight-icon-return {
 	border: 1px solid #ff9913;
@@ -1718,26 +1482,39 @@ i.flight-labq {
 	background: url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -40px 0;
 	background-size: 100px;
 }
-.flight-btn-addps {
-	margin-top: 10px;
-	height: 42px;
-	line-height: 42px;
-	border: 1px solid #bcbcbc;
-	color: #099fde;
-	background: #fff;
-	text-align: center;
-	font-size: 14px;
+.flight-icon-add{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border:1px solid #099fde;
+	border-radius: 50%;
+	position: relative;
+	margin-bottom: -2px;
 }
-.flight-btn-delps {
+.flight-icon-add:before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	top:50%;
+	width: 8px;
+	height: 2px;
 	margin-top: -1px;
-	height: 42px;
-	line-height: 42px;
-	border: 1px solid #bcbcbc;
-	color: #f00;
-	background: #fff;
-	text-align: center;
-	font-size: 14px;
+	margin-left: -4px;
+	background: #099fde;
 }
+.flight-icon-add:after{
+	content: '';
+	position: absolute;
+	left: 50%;
+	top:50%;
+	width: 2px;
+	height: 8px;
+	margin-top: -4px;
+	margin-left: -1px;
+	background: #099fde;
+}
+/* E 图标相关 */
+/* S 小固件↓ */
 
 /* 公共弹层 */
 .flight-windows {
@@ -1807,41 +1584,6 @@ i.flight-labq {
 	background-size: 100px;
 }
 
-/* .flight-icon-formobile {
-	position: absolute;
-	width: 0;
-	height: 0;
-	right: 0;
-	top: 0;
-	border: 24px solid #52c9f0;
-	border-color: #52c9f0 #52c9f0 transparent transparent;
-}
-.flight-icon-formobile:before {
-	content: '';
-	position: absolute;
-	width: 0;
-	height: 0;
-	right: -24px;
-	top: -24px;
-	border: 12px solid #fff;
-	border-color: #fff #fff transparent transparent;
-}
-.flight-icon-formobile:after {
-	content: '手机专享';
-	position: absolute;
-	width: 48px;
-	height: 12px;
-	left: -17px;
-	top: -14px;
-	font-size: 12px;
-	color: #fff;
-	-webkit-transform: rotate(45deg) scale(0.8, 0.8);
-	-moz-transform: rotate(45deg) scale(0.8, 0.8);
-	-ms-transform: rotate(45deg) scale(0.8, 0.8);
-	-o-transform: rotate(45deg) scale(0.8, 0.8);
-	transform: rotate(45deg) scale(0.8, 0.8);
-}
-*/
 /* 经停 */
 
 .flight-icon-stopin {
@@ -1994,7 +1736,7 @@ i.flight-labq {
 	border: 1px solid #efcd57;
 }
 
-/* 小固件↑ */
+/* E 小固件↑ */
 /* js相关 */
 
 .js_sublist {
@@ -3036,22 +2778,22 @@ i.flight-labq {
 .flight-infodel2:before {
 	content: '';
 	position: absolute;
-	width: 22px;
-	height: 22px;
+	width: 18px;
+	height: 18px;
 	left: 0;
 	top: 50%;
-	margin-top: -11px;
+	margin-top: -9px;
 	background: #ff3c30;
 	border-radius: 50%;
 }
 .flight-infodel2:after {
 	content: '';
 	position: absolute;
-	width: 14px;
+	width: 8px;
 	height: 2px;
 	left: 50%;
 	top: 50%;
-	margin-left: -13px;
+	margin-left: -12px;
 	margin-top: -1px;
 	background: #fff;
 }
@@ -3451,6 +3193,8 @@ i.flight-labq {
 	padding:10px 15px;
 	font-size: 16px;
 }
+
+
 /* E v2.4.7 */
 /* E 填写页 */
 /* S 详情页 */
