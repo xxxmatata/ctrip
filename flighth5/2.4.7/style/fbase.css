@@ -3094,6 +3094,16 @@ i {
 	background-position: center center;
 	background-repeat: no-repeat;
 }
+.flight-bkinfo-direction .jingting{
+	position: absolute;
+	left: 0;
+	top:50%;
+	width: 100%;
+	color:rgba(0,0,0,.4);
+	font-size: 12px;
+	text-align: center;
+	margin-top:20px;
+}
 .flight-bkinfo-date {
 	font-size: 12px;
 }

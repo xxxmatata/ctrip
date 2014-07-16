@@ -1629,5 +1629,25 @@ i.flight-labq {
 	float: right;
 	width: 30px;
 }
+.flight-btn-addps {
+	margin-top: 10px;
+	height: 42px;
+	line-height: 42px;
+	border: 1px solid #bcbcbc;
+	color: #099fde;
+	background: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+.flight-btn-delps {
+	margin-top: -1px;
+	height: 42px;
+	line-height: 42px;
+	border: 1px solid #bcbcbc;
+	color: #f00;
+	background: #fff;
+	text-align: center;
+	font-size: 14px;
+}
 /* !
 ** E pyh彭延华 */
