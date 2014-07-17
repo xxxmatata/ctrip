@@ -681,6 +681,7 @@ i {
 }
 .backtrack .city_tit {
 	width: 43%;
+	height: 50px;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -2066,27 +2067,23 @@ i {
 	position: relative;
 	font-size: 22px;
 	color: #333;
+	height: 44px;
+	padding-top:6px;
 }
 .flight-srhform dd {
 	position: relative;
-	padding-left: 5px;
-	padding:6px 0 0 0;
 	height: 43px;
 	line-height: 43px;
 	border-bottom: 1px solid #e5e5e5;
 	text-indent: 5px;
 }
 .flight-switch dl {
-	height: 51px;
 	font-size: 22px;
 	color: #333;
 }
 .flight-switch dd {
 	float: left;
 	width: 43%;
-	height: 43px;
-	line-height: 43px;
-	padding: 6px 0 0 0;
 }
 .flight-switch dd:active {
 	color: #099fde;
@@ -2103,7 +2100,7 @@ i {
 	z-index: 2;
 	width: 100%;
 	left: 0;
-	top: 6px;
+	top: 0;
 	-webkit-transition: all .5s ease-in-out;
 	overflow: hidden;
 }
@@ -2214,6 +2211,9 @@ i {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
+.flight-srhform .flight-date em{
+	letter-spacing: -2px;
+}
 .flight-srhform .flight-date b {
 	font-size: 14px;
 	color: #666;
@@ -2235,7 +2235,7 @@ i {
 .flight-srhform .flight-pstype .tips {
 	position: absolute;
 	left: 60px;
-	top: 10px;
+	top: 3px;
 	line-height: 18px;
 	color: #666;
 	font-size: 14px;
