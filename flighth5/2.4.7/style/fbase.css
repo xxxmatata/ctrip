@@ -615,6 +615,8 @@ i {
 .city_tab li {
 	color: rgba(0, 0, 0, .8);
 	background: #eee;
+	height: 40px;
+	line-height: 44px;
 }
 .city_tab li.cityTabCrt {
 	color: #099fde;
@@ -2052,7 +2054,7 @@ i {
 /* S 查询页 */
 .flight-srhform {
 	background: #fff;
-	padding: 15px;
+	padding: 0 15px 15px 15px;
 	border-bottom: 1px solid #ddd;
 }
 .flight-srhform li {
@@ -2067,21 +2069,24 @@ i {
 }
 .flight-srhform dd {
 	position: relative;
-	line-height: 44px;
 	padding-left: 5px;
+	padding:6px 0 0 0;
+	height: 43px;
+	line-height: 43px;
+	border-bottom: 1px solid #e5e5e5;
+	text-indent: 5px;
 }
 .flight-switch dl {
-	height: 44px;
-	line-height: 44px;
+	height: 51px;
 	font-size: 22px;
 	color: #333;
 }
 .flight-switch dd {
 	float: left;
 	width: 43%;
-	height: 44px;
-	padding: 0;
-	border-bottom: 1px solid #e5e5e5;
+	height: 43px;
+	line-height: 43px;
+	padding: 6px 0 0 0;
 }
 .flight-switch dd:active {
 	color: #099fde;
@@ -2099,10 +2104,7 @@ i {
 	z-index: 2;
 	width: 100%;
 	left: 0;
-	top: 0;
-	height: 44px;
-	line-height: 44px;
-	text-indent: 5px;
+	top: 6px;
 	-webkit-transition: transform .5s ease-in-out;
 }
 .flight-switch .switch_left {
@@ -2114,10 +2116,10 @@ i {
 .flight-switch .flight-cityswitch {
 	position: absolute;
 	left: 43%;
-	top: 0;
+	top: 10px;
 	width: 14%;
-	height: 42px;
-	line-height: 42px;
+	height: 38px;
+	line-height: 38px;
 	text-indent: -9999px;
 	border: 1px solid transparent;
 }
@@ -2209,11 +2211,6 @@ i {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
-.flight-srhform .flight-date {
-	height: 44px;
-	padding-right: 30px;
-	border-bottom: 1px solid #e5e5e5;
-}
 .flight-srhform .flight-date b {
 	font-size: 14px;
 	color: #666;
@@ -2228,9 +2225,6 @@ i {
 .flight-srhform .flight-date1:after {
 	display: none;
 }
-.flight-srhform .flight-pstype {
-	border-bottom: 1px solid #e5e5e5;
-}
 .flight-srhform .flight-pstype:active {
 	border-bottom: 1px solid #099fde;
 	color: #099fde;
@@ -2238,7 +2232,7 @@ i {
 .flight-srhform .flight-pstype .tips {
 	position: absolute;
 	left: 60px;
-	top: 3px;
+	top: 10px;
 	line-height: 18px;
 	color: #666;
 	font-size: 14px;
