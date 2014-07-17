@@ -2097,7 +2097,6 @@ i {
 }
 .flight-switch dd.flight-backcity em {
 	padding-right: 8px;
-	float: right;
 }
 .flight-switch dd span {
 	position: absolute;
@@ -2105,13 +2104,17 @@ i {
 	width: 100%;
 	left: 0;
 	top: 6px;
-	-webkit-transition: transform .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	overflow: hidden;
+}
+.flight-switch dd.flight-backcity span{
+	text-align: right;
 }
 .flight-switch .switch_left {
-	-webkit-transform: translateX(-132%);
+	-webkit-transform: translateX(-165%);
 }
 .flight-switch .switch_right {
-	-webkit-transform: translateX(132%);
+	-webkit-transform: translateX(165%);
 }
 .flight-switch .flight-cityswitch {
 	position: absolute;
@@ -2205,7 +2208,7 @@ i {
 	background: #099fde;
 }
 .flight-switch .flight-txt5 {
-	float: left;
+	display: inline-block;
 	max-width: 110px;
 	overflow: hidden;
 	white-space: nowrap;
