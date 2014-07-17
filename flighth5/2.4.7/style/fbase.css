@@ -631,7 +631,7 @@ i {
 	height: 43px;
 	line-height: 43px;
 	border-bottom: 1px solid #bcbcbc;
-	font-size: 16px;
+	font-size: 14px;
 }
 #city_list .cur-selected {
 	background: #fff;
@@ -3434,6 +3434,9 @@ i {
 	height: 34px;
 	line-height: 34px;
 	text-align: center;
+}
+.intercity .hotcitys li:last-of-type{
+	font-size: 11px;
 }
 .hotcitys .sub-city-box .cur-selected:after {
 	display: none;
