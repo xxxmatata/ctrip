@@ -2337,29 +2337,19 @@ i {
 /* S 列表页 */
 .flight-listdate {
 	width: 100%;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: flex;
-	display: table\9;
+	display: table;
+	margin: 5px 0;
 }
 .flight-listdate li {
+	display: table-cell;
 	position: relative;
-	margin: 5px 0;
 	vertical-align: middle;
 	text-align: center;
-	-moz-box-sizing: border-box;
-	box-flex: 1;
-	flex: 1;
-	-webkit-box-flex: 1;
-	-moz-flex: 1;
-	-ms-flex: 1;
 	text-align: center;
 	height: 44px;
 	line-height: 20px;
 	color: #666;
 	font-size: 14px;
-	display: table-cell\9;
 }
 .flight-listdate li .price {
 	color: #666;
@@ -2414,30 +2404,24 @@ i {
 	border-color: transparent transparent transparent #ccc;
 }
 .tab_by {
-	display: table\9;
+	display: table;
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
 }
 .tab_by li {
-	display: table-cell\9;
-	width: 33%\9;
-	border-right: 1px solid #ccc;
+	display: table-cell;
+	width: 30%;
+	border-right: none;
 	font: 400 16px/40px "Microsoft Yahei";
 	background: none;
 	float: none;
 }
 .flight-listdate li.today,
 .tab_by li.byfilter {
-	box-flex: 1.5;
-	flex: 1.5;
-	-webkit-box-flex: 1.5;
-	-moz-flex: 1.5;
-	-ms-flex: 1.5;
-	width: 40%\9;
-}
-.flight-listdate .today {
+	width: 40%;
 	border-left: 1px solid #ccc;
 	border-right: 1px solid #ccc;
+
 }
 .flight-cheap-calendar {
 	display: inline-block;
