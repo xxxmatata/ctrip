@@ -245,7 +245,7 @@ textarea {
 	margin: 0;
 	padding: 0;
 }
-body{
+body {
 	background: #efefef;
 }
 header {
@@ -886,6 +886,9 @@ i {
 }
 .clr-eee {
 	color: #eee;
+}
+.clr-c4c4c4 {
+	color: #c4c4c4;
 }
 .clr-e5e5e5 {
 	color: #e5e5e5;
