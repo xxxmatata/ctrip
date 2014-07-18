@@ -2428,14 +2428,12 @@ i {
 }
 .flight-listdate li.today,
 .tab_by li.byfilter {
-	box-flex: 1.5;
-	flex: 1.5;
-	-webkit-box-flex: 1.5;
-	-moz-flex: 1.5;
-	-ms-flex: 1.5;
+	
 	width: 40%\9;
+	
+	-webkit-box-flex:1.5;-moz-box-flex: 1.5;-webkit-flex: 1.5;-ms-flex:1.5; flex:1.5;
 }
-.flight-listdate li.today .date {width:100%;}
+
 .flight-listdate .today {
 	border-left: 1px solid #ccc;
 	border-right: 1px solid #ccc;
