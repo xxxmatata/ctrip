@@ -2337,10 +2337,9 @@ i {
 /* S 列表页 */
 .flight-listdate {
 	width: 100%;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: flex;
+
+	
+	display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webskit-flex;display:flex; 
 	display: table\9;
 }
 .flight-listdate li {
