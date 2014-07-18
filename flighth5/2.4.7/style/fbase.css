@@ -2435,6 +2435,7 @@ i {
 	-ms-flex: 1.5;
 	width: 40%\9;
 }
+.flight-listdate li.today .date {width:100%;}
 .flight-listdate .today {
 	border-left: 1px solid #ccc;
 	border-right: 1px solid #ccc;
