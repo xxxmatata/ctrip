@@ -245,6 +245,9 @@ textarea {
 	margin: 0;
 	padding: 0;
 }
+body{
+	background: #efefef;
+}
 header {
 	height: 44px;
 	overflow: hidden;
@@ -349,21 +352,21 @@ i {
 	background: #099fde
 }
 .hyb_detail_pub {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 }
 .hyb_detail_lines {
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .intrip .cfbox {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 }
 .intrip .cfbox li {
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	padding: 0;
 }
 .delivy .cfbox li.light {
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .intrip .edit_ico {
 	background: url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -65px;
@@ -378,7 +381,7 @@ i {
 	margin-top: -1px;
 }
 .intrip .grayli li {
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	padding: 10px;
 }
 .intrip .needs:before {
@@ -630,7 +633,7 @@ i {
 	background: #fff;
 	height: 43px;
 	line-height: 43px;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	font-size: 14px;
 }
 #city_list .cur-selected {
@@ -657,7 +660,7 @@ i {
 	height: 24px;
 	line-height: 24px;
 	background: #efefef;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	color: #666;
 	font-size: 14px;
 }
@@ -666,7 +669,7 @@ i {
 	background: #fafafa;
 	height: 43px;
 	line-height: 44px;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .city-tab1 li.cityTabCrt {
 	height: 40px;
@@ -699,7 +702,7 @@ i {
 	background: none;
 }
 .cui-roller-btns .cui-flexbd:nth-of-type(3) {
-	border-left: 1px solid #bcbcbc;
+	border-left: 1px solid #ccc;
 }
 .flight-loading {
 	width: 48px;
@@ -850,7 +853,7 @@ i {
 	border: none !important;
 }
 .bdtop1 {
-	border-top: 1px solid #bcbcbc;
+	border-top: 1px solid #ccc;
 }
 .cancelafter:after {
 	display: none !important;
@@ -1438,6 +1441,7 @@ i {
 .flight-icon-wxfx-dis {
 	background-color: #b2b2b2;
 }
+
 /* 返 */
 .flight-icon-return {
 	border: 1px solid #ff9913;
@@ -1493,37 +1497,38 @@ i {
 	background: url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat -40px 0;
 	background-size: 100px;
 }
-.flight-icon-add{
+.flight-icon-add {
 	display: inline-block;
 	width: 12px;
 	height: 12px;
-	border:1px solid #099fde;
+	border: 1px solid #099fde;
 	border-radius: 50%;
 	position: relative;
 	margin-bottom: -2px;
 }
-.flight-icon-add:before{
+.flight-icon-add:before {
 	content: '';
 	position: absolute;
 	left: 50%;
-	top:50%;
+	top: 50%;
 	width: 8px;
 	height: 2px;
 	margin-top: -1px;
 	margin-left: -4px;
 	background: #099fde;
 }
-.flight-icon-add:after{
+.flight-icon-add:after {
 	content: '';
 	position: absolute;
 	left: 50%;
-	top:50%;
+	top: 50%;
 	width: 2px;
 	height: 8px;
 	margin-top: -4px;
 	margin-left: -1px;
 	background: #099fde;
 }
+
 /* E 图标相关 */
 /* S 小固件↓ */
 
@@ -1596,7 +1601,6 @@ i {
 }
 
 /* 经停 */
-
 .flight-icon-stopin {
 	display: inline-block;
 	width: 40px;
@@ -1816,7 +1820,7 @@ i {
 
 /* 套餐选择 */
 .flight-list-table2 {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 }
@@ -1824,7 +1828,7 @@ i {
 	position: relative;
 	line-height: 44px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	padding: 0 10px;
 	color: rgba(0, 0, 0, .8);
 	font-size: 14px;
@@ -1859,16 +1863,18 @@ i {
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+
 /* 通用提示信息 */
-.flight-tips{
+.flight-tips {
 	background: #fffdee;
-	border-top:1px solid #efcd57;
-	border-bottom:1px solid #efcd57;
-	color:#000;
-	padding:10px 15px;
+	border-top: 1px solid #efcd57;
+	border-bottom: 1px solid #efcd57;
+	color: #000;
+	padding: 10px 15px;
 	font-size: 12px;
 	line-height: 1.3;
 }
+
 /* 底部提示信息 */
 .flight-tips-btm {
 	color: #000;
@@ -2068,7 +2074,7 @@ i {
 	font-size: 22px;
 	color: #333;
 	height: 44px;
-	padding-top:6px;
+	padding-top: 6px;
 }
 .flight-srhform dd {
 	position: relative;
@@ -2104,7 +2110,7 @@ i {
 	-webkit-transition: all .5s ease-in-out;
 	overflow: hidden;
 }
-.flight-switch dd.flight-backcity span{
+.flight-switch dd.flight-backcity span {
 	text-align: right;
 }
 .flight-switch .switch_left {
@@ -2211,7 +2217,7 @@ i {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
-.flight-srhform .flight-date em{
+.flight-srhform .flight-date em {
 	letter-spacing: -2px;
 }
 .flight-srhform .flight-date b {
@@ -2407,13 +2413,13 @@ i {
 }
 .tab_by {
 	display: table\9;
-	border-top: 1px solid #bcbcbc;
-	border-bottom: 1px solid #bcbcbc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 .tab_by li {
 	display: table-cell\9;
 	width: 33%;
-	border-right: 1px solid #bcbcbc;
+	border-right: 1px solid #ccc;
 	font: 400 16px/40px "Microsoft Yahei";
 	background: #f7f7f7;
 }
@@ -2427,8 +2433,8 @@ i {
 	width: 40%\9;
 }
 .flight-listdate .today {
-	border-left: 1px solid #bcbcbc;
-	border-right: 1px solid #bcbcbc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
 }
 .flight-cheap-calendar {
 	display: inline-block;
@@ -2488,8 +2494,8 @@ i {
 	top: 50%;
 	margin-left: -4px;
 	margin-top: -7px;
-	border-top: 1px solid #bcbcbc;
-	border-left: 1px solid #bcbcbc;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
 	-webkit-transform: rotate(-135deg);
 	-moz-transform: rotate(-135deg);
 	-ms-transform: rotate(-135deg);
@@ -2505,8 +2511,8 @@ i {
 	top: 50%;
 	margin-left: -4px;
 	margin-top: -2px;
-	border-top: 1px solid #bcbcbc;
-	border-left: 1px solid #bcbcbc;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -2719,7 +2725,7 @@ i {
 	background: #fffce7;
 }
 .flight-infoinput-pdl {
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	margin-bottom: -1px;
 }
 .flight-infoinput-pdl .flights_gender {
@@ -2803,11 +2809,20 @@ i {
 	background: #fff;
 }
 .flight-selectinfo {
+	position: absolute;
+	right: 15px;
+	top: 50%;
 	background: #fff;
 	border: 1px solid #dbdbdb;
 	color: #099fde;
 	border-radius: 3px;
 	padding: 5px 10px;
+	font-size: 14px;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 .flight-btn-etp {
 	height: 24px;
@@ -2906,7 +2921,7 @@ i {
 	line-height: 22px;
 }
 .flight-ipt-etp2 {
-	padding: 10px;
+	padding: 15px;
 	font-size: 12px;
 	color: rgba(0, 0, 0, .8);
 	line-height: 22px;
@@ -2921,8 +2936,8 @@ i {
 .flight-ipt-etp .flight-pnttips,
 .flight-ipt-etp2 .flight-pnttips {
 	margin: 5px 0 5px 22px;
-	border-top: 1px solid #bcbcbc;
-	border-bottom: 1px solid #bcbcbc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 .flight-ipt-etp .flight-arrdown,
 .flight-ipt-etp .flight-arrup,
@@ -2973,7 +2988,7 @@ i {
 	color: #999;
 	padding: 0 5px;
 	font-size: 12px;
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	min-width: 76px;
 	text-align: center;
 }
@@ -3016,7 +3031,7 @@ i {
 	padding: 0 15px 15px;
 }
 .order-detail > ul:nth-of-type(2) > li:nth-child(1) {
-	border-top: 1px solid #bcbcbc;
+	border-top: 1px solid #ccc;
 	padding-top: 10px;
 }
 .order-detail-title {
@@ -3024,8 +3039,8 @@ i {
 	height: 24px;
 	line-height: 24px;
 	background: #efefef;
-	border-top: 1px solid #bcbcbc;
-	border-bottom: 1px solid #bcbcbc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 
 /* S v2.4.7 */
@@ -3099,15 +3114,15 @@ i {
 	background-position: center center;
 	background-repeat: no-repeat;
 }
-.flight-bkinfo-direction .jingting{
+.flight-bkinfo-direction .jingting {
 	position: absolute;
 	left: 0;
-	top:50%;
+	top: 50%;
 	width: 100%;
-	color:rgba(0,0,0,.4);
+	color: rgba(0, 0, 0, .4);
 	font-size: 12px;
 	text-align: center;
-	margin-top:20px;
+	margin-top: 20px;
 }
 .flight-bkinfo-date {
 	font-size: 12px;
@@ -3193,6 +3208,10 @@ i {
 	color: #fff;
 	border-radius: 2px;
 }
+.flight-bkinfo-price .flight-icon-go,
+.flight-bkinfo-price .flight-icon-back {
+	background: #c4c4c4;
+}
 .flight-bkinfo-wfzj {
 	float: right;
 	width: 80px;
@@ -3204,11 +3223,11 @@ i {
 	text-align: center;
 	border-left: 1px solid #c2c2c2;
 }
-.flight-sectiontitle{
-	padding:10px 15px;
+.flight-sectiontitle {
+	padding: 10px 15px;
 	font-size: 16px;
+	position: relative;
 }
-
 
 /* E v2.4.7 */
 /* E 填写页 */
@@ -3238,14 +3257,14 @@ i {
 }
 .flight-bkrst-list {
 	background: #fff;
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 }
 .flight-bkrst-list li {
 	font-size: 14px;
 	color: #666;
 	position: relative;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	min-height: 44px;
 	line-height: 44px;
 	padding: 0 10px;
@@ -3285,7 +3304,7 @@ i {
 	margin-top: 10px;
 	padding: 10px;
 	background: #fff;
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	color: #666;
 	font-size: 12px;
 }
@@ -3298,12 +3317,12 @@ i {
 /* S 强制登录 */
 
 .flight-login {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 }
 .flight-login li {
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	height: 44px;
 	line-height: 44px;
 	color: #666;
@@ -3329,7 +3348,7 @@ i {
 	height: 44px;
 	line-height: 44px;
 	text-align: center;
-	border-left: 1px solid #bcbcbc;
+	border-left: 1px solid #ccc;
 	color: #099fde;
 }
 
@@ -3389,7 +3408,7 @@ i {
 	border-radius: 0;
 	font: 400 14px/22px Tahoma;
 }
-.flight-ctsrh span.place_search{
+.flight-ctsrh span.place_search {
 	display: block;
 	color: #999;
 	height: 24px;
@@ -3438,7 +3457,7 @@ i {
 	line-height: 34px;
 	text-align: center;
 }
-.intercity .hotcitys li:last-of-type{
+.intercity .hotcitys li:last-of-type {
 	font-size: 11px;
 }
 .hotcitys .sub-city-box .cur-selected:after {
@@ -3447,10 +3466,10 @@ i {
 .hotcitys li.twoline {
 	line-height: 16px;
 }
-.withcancel .place_search_box{
+.withcancel .place_search_box {
 	margin-right: 50px;
 }
-.flight-ctsrh-cancel{
+.flight-ctsrh-cancel {
 	float: right;
 	width: 50px;
 	background: #eee;
@@ -3458,6 +3477,16 @@ i {
 	color: #099fde;
 	font-size: 16px;
 }
+.hotcitys .flight-getcity {
+	width: auto;
+	border: none;
+	padding-left: 15px;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAdCAYAAACqhkzFAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyMzMzNzY3OTA1Q0MxMUU0QkQ5QUIxODZGRTAwMjIxOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyMzMzNzY3QTA1Q0MxMUU0QkQ5QUIxODZGRTAwMjIxOSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjIzMzM3Njc3MDVDQzExRTRCRDlBQjE4NkZFMDAyMjE5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIzMzM3Njc4MDVDQzExRTRCRDlBQjE4NkZFMDAyMjE5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Q4AIUAAAAdJJREFUeNqclUlLA0EQhTs9UYOooISAHrxoFMQND3rVixd/rjePLsGgCai4xAU0LiiKUdRgTKK+ghpoO9WdGR98MEt1TXdtk1CyukAWDIM0SPHzT/AEyuAM1OyFCeteg2kwB5LKrwYogn3wLTnsBMtgSMXTHVgDX3QTGDtbAYMqvnp5HYXgJ3Q4D0Y8R6O4fXBstWDTw5u7pTj1gSnBqA7yoASa/IwWjYMF0GHZk49jMpgRjkq7WgVXdAzjOV0/ghuuAm0luBHw17oth5S9C0/cquzATmCSvjAgLDiPkAzJZkA7gvwewaFko3VYP0LW2kmyaZLDF+FFNoJDyaZCDq+FF7Mg43GWYZuWrqEsv4FJqw3pQ6Nci89Gr1LdToAlR6+vh04WwZhjN1TUFb7uN9rV1iX1dJjhgjkxLAU8wtIeZ6RdZZQMHftQ/V8lDs2fGizyAI0rivOOGfxQNfNFDBW5FVsckk54VEXVKziwR76ypslWDIc5O5lSHz/w9G2nstQU2mGcd/S4WZs5V425Mlfn36ikAg9fFXWHpCOezrZomOy5FvkcUoI2rF8AadPTVd5WCkd9ypg8p3aZxNmh2aNVLvztdsZBBIdNHvf3jFe/AgwAnvpn7fr9gdAAAAAASUVORK5CYII=");
+	background-size: 10px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
 /* E 选择城市 */
 /* !
 ** E pyh彭延华 */

@@ -346,7 +346,7 @@
 }
 .fltgr .infobox p.tickterm {
 	padding: 5px 20px;
-	color: #bcbcbc;
+	color: #ccc;
 	word-break: break-all;
 }
 .fltgr .infobox p.tickterm b {
@@ -1399,7 +1399,7 @@ dfn {
 /* !
 ** S pyh彭延华 */
 .flight-listsim {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 	margin-top: 10px;
@@ -1415,10 +1415,10 @@ dfn {
 	padding: 0 10px;
 	line-height: 44px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .flight-listsim2 {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 }
@@ -1426,12 +1426,12 @@ dfn {
 	position: relative;
 	line-height: 44px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .flight-listsim3 {
-	border-left: 1px solid #bcbcbc;
-	border-right: 1px solid #bcbcbc;
-	border-top: 1px solid #bcbcbc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
 	background: #fff;
 }
 .flight-listsim3 > li {
@@ -1439,7 +1439,7 @@ dfn {
 	padding: 0 22px 0 10px;
 	line-height: 44px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .flight-listsim3 ul {
 	position: relative;
@@ -1479,7 +1479,7 @@ dfn {
 	line-height: 20px;
 }
 .flight-listsim4 {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 	margin-top: 10px;
@@ -1489,10 +1489,10 @@ dfn {
 	padding: 0 10px;
 	line-height: 44px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .flight-listsim5 {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 }
@@ -1501,7 +1501,7 @@ dfn {
 	padding: 10px;
 	line-height: 20px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .flight-listsim5-table {
 	display: table;
@@ -1633,7 +1633,7 @@ i.flight-labq {
 	margin-top: 10px;
 	height: 42px;
 	line-height: 42px;
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	color: #099fde;
 	background: #fff;
 	text-align: center;
@@ -1643,7 +1643,7 @@ i.flight-labq {
 	margin-top: -1px;
 	height: 42px;
 	line-height: 42px;
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	color: #f00;
 	background: #fff;
 	text-align: center;

@@ -1463,10 +1463,14 @@
         <span class="fnt-b">报销凭证提示：</span>
         <span>您选择了旅行套餐，提供“全额普通发票”或“机票行程单＋差额普通发票”</span>
     </div>
-    <div class="flight-bk"></div>
     <div class="flight-sectiontitle mt10">
         <span>乘机人信息</span>
+        <p class="clr-999 fnt-12">(成人1人 儿童/婴儿不可定)</p>
         <span class="flight-selectinfo">选择登机人</span>
+    </div>
+    <div class="flight-sectiontitle mt10">
+        <span class="flight-selectinfo fr">选择登机人</span>
+        <span>乘机人信息</span>
     </div>
     <ul class="flight-listsim3">
         <li>
@@ -1491,6 +1495,148 @@
                 </ul>
             </div>
         </li>
+    </ul>
+    <ul id="addPassenger" class="flight-listsim2 mt10">
+        <li class="pdlr10 js_hide">第3位乘机人</li>
+        <li data-id="1405022014588">
+            <div class="flight-infoinput">
+                <ul data-id="1405022014588">
+                    <li class="js_hide">
+                        <div class="flight-infoinput-pdl clear-input-box">
+                            <label id="readmeAction" class="flight-labq">姓名</label>
+                            <input type="text" placeholder="所持证件姓名" class="js_newName" value="">
+                            <span class="cui-focus-close " style="top: 20px; bottom: auto; display: none;">×</span>
+                        </div>
+                    </li>
+                    <li class="">
+                        <div class="flight-infoinput">
+                            <ul>
+                                <li>
+                                    <div class="flight-infoinput-pdl">
+                                        <label>姓</label>
+                                        <input placeholder="英文或拼音：Chen" class="js_firstName js_enName" value="">
+                                        <i class="flight-labq"></i>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="flight-infoinput-pdl">
+                                        <label>名</label>
+                                        <input placeholder="英文或拼音：Xiaoming" class="js_lastName js_enName" value="">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li data-id="1405022014588">
+            <div class="flight-infoinput">
+                <ul data-id="1405022014588">
+                    <li>
+                        <div class="flight-infoinput-pdl clear-input-box">
+                            <select id="sel_idCard" name="select-choice-1" style="display: none;">
+                                <option value="1" data-no="">身份证</option>
+
+                                <option selected="" value="2" data-no="">护照</option>
+
+                                <option value="8" data-no="">台胞证</option>
+
+                                <option value="7" data-no="">回乡证</option>
+
+                                <option value="4" data-no="">军人证</option>
+
+                                <option value="10" data-no="">港澳通行证</option>
+
+                                <option value="25" data-no="">户口簿</option>
+
+                                <option value="27" data-no="">出生证明</option>
+
+                                <option value="99" data-no="">其它</option>
+
+                            </select>
+                            <label class="flight-arrdown" data-id="1405022014588">护照</label>
+                            <input type="text" placeholder="所持证件号码" class="js_no" data-index="1" value="">
+                            <span class="cui-focus-close " style="top: 20px; bottom: auto; display: none;">×</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li data-id="1405022014588" id="js_blk_birth" style="; ">
+            <div class="flight-infoinput">
+                <ul>
+                    <li>
+                        <div class="flight-infoinput-pdl clear-input-box">
+                            <label>出生日期</label>
+                            <input type="tel" maxlength="8" placeholder="格式：19851223" data-index="0,0,0" class="js_birth" value="">
+                            <span class="cui-focus-close " style="top: 20px; bottom: auto; display: none;">×</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li data-id="1405022014588">
+            <div class="flight-ipt-etp2" data-psgidx="2">
+                <ul>
+                    <li class="flight-check-def" data-type="1" style="">
+                        <span>成人票&nbsp;</span>
+                        <span class="clr-ff9a14">
+                            ¥3050+¥50+¥120
+                        </span>
+                    </li>
+                    <li class="flight-check-def" data-type="2" style=";">
+                        <span class="f-r flight-arrdown">购票须知</span>
+                        <span>儿童票&nbsp;</span>
+                        <span class="clr-ff9a14">
+                            ¥1530+¥0+¥0
+                        </span>
+                        <div class="flight-pnttips" style="display: none;">
+                            <h4>退改签：</h4>
+                            <p>退票条件：可以退票。</p>
+                            <p>更改条件：可以更改。</p>
+                            <p>签转条件：可以签转。</p>
+                            <h4>儿童婴儿购票说明:</h4>
+                            <p>1.航班起飞当日出生未满14天的婴儿，请至航空公司柜台申请购买机票</p>
+                            <p>2.婴儿/儿童年龄区分：婴儿：14天-2周岁；儿童：2-12周岁（按航班起飞当日的实际年龄区分）</p>
+                            <p>3.婴儿票价格：航线标准价的10%，不收机建费及燃油费。（注：婴儿票无座。如需座位，可选择购买儿童票或成人票）</p>
+                            <p>4.儿童票价格：航线标准价的50%，不收机建费，燃油费为成人的50%</p>
+                            <p>5.儿童、婴儿须由成人陪同登机。儿童如单独乘机，需直接至航空公司柜台申请购买机票</p>
+                            <p>6.儿童婴儿购票可用证件：身份证、护照、户口簿、出生证明等</p>
+                            <p>7.儿童婴儿购票可同时购买1份航意险</p>
+                            <p>8. 部分成人价格允许儿童婴儿购买，根据航空公司公布的成人价格政策确定儿童婴儿是否允许购买成人票。</p>
+                        </div>
+                    </li>
+                    <li class="flight-check-checked" data-type="3">
+                        <span class="f-r flight-arrdown">购票须知</span>
+                        <span>婴儿票&nbsp;</span>
+                        <span class="clr-ff9a14">
+                            ¥310+¥0+¥0
+                        </span>
+                        <div class="flight-pnttips" style="display: none;">
+                            <h4>退改签：</h4>
+                            <p>退票条件：可以退票。</p>
+                            <p>更改条件：可以更改。</p>
+                            <p>签转条件：可以签转。</p>
+                            <h4>儿童婴儿购票说明:</h4>
+                            <p>1.航班起飞当日出生未满14天的婴儿，请至航空公司柜台申请购买机票</p>
+                            <p>2.婴儿/儿童年龄区分：婴儿：14天-2周岁；儿童：2-12周岁（按航班起飞当日的实际年龄区分）</p>
+                            <p>3.婴儿票价格：航线标准价的10%，不收机建费及燃油费。（注：婴儿票无座。如需座位，可选择购买儿童票或成人票）</p>
+                            <p>4.儿童票价格：航线标准价的50%，不收机建费，燃油费为成人的50%</p>
+                            <p>5.儿童、婴儿须由成人陪同登机。儿童如单独乘机，需直接至航空公司柜台申请购买机票</p>
+                            <p>6.儿童婴儿购票可用证件：身份证、护照、户口簿、出生证明等</p>
+                            <p>7.儿童婴儿购票可同时购买1份航意险</p>
+                            <p>8. 部分成人价格允许儿童婴儿购买，根据航空公司公布的成人价格政策确定儿童婴儿是否允许购买成人票。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="flight-ipt-etp3 js_hide" style="line-height: 30px;">
+            该舱位婴儿不可订，请选择其他舱位
+        </li>
+
+
     </ul>
     <div class="flight-btn-addps"><i class="flight-icon-add"></i> 添加乘机人</div>
     <div class="flight-section">

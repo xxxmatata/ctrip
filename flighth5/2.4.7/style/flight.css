@@ -364,7 +364,7 @@
 }
 .fltgr .infobox p.tickterm {
 	padding: 5px 20px;
-	color: #bcbcbc;
+	color: #ccc;
 	word-break: break-all;
 }
 .fltgr .infobox p.tickterm b {
@@ -474,7 +474,7 @@
 }
 */
 .f_list_tab {
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	width: 100%;
 	min-height: 90px;
 	overflow: hidden;
@@ -538,7 +538,7 @@ ul.f_list_tab {
 	position: relative;
 }
 .f_detail li {
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	height: 50px;
 	line-height: 50px;
 	position: relative;
@@ -1409,7 +1409,7 @@ mark {
 
 /* S 填写页v2.4.7 */
 .flight-listsim {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 	margin-top: 10px;
@@ -1425,22 +1425,24 @@ mark {
 	padding: 0 10px;
 	line-height: 44px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .flight-listsim2 {
-	border: 1px solid #bcbcbc;
-	border-bottom: none;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 	background: #fff;
+	padding-left: 15px;
 }
 .flight-listsim2 > li {
 	position: relative;
 	line-height: 44px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
+	border-top: 1px solid #ccc;
+	margin-top: -1px;
 }
 .flight-listsim3 {
-	border-top: 1px solid #bcbcbc;
-	border-bottom: 1px solid #bcbcbc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 	background: #fff;
 	padding-left: 15px;
 }
@@ -1449,10 +1451,8 @@ mark {
 	padding: 0 27px 0 0;
 	line-height: 44px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
-}
-.flight-listsim3 > li:last-of-type {
-	border-bottom: none;
+	border-top: 1px solid #ccc;
+	margin-top: -1px;
 }
 .flight-listsim3 ul {
 	position: relative;
@@ -1492,7 +1492,7 @@ mark {
 	line-height: 20px;
 }
 .flight-listsim4 {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 	margin-top: 10px;
@@ -1502,10 +1502,10 @@ mark {
 	padding: 0 10px;
 	line-height: 44px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .flight-listsim5 {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 }
@@ -1514,7 +1514,7 @@ mark {
 	padding: 10px;
 	line-height: 20px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .flight-listsim5-table {
 	display: table;
@@ -1523,6 +1523,9 @@ mark {
 .flight-listsim5-table label {
 	display: table-cell;
 	width: 70px;
+}
+.flight-infoinput li {
+	padding-left: 0;
 }
 
 /* 后面跟向下箭头 */
@@ -1646,7 +1649,7 @@ i.flight-labq {
 	margin: 10px 15px;
 	height: 42px;
 	line-height: 42px;
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-radius: 2px;
 	color: #099fde;
 	background: #fff;
@@ -1657,15 +1660,15 @@ i.flight-labq {
 	margin-top: -1px;
 	height: 42px;
 	line-height: 42px;
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	color: #f00;
 	background: #fff;
 	text-align: center;
 	font-size: 14px;
 }
 .flight-section {
-	border-bottom: 1px solid #bcbcbc;
-	border-top: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
 	background: #fff;
 	padding-left: 100px;
 	position: relative;
@@ -1680,32 +1683,33 @@ i.flight-labq {
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-.flight-section .flight-section-swt{
+.flight-section .flight-section-swt {
 	position: absolute;
-	right:15px;
-	top:50%;
+	right: 15px;
+	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-.flight-section-bgnone{
+.flight-section-bgnone {
 	background: none;
 }
-.flight-section .flight-ins{
+.flight-section .flight-ins {
 	padding-right: 60px;
 	line-height: 44px;
 }
-.flight-section .flight-xfq{
+.flight-section .flight-xfq {
 	padding-right: 60px;
 	line-height: 22px;
 	font-size: 12px;
 }
+
 /* E 填写页v2.4.7 */
 /* S 机票订单详情页优化 */
 .flight-list-table {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 	margin-top: 10px;
@@ -1717,7 +1721,7 @@ i.flight-labq {
 	position: relative;
 	line-height: 44px;
 	overflow: hidden;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 }
 .flight-list-tablebox {
 	display: table;
@@ -1850,7 +1854,7 @@ i.flight-labq {
 	background: #fff;
 }
 .flight .b_people .info_list li {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-top: none;
 }
 */
@@ -1866,7 +1870,7 @@ i.flight-labq {
 	color: #666;
 }
 .flight-zjtable {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 	color: #333;
@@ -1875,7 +1879,7 @@ i.flight-labq {
 .flight-zjtable li {
 	padding: 0 10px;
 	position: relative;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	height: 43px;
 	line-height: 43px;
 }
@@ -2038,7 +2042,7 @@ i.flight-labq {
 
 /* 取消值机 */
 .flight-zjtable2 {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 	color: #333;
@@ -2047,7 +2051,7 @@ i.flight-labq {
 .flight-zjtable2 li {
 	padding: 0 10px;
 	position: relative;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	height: 44px;
 	line-height: 44px;
 }
@@ -2084,7 +2088,7 @@ i.flight-labq {
 	margin-right: 12px;
 }
 .flight-zjtable3 {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 	color: #333;
@@ -2093,7 +2097,7 @@ i.flight-labq {
 .flight-zjtable3 li {
 	padding: 0 10px;
 	position: relative;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	height: 55px;
 	padding-top: 10px;
 }
@@ -2109,7 +2113,7 @@ i.flight-labq {
 
 /* 提交座位请求 */
 .flight-zjtable4 {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 	color: #333;
@@ -2118,7 +2122,7 @@ i.flight-labq {
 .flight-zjtable4 li {
 	padding: 0 10px;
 	position: relative;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	height: 43px;
 	line-height: 43px;
 }
@@ -2128,7 +2132,7 @@ i.flight-labq {
 	color: #666;
 }
 .flight-zjtable5 {
-	border: 1px solid #bcbcbc;
+	border: 1px solid #ccc;
 	border-bottom: none;
 	background: #fff;
 	color: #333;
@@ -2137,7 +2141,7 @@ i.flight-labq {
 .flight-zjtable5 li {
 	padding: 0 10px;
 	position: relative;
-	border-bottom: 1px solid #bcbcbc;
+	border-bottom: 1px solid #ccc;
 	height: 43px;
 	line-height: 43px;
 	overflow: hidden;
