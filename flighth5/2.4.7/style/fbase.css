@@ -2360,7 +2360,6 @@ i {
 	color: #666;
 	font-size: 14px;
 	display: table-cell\9;
-	background: #f7f7f7;
 }
 .flight-listdate li .price {
 	color: #666;
@@ -2421,10 +2420,11 @@ i {
 }
 .tab_by li {
 	display: table-cell\9;
-	width: 33%;
+	width: 33%\9;
 	border-right: 1px solid #ccc;
 	font: 400 16px/40px "Microsoft Yahei";
-	background: #f7f7f7;
+	background: none;
+	float: none;
 }
 .flight-listdate li.today,
 .tab_by li.byfilter {
