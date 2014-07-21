@@ -660,6 +660,7 @@ i {
 	border-bottom: 1px solid #ccc;
 	color: #666;
 	font-size: 14px;
+	font-family: Arial;
 }
 .city-tab1 li {
 	color: #666;
@@ -1741,7 +1742,7 @@ i {
 }
 .error-tips {
 	color: #ff9a14;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.5;
 	padding: 6px 10px;
 	background: #fffdee;
@@ -2277,7 +2278,7 @@ i {
 	height: 49px;
 	line-height: 75px;
 	background: #fff;
-	border-top: 1px solid #9d9d9d;
+	border-top: 1px solid #ccc;
 }
 .flight-footer ul {
 	width: 100%;
@@ -2406,7 +2407,7 @@ i {
 	display: table-cell;
 	font: 400 16px/40px "Microsoft Yahei";
 	background: none;
-	border:none;
+	border: none;
 	float: none;
 }
 .flight-listdate li.today,
@@ -3208,10 +3209,20 @@ i {
 	text-align: center;
 	border-left: 1px solid #c2c2c2;
 }
+.flight-section {
+	overflow: hidden;
+}
 .flight-sectiontitle {
 	padding: 10px 15px;
 	font-size: 16px;
 	position: relative;
+}
+.flight-rhtlab {
+	float: right;
+	margin-right: 15px;
+	min-height: 44px;
+	line-height: 44px;
+	color:#999;
 }
 
 /* E v2.4.7 */
@@ -3473,6 +3484,58 @@ i {
 }
 
 /* E 选择城市 */
+/* S 选择所在地区控件 */
+.flight-cui-hd {
+	background: #334250;
+	color: #fff;
+	font-size: 19px;
+	overflow: hidden;
+	display: table;
+	width: 100%;
+	padding: 12px 0;
+	min-width: 320px;
+}
+.flight-cui-hd > div {
+	display: table-cell;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+.flight-cui-hd .flight-cancel-btn,
+.flight-cui-hd .flight-ok-btn {
+	width: 22%;
+}
+.flight-cui-hd .flight-cancel-btn {
+	border-right: 1px solid #303b4a;
+}
+.flight-cui-hd .flight-ok-btn {
+	border-left: 1px solid #303b4a;
+}
+.flight-cui-hd .flight-center-title {
+	border-left: 1px solid #3b4957;
+	border-right: 1px solid #3b4957;
+}
+.flight-cui-bd {
+	background: #efefef;
+	min-width: 320px;
+}
+.flight-cui-bd .cui-lines {
+	background: #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.flight-cui-bd .cui-roller .ul-list li {
+	color: #999;
+	font-size: 15px;
+	height: 50px;
+	line-height: 50px;
+}
+.flight-cui-bd .cui-roller .ul-list li.current {
+	color: #099fde;
+	font-size: 16px;
+}
+
+/* E 选择所在地区控件 */
 /* !
 ** E pyh彭延华 */
 
