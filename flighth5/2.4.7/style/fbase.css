@@ -3523,6 +3523,10 @@ i {
 	background: #efefef;
 	min-width: 320px;
 }
+.flight-cui-bd .ul-list{
+	text-align: left;
+	text-indent: 1em;
+}
 .flight-cui-bd .cui-lines {
 	background: #fff;
 	border-top: 1px solid #ccc;
