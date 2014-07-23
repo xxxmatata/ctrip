@@ -546,7 +546,7 @@ ul.f_list_tab {
 .xq_info {
 	width: 100%;
 	display: inline-block;
-	color: #757575;
+	color: rgba(0,0,0,.7);
 	padding-left: 10px;
 	position: absolute;
 }
@@ -555,15 +555,16 @@ ul.f_list_tab {
 }
 .xq_price {
 	position: absolute;
-	right: 25px;
+	right: 15px;
 }
 .xq_price strong {
 	font-size: 16px;
 }
 .xq_price .xq-yp {
 	display: inline-block;
-	width: 3em;
+	width: 32px;
 	text-align: right;
+	color: rgba(0,0,0,.7);
 }
 .xq_price .fantxt2 {
 	-moz-transform: translateY(0);
