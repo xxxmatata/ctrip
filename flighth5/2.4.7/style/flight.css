@@ -490,18 +490,16 @@ ul.f_list_tab {
 	float: left;
 }
 .f_list_tab .f_info {
-	padding: 10px;
-	padding-right: 0;
+	padding: 10px 0 10px 15px;
 	line-height: 22px;
 	position: relative;
 	font-size: 14px;
 }
 .f_list_tab .f_price {
-	padding: 10px;
-	padding-left: 0;
+	padding: 10px 15px 10px 0;
 	line-height: 22px;
 	position: absolute;
-	right: 8px;
+	right: 0;
 	text-align: right;
 	color: #757575;
 	font-size: 14px;
@@ -547,7 +545,7 @@ ul.f_list_tab {
 	width: 100%;
 	display: inline-block;
 	color: rgba(0,0,0,.7);
-	padding-left: 10px;
+	padding-left: 15px;
 	position: absolute;
 }
 .xq_info em {
