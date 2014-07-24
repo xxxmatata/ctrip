@@ -2111,7 +2111,7 @@ i {
 	width: 100%;
 	left: 0;
 	top: 0;
-	-webkit-transition: all .5s ease-in-out;
+	-webkit-transition: transform .5s ease-in-out;
 	overflow: hidden;
 }
 .flight-switch dd.flight-backcity span {
