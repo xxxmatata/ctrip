@@ -1498,7 +1498,7 @@ mark {
 }
 .flight-listsim4 > li {
 	position: relative;
-	padding: 0 10px;
+	padding: 0 15px;
 	line-height: 44px;
 	overflow: hidden;
 	border-bottom: 1px solid #ccc;

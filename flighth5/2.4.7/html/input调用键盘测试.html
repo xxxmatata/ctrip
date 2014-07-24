@@ -6,55 +6,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
     <title>input调用键盘测试</title>
     <style>
-    h1{
-        padding-left:10%;
+    h1 {
+        padding-left: 10%;
     }
-    p{
-        padding-left:10%;
+    p {
+        padding-left: 10%;
         font-size: 16px;
     }
-    input{
+    input {
         width: 80%;
         min-height: 32px;
         border: 1px solid #ccc;
         border-radius: 3px;
+        vertical-align: middle;
+    }
+    input[type=checkbox] {
+        width: auto;
+        height: auto;
+    }
+    input[type=file] {
+        border: none;
+        width: auto;
+        height: auto;
     }
     </style>
 </head>
 
 <body>
     <h1>HTML5 Input 类型</h1>
-    <p>email 类型用于应该包含 e-mail 地址的输入域。</p>
-    <p><input type="email" placeholder="email"></p>
-    <p>url 类型用于应该包含 URL 地址的输入域。</p>
-    <p><input type="url" placeholder="url"></p>
-    <p>number 类型用于应该包含数值的输入域。</p>
-    <p><input type="number" placeholder="number"></p>
-    <p>number 最大值16，最小值2，默认值10</p>
-    <p><input type="number" min="2" max="16" value="10" placeholder="number,min2,max16"></p>
-    <p>number 最大值56，最小值3，步长8，默认值9</p>
-    <p><input type="number" min="3" max="56" step="8" value="9" placeholder="number,min3,max56,step8"></p>
-    <p>range 类型用于应该包含一定范围内数字值的输入域。</p>
-    <p>range 类型显示为滑动条。</p>
-    <p><input type="range" placeholder="range"></p>
-    <p>range 最大值3，最小值1</p>
-    <p><input type="range" min="1" max="3" placeholder="range,min1,max10"></p>
-    <p>date - 选取日、月、年</p>
-    <p><input type="date" placeholder="date"></p>
-    <p>month - 选取月、年</p>
-    <p><input type="month" placeholder="month"></p>
-    <p>week - 选取周和年</p>
-    <p><input type="week" placeholder="week"></p>
-    <p>time - 选取时间（小时和分钟）</p>
-    <p><input type="time" placeholder="time"></p>
-    <p>datetime - 选取时间、日、月、年（UTC 时间）</p>
-    <p><input type="datetime" placeholder="datetime"></p>
-    <p>datetime-local - 选取时间、日、月、年（本地时间）</p>
-    <p><input type="datetime-local" placeholder="datetime-local"></p>
-    <p>search 类型用于搜索域，比如站点搜索或 Google 搜索。</p>
-    <p><input type="search" placeholder="search"></p>
-    <p>color 选择颜色</p>
-    <p><input type="color" placeholder="color"></p>
+    <form>
+        <p>text 默认。定义单行输入字段，用户可在其中输入文本。默认是 20 个字符。</p>
+        <p>
+            <input type="text" placeholder="text">
+        </p>
+        <p>email 类型用于应该包含 e-mail 地址的输入域。</p>
+        <p>
+            <input type="email" placeholder="email">
+        </p>
+        <p>url 类型用于应该包含 URL 地址的输入域。</p>
+        <p>
+            <input type="url" placeholder="url">
+        </p>
+        <p>number 类型用于应该包含数值的输入域。</p>
+        <p>
+            <input type="number" placeholder="number">
+        </p>
+        <p>number 最大值16，最小值2，默认值10</p>
+        <p>
+            <input type="number" min="2" max="16" value="10" placeholder="number,min2,max16">
+        </p>
+        <p>number 最大值56，最小值3，步长8，默认值9</p>
+        <p>
+            <input type="number" min="3" max="56" step="8" value="9" placeholder="number,min3,max56,step8">
+        </p>
+        <p>range 类型用于应该包含一定范围内数字值的输入域。</p>
+        <p>range 类型显示为滑动条。</p>
+        <p>
+            <input type="range" placeholder="range">
+        </p>
+        <p>range 最大值3，最小值1</p>
+        <p>
+            <input type="range" min="1" max="3" placeholder="range,min1,max10">
+        </p>
+        <p>date - 选取日、月、年</p>
+        <p>
+            <input type="date" placeholder="date">
+        </p>
+        <p>month - 选取月、年</p>
+        <p>
+            <input type="month" placeholder="month">
+        </p>
+        <p>week - 选取周和年</p>
+        <p>
+            <input type="week" placeholder="week">
+        </p>
+        <p>time - 选取时间（小时和分钟）</p>
+        <p>
+            <input type="time" placeholder="time">
+        </p>
+        <p>datetime - 选取时间、日、月、年（UTC 时间）</p>
+        <p>
+            <input type="datetime" placeholder="datetime">
+        </p>
+        <p>datetime-local - 选取时间、日、月、年（本地时间）</p>
+        <p>
+            <input type="datetime-local" placeholder="datetime-local">
+        </p>
+        <p>search 类型用于搜索域，比如站点搜索或 Google 搜索。</p>
+        <p>
+            <input type="search" placeholder="search">
+        </p>
+        <p>color 输入类型用于规定颜色</p>
+        <p>
+            <input type="color" placeholder="color">
+        </p>
+        <p>tel 输入类型用于应该包含电话号码的输入字段。</p>
+        <p>
+            <input type="tel" placeholder="tel">
+        </p>
+        <p>checkbox 输入类型定义复选框。复选框允许用户在一定数量的选择中选取一个或多个选项。</p>
+        <p>
+            <input type="checkbox" name="vehicle" value="Bike">I have a bike
+            <input type="checkbox" name="vehicle" value="Car">I have a car
+        </p>
+        <p>radio 输入类型定义单选按钮。单选按钮允许用户选择有限数目的选项。</p>
+        <p>
+            <input type="radio" name="sex" value="male">Male
+            <input type="radio" name="sex" value="female">Female
+        </p>
+        <p>file 输入类型用于文件上传。</p>
+        <p>
+            <input type="file" value="file">
+        </p>
+        <p>hidden 输入类型定义隐藏字段。隐藏字段对于用户是不可见的。隐藏字段常常存储默认值，或者由 JavaScript 改变它们的值。</p>
+        <p>
+            <input type="hidden" value="hidden">
+        </p>
+        <p>image 输入类型将图像定义为提交按钮。</p>
+        <p>
+            <input type="image" value="image">
+        </p>
+        <p>password 输入类型定义密码字段。密码字段中的字符会被遮蔽（显示为星号或实心圆）。</p>
+        <p>
+            <input type="password" value="password">
+        </p>
+        <p>button 输入类型定义可点击的按钮，这个按钮本身不会做任何事情。</p>
+        <p>
+            <input type="button" value="button">
+        </p>
+        <p>submit 输入类型定义提交按钮。</p>
+        <p>
+            <input type="submit" value="submit">
+        </p>
+        <p>Reset 输入类型定义重置按钮。重置按钮会把所有表单字段重置为初始值。</p>
+        <p>
+            <input type="reset" value="reset">
+        </p>
+    </form>
 </body>
 
 </html>
