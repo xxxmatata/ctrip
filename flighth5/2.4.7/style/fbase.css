@@ -2114,10 +2114,10 @@ i {
 	text-align: right;
 }
 .flight-switch .switch_left {
-	-webkit-transform: translateX(-165%);
+	-webkit-transform: translateX(-189%);
 }
 .flight-switch .switch_right {
-	-webkit-transform: translateX(165%);
+	-webkit-transform: translateX(189%);
 }
 .flight-switch .flight-cityswitch {
 	position: absolute;
@@ -2418,6 +2418,10 @@ i {
 .flight-listdate li.today,
 .tab_by li.byfilter {
 	width: 46%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.tab_by li.byfilter {
 	border-left: 1px solid #ccc;
 	border-right: 1px solid #ccc;
 }

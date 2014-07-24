@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>input调用键盘测试</title>
+    <style>
+    p{
+        padding-left:10%;
+        font-size: 16px;
+    }
+    input{
+        width: 80%;
+        min-height: 32px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    </style>
+</head>
+
+<body>
+    <p>email 类型用于应该包含 e-mail 地址的输入域。</p>
+    <p><input type="email" placeholder="email"></p>
+    <p>url 类型用于应该包含 URL 地址的输入域。</p>
+    <p><input type="url" placeholder="url"></p>
+    <p>number 类型用于应该包含数值的输入域。</p>
+    <p><input type="number" placeholder="number"></p>
+    <p>number 最大值16，最小值2</p>
+    <p><input type="number" min="2" max="16" placeholder="number,min2,max16"></p>
+    <p>number 最大值56，最小值3，步长8</p>
+    <p><input type="number" min="3" max="56" step="8" placeholder="number,min3,max56,step8"></p>
+    <p>range 类型用于应该包含一定范围内数字值的输入域。</p>
+    <p>range 类型显示为滑动条。</p>
+    <p><input type="range" placeholder="range"></p>
+    <p>range 最大值10，最小值1</p>
+    <p><input type="range" min="1" max="10" placeholder="range,min1,max10"></p>
+    <p>date - 选取日、月、年</p>
+    <p><input type="date" placeholder="date"></p>
+    <p>month - 选取月、年</p>
+    <p><input type="month" placeholder="month"></p>
+    <p>week - 选取周和年</p>
+    <p><input type="week" placeholder="week"></p>
+    <p>time - 选取时间（小时和分钟）</p>
+    <p><input type="time" placeholder="time"></p>
+    <p>datetime - 选取时间、日、月、年（UTC 时间）</p>
+    <p><input type="datetime" placeholder="datetime"></p>
+    <p>datetime-local - 选取时间、日、月、年（本地时间）</p>
+    <p><input type="datetime-local" placeholder="datetime-local"></p>
+    <p>search 类型用于搜索域，比如站点搜索或 Google 搜索。</p>
+    <p><input type="search" placeholder="search"></p>
+    <p>color 选择颜色</p>
+    <p><input type="color" placeholder="color"></p>
+</body>
+
+</html>
