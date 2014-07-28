@@ -21,13 +21,11 @@
 <body>
     <!--S 头部fixed-->
     <div class="header">
-        <header class="flight-header pos-ab">
+        <header class="flight-header pos-rl">
             <h1>订单填写</h1>
             <i class="returnico" id="js_return" onclick="location.href='http://ctrip.bobpeng.com/'"></i> 
             <a href="tel:4000086666" class="icon_phone i_bef __hreftel__" id="js_phone"></a>
         </header>
-        <!--头部fixed，以下空标签占位-->
-        <div class="flight-header-blank">&nbsp;</div>
     </div>
     <!--E 头部fixed-->
     <!--S 登录提醒fixed-->
@@ -38,19 +36,6 @@
             <p>登陆后预订更便捷</p>
         </div>
     </div>
-    <script>
-    $(function() {
-        $(window).scroll(function() {
-            var height1 = $("#js_flight-top").offset().top - $(document).scrollTop();
-            if (height1 < 0) {
-                $(".flight-loginline-fixed").removeClass("pos-rl");
-            }
-            if (height1 > 0) {
-                $(".flight-loginline-fixed").addClass("pos-rl");
-            }
-        });
-    })
-    </script>
     <!--E 登录提醒fixed-->
     <!--S H5机票_订单填写-->
     <div class="p10">

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
     <title>input调用键盘测试</title>
     <style>
     h1 {
@@ -15,14 +15,13 @@
     }
     input {
         width: 80%;
-        min-height: 32px;
+        padding: 3px;
         border: 1px solid #ccc;
         border-radius: 3px;
         vertical-align: middle;
     }
-    input[type=checkbox] {
-        width: auto;
-        height: auto;
+    input[type=checkbox],input[type=radio] {
+        width: 16px;
     }
     input[type=file] {
         border: none;
