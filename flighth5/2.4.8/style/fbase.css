@@ -3709,7 +3709,7 @@ i {
 }
 .flight-mask-cnt h2 {
 	overflow: hidden;
-	margin-bottom: 10px;
+	margin: 15px 0 10px 0;
 }
 .flight-mask-cnt h2 span {
 	float: left;
@@ -3722,7 +3722,7 @@ i {
 }
 .flight-mask-cnt h3 {
 	color: #fff;
-	margin-bottom: 10px;
+	margin: 15px 0 10px 0;
 }
 .flight-mask-cnt h4 {
 	color: #fff;
