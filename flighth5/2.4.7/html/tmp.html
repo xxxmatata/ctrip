@@ -2,20 +2,60 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
     <meta charset="utf-8">
-    <title>calc测试</title>
-    <style>
-
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>tmp</title>
+    <style type="text/css">
+    .test {
+        width: 100px;
+        height: 48px;
+        line-height: 48px;
+        background: #f2f2f2;
+        color: #099fde;
+        font-size: 22px;
+        font-family: 'Microsoft Yahei';
+        text-align: center;
+        margin-left:23px;
+        position: relative;
+        float: left;
+    }
+    .test:before{
+    	content: '';
+    	position: absolute;
+    	width: 0;
+    	height: 0;
+    	left:-20px;
+    	top:0;
+    	border-color: #f2f2f2 rgba(0,0,0,0);
+    	border-width: 0 0 48px 20px;
+    	border-style: solid;
+    }
+    .test:after{
+    	content: '';
+    	position: absolute;
+    	width: 0;
+    	height: 0;
+    	right:-20px;
+    	top:0;
+    	border-color: #f2f2f2 rgba(0,0,0,0);
+    	border-width: 48px 20px 0 0;
+    	border-style: solid;
+    }
+    .test:hover{
+    	background: #099fde;
+    	color: #fff;
+    }
+    .test:last-of-type:after{
+    	display: none;
+    }
+    .test:hover:before,.test:hover:after{
+    	border-color: #099fde rgba(0,0,0,0);
+    }
     </style>
-    
 </head>
 
 <body>
-    <input id="state" type="hidden" />
-    <input id="txtID" type="text" onclick='openKeyboard("txtID");' />
-    <div id="keyboardParent">
-    </div>
+    <div class="test">test</div><div class="test">test</div><div class="test">test</div>
 </body>
 
 </html>

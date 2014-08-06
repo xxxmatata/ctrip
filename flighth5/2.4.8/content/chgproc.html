@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>改签流程</title>
+    <style type="text/css">
+    body {
+        padding: 10px;
+        margin: 0;
+        font-size: 12px;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    ul:before {
+        content: '';
+        position: absolute;
+        left: 8px;
+        top: 10px;
+        width: 2px;
+        height: 100px;
+        background: #ccc;
+    }
+    li {
+        color: #999;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 25px;
+        position: relative;
+    }
+    li:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 6px;
+        width: 16px;
+        height: 16px;
+        background: #ccc;
+        border: 1px solid #fff;
+        border-radius: 50%;
+    }
+    li:after {
+        content: '';
+        position: absolute;
+        left: 6px;
+        top: 9px;
+        width: 4px;
+        height: 7px;
+        border-bottom: 2px solid #fff;
+        border-right: 2px solid #fff;
+        -moz-transform: rotate(35deg);
+        -ms-transform: rotate(35deg);
+        -o-transform: rotate(35deg);
+        -webkit-transform: rotate(35deg);
+        transform: rotate(35deg);
+    }
+    li.fst {
+        color: #333;
+    }
+    li.fst:before {
+        background: #1ca914;
+    }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li class="fst">用户提交改签申请</li>
+        <li>工作人员联系您确认改签申请</li>
+        <li>如需行程单或加收费用进行相关操作</li>
+        <li>改签完成</li>
+    </ul>
+</body>
+
+</html>

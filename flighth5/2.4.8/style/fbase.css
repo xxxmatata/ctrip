@@ -293,11 +293,11 @@ i {
 }
 .icon_home,
 .icon_phone {
-	width: 32px;
+	width: 40px;
 }
 .icon_phone:before {
 	top: 12px;
-	right: 7px;
+	right: 12px;
 	width: 17px;
 	height: 18px;
 	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAkCAYAAADsHujfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjMyQzk3OTA0RUExMUU0OUNGMkVFNzQ3OEMwNjc2RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjMyQzk3QTA0RUExMUU0OUNGMkVFNzQ3OEMwNjc2RCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCMzJDOTc3MDRFQTExRTQ5Q0YyRUU3NDc4QzA2NzZEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCMzJDOTc4MDRFQTExRTQ5Q0YyRUU3NDc4QzA2NzZEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+g37C3wAAAu1JREFUeNq8l01IVFEUx59OiZUllVZIYxClLSyKpAkUAomMigGjhTAUUkGLNrUoKOjTxKIowk0E0iLMgogQIqI2EiHRF2ibSKTCzI8ci75Nef2P/R+9Hvc682benQM/ZpxznPOfe8+95zzLtm3LxULQAX6DMyDL4zeG+48loBuMg+f2X7uQaSHLQC8YAzGQA+5TzKFMCZkHhsAoiLqceeAJxezKhJBzTFajCCgEr7hdNaaFvGYyXVAxt+0HWGdSiPza1gSBZSAOPoOVJoRkW9YE36zJ7SXYDKaCOyDPCtgcEflJxHaAs6AIREwIGQGFScRGwQEwCF6YENINShLEbQe3QBys52uwhkK5xOM7U1NI2+iXW3exqVMjK9JFTap9D4HzYBhUgh7LkImQdr6vVviLQRhcA/2WQZvorjyeBUw86vJPoQCpiRXgp8kVEbsM5oOdHv8YqAdLwWmTK+IUyzTwAbwHszyFlA0esGBrMzGP7GCyJk3zewu+g9WmhWS5ZpBNiuBV4AvoA2GTQoQiMAg+apJt5PDUCfJNCnGSSUd+xtrx+ndz1do5yRkTIhxmshbNAH2K/tsgZFKIJL/BZCc1/mb6ryaY9qV1HAf1YLZfIUIueMRkdQp/yCW2WbMyctqe2v+sC8z1K0Qo4Cgpg3WVwi810sYkrZ6aCXMEFTsI9vK9PDdN9ytEKAHDHBMjGjEtTPKQo+QazrnjnieAY4y76y30ZIspQiGfwHJNzTTY/9svsFUR26Q6CH4qu4o365BGjDNkHwUnQKkmRlrGdYq5mIoQr5hIGsdVtuUexRxJRYgjRrbpq6YVJIsU7GOKiaX6JeWgn8W4Pw0xcip75JkpndtwEXuO2E3eGX6/Q2ptQH5UulfzDHCFYuSI79P0JxUV3GKpueqguucW8IaC4rxpaycZF6IUIEIq5TNnZg3CckAM7PE8EfSCTs6+uaCM8+8A2EBfoELctgBUkLWgFMyh7x1oA42gz/mHPwIMABMqB/zOPeZLAAAAAElFTkSuQmCC");
@@ -307,7 +307,7 @@ i {
 }
 .icon_home:before {
 	top: 12px;
-	right: 14px;
+	right: 12px;
 	width: 20px;
 	height: 19px;
 	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAmCAYAAAC29NkdAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjMyQzk3RDA0RUExMUU0OUNGMkVFNzQ3OEMwNjc2RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjMyQzk3RTA0RUExMUU0OUNGMkVFNzQ3OEMwNjc2RCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCMzJDOTdCMDRFQTExRTQ5Q0YyRUU3NDc4QzA2NzZEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCMzJDOTdDMDRFQTExRTQ5Q0YyRUU3NDc4QzA2NzZEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+d/3Q5wAAAj1JREFUeNrslk9IVEEcx6d1SRRSEFEUFf8h0SESEUEUFPUkgSAJRuBBqEN46OA1xYsnEVEQMaJOgiiC4kVDJAQ9WUEIgkmkYksEJaK4oOt39Ls06Ox7+2f2vYX2B599y/vNm/m8efNPBAIBYYi74D04As2m6jUldw8sBf6FH3QkimAu2KTYW1AFfoJz0OO2YAXYpdwAuMP7ZWBHue+KYA34xZ56ocnnKD07AVKcFGwFJ6TNolwmWKHkLEh1QrCbvfYb1IY5u2couUrpuAn2saHv4H4Ez8nPO85nP3FiGRWUDUyygc8gP8qh0c865AQqNyWYDuZZ8YdIP5GGlxwiPlAZq2A2WKfcFMeTibXzCRfzv6AhWsESsE25IWWNM0UTBc9Ae6SCsusPKffKsJhKlbKWPg9XsIUbvrH91IZyZTd6bSf4TBkbjQ7IBckDXyg5qu46aqFeFjgADx2UU3edj3SYDk5ImfCAESa2QJELckHSwBxdluUxTnD5kLEGslyUUzeFN3TaEPyzTnuRIMglbVGKecV1ZIJBcTsuwDDYE/GLTlCjuV9y9cstxyp64txb3yza9skeLATpmjeoAwsgRcQ3ZP1fQb0mdyIF/eRmHAvn4hz80SW8BirPAB6L/Ck4i7byWAXbwYxNmQNQ4JZgIa+zYF+TfwxKY2nAa2gMjYFVzf3iWAU9IsEjKZgUTAomBf93wXB2kqfgUYjcgzDbeWeRyw51krET9PEYVk1ChZ9ldfGD1y6bFwh5Yr8UYAAv8t026FPTmQAAAABJRU5ErkJggg==");
@@ -349,21 +349,21 @@ i {
 	background: #099fde
 }
 .hyb_detail_pub {
-	border: 1px solid #c8c7cc;
+	border: 1px solid #dfdfdf;
 }
 .hyb_detail_lines {
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid #dfdfdf;
 }
 .intrip .cfbox {
-	border: 1px solid #c8c7cc;
+	border: 1px solid #dfdfdf;
 	border-bottom: none;
 }
 .intrip .cfbox li {
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid #dfdfdf;
 	padding: 0;
 }
 .delivy .cfbox li.light {
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid #dfdfdf;
 }
 .intrip .edit_ico {
 	background: url(http://pic.c-ctrip.com/h5/flight/flight-icon.png) no-repeat 0 -65px;
@@ -378,7 +378,7 @@ i {
 	margin-top: -1px;
 }
 .intrip .grayli li {
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid #dfdfdf;
 	padding: 10px;
 }
 .intrip .needs:before {
@@ -523,43 +523,6 @@ i {
 	overflow: hidden;
 	min-height: 360px;
 }
-.fpay {
-	width: 100%;
-	height: 44px;
-	line-height: 44px;
-}
-.fpay em {
-	color: #fff;
-}
-.fpay em.fs {
-	font-size: 18px;
-	padding-left: 1px;
-}
-.fpay .money {
-	background: #ff9a14;
-	position: fixed;
-	z-index: 999;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	min-width: 320px;
-	height: 44px;
-	text-indent: 20px;
-	font-size: 14px;
-	color: #fff;
-}
-.fpay .btn {
-	width: 30%;
-	height: 44px;
-	line-height: 44px;
-	background: #ff7e00;
-	text-align: center;
-	float: right;
-	font-weight: normal;
-	font-size: 16px;
-	color: #fff;
-	text-indent: 0;
-}
 .cont_wrap {
 	margin: 44px 0 0 0
 }
@@ -630,7 +593,7 @@ i {
 	background: #fff;
 	height: 43px;
 	line-height: 43px;
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid #dfdfdf;
 	font-size: 14px;
 }
 #city_list .cur-selected {
@@ -657,7 +620,7 @@ i {
 	height: 24px;
 	line-height: 24px;
 	background: #efefef;
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid #dfdfdf;
 	color: #666;
 	font-size: 14px;
 	font-family: Arial;
@@ -667,7 +630,7 @@ i {
 	background: #fafafa;
 	height: 43px;
 	line-height: 44px;
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid #dfdfdf;
 }
 .city-tab1 li.cityTabCrt {
 	height: 40px;
@@ -697,7 +660,7 @@ i {
 	float: right;
 }
 .cui-roller-btns .cui-flexbd:nth-of-type(3) {
-	border-left: 1px solid #c8c7cc;
+	border-left: 1px solid #dfdfdf;
 }
 .flight-loading {
 	width: 48px;
@@ -852,7 +815,7 @@ i {
 	border: none !important;
 }
 .bdtop1 {
-	border-top: 1px solid #c8c7cc;
+	border-top: 1px solid #dfdfdf;
 }
 .cancelafter:after {
 	display: none !important;
@@ -933,6 +896,12 @@ i {
 /* 橙色文字 */
 .clr-ff9a14 {
 	color: #ff9a14;
+}
+
+/* 2.4.8以后，文字、按钮统一用这个橙色;
+*/
+.clr-ff7d13 {
+	color: #ff7d13;
 }
 
 /* 背景颜色 */
@@ -1333,11 +1302,11 @@ i {
 .flight-arrrht:after {
 	content: '';
 	position: absolute;
-	width: 10px;
-	height: 10px;
+	width: 8px;
+	height: 8px;
 	right: 15px;
 	top: 50%;
-	margin-top: -5px;
+	margin-top: -4px;
 	border-top: 2px solid #a9a9a9;
 	border-right: 2px solid #a9a9a9;
 	-webkit-transform: rotate(45deg);
@@ -1501,23 +1470,24 @@ i {
 }
 .flight-icon-add {
 	display: inline-block;
-	width: 12px;
-	height: 12px;
-	border: 1px solid #099fde;
+	width: 18px;
+	height: 18px;
 	border-radius: 50%;
 	position: relative;
-	margin-bottom: -2px;
+	background: #099fde;
+	margin-right: 12px;
+	margin-bottom: -3px;
 }
 .flight-icon-add:before {
 	content: '';
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	width: 8px;
+	width: 10px;
 	height: 2px;
 	margin-top: -1px;
-	margin-left: -4px;
-	background: #099fde;
+	margin-left: -5px;
+	background: #fff;
 }
 .flight-icon-add:after {
 	content: '';
@@ -1525,10 +1495,10 @@ i {
 	left: 50%;
 	top: 50%;
 	width: 2px;
-	height: 8px;
-	margin-top: -4px;
+	height: 10px;
+	margin-top: -5px;
 	margin-left: -1px;
-	background: #099fde;
+	background: #fff;
 }
 
 /* E 图标相关 */
@@ -1638,7 +1608,7 @@ i {
 .flight-btn-org {
 	display: inline-block;
 	width: 100%;
-	background: #ff9a14;
+	background: #ff7d13;
 	color: #fff;
 	text-align: center;
 	height: 44px;
@@ -1696,11 +1666,14 @@ i {
 }
 .flight-btn-price {
 	color: #fff;
-	background: #ff9a14;
+	background: #ff7d13;
 	padding: 5px 10px;
 	border-radius: 2px;
 	min-width: 5em;
 	text-align: center;
+}
+.flight-btn-price:active {
+	background: #d77f0b;
 }
 
 /* E 按钮button */
@@ -1747,7 +1720,7 @@ i {
 	margin-left: 12px;
 }
 .error-tips {
-	color: #ff9a14;
+	color: #ff7d13;
 	font-size: 14px;
 	line-height: 1.5;
 	padding: 6px 10px;
@@ -1762,7 +1735,7 @@ i {
 	display: none;
 }
 .js_hide {
-	display: none;
+	display: none !important;
 }
 .highlight {
 	background: #fffce7;
@@ -1809,7 +1782,7 @@ i {
 	margin-top: 5px;
 }
 .flight-list-tabletips {
-	border-top: 1px dotted #c8c7cc;
+	border-top: 1px dotted #dfdfdf;
 	background: #f5f5f5;
 	padding: 0 10px 10px 10px;
 	line-height: 1.5;
@@ -1824,7 +1797,7 @@ i {
 
 /* 套餐选择 */
 .flight-list-table2 {
-	border: 1px solid #c8c7cc;
+	border: 1px solid #dfdfdf;
 	border-bottom: none;
 	background: #fff;
 }
@@ -1832,7 +1805,7 @@ i {
 	position: relative;
 	line-height: 44px;
 	overflow: hidden;
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid #dfdfdf;
 	padding: 0 10px;
 	color: rgba(0, 0, 0, .8);
 	font-size: 14px;
@@ -1887,6 +1860,22 @@ i {
 	padding: 6px 10px;
 	background: #fffdee;
 	border: 1px solid #efcd57;
+}
+.flight-tips-btm2 {
+	padding: 0 15px;
+}
+.flight-tips-btm2 p {
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	font-size: 12px;
+	margin-bottom: -1px;
+}
+.flight-tips-btm2 a {
+	color: #099fde;
+}
+.flight-tips-btm2 .flight-arrdown:after {
+	margin-top: -7px;
 }
 
 /* 儿童票提示 */
@@ -2262,7 +2251,7 @@ i {
 	line-height: 44px;
 	font-size: 18px;
 	color: #fff;
-	background: #ff9a14;
+	background: #ff7d13;
 	border-radius: 3px;
 	margin: 30px 0 15px 0;
 }
@@ -2287,7 +2276,7 @@ i {
 	height: 49px;
 	line-height: 75px;
 	background: #fff;
-	border-top: 1px solid #c8c7cc;
+	border-top: 1px solid #dfdfdf;
 }
 .flight-footer ul {
 	width: 100%;
@@ -2399,18 +2388,18 @@ i {
 .flight-listdate .flight-listdate-disable,
 .flight-listdate .flight-listdate-disable .price,
 .flight-listdate .flight-listdate-disable .price dfn {
-	color: #c8c7cc;
+	color: #dfdfdf;
 }
 .flight-listdate .yesterday.flight-listdate-disable:after {
-	border-color: transparent #c8c7cc transparent transparent;
+	border-color: transparent #dfdfdf transparent transparent;
 }
 .flight-listdate .tomorrow.flight-listdate-disable:after {
-	border-color: transparent transparent transparent #c8c7cc;
+	border-color: transparent transparent transparent #dfdfdf;
 }
 .tab_by {
 	display: table;
-	border-top: 1px solid #c8c7cc;
-	border-bottom: 1px solid #c8c7cc;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
 }
 .tab_by:after {
 	display: none;
@@ -2425,12 +2414,12 @@ i {
 .flight-listdate li.today,
 .tab_by li.byfilter {
 	width: 46%;
-	border-left: 1px solid #c8c7cc;
-	border-right: 1px solid #c8c7cc;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
 }
 .tab_by li.byfilter {
-	border-left: 1px solid #c8c7cc;
-	border-right: 1px solid #c8c7cc;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
 }
 .tab_by em {
 	margin-left: 4px;
@@ -2496,8 +2485,8 @@ i {
 	top: 50%;
 	margin-left: -4px;
 	margin-top: -7px;
-	border-top: 1px solid #c8c7cc;
-	border-left: 1px solid #c8c7cc;
+	border-top: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
 	-webkit-transform: rotate(-135deg);
 	-moz-transform: rotate(-135deg);
 	-ms-transform: rotate(-135deg);
@@ -2513,8 +2502,8 @@ i {
 	top: 50%;
 	margin-left: -4px;
 	margin-top: -2px;
-	border-top: 1px solid #c8c7cc;
-	border-left: 1px solid #c8c7cc;
+	border-top: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -2542,9 +2531,9 @@ i {
 	margin-left: 2px;
 	text-align: center;
 	font-size: 12px;
-	color: #ff9a14;
+	color: #ff7d13;
 	display: inline-block;
-	border: 1px solid #ff9a14;
+	border: 1px solid #ff7d13;
 	border-radius: 2px;
 	-moz-transform: translateY(-3px);
 	-ms-transform: translateY(-3px);
@@ -2650,8 +2639,8 @@ i {
 	box-shadow: 0 1px 1px #d0d0d0;
 }
 .flight-loginline {
-	padding: 0 20px;
-	font-size: 12px;
+	padding: 0 15px;
+	font-size: 14px;
 	height: 44px;
 	line-height: 44px;
 }
@@ -2661,7 +2650,7 @@ i {
 	height: 30px;
 	line-height: 30px;
 	margin-top: 7px;
-	background: #ff9a14;
+	background: #ff7d13;
 	font-size: 14px;
 	color: #fff;
 	border-radius: 3px;
@@ -2727,7 +2716,7 @@ i {
 	background: #fffce7;
 }
 .flight-infoinput-pdl {
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid #dfdfdf;
 	margin-bottom: -1px;
 	position: relative;
 }
@@ -2785,7 +2774,7 @@ i {
 }
 .flight-infodel2 {
 	display: table-cell;
-	width: 34px;
+	width: 30px;
 	height: 100%;
 	position: relative;
 }
@@ -2807,7 +2796,7 @@ i {
 	height: 2px;
 	left: 50%;
 	top: 50%;
-	margin-left: -12px;
+	margin-left: -10px;
 	margin-top: -1px;
 	background: #fff;
 }
@@ -2815,9 +2804,8 @@ i {
 	position: absolute;
 	right: 15px;
 	top: 50%;
-	background: #fff;
-	border: 1px solid #dbdbdb;
-	color: #099fde;
+	background: #ff7d13;
+	color: #fff;
 	border-radius: 3px;
 	padding: 5px 10px;
 	font-size: 14px;
@@ -2900,7 +2888,7 @@ i {
 	line-height: 44px;
 	display: table;
 	color: #fff;
-	background: #ff9a14;
+	background: #ff7d13;
 	margin-top: 10px;
 }
 .flight-btmnext-total {
@@ -2939,8 +2927,8 @@ i {
 .flight-ipt-etp .flight-pnttips,
 .flight-ipt-etp2 .flight-pnttips {
 	margin: 5px 0 5px 22px;
-	border-top: 1px solid #c8c7cc;
-	border-bottom: 1px solid #c8c7cc;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
 }
 .flight-ipt-etp .flight-arrdown,
 .flight-ipt-etp .flight-arrup,
@@ -2981,7 +2969,7 @@ i {
 .flight-psf {
 	position: absolute;
 	height: 30px;
-	right: -12px;
+	right: 15px;
 	top: 7px;
 }
 .flight-psf i {
@@ -2991,7 +2979,7 @@ i {
 	color: #999;
 	padding: 0 5px;
 	font-size: 12px;
-	border: 1px solid #c8c7cc;
+	border: 1px solid #dfdfdf;
 	min-width: 76px;
 	text-align: center;
 }
@@ -3005,7 +2993,7 @@ i {
 	margin-left: -1px;
 }
 .flight-psf em {
-	color: #ff9a14;
+	color: #ff7d13;
 	margin-left: 3px;
 	font-size: 12px;
 }
@@ -3034,7 +3022,7 @@ i {
 	padding: 0 15px 15px;
 }
 .order-detail > ul:nth-of-type(2) > li:nth-child(1) {
-	border-top: 1px solid #c8c7cc;
+	border-top: 1px solid #dfdfdf;
 	padding-top: 10px;
 }
 .order-detail-title {
@@ -3042,28 +3030,32 @@ i {
 	height: 24px;
 	line-height: 24px;
 	background: #efefef;
-	border-top: 1px solid #c8c7cc;
-	border-bottom: 1px solid #c8c7cc;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
 }
 
 /* S v2.4.7 */
+.flight-h1twoline {
+	font-size: 17px;
+	line-height: 22px;
+}
 .flight-bkinfo {
-	background: #fff;
-	border-top: 1px solid #c8c7cc;
-	margin-top: 10px;
+	background: #efefef;
 }
 .flight-bkinfo-journey {
 	overflow: hidden;
 	line-height: 24px;
-	padding: 10px 15px 0;
-	color: rgba(0, 0, 0, .7);
+	color: rgba(0, 0, 0, 1);
+	margin-top: 10px;
 }
 .flight-bkinfo-end {
 	float: right;
-	text-align: right;
+	min-width: 100px;
 }
 .flight-bkinfo-from {
 	float: left;
+	text-align: right;
+	min-width: 100px;
 }
 .flight-bkinfo-direction {
 	width: 95px;
@@ -3078,7 +3070,7 @@ i {
 	width: 95px;
 	height: 2px;
 	margin-top: 2px;
-	background: #c4c4c4;
+	background: #a7a7a7;
 }
 .flight-bkinfo-direction .line:before {
 	content: '';
@@ -3087,7 +3079,7 @@ i {
 	top: -2px;
 	width: 6px;
 	height: 6px;
-	background: #c4c4c4;
+	background: #a7a7a7;
 	border-radius: 50%;
 }
 .flight-bkinfo-direction .line:after {
@@ -3097,8 +3089,8 @@ i {
 	top: -2px;
 	width: 4px;
 	height: 4px;
-	border-top: 2px solid #c4c4c4;
-	border-right: 2px solid #c4c4c4;
+	border-top: 2px solid #a7a7a7;
+	border-right: 2px solid #a7a7a7;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -3113,8 +3105,8 @@ i {
 	height: 33px;
 	margin-top: -14px;
 	margin-left: -16px;
-	background-color: #fff;
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAqCAYAAAAnH9IiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxMUY0MkIwMzAzN0MxMUU0QUMxMURGRTJDQkFGOUNBNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxMUY0MkIwNDAzN0MxMUU0QUMxMURGRTJDQkFGOUNBNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjExRjQyQjAxMDM3QzExRTRBQzExREZFMkNCQUY5Q0E1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjExRjQyQjAyMDM3QzExRTRBQzExREZFMkNCQUY5Q0E1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+1Yh2+AAAAjBJREFUeNrUmEsoRFEYx+8QSsKGhVh5LWWhhFLSCDskCxYeG+W1o7AisSNiQxYs5LXxilBqWLDAzmN2ZMGGSJm8/qe+qWm6d+ae6Z7pO1/9Fvc87v3Pnf8533euy+PxGBLhBdkB121g0YhyxEiO3wm6ngEFuolOBKsghbPoE/AR1JYH5oGLq+gvcGjS3gB6uYoWsWXRPgFKuIreBr8m7fFgBaRxFP0MLiz6ssASiOUm2mwXCYwqMKSbaBHDwM1N9CV4CtEv7LEMMlWJ7oxg3h/YDTMmjRZmvArR06BCgUVElIJxFaLFX7kJciTnHlKyCRd9oF6Fp0XtsCdZQ3xQWg8XIr0vgFwVCzGH3niswxbxv5Q1KrAc3z0qyONOizaohJ1RteV10u5gB6/k81ol7h3IG9jwWyzG0COSQR04B/m6iPZHKhjTTbQIt46iDR1FH+gm+hUM6iL6nRJfMbgxEz1HqdcOsvXKosS9A0mm+uXWzNPHoEdCRK3E2GvQ5fRC9NKv+VYgWmS0RvDppGhx0xoyut1IAuU2Dwwd4M7JLe+H3vC95NxKkGBj3BRYd3qfFh4+imCuHWucgX4VyWU2gnkuslOoeAFNwMclIxaCjBD9wnIt4IFTGg9njVGwz632CCX6AIxwK5jSQZFF3yNoJnuwEl1tMc9HC++FY2lqZY0BcMqxno4zzD8sikPnJNdDQJnJBx2RSdspXbMUHWyNTyqE3jgft4JFd4OraJ8I/gUYAP63dpyBbtpGAAAAAElFTkSuQmCC");
+	background-color: #efefef;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAqCAYAAAAnH9IiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFNEQ0RUU4MzEzRjYxMUU0QUI1MTlCNTdGNzVCQjI1NCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFNEQ0RUU4NDEzRjYxMUU0QUI1MTlCNTdGNzVCQjI1NCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkU0RDRFRTgxMTNGNjExRTRBQjUxOUI1N0Y3NUJCMjU0IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkU0RDRFRTgyMTNGNjExRTRBQjUxOUI1N0Y3NUJCMjU0Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+/AeytAAAAjBJREFUeNrUmEsoRFEYx+8QSho2LMTKaykLJZSSRtghWbDw2CivHYUViR0RG7KgRl4br0woCxYssPOYHVmwIVLk9T/1TU3TvTP3TPfoO1/9Fvc87v3Pnf8533euy+v1GhLhB1lB161gwfjniJEcvx1yPQ3ydROdCFZAMmfRR+AtpC0XzAEXV9EfYN+kvR70cBUtYtOifRwUcxW9BX5M2uPBMkjlKPoRnFn0ZYJFEMtNtNkuEhyVYFA30SKGgIeb6HPwEKZf2GMJZKgS3RHFvF+wE2FMKi3MeBWip0C5AouIKAFjKkSLv3IDZEvO3adkEyl6QZ0KT4vaYVeyhnijtB4pRHqfBzkqFmI2vfFYhy0SeCmrVGA5vnuUk8edFm1QCTutasvroN3BDn7J57VI3DuYF7AesFiMoUe4QS04BXm6iA5EChjVTbQIj46iDR1F+3QT/QwGdBH9SomvCFyZiZ6l1GsH2XplQeLewbipfrk28/Qh6JYQUSMx9hJ0Or0Q/fRrvhSIFhmtAbw7KVrctJqMbjeSQJnNA0M7uHFyy/umN3wrObcCJNgYNwnWnN6nhYcPophrxxonoE9FcpmJYp6L7BQunkAj+OSSEQtAeph+YblmcMcpjUeyxgjY41Z7hBPtA8PcCqY0UGjRdw+ayB6sRFdZzPukhffEsTS1skY/OOZYT8cZ5h8WxaFzgushoNTkg47IpG2UrlmKDrXGOxVCL5yPW6Giu8DFf58I/gQYAOdRdkWp4riRAAAAAElFTkSuQmCC");
 	background-size: 23px;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -3136,51 +3128,95 @@ i {
 	font-size: 30px;
 	font-weight: bold;
 	line-height: 32px;
+	color: rgba(0, 0, 0, .8);
 }
 .flight-bkinfo-airport {
 	font-size: 14px;
 }
 .flight-bkinfo-fltinfo {
+	color: #999;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.flight-bkinfo-middle {
+	text-align: center;
+}
+.flight-bkinfo-fltinfo2 {
 	color: rgba(0, 0, 0, .4);
 	font-size: 11px;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #dfdfdf;
 	line-height: 24px;
 	padding: 0 15px 5px;
 }
-.flight-bkinfo-fltinfo img {
-	width: 20px;
-	vertical-align: middle;
-	margin-top: -3px;
-}
-.flight-bkinfo-fltinfo span:after {
+.flight-bkinfo-fltinfo2 span:after {
 	content: '';
 	display: inline-block;
 	width: 1px;
 	height: 12px;
-	background: #e5e5e5;
+	background: #dfdfdf;
 	margin-left: 4px;
 	margin-bottom: -2px;
 }
-.flight-bkinfo-fltinfo span:last-of-type:after {
+.flight-bkinfo-fltinfo2 span:last-of-type:after {
 	display: none;
 }
+.flight-bkinfo-middle span {
+	position: relative;
+}
+.flight-bkinfo-middle span:before {
+	content: '';
+	position: absolute;
+	left: -25px;
+	top: 2px;
+	width: 1px;
+	height: 12px;
+	background: #dfdfdf;
+}
+.flight-bkinfo-middle span:after {
+	content: '';
+	position: absolute;
+	right: -25px;
+	top: 2px;
+	width: 1px;
+	height: 12px;
+	background: #dfdfdf;
+}
 .flight-bkinfo-price {
-	height: 40px;
-	line-height: 40px;
-	border-bottom: 1px solid #eee;
+	height: 44px;
+	line-height: 44px;
+	border-top: 1px solid #dfdfdf;
 	padding: 0 15px;
 	font-size: 12px;
 	color: rgba(0, 0, 0, .7);
+	margin-top: -1px;
 }
 .flight-bkinfo-tgq {
-	padding: 10px 15px;
-	border-bottom: 1px solid #c2c2c2;
+	height: 44px;
+	line-height: 44px;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
 }
-.flight-bkinfo-tgq .f-r {
-	margin-right: 15px;
+.flight-bkinfo-tgq .flight-arrrht {
+	position: relative;
 }
-.flight-bkinfo-tgq .flight-pnttips {
-	padding: 0;
+.flight-bkinfo-tgq .flight-arrrht:after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	right: -10px;
+	top: 50%;
+	margin-top: -3px;
+	border-top: 2px solid #b3b3b3;
+	border-right: 2px solid #b3b3b3;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .flight-icon-fan {
 	height: 12px;
@@ -3189,9 +3225,9 @@ i {
 	margin-left: 2px;
 	text-align: center;
 	font-size: 12px;
-	color: #ff9a14;
+	color: #ff7d13;
 	display: inline-block;
-	border: 1px solid #ff9a14;
+	border: 1px solid #ff7d13;
 	border-radius: 2px;
 	position: relative;
 }
@@ -3202,7 +3238,7 @@ i {
 	right: 1px;
 	width: 8px;
 	height: 8px;
-	border: 1px solid #ff9a14;
+	border: 1px solid #ff7d13;
 	border-radius: 50%;
 }
 .flight-icon-fan:after {
@@ -3213,6 +3249,37 @@ i {
 	font-size: 12px;
 	-webkit-transform: scale(.7);
 }
+.flight-icon-fan2 {
+	display: inline-block;
+	font-size: 12px;
+	color: #ff7d13;
+	position: relative;
+	padding-right: 20px;
+}
+.flight-icon-fan2:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 14px;
+	height: 14px;
+	margin-top: -8px;
+	border: 1px solid #099fde;
+	border-radius: 50%;
+}
+.flight-icon-fan2:after {
+	content: 'i';
+	position: absolute;
+	top: 50%;
+	right: 1px;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	margin-top: -6px;
+	text-align: center;
+	font-size: 12px;
+	color: #099fde;
+}
 .flight-icon-go,
 .flight-icon-back {
 	display: inline-block;
@@ -3220,35 +3287,75 @@ i {
 	height: 14px;
 	line-height: 14px;
 	text-align: center;
-	background: #a2a2a2;
+	background: #099fde;
 	font-size: 12px;
 	color: #fff;
 	border-radius: 2px;
 }
 .flight-bkinfo-price .flight-icon-go,
 .flight-bkinfo-price .flight-icon-back {
-	background: #c4c4c4;
+	background: #a7a7a7;
 }
 .flight-bkinfo-wfzj {
 	float: right;
 	width: 80px;
-	height: 60px;
-	padding-top: 21px;
-	background: #fff;
+	height: 76px;
+	padding-top: 12px;
+	background: #efefef;
 	color: rgba(0, 0, 0, .7);
 	font-size: 12px;
 	text-align: center;
-	border-left: 1px solid #eee;
+	border-left: 1px solid #dfdfdf;
+}
+.flight-psinfo-title {
+	height: 50px;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	background: #fff;
+	position: relative;
+	padding-left: 15px;
+	position: relative;
+}
+.flight-psinfo-t1 {
+	font-size: 16px;
+	color: #333;
+	line-height: 20px;
+	margin-top: 5px;
+}
+.flight-psinfo-t2 {
+	font-size: 12px;
+	color: rgba(0, 0, 0, .7);
+}
+.flight-psinfo-sltbtnpd {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 120px;
+	height: 50px;
+}
+.flight-psinfo-sltbtn {
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -15px;
+	text-align: center;
+	background: #ff7d13;
+	color: #fff;
+	border-radius: 3px;
 }
 .flight-section {
 	overflow: hidden;
 }
 .flight-sectiontitle {
-	padding: 10px 15px;
+	padding: 3px 0 3px 15px;
 	font-size: 16px;
 	position: relative;
 	background: #fff;
-	border-top: 1px solid #c8c7cc;
+	border-top: 1px solid #dfdfdf;
+	min-height: 44px;
 }
 .flight-rhtlab {
 	float: right;
@@ -3286,14 +3393,14 @@ i {
 }
 .flight-bkrst-list {
 	background: #fff;
-	border: 1px solid #c8c7cc;
+	border: 1px solid #dfdfdf;
 	border-bottom: none;
 }
 .flight-bkrst-list li {
 	font-size: 14px;
 	color: #666;
 	position: relative;
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid #dfdfdf;
 	min-height: 44px;
 	line-height: 44px;
 	padding: 0 10px;
@@ -3333,7 +3440,7 @@ i {
 	margin-top: 10px;
 	padding: 10px;
 	background: #fff;
-	border: 1px solid #c8c7cc;
+	border: 1px solid #dfdfdf;
 	color: #666;
 	font-size: 12px;
 }
@@ -3346,12 +3453,12 @@ i {
 /* S 强制登录 */
 
 .flight-login {
-	border: 1px solid #c8c7cc;
+	border: 1px solid #dfdfdf;
 	border-bottom: none;
 	background: #fff;
 }
 .flight-login li {
-	border-bottom: 1px solid #c8c7cc;
+	border-bottom: 1px solid #dfdfdf;
 	height: 44px;
 	line-height: 44px;
 	color: #666;
@@ -3377,7 +3484,7 @@ i {
 	height: 44px;
 	line-height: 44px;
 	text-align: center;
-	border-left: 1px solid #c8c7cc;
+	border-left: 1px solid #dfdfdf;
 	color: #099fde;
 }
 
@@ -3560,8 +3667,8 @@ i {
 }
 .flight-cui-bd .cui-lines {
 	background: #fff;
-	border-top: 1px solid #c8c7cc;
-	border-bottom: 1px solid #c8c7cc;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
 }
 .flight-cui-bd .cui-roller .ul-list li {
 	color: #999;
@@ -3575,6 +3682,103 @@ i {
 }
 
 /* E 选择所在地区控件 */
+/* S 蒙版控件 */
+.flight-mask {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	background: rgba(0, 0, 0, .85);
+	overflow: auto;
+}
+.flight-mask-cnt {
+	padding: 50px 25px;
+	color: rgba(255, 255, 255, .6);
+	font-size: 12px;
+	line-height: 1.5;
+}
+.flight-mask-cnt h2,
+.flight-mask-cnt h3,
+.flight-mask-cnt h4 {
+	font-size: 15px;
+	line-height: 1.5;
+	font-weight: lighter;
+	font-family: 'Microsoft YaHei';
+}
+.flight-mask-cnt h2 {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.flight-mask-cnt h2 span {
+	float: left;
+	padding: 0 6px;
+	height: 20px;
+	line-height: 20px;
+	background: #fff;
+	color: #000;
+	border-radius: 2px;
+}
+.flight-mask-cnt h3 {
+	color: #fff;
+	margin-bottom: 10px;
+}
+.flight-mask-cnt h4 {
+	color: #fff;
+	position: relative;
+	padding-left: 30px;
+}
+.flight-mask-cnt h4:before {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 3px;
+	left: 0;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.flight-mask-cnt h4:after {
+	content: '';
+	position: absolute;
+	width: 4px;
+	height: 5px;
+	top: 6px;
+	left: 5px;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+.flight-mask-h4cnt {
+	margin-left: 8px;
+	border-left: 1px solid #fff;
+	padding: 5px 0 5px 23px;
+}
+.flight-mask-cnt2 {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	line-height: 50px;
+}
+.flight-mask-gradul {
+	width: 100%;
+	height: 110px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, #000 100%);
+}
+
+/* E 蒙版控件 */
 /* !
 ** E pyh彭延华 */
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
-    <title>订单填写页</title>
+    <title>填写页-蒙版</title>
     <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
     <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
     <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
@@ -23,7 +23,7 @@
     <div class="header">
         <header class="flight-header pos-rl">
             <h1>订单填写</h1>
-            <i class="returnico" id="js_return" onclick="location.href='http://ctrip.bobpeng.com/'"></i> 
+            <i class="returnico" id="js_return" onclick="location.href='http://ctrip.bobpeng.com/'"></i>
             <a href="tel:4000086666" class="icon_phone i_bef __hreftel__" id="js_phone"></a>
         </header>
     </div>
@@ -1743,20 +1743,6 @@
             <span class="order-detail-btn">明细</span>
         </div>
     </section>
-    <!--婴儿儿童购票说明弹层-->
-    <div class="flight-tips-etp3">
-        <div class="flight-scroll">
-            <p>1.航班起飞当日出生未满14天的婴儿，请至航空公司柜台申请购买机票</p>
-            <p>2. 婴儿/儿童年龄区分：婴儿：14天-2周岁；儿童：2-12周岁（按航班起飞当日的实际年龄区分）</p>
-            <p>3. 婴儿票价格：航线标准价的10%，不收机建费及燃油费。（注：婴儿票无座。如需座位，可选择购买儿童票或成人票）</p>
-            <p>4. 儿童票价格：航线标准价的50%，不收机建费，燃油费为成人的50%</p>
-            <p>5.儿童、婴儿须由成人陪同登机。儿童如单独乘机，需直接至航空公司柜台申请购买机票</p>
-            <p>6. 儿童婴儿购票可用证件：身份证、护照、户口簿、出生证明等</p>
-            <p>7. 儿童婴儿购票可同时购买1份航意险</p>
-            <p>8. 部分成人价格允许儿童婴儿购买，根据航空公司公布的成人价格政策确定儿童婴儿是否允许购买成人票。</p>
-        </div>
-        <div class="mod-gradul"></div>
-    </div>
     <!--价格明细-->
     <section id="order-detail" class="order-detail">
         <ul>
@@ -1807,6 +1793,16 @@
             </li>
         </ul>
     </section>
+    <!--S 蒙版控件-->
+    <div class="flight-mask">
+        <div class="flight-mask-cnt2">
+            <p>不支持退票</p>
+            <p>不支持改签</p>
+            <p>不支持签转</p>
+        </div>
+        <div class="flight-mask-gradul"></div>
+    </div>
+    <!--E 蒙版控件-->
     <script>
     $(function() {
         $(".order-detail-btn").bind('click', function() {

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>非阻断式加载</title>
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://res.m.ctrip.com/html5/Content/images/57.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://res.m.ctrip.com/html5/Content/images/72.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://res.m.ctrip.com/html5/Content/images/114.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
+    <link href="http://webresource.c-ctrip.com/styles/h5/common/main.css" rel="stylesheet" />
+    <link href="../style/fbase.css" rel="stylesheet" />
+    <link href="../style/flight.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--S 头部fixed-->
+    <div class="header">
+        <header class="flight-header">
+            <div class="h1two">
+                <h1>上海-北京</h1>
+                <p>2月20日</p>
+            </div>
+            <i id="js_return" class="returnico" onclick="location.href='http://ctrip.bobpeng.com/'"></i><b class="icon_home i_bef" id="js_home"></b>
+            <a href="tel:4000086666" class="icon_phone i_bef __hreftel__" id="js_phone"></a>
+        </header>
+        <!--头部fixed，以下空标签占位-->
+        <div class="flight-header-blank">&nbsp;</div>
+    </div>
+    <!--E 头部fixed-->
+    <!--S 筛选菜单-->
+    <div class="flight-menubar">
+        <ul class="tab_time flight-listdate">
+            <li class="yesterday">
+                <div>前一天</div>
+                <div class="price">
+                    <dfn>&yen;</dfn>515</div>
+            </li>
+            <li class="today">
+                <div class="date"><i class="flight-cheap-calendar">低</i>2014-05-30 周三</div>
+                <div class="price">
+                    <dfn>&yen;</dfn>436</div>
+            </li>
+            <li class="tomorrow">
+                <div>后一天</div>
+                <div class="price">
+                    <dfn>&yen;</dfn>389</div>
+            </li>
+        </ul>
+        <ul class="tab_by">
+            <li data-type="time" class="bytime hover">时间
+                <em class="flight-icon-pxu">↑</em>
+            </li>
+            <li data-type="filter" class="byfilter">筛选
+                <em class="flight-icon-sx"></em>
+            </li>
+            <li data-type="price" class="byprice">价格
+                <em class="flight-icon-pxd">↓</em>
+            </li>
+        </ul>
+    </div>
+    <!--E 筛选菜单-->
+    <!--S 机票列表-->
+    <section class="f_list pb85">
+        <div style="height:3000px; background:#fff;">
+            <div class="blk80"></div>
+            <div class="cui-breaking-load">
+                <div class="cui-i cui-w-loading"></div>
+                <div class="cui-i cui-m-logo"></div>
+            </div>
+            <div class="blk80"></div>
+            <div class="cui-breaking-load flight-loading">
+                <div class="cui-i cui-w-loading"></div>
+                <div class="cui-i cui-m-logo"></div>
+            </div>
+            <div class="fnt-c fnt-10 clr-099fde mt10">100%价格保证</div>
+        </div>
+    </section>
+    <!--E 机票列表-->
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>订单填写页</title>
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://res.m.ctrip.com/html5/Content/images/57.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://res.m.ctrip.com/html5/Content/images/72.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://res.m.ctrip.com/html5/Content/images/114.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
+    <link href="http://webresource.c-ctrip.com/styles/h5/common/main.css" rel="stylesheet" />
+    <link href="../style/fbase.css" rel="stylesheet" />
+    <link href="../style/flight.css" rel="stylesheet" />
+    <script src="http://ctrip.bobpeng.com/static/js/jquery-2.1.1.min.js"></script>
+</head>
+
+<body>
+    <!--S 头部fixed-->
+    <div class="header">
+        <header class="flight-header pos-rl">
+            <h1>北京-上海</h1>
+            <i class="returnico" id="js_return" onclick="location.href='http://ctrip.bobpeng.com/'"></i> 
+            <a href="tel:4000086666" class="icon_phone i_bef __hreftel__" id="js_phone"></a>
+        </header>
+    </div>
+    <!--E 头部fixed-->
+    <!--S 登录提醒fixed-->
+    <div class="flight-loginline-fixed pos-rl">
+        <div class="flight-loginline">
+            <button class="flight-loginbtn">马上登录</button>
+            <p>登陆后预订更便捷</p>
+        </div>
+    </div>
+    <!--E 登录提醒fixed-->
+    <!--S H5机票_订单填写-->
+    <!-- 往返 -->
+    <div class="flight-bkinfo">
+        <div class="flight-bkinfo-journey">
+            <div class="flight-bkinfo-end">
+                <p class="flight-bkinfo-date">
+                    <span>8月4日 周一</span>
+                </p>
+                <p class="flight-bkinfo-time">12:00</p>
+                <p class="flight-bkinfo-airport">首都T2</p>
+            </div>
+            <div class="flight-bkinfo-from">
+                <p class="flight-bkinfo-date">
+                    <i class="flight-icon-go">去</i>
+                    <span>8月4日 周一</span>
+                </p>
+                <p class="flight-bkinfo-time">10:00</p>
+                <p class="flight-bkinfo-airport">虹桥T1</p>
+            </div>
+            <div class="flight-bkinfo-direction">
+                <div class="line"></div>
+                <div class="flight">
+                    <!-- <i class="flight-icon-flt"><b>&nbsp;</b><em>&nbsp;</em></i> -->
+                </div>
+            </div>
+        </div>
+        <div class="flight-bkinfo-fltinfo2">
+            <span>东方航空ZR3450</span>
+            <span>波音897(大)</span>
+            <span>有餐饮</span>
+            <span>准点率:90.47%</span>
+        </div>
+        <div class="flight-bkinfo-journey">
+            <div class="flight-bkinfo-end">
+                <p class="flight-bkinfo-date">
+                    <span>8月8日 周五</span>
+                </p>
+                <p class="flight-bkinfo-time">12:00</p>
+                <p class="flight-bkinfo-airport">虹桥T1</p>
+            </div>
+            <div class="flight-bkinfo-from">
+                <p class="flight-bkinfo-date">
+                    <i class="flight-icon-back">返</i>
+                    <span>8月8日 周五</span>
+                </p>
+                <p class="flight-bkinfo-time">14:00</p>
+                <p class="flight-bkinfo-airport">首都T2</p>
+            </div>
+            <div class="flight-bkinfo-direction">
+                <div class="line"></div>
+                <div class="flight">
+                    <!-- <i class="flight-icon-flt"><b>&nbsp;</b><em>&nbsp;</em></i> -->
+                </div>
+            </div>
+        </div>
+        <div class="flight-bkinfo-fltinfo2">
+            <span>东方航空ZR3450</span>
+            <span>波音897(大)</span>
+            <span>有餐饮</span>
+            <span>准点率:90.47%</span>
+        </div>
+        <div class="flight-bkinfo-wfzj">
+            <p>往返总价</p>
+            <p>
+                <span class="clr-ff7d13 fnt-18 fnt-b">&yen;2000</span>
+            </p>
+            <p>
+                <span class="flight-icon-fan2">返&yen;50</span>
+            </p>
+        </div>
+        <div class="flight-bkinfo-price">
+            <i class="flight-icon-go">去</i>
+            <span>经济舱8.5折:</span>
+            <span class="clr-ff7d13">&yen;2300</span>
+            <span>&nbsp;</span>
+            <span>机/油:</span>
+            <span class="clr-ff7d13">&yen;150</span>
+        </div>
+        <div class="flight-bkinfo-price">
+            <i class="flight-icon-back">返</i>
+            <span>经济舱8.5折:</span>
+            <span class="clr-ff7d13">&yen;2300</span>
+            <span>&nbsp;</span>
+            <span>机/油:</span>
+            <span class="clr-ff7d13">&yen;150</span>
+        </div>
+        <div class="flight-bkinfo-tgq">
+            <span class="flight-arrrht">退改签</span>
+        </div>
+    </div>
+    <!--E H5机票_订单填写-->
+</body>
+
+</html>
