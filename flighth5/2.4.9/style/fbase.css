@@ -2077,6 +2077,24 @@ i {
 	border-bottom: 1px solid #e5e5e5;
 	text-indent: 5px;
 }
+.flight-srhform dd:after{
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-width: 4px;
+	border-style: solid;
+	border-color: transparent #e5e5e5 #e5e5e5 transparent;
+}
+.flight-srhform dd:active {
+	color: #099fde;
+	border-bottom: 1px solid #099fde;
+}
+.flight-srhform dd:active:after{
+	border-color: transparent #099fde #099fde transparent;
+}
 .flight-switch dl {
 	font-size: 22px;
 	color: #333;
@@ -2084,10 +2102,6 @@ i {
 .flight-switch dd {
 	float: left;
 	width: 43%;
-}
-.flight-switch dd:active {
-	color: #099fde;
-	border-bottom: 1px solid #099fde;
 }
 .flight-switch dd.flight-backcity {
 	float: right;
@@ -2221,19 +2235,11 @@ i {
 	font-size: 14px;
 	color: #666;
 }
-.flight-srhform .flight-date:active {
-	border-bottom: 1px solid #099fde;
-	color: #099fde;
-}
 .flight-srhform .flight-date:active b {
 	color: #099fde;
 }
 .flight-srhform .flight-date1:after {
 	display: none;
-}
-.flight-srhform .flight-pstype:active {
-	border-bottom: 1px solid #099fde;
-	color: #099fde;
 }
 .flight-srhform .flight-pstype .tips {
 	position: absolute;
@@ -2243,7 +2249,7 @@ i {
 	color: #666;
 	font-size: 14px;
 }
-.flight-srhform .flight-pstype:active .tips {
+.flight-srhform dd:active .tips {
 	color: #099fde;
 }
 .flight-btnsrh {

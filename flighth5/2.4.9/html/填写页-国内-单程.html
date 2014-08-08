@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <title>订单填写页</title>
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/640.png?v=1.0" sizes="320x460">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/940.png?v=1.0" sizes="640x920">
+    <link rel="apple-touch-startup-image" href="http://res.m.ctrip.com/html5/content/images/1004.png?v=1.0" sizes="768x1004">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://res.m.ctrip.com/html5/Content/images/57.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://res.m.ctrip.com/html5/Content/images/72.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://res.m.ctrip.com/html5/Content/images/114.png?v=1.0?v=1.0" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://res.m.ctrip.com/html5/Content/images/144.png?v=1.0?v=1.0" />
+    <link href="http://webresource.c-ctrip.com/styles/h5/common/main.css" rel="stylesheet" />
+    <link href="../style/fbase.css" rel="stylesheet" />
+    <link href="../style/flight.css" rel="stylesheet" />
+    <script src="http://ctrip.bobpeng.com/static/js/jquery-2.1.1.min.js"></script>
+</head>
+
+<body>
+    <!--S 头部fixed-->
+    <div class="header">
+        <header class="flight-header pos-rl">
+            <h1 class="flight-h1twoline">北京-上海
+                <br>东方航空ZR3450</h1>
+            <i class="returnico" id="js_return" onclick="location.href='http://ctrip.bobpeng.com/'"></i> 
+            <a href="tel:4000086666" class="icon_phone i_bef __hreftel__" id="js_phone"></a>
+        </header>
+    </div>
+    <!--E 头部fixed-->
+    <!--S 登录提醒fixed-->
+    <div class="flight-loginline-fixed pos-rl">
+        <div class="flight-loginline">
+            <button class="flight-loginbtn">马上登录</button>
+            <p>登陆后预订更便捷</p>
+        </div>
+    </div>
+    <!--E 登录提醒fixed-->
+    <!--S H5机票_订单填写-->
+    <!-- 航班信息 -->
+    <div class="flight-bkinfo">
+        <div class="flight-bkinfo-journey">
+            <div class="flight-bkinfo-end">
+                <p class="flight-bkinfo-date">
+                    <span>8月4日 周一</span>
+                </p>
+                <p class="flight-bkinfo-time">12:00</p>
+                <p class="flight-bkinfo-airport">首都T2</p>
+            </div>
+            <div class="flight-bkinfo-from">
+                <p class="flight-bkinfo-date">
+                    <span>8月4日 周一</span>
+                </p>
+                <p class="flight-bkinfo-time">10:00</p>
+                <p class="flight-bkinfo-airport">虹桥T1</p>
+            </div>
+            <div class="flight-bkinfo-direction">
+                <div class="line"></div>
+                <div class="flight"></div>
+                <div class="jingting">经停西安</div>
+            </div>
+        </div>
+        <div class="flight-bkinfo-fltinfo">
+            <div class="flight-bkinfo-end">
+                <span>准点率:90.47%</span>
+            </div>
+            <div class="flight-bkinfo-from">
+                <span>波音897大</span>
+            </div>
+            <div class="flight-bkinfo-middle">
+                <span>有餐饮</span>
+            </div>
+        </div>
+        <div class="flight-bkinfo-tgq">
+            <span>经济舱8.5折</span>
+            <span>&nbsp;&nbsp;</span>
+            <span class="flight-arrrht">退改签</span>
+        </div>
+        <div class="flight-bkinfo-price">
+            <span>票价:</span>
+            <span class="clr-ff7d13">&yen;2300</span>
+            <span>&nbsp;</span>
+            <span>机/油:</span>
+            <span class="clr-ff7d13">&yen;150</span>
+            <span>&nbsp;</span>
+            <span>总计:</span>
+            <span class="clr-ff7d13 fnt-18 fnt-b">&yen;2000</span>
+            <span>&nbsp;</span>
+            <span class="flight-icon-fan2">返&yen;50</span>
+        </div>
+    </div>
+    <!-- 乘机人信息-有常旅 -->
+    <div class="flight-psinfo">
+        <div class="flight-psinfo-title">
+            <p class="flight-psinfo-t1">乘机人信息</p>
+            <p class="flight-psinfo-t2">(成人1人 儿童/婴儿不可定)</p>
+            <div class="flight-psinfo-sltbtnpd">
+                <span class="flight-psinfo-sltbtn">选择乘机人</span>
+            </div>
+        </div>
+    </div>
+    <div class="blk10"></div>
+    <!-- 乘机人信息-有常旅-已选择乘机人 -->
+    <div class="flight-psinfo">
+        <div class="flight-psinfo-title">
+            <p class="flight-psinfo-t1">乘机人信息</p>
+            <p class="flight-psinfo-t2">(成人1人 儿童/婴儿不可定)</p>
+            <div class="flight-psinfo-sltbtnpd">
+                <span class="flight-psinfo-sltbtn">选择乘机人</span>
+            </div>
+        </div>
+        <ul class="flight-listsim3 mtm1">
+            <li>
+                <div class="flight-listsim3-table flight-arrrht2">
+                    <span class="flight-infodel2">&nbsp;</span>
+                    <ul>
+                        <li>刘飞机</li>
+                        <li class="clr-999 fnt-13">身份证&nbsp;120105198803024713</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="flight-listsim3-table flight-arrrht2">
+                    <span class="flight-infodel2">&nbsp;</span>
+                    <ul>
+                        <li>刘飞机</li>
+                        <li class="clr-999 fnt-13">身份证&nbsp;120105198803024713</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="blk10"></div>
+    <!-- 乘机人信息-无常旅-默认 -->
+    <div class="flight-psinfo">
+        <div class="flight-psinfo-title">
+            <p class="flight-psinfo-t1">乘机人信息</p>
+            <p class="flight-psinfo-t2">(成人1人 儿童/婴儿不可定)</p>
+        </div>
+        <ul class="flight-listsim3 mtm1">
+            <li>
+                <div class="flight-infoinput">
+                    <ul>
+                        <li>
+                            <div class="flight-infoinput-pdl">
+                                <label class="flight-labq">姓名</label>
+                                <input type="text" placeholder="所持证件姓名" value="">
+                                <div class="flight-errtips-red"><i class="flight-errtips-icon"></i>
+                                    <em>这里是文案提示</em>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flight-infoinput-pdl">
+                                <label class="flight-arrdown">身份证</label>
+                                <input placeholder="所持证件号码" value="">
+                                <div class="flight-errtips-blue"><i class="flight-errtips-icon"></i>
+                                    <em>这里是信息提示文案</em>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="flight-btn-addps"><i class="flight-icon-add"></i>添加更多乘机人</div>
+    </div>
+    <div class="blk10"></div>
+    <!-- 乘机人信息-无常旅-多位 -->
+    <div class="flight-psinfo">
+        <div class="flight-psinfo-title">
+            <p class="flight-psinfo-t1">乘机人信息</p>
+            <p class="flight-psinfo-t2">(成人1人 儿童/婴儿不可定)</p>
+        </div>
+        <ul class="flight-listsim3 mtm1">
+            <li>
+                <div class="flight-infoinput">
+                    <span class="flight-infodel2">&nbsp;</span>
+                    <ul>
+                        <li>
+                            <div class="flight-infoinput-pdl">
+                                <label class="flight-labq">姓名</label>
+                                <input type="text" placeholder="所持证件姓名" value="">
+                            </div>
+                        </li>
+                        <li class="js_hide">
+                            <div class="flight-infoinput-pdl">
+                                <label class="flight-labq">姓</label>
+                                <input placeholder="英文或拼音：Chen" value="">
+                            </div>
+                        </li>
+                        <li class="js_hide">
+                            <div class="flight-infoinput-pdl">
+                                <label>名</label>
+                                <input placeholder="英文或拼音：Xiaoming" value="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flight-infoinput-pdl">
+                                <label class="flight-arrdown">身份证</label>
+                                <input placeholder="所持证件号码" value="">
+                            </div>
+                        </li>
+                    </ul>
+                    <span class="flight-psinfo-no">
+                        <em>1</em>
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="flight-infoinput">
+                    <span class="flight-infodel2">&nbsp;</span>
+                    <ul>
+                        <li class="js_hide">
+                            <div class="flight-infoinput-pdl">
+                                <label class="flight-labq">姓名</label>
+                                <input type="text" placeholder="所持证件姓名" value="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flight-infoinput-pdl">
+                                <label class="flight-labq">姓</label>
+                                <input placeholder="英文或拼音：Chen" value="">
+                                <span class="flight-langswt">
+                                    <em class="flight-langswt-selected">中</em>
+                                    <em>En</em>
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flight-infoinput-pdl">
+                                <label>名</label>
+                                <input placeholder="英文或拼音：Xiaoming" value="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flight-infoinput-pdl">
+                                <label class="flight-arrdown">护照</label>
+                                <input placeholder="所持证件号码" value="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flight-infoinput-pdl">
+                                <label>出生日期</label>
+                                <input placeholder="格式：19851223" value="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flight-iptetp">
+                                <span>
+                                    <em class="fnt-14">成人票</em>
+                                    <br>
+                                    <em class="fnt-12">总计</em>
+                                    <em class="fnt-12 clr-ff7d13">&yen;2000</em>
+                                </span>
+                                <span class="flight-iptetp-current">
+                                    <em class="fnt-14">儿童票</em>
+                                    <br>
+                                    <em class="fnt-12">总计</em>
+                                    <em class="fnt-12 clr-ff7d13">&yen;2000</em>
+                                </span>
+                                <span>
+                                    <em class="fnt-14">婴儿票</em>
+                                    <br>
+                                    <em class="fnt-12">总计</em>
+                                    <em class="fnt-12 clr-ff7d13">&yen;500</em>
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                    <span class="flight-psinfo-no flight-psinfo-no-current">
+                        <em>2</em>
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="flight-infoinput">
+                    <span class="flight-infodel2">&nbsp;</span>
+                    <ul>
+                        <li>
+                            <div class="flight-infoinput-pdl">
+                                <label class="flight-labq">姓名</label>
+                                <input type="text" placeholder="所持证件姓名" value="">
+                            </div>
+                        </li>
+                        <li class="js_hide">
+                            <div class="flight-infoinput-pdl">
+                                <label class="flight-labq">姓</label>
+                                <input placeholder="英文或拼音：Chen" value="">
+                            </div>
+                        </li>
+                        <li class="js_hide">
+                            <div class="flight-infoinput-pdl">
+                                <label>名</label>
+                                <input placeholder="英文或拼音：Xiaoming" value="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flight-infoinput-pdl">
+                                <label class="flight-arrdown">身份证</label>
+                                <input placeholder="所持证件号码" value="">
+                            </div>
+                        </li>
+                    </ul>
+                    <span class="flight-psinfo-no">
+                        <em>3</em>
+                    </span>
+                </div>
+            </li>
+        </ul>
+        <div class="flight-btn-addps"><i class="flight-icon-add"></i>添加更多乘机人</div>
+    </div>
+    <!-- 报销凭证信息 -->
+    <div class="flight-bxinfo mt10">
+        <div class="flight-section">
+            <label>联系手机</label>
+            <input placeholder="用于接收短信">
+        </div>
+        <div class="flight-section flight-arrup3">
+            <label class="flight-labq">套餐</label>
+            <div class="flight-ins">
+                <span class="clr-099fde">航空意外险</span>
+                <span class="clr-ff7d13">¥1400X10份</span>
+            </div>
+        </div>
+        <div>
+            <div class="flight-section flight-selected">
+                <div class="flight-ins">
+                    <span>航空意外险</span>
+                    <span class="clr-ff7d13">¥1400X10份</span>
+                </div>
+            </div>
+            <div class="flight-section">
+                <div class="flight-ins">
+                    <span>携程礼品卡</span>
+                    <span class="clr-ff7d13">¥30X10份</span>
+                </div>
+            </div>
+        </div>
+        <div class="flight-section">
+            <label>报销凭证</label>
+            <div class="flight-section-swt">
+                <div id="invoice_switch">
+                    <div class="cui-view" id="cui-1397747996079">
+                        <div class="cui-switch">
+                            <div class="cui-switch-bg"></div>
+                            <div class="cui-switch-scroll"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flight-section">
+            <label class="flight-labq">消费券</label>
+            <div class="flight-xfq">
+                <p>使用¥20</p>
+                <p class="clr-999">儿童/婴儿票不参与返现</p>
+            </div>
+            <div class="flight-section-swt">
+                <div id="invoice_switch">
+                    <div class="cui-view" id="cui-1397747996079">
+                        <div class="cui-switch  current">
+                            <div class="cui-switch-bg  current"></div>
+                            <div class="cui-switch-scroll"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 报销凭证信息 -->
+    <div class="flight-bxinfo mt10">
+        <div class="flight-section">
+            <label>联系手机</label>
+            <input placeholder="用于接收短信">
+        </div>
+        <div class="flight-section flight-arrdown3">
+            <label class="flight-labq">套餐</label>
+            <div class="flight-ins">
+                <span class="clr-099fde">航空意外险</span>
+                <span class="clr-ff7d13">¥1400X10份</span>
+            </div>
+        </div>
+        <div class="flight-section">
+            <label>报销凭证</label>
+            <div class="flight-section-swt">
+                <div id="invoice_switch">
+                    <div class="cui-view" id="cui-1397747996079">
+                        <div class="cui-switch  current">
+                            <div class="cui-switch-bg  current"></div>
+                            <div class="cui-switch-scroll"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flight-bxinfo-box">
+            <div class="flight-section flight-arrrht">
+                <label>配送方式</label>
+                <span class="flight-section-sp1">快递</span>
+            </div>
+            <div class="flight-section">
+                <label>快递费</label>
+                <dl class="flight-bxinfo-kdf">
+                    <dd class="flight-bxinfo-kdf-current">
+                        <span>
+                            <em>1000积分兑换</em>
+                            <br>
+                            <em>未登录也可使用</em>
+                        </span>
+                    </dd>
+                    <dd>
+                        <span>
+                            <em class="clr-ff7d13">&yen;10</em>
+                            <br>
+                            <em>送10元礼品卡</em>
+                        </span>
+                    </dd>
+                </dl>
+            </div>
+            <div class="flight-section">
+                <label>快递费</label>
+                <dl class="flight-bxinfo-kdf">
+                    <dd>
+                        <span>
+                            <em>1000积分兑换</em>
+                            <br>
+                            <em>未登录也可使用</em>
+                        </span>
+                    </dd>
+                    <dd class="flight-bxinfo-kdf-current">
+                        <span>
+                            <em class="clr-ff7d13">&yen;10</em>
+                            <br>
+                            <em>送10元礼品卡</em>
+                        </span>
+                    </dd>
+                </dl>
+            </div>
+            <div class="flight-section flight-arrrht">
+                <label>配送地址</label>
+                <input placeholder="请选择配送地址">
+            </div>
+        </div>
+        <div class="flight-section">
+            <label class="flight-labq">消费券</label>
+            <div class="flight-xfq">
+                <p>使用¥20</p>
+                <p class="clr-999">儿童/婴儿票不参与返现</p>
+            </div>
+            <div class="flight-section-swt">
+                <div id="invoice_switch">
+                    <div class="cui-view" id="cui-1397747996079">
+                        <div class="cui-switch  current">
+                            <div class="cui-switch-bg  current"></div>
+                            <div class="cui-switch-scroll"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 报销凭证信息 -->
+    <div class="flight-bxinfo mt10">
+        <div class="flight-section">
+            <label>联系手机</label>
+            <input placeholder="用于接收短信">
+        </div>
+        <div class="flight-section flight-arrdown3">
+            <label class="flight-labq">套餐</label>
+            <div class="flight-ins">
+                <span class="clr-099fde">航空意外险</span>
+                <span class="clr-ff7d13">¥1400X10份</span>
+            </div>
+        </div>
+        <div class="flight-section">
+            <label>报销凭证</label>
+            <div class="flight-section-swt">
+                <div id="invoice_switch">
+                    <div class="cui-view" id="cui-1397747996079">
+                        <div class="cui-switch  current">
+                            <div class="cui-switch-bg  current"></div>
+                            <div class="cui-switch-scroll"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flight-bxinfo-box">
+            <div class="flight-section flight-arrrht">
+                <label>凭证类型</label>
+                <span class="flight-section-sp1">机票行程单+差额发票</span>
+            </div>
+            <div class="flight-section flight-arrrht">
+                <label>发票抬头</label>
+                <span class="flight-section-sp1 clr-099fde">李飞机</span>
+            </div>
+            <div class="flight-section flight-arrrht">
+                <label>配送方式</label>
+                <span class="flight-section-sp1 clr-099fde">快递</span>
+            </div>
+            <div class="flight-section">
+                <label>快递费</label>
+                <dl class="flight-bxinfo-kdf">
+                    <dd class="flight-bxinfo-kdf-current">
+                        <span>1000积分兑换</span>
+                    </dd>
+                    <dd>
+                        <span>
+                            <em class="clr-ff7d13">&yen;10</em>
+                            <br>
+                            <em>送10元礼品卡</em>
+                        </span>
+                    </dd>
+                </dl>
+            </div>
+            <div class="flight-section">
+                <label>快递费</label>
+                <dl class="flight-bxinfo-kdf">
+                    <dd>
+                        <span>1000积分兑换</span>
+                    </dd>
+                    <dd class="flight-bxinfo-kdf-current">
+                        <span>
+                            <em class="clr-ff7d13">&yen;10</em>
+                            <br>
+                            <em>送10元礼品卡</em>
+                        </span>
+                    </dd>
+                </dl>
+            </div>
+            <div class="flight-section">
+                <label>配送地址</label>
+                <span class="flight-section-sp2 clr-099fde">
+                    <span class="fnt-16">李飞机</span>
+                    <br>
+                    <span>上海市长宁区福泉路99号携程网络技术大楼</span>
+                    <br>
+                    <span>200000</span>
+                </span>
+            </div>
+        </div>
+        <div class="flight-section">
+            <label class="flight-labq">消费券</label>
+            <div class="flight-xfq">
+                <p>使用¥20</p>
+                <p class="clr-999">儿童/婴儿票不参与返现</p>
+            </div>
+            <div class="flight-section-swt">
+                <div id="invoice_switch">
+                    <div class="cui-view" id="cui-1397747996079">
+                        <div class="cui-switch  current">
+                            <div class="cui-switch-bg  current"></div>
+                            <div class="cui-switch-scroll"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部提示信息 -->
+    <div class="flight-tips-btm2">
+        <p>订单含机票、附加选购产品、机场建设费、燃油费、税 费。点击下一步表示已阅读并同意<a href="javascript:;">航空意外险保险条款</a>和<a href="javascript:;">旅行套餐产品服务条款</a>
+        </p>
+        <p>此处显示预订须知或公告文案内容，此处显示预订须知或公告文案内容，此处显示预订须知或公告文案内容， 此处显示预订须知或公告文案内容此处显示预订须知或
+            <br><a href="javascript:;" class="flight-arrdown">更多</a>
+        </p>
+    </div>
+    <section class="fpay">
+        <div class="money">
+            <span class="money-total">&yen;2500</span>
+            <span class="money-btn-detail">明细</span>
+            <div class="money-btnpd">
+                <span class="money-btn">去支付</span>
+            </div>
+        </div>
+    </section>
+    <!--价格明细-->
+    <section id="order-detail" class="order-detail">
+        <ul>
+            <li>
+                <div class="order-detail-title">去程</div>
+                <ul>
+                    <li>
+                        <ul>
+                            <li>
+                                <span>成人票</span>
+                                <span class="fr clr-ff7d13">
+                                    <em>&yen;</em>1090x1人</span>
+                            </li>
+                            <li>
+                                <span>基建+燃油</span>
+                                <span class="fr clr-ff7d13">
+                                    <em>&yen;</em>170x1人</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div class="order-detail-title">返程</div>
+                <ul>
+                    <li>
+                        <ul>
+                            <li>
+                                <span>成人票</span>
+                                <span class="fr clr-ff7d13">
+                                    <em>&yen;</em>630x1人</span>
+                            </li>
+                            <li>
+                                <span>基建+燃油</span>
+                                <span class="fr clr-ff7d13">
+                                    <em>&yen;</em>150x1人</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <span>保险</span>
+                <span class="fr clr-ff7d13">
+                    <em>&yen;</em>30x4份</span>
+            </li>
+        </ul>
+    </section>
+    <script>
+    $(function() {
+        $(".order-detail-btn").bind('click', function() {
+            $(".order-detail").toggle();
+        });
+    })
+    </script>
+    <!--E H5机票_订单填写-->
+</body>
+
+</html>
