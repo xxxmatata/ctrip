@@ -2098,7 +2098,12 @@ i.flight-labq {
 	left: 5px;
 	top: 0px;
 }
-
+.flight-listsim3-table .flight-errtips-red{
+	width: 100%;
+}
+.flight-listsim3-table .flight-errtips-blue{
+	
+}
 /* E 错误提示 */
 /* E 填写页v2.4.7 */
 /* S 机票订单详情页优化 */
