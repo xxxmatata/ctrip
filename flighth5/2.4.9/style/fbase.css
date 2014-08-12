@@ -2781,7 +2781,7 @@ i {
 	padding-left: 15px;
 }
 .flight-bkinfo-direction {
-	width: 95px;
+	width: 80px;
 	height: 72px;
 	margin: 0 auto;
 	position: relative;
@@ -2790,7 +2790,7 @@ i {
 	position: absolute;
 	left: 0;
 	top: 50%;
-	width: 95px;
+	width: 80px;
 	height: 2px;
 	margin-top: 2px;
 	background: #a7a7a7;
