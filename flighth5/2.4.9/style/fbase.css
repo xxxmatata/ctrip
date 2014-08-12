@@ -250,7 +250,6 @@ body {
 }
 header {
 	height: 44px;
-	overflow: hidden;
 	background: #099fde;
 	min-width: 320px;
 }
@@ -958,6 +957,14 @@ i {
 }
 .fnt-24 {
 	font-size: 24px;
+}
+.fnt5em {
+	display: inline-block;
+	max-width: 5em;
+	height: 44px;
+	overflow: hidden;
+	float: left;
+	margin-right: 5px;
 }
 
 /* 层级相关 */
@@ -1867,7 +1874,7 @@ i {
 }
 .flight-tips-btm2 p {
 	padding: 10px 0;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #dfdfdf;
 	color: #666;
 	font-size: 12px;
 	margin-bottom: -1px;

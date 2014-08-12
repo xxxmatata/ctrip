@@ -2233,12 +2233,11 @@ i.flight-labq {
 }
 .flight-section .flight-ins {
 	padding-right: 30px;
-	padding-top: 4px;
-	line-height: 18px;
+	line-height: 44px;
 }
 .flight-section .flight-xfq {
 	padding-right: 60px;
-	padding-top: 3px;
+	padding-top: 4px;
 	line-height: 18px;
 	font-size: 12px;
 }
@@ -2302,13 +2301,13 @@ i.flight-labq {
 .fpay .money {
 	position: fixed;
 	background: #efefef;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #dfdfdf;
 	z-index: 999;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	min-width: 320px;
-	height: 43px;
+	height: 50px;
 }
 .fpay .money-total {
 	padding-left: 15px;
@@ -2331,19 +2330,28 @@ i.flight-labq {
 	height: 6px;
 	right: 0;
 	top: 50%;
-	margin-top: -3px;
-	border-left: 2px solid #666;
-	border-top: 2px solid #666;
+	margin-top: -6px;
+	border-right: 2px solid #666;
+	border-bottom: 2px solid #666;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
+	transition: all .3s ease-in-out;
+}
+.fpay .money-btn-detailon:after {
+	-webkit-transform: rotate(225deg);
+	-moz-transform: rotate(225deg);
+	-ms-transform: rotate(225deg);
+	-o-transform: rotate(225deg);
+	transform: rotate(225deg);
+	margin-top:-3px;
 }
 .fpay .money-btnpd {
 	position: absolute;
 	width: 150px;
-	height: 43px;
+	height: 50px;
 	right: 0;
 	top: 0;
 	padding-right: 15px;
@@ -2351,12 +2359,12 @@ i.flight-labq {
 .fpay .money-btn {
 	position: absolute;
 	width: 150px;
-	height: 36px;
+	height: 44px;
 	right: 15px;
 	top: 50%;
-	margin-top: -18px;
+	margin-top: -22px;
 	text-align: center;
-	line-height: 35px;
+	line-height: 44px;
 	font-size: 18px;
 	background: #ff7d13;
 	color: #fff;
@@ -2410,124 +2418,54 @@ i.flight-labq {
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
-.flight-errtips-redtwinkle i {
-	animation: redtwinkle 500ms 1s 3;
-	-moz-animation: redtwinkle 500ms 1s 3;
-	-webkit-animation: redtwinkle 500ms 1s 3;
-	-o-animation: redtwinkle 500ms 1s 3;
+.twinkle {
+	animation: twinkle 1s;
+	-moz-animation: twinkle 1s;
+	-webkit-animation: twinkle 1s;
+	-o-animation: twinkle 1s;
 }
-.flight-errtips-redtwinkle i:before {
-	animation: redtwinkle1 500ms 1s 3;
-	-moz-animation: redtwinkle1 500ms 1s 3;
-	-webkit-animation: redtwinkle1 500ms 1s 3;
-	-o-animation: redtwinkle1 500ms 1s 3;
-}
-.flight-errtips-redtwinkle i:after {
-	animation: redtwinkle1 500ms 1s 3;
-	-moz-animation: redtwinkle1 500ms 1s 3;
-	-webkit-animation: redtwinkle1 500ms 1s 3;
-	-o-animation: redtwinkle1 500ms 1s 3;
-}
-.flight-errtips-redtwinkle em {
-	animation: redtwinkle2 500ms 1s 3;
-	-moz-animation: redtwinkle2 500ms 1s 3;
-	-webkit-animation: redtwinkle2 500ms 1s 3;
-	-o-animation: redtwinkle2 500ms 1s 3;
-}
-@keyframes redtwinkle {
-	0% {
-		border-color: #000;
+@keyframes twinkle {
+	0%,
+	100%,
+	50% {
+		opacity: 1
 	}
-	100% {
-		border-color: #f00;
+	25%,
+	75% {
+		opacity: 0
 	}
 }
-@-moz-keyframes redtwinkle {
-	0% {
-		border-color: #000;
+@-moz-keyframes twinkle {
+	0%,
+	100%,
+	50% {
+		opacity: 1
 	}
-	100% {
-		border-color: #f00;
-	}
-}
-@-webkit-keyframes redtwinkle {
-	0% {
-		border-color: #000;
-	}
-	100% {
-		border-color: #f00;
+	25%,
+	75% {
+		opacity: 0
 	}
 }
-@-o-keyframes redtwinkle {
-	0% {
-		border-color: #000;
+@-webkit-keyframes twinkle {
+	0%,
+	100%,
+	50% {
+		opacity: 1
 	}
-	100% {
-		border-color: #f00;
-	}
-}
-@keyframes redtwinkle1 {
-	0% {
-		background: #000;
-	}
-	100% {
-		background: #f00;
+	25%,
+	75% {
+		opacity: 0
 	}
 }
-@-moz-keyframes redtwinkle1 {
-	0% {
-		background: #000;
+@-o-keyframes twinkle {
+	0%,
+	100%,
+	50% {
+		opacity: 1
 	}
-	100% {
-		background: #f00;
-	}
-}
-@-webkit-keyframes redtwinkle1 {
-	0% {
-		background: #000;
-	}
-	100% {
-		background: #f00;
-	}
-}
-@-o-keyframes redtwinkle1 {
-	0% {
-		background: #000;
-	}
-	100% {
-		background: #f00;
-	}
-}
-@keyframes redtwinkle2 {
-	0% {
-		color: #000;
-	}
-	100% {
-		color: #f00;
-	}
-}
-@-moz-keyframes redtwinkle2 {
-	0% {
-		color: #000;
-	}
-	100% {
-		color: #f00;
-	}
-}
-@-webkit-keyframes redtwinkle2 {
-	0% {
-		color: #000;
-	}
-	100% {
-		color: #f00;
-	}
-}
-@-o-keyframes redtwinkle2 {
-	0% {
-		color: #000;
-	}
-	100% {
-		color: #f00;
+	25%,
+	75% {
+		opacity: 0
 	}
 }
 .flight-errtips-blue {
