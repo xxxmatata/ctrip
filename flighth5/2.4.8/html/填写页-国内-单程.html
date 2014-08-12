@@ -32,7 +32,7 @@
     <!--S 登录提醒fixed-->
     <div class="flight-loginline-fixed pos-rl">
         <div class="flight-loginline">
-            <button class="flight-loginbtn">马上登录</button>
+            <button class="flight-loginbtn" ontouchstart="">马上登录</button>
             <p>登陆后预订更便捷</p>
         </div>
     </div>
@@ -64,8 +64,10 @@
         <div class="flight-bkinfo-fltinfo">
             <div class="flight-bkinfo-end">
                 <span>准点率:90.47%</span>
+                <span>&nbsp;</span>
             </div>
             <div class="flight-bkinfo-from">
+                <span>&nbsp;</span>
                 <span>波音897大</span>
             </div>
             <div class="flight-bkinfo-middle">
@@ -96,7 +98,7 @@
             <p class="flight-psinfo-t1">乘机人信息</p>
             <p class="flight-psinfo-t2">(成人1人 儿童/婴儿不可定)</p>
             <div class="flight-psinfo-sltbtnpd">
-                <span class="flight-psinfo-sltbtn">选择乘机人</span>
+                <span class="flight-psinfo-sltbtn" ontouchstart="">选择乘机人</span>
             </div>
         </div>
     </div>
@@ -107,7 +109,7 @@
             <p class="flight-psinfo-t1">乘机人信息</p>
             <p class="flight-psinfo-t2">(成人1人 儿童/婴儿不可定)</p>
             <div class="flight-psinfo-sltbtnpd">
-                <span class="flight-psinfo-sltbtn">选择乘机人</span>
+                <span class="flight-psinfo-sltbtn" ontouchstart="">选择乘机人</span>
             </div>
         </div>
         <ul class="flight-listsim3 mtm1">
@@ -127,6 +129,21 @@
                         <li>刘飞机</li>
                         <li class="clr-999 fnt-13">身份证&nbsp;120105198803024713</li>
                     </ul>
+                    <div class="flight-errtips-red"><i class="flight-errtips-icon"></i>
+                        <em>这里是文案提示</em>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="flight-listsim3-table flight-arrrht2">
+                    <span class="flight-infodel2">&nbsp;</span>
+                    <ul>
+                        <li>刘飞机</li>
+                        <li class="clr-999 fnt-13">身份证&nbsp;120105198803024713</li>
+                    </ul>
+                    <div class="flight-errtips-blue"><i class="flight-errtips-icon"></i>
+                        <em>这里是信息提示文案</em>
+                    </div>
                 </div>
             </li>
         </ul>
@@ -139,7 +156,7 @@
             <p class="flight-psinfo-t2">(成人1人 儿童/婴儿不可定)</p>
         </div>
         <ul class="flight-listsim3 mtm1">
-            <li>
+            <li class="flight-psinfo-fstps">
                 <div class="flight-infoinput">
                     <ul>
                         <li>
@@ -182,6 +199,9 @@
                             <div class="flight-infoinput-pdl">
                                 <label class="flight-labq">姓名</label>
                                 <input type="text" placeholder="所持证件姓名" value="">
+                                <div class="flight-errtips-red twinkle"><i class="flight-errtips-icon"></i>
+                                    <em>这里是文案提示</em>
+                                </div>
                             </div>
                         </li>
                         <li class="js_hide">
@@ -333,8 +353,8 @@
             </div>
             <div class="flight-section">
                 <div class="flight-ins">
-                    <span>携程礼品卡</span>
-                    <span class="clr-ff7d13">¥30X10份</span>
+                    <span class="fnt5em">携程礼品卡(任我游)</span>
+                    <span class="clr-ff7d13">¥300X10份</span>
                 </div>
             </div>
         </div>
@@ -471,7 +491,7 @@
             <label class="flight-labq">套餐</label>
             <div class="flight-ins">
                 <span class="clr-099fde">航空意外险</span>
-                <span class="clr-ff7d13">¥1400X10份</span>
+                <span class="clr-ff7d13 fnt-14">¥1400X10份</span>
             </div>
         </div>
         <div class="flight-section">
@@ -572,7 +592,7 @@
             <span class="money-total">&yen;2500</span>
             <span class="money-btn-detail">明细</span>
             <div class="money-btnpd">
-                <span class="money-btn">去支付</span>
+                <span class="money-btn" ontouchstart="">去支付</span>
             </div>
         </div>
     </section>
@@ -628,7 +648,8 @@
     </section>
     <script>
     $(function() {
-        $(".order-detail-btn").bind('click', function() {
+        $(".money-btn-detail").bind('click', function() {
+            $(this).toggleClass('money-btn-detailon');
             $(".order-detail").toggle();
         });
     })

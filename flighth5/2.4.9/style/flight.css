@@ -479,10 +479,13 @@
 	overflow: hidden;
 	font-size: 14px;
 	position: relative;
-	background-color: #fff;
+	background: #fff;
 	-webkit-tap-highlight-color: #f2f2f2;
 }
-ul.f_list_tab {
+.f_list_tab:active {
+	background: #f8f8f8;
+}
+.f_list_tab {
 	padding: 0;
 }
 .f_list_tab li {
@@ -539,6 +542,9 @@ ul.f_list_tab {
 	height: 50px;
 	line-height: 50px;
 	position: relative;
+}
+.f_detail li:active {
+	background: #fff;
 }
 .xq_info {
 	width: 100%;
@@ -2346,7 +2352,7 @@ i.flight-labq {
 	-ms-transform: rotate(225deg);
 	-o-transform: rotate(225deg);
 	transform: rotate(225deg);
-	margin-top:-3px;
+	margin-top: -3px;
 }
 .fpay .money-btnpd {
 	position: absolute;
@@ -2370,6 +2376,9 @@ i.flight-labq {
 	color: #fff;
 	border-radius: 3px;
 	letter-spacing: 2px;
+}
+.fpay .money-btn:active {
+	background: #e58911;
 }
 
 /* S 错误提示 */

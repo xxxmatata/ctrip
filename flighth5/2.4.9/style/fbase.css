@@ -1681,7 +1681,7 @@ i {
 	text-align: center;
 }
 .flight-btn-price:active {
-	background: #d77f0b;
+	background: #e58911;
 }
 
 /* E 按钮button */
@@ -2269,6 +2269,9 @@ i {
 	border-radius: 3px;
 	margin: 30px 0 15px 0;
 }
+.flight-btnsrh:active {
+	background: #e58911;
+}
 .flight-img-svc {
 	text-align: center;
 	padding: 0 23px;
@@ -2365,10 +2368,13 @@ i {
 	height: 30px;
 	line-height: 30px;
 	margin-top: 7px;
-	background: #ff7d13;
+	background: #52bce8;
 	font-size: 14px;
 	color: #fff;
 	border-radius: 3px;
+}
+.flight-loginbtn:active {
+	background: #099fde;
 }
 .flight-listsim .flight-fltinfo1 {
 	font-size: 15px;
@@ -2766,11 +2772,13 @@ i {
 .flight-bkinfo-end {
 	float: right;
 	min-width: 100px;
+	padding-right: 15px;
 }
 .flight-bkinfo-from {
 	float: left;
 	text-align: right;
 	min-width: 100px;
+	padding-left: 15px;
 }
 .flight-bkinfo-direction {
 	width: 95px;
@@ -3058,9 +3066,12 @@ i {
 	line-height: 30px;
 	margin-top: -15px;
 	text-align: center;
-	background: #ff7d13;
+	background: #52bce8;
 	color: #fff;
 	border-radius: 3px;
+}
+.flight-psinfo-sltbtn:active {
+	background: #099fde;
 }
 .flight-section {
 	overflow: hidden;
