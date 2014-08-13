@@ -255,7 +255,7 @@ header {
 }
 header h1 {
 	line-height: 44px;
-	font-family: "Microsoft Yahei";
+	font-family: "Microsoft Yahei", Arial;
 }
 em,
 b,
@@ -819,6 +819,9 @@ i {
 }
 .cancelafter:after {
 	display: none !important;
+}
+.flight-bxinfo:empty {
+	display: none;
 }
 
 /* 颜色相关 */
@@ -1874,16 +1877,48 @@ i {
 }
 .flight-tips-btm2 p {
 	padding: 10px 0;
-	border-bottom: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
 	color: #666;
 	font-size: 12px;
-	margin-bottom: -1px;
+	margin-top: -1px;
 }
 .flight-tips-btm2 a {
 	color: #099fde;
 }
 .flight-tips-btm2 .flight-arrdown:after {
 	margin-top: -7px;
+}
+.flight-tips-btm2 .flight-couponstips {
+	padding: 10px 0;
+	margin-bottom: 10px;
+	font-size: 12px;
+	height: 2em;
+	overflow: hidden;
+	position: relative;
+}
+.flight-tips-btm2 .flight-htauto {
+	height: auto;
+	margin-bottom: 0;
+}
+.flight-tips-btm2 .flight-couponstips .flight-arrdn3 {
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	top: 30px;
+	right: 15px;
+	border-bottom: 2px solid #999;
+	border-right: 2px solid #999;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.flight-tips-btm2 .flight-couponstips .flight-arrup3 {
+	border: none;
+	top: 34px;
+	border-left: 2px solid #999;
+	border-top: 2px solid #999;
 }
 
 /* 儿童票提示 */
@@ -2572,37 +2607,6 @@ i {
 .flight-coupons {
 	padding: 10px;
 }
-.flight-couponstips {
-	color: #999;
-	padding: 10px;
-	font-size: 12px;
-	height: 2em;
-	overflow: hidden;
-	position: relative;
-}
-.flight-htauto {
-	height: auto;
-}
-.flight-couponstips .flight-arrdn {
-	position: absolute;
-	width: 6px;
-	height: 6px;
-	top: 30px;
-	right: 15px;
-	border-bottom: 2px solid #999;
-	border-right: 2px solid #999;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-.flight-couponstips .flight-arrup3 {
-	border: none;
-	top: 34px;
-	border-left: 2px solid #999;
-	border-top: 2px solid #999;
-}
 .flight-btmnext {
 	width: 100%;
 	height: 44px;
@@ -2772,16 +2776,14 @@ i {
 .flight-bkinfo-end {
 	float: right;
 	min-width: 100px;
-	padding-right: 15px;
 }
 .flight-bkinfo-from {
 	float: left;
 	text-align: right;
 	min-width: 100px;
-	padding-left: 15px;
 }
 .flight-bkinfo-direction {
-	width: 80px;
+	width: 95px;
 	height: 72px;
 	margin: 0 auto;
 	position: relative;
@@ -2790,7 +2792,7 @@ i {
 	position: absolute;
 	left: 0;
 	top: 50%;
-	width: 80px;
+	width: 95px;
 	height: 2px;
 	margin-top: 2px;
 	background: #a7a7a7;

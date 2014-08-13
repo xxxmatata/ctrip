@@ -1558,9 +1558,9 @@ mark {
 	position: absolute;
 	bottom: 0;
 	left: 50%;
-	width: 40px;
-	height: 10px;
-	margin-left: -20px;
+	width: 60px;
+	height: 60px;
+	margin-left: -40px;
 	border: none;
 	cursor: pointer;
 }
@@ -1582,7 +1582,7 @@ mark {
 	left: 50%;
 	top: 50%;
 	margin-left: -4px;
-	margin-top: -7px;
+	margin-top: 18px;
 	border-top: 1px solid #dfdfdf;
 	border-left: 1px solid #dfdfdf;
 	-webkit-transform: rotate(-135deg);
@@ -1599,7 +1599,7 @@ mark {
 	left: 50%;
 	top: 50%;
 	margin-left: -4px;
-	margin-top: -2px;
+	margin-top: 23px;
 	border-top: 1px solid #dfdfdf;
 	border-left: 1px solid #dfdfdf;
 	-webkit-transform: rotate(45deg);
@@ -1887,10 +1887,10 @@ mark {
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
-.flight-arrdown3 {
+.flight-arrdown4 {
 	position: relative;
 }
-.flight-arrdown3:after {
+.flight-arrdown4:after {
 	content: '';
 	position: absolute;
 	width: 8px;
@@ -1946,10 +1946,10 @@ mark {
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
-.flight-arrup3 {
+.flight-arrup4 {
 	position: relative;
 }
-.flight-arrup3:after {
+.flight-arrup4:after {
 	content: '';
 	position: absolute;
 	width: 8px;
@@ -2096,6 +2096,8 @@ i.flight-labq {
 }
 .flight-psinfo .flight-infoinput input {
 	font-size: 16px;
+	position: relative;
+	z-index: 1;
 }
 .flight-psinfo-no {
 	position: absolute;

@@ -57,7 +57,7 @@
             </div>
             <div class="flight-bkinfo-direction">
                 <div class="line"></div>
-                <div class="flight"></div>
+                <div class="flight-flighticon"></div>
                 <div class="jingting">经停西安</div>
             </div>
         </div>
@@ -82,13 +82,10 @@
         <div class="flight-bkinfo-price">
             <span>票价:</span>
             <span class="clr-ff7d13">&yen;2300</span>
-            <span>&nbsp;</span>
             <span>机/油:</span>
             <span class="clr-ff7d13">&yen;150</span>
-            <span>&nbsp;</span>
             <span>总计:</span>
             <span class="clr-ff7d13 fnt-18 fnt-b">&yen;2000</span>
-            <span>&nbsp;</span>
             <span class="flight-icon-fan2">返&yen;50</span>
         </div>
     </div>
@@ -583,6 +580,21 @@
     <div class="flight-tips-btm2">
         <p>订单含机票、附加选购产品、机场建设费、燃油费、税 费。点击下一步表示已阅读并同意<a href="javascript:;">航空意外险保险条款</a>和<a href="javascript:;">旅行套餐产品服务条款</a>
         </p>
+        <p class="flight-couponstips">
+            <i class="flight-arrdn3"></i>旅行套餐包含：
+            <br>价值100000积分的旅游优惠券一张+机票一张。
+            <br>旅游优惠券使用说明：
+            <br>1.可用于携程国内旅游和出境游产品（不参加优惠券活动的产品除外）；
+            <br>2.每单仅限使用一次优惠券，订单满￥5000减￥100、满￥10000减￥200、满￥15000减￥300、满￥20000减￥400、满￥50000减￥1000，有效期内可不限次数使用（有效期至2014年10月31日）。
+        </p>
+        <script>
+        $(function() {
+            $(".flight-couponstips").click(function() {
+                $(this).toggleClass("flight-htauto");
+                $(this).children(".flight-arrdn3").toggleClass("flight-arrup3");
+            });
+        })
+        </script>
         <p>此处显示预订须知或公告文案内容，此处显示预订须知或公告文案内容，此处显示预订须知或公告文案内容， 此处显示预订须知或公告文案内容此处显示预订须知或
             <br><a href="javascript:;" class="flight-arrdown">更多</a>
         </p>
