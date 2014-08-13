@@ -1987,6 +1987,22 @@ mark {
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+.flight-arrrht:after {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	right: 20px;
+	top: 50%;
+	margin-top: -5px;
+	border-top: 2px solid #ccc;
+	border-right: 2px solid #ccc;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
 
 /* 带问号label标签 */
 .flight-labq:after {
